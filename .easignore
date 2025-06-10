@@ -1,0 +1,14 @@
+# .easignore
+# Exclude native folders (we’ll let EAS regenerate them)
+android/
+ios/
+
+# Exclude caches and IDE cruft
+node_modules/
+.expo/
+.git/
+.vscode/
+*.log
+**/*.keystore
+android/*.keystore
+android/local.properties
