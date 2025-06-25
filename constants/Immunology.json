@@ -1,0 +1,271 @@
+{
+  "immunology": {
+    "introduction": {
+      
+      "text": "Immunology is the study of the body’s defense mechanisms that protect against infections, eliminate abnormal cells, and maintain tolerance to self. The immune system includes organs, cells, and soluble factors that identify and neutralize harmful agents such as microbes, toxins, and cancer cells.",
+      "pediatricsImportance": [
+        "Infants have immature immunity and are more prone to infections.",
+        "Understanding immune development helps guide vaccine planning and infection control.",
+        "Immune-based disorders like primary immunodeficiency, allergies, autoimmunity, and Kawasaki disease are commonly seen in children."
+      ],
+      "divisions": {
+        "innate": "fast, non-specific (e.g., skin, phagocytes)",
+        "adaptive": "slower but specific, with memory (e.g., antibodies, T-cells)"
+      }
+    },
+    "vaccine": {
+      "definition": "A vaccine is a biological preparation that induces active acquired immunity by stimulating the body’s immune system to recognize and combat specific pathogens or their components.",
+      "purpose": [
+        "To prevent infectious diseases by generating specific protective antibodies",
+        "To create herd immunity within the community",
+        "To reduce morbidity, mortality, and disease-related complications",
+        "To control and eventually eradicate vaccine-preventable diseases"
+      ],
+      "types": [
+        {
+          "type": "Live attenuated",
+          "description": "Contains weakened but viable organisms",
+          "examples": ["BCG", "MMR", "OPV"]
+        },
+        {
+          "type": "Inactivated (killed)",
+          "description": "Contains killed organisms or viruses",
+          "examples": ["IPV", "Hepatitis A"]
+        },
+        {
+          "type": "Toxoid",
+          "description": "Inactivated bacterial toxins",
+          "examples": ["Tetanus", "Diphtheria (in DPT)"]
+        },
+        {
+          "type": "Subunit/Conjugate",
+          "description": "Contains parts of the pathogen + protein carrier",
+          "examples": ["Hib", "Pneumococcal", "HPV"]
+        },
+        {
+          "type": "mRNA/DNA-based",
+          "description": "Contains genetic code to produce antigens",
+          "examples": ["COVID-19 (Pfizer, Moderna)"]
+        }
+      ],
+      "mnemonics": {
+        "liveAttenuated": {
+          "remember": "Live Attenuated Vaccines — \"My Best Friend Rides On Small Yellow Train\"",
+          "items": {
+            "M": "Measles",
+            "B": "BCG",
+            "F": "Flu (nasal spray)",
+            "R": "Rotavirus",
+            "O": "OPV (Oral Polio Vaccine)",
+            "S": "Smallpox",
+            "Y": "Yellow Fever",
+            "T": "Typhoid (oral)"
+          }
+        },
+        "inactivated": {
+          "remember": "Inactivated (Killed) Vaccines — \"Hepatitis Is Properly Killed\"",
+          "items": ["Hepatitis A", "Influenza (injectable)", "Polio (IPV)", "Killed Cholera Vaccine"]
+        }
+      }
+    },
+    "componentsOfImmunology": {
+      "organs": {
+        "primary": {
+          "boneMarrow": "where all blood cells (including immune cells) are produced. B cells mature here.",
+          "thymus": "site of T cell maturation."
+        },
+        "secondary": {
+          "lymphNodes": "trap antigens from tissues and activate lymphocytes.",
+          "spleen": "filters blood and responds to blood-borne pathogens.",
+          "MALT": "mucosa-associated lymphoid tissues (tonsils, Peyer’s patches, appendix)."
+        }
+      },
+      "cells": {
+        "innate": [
+          "Neutrophils – first responders, phagocytose bacteria.",
+          "Macrophages/Monocytes – engulf pathogens and present antigens.",
+          "Dendritic cells – antigen-presenting cells.",
+          "Natural killer (NK) cells – kill virus-infected or tumor cells.",
+          "Eosinophils and Basophils – deal with parasites and allergies."
+        ],
+        "adaptive": [
+          "T lymphocytes – helper (CD4+), cytotoxic (CD8+).",
+          "B lymphocytes – produce antibodies when activated."
+        ]
+      },
+      "molecules": [
+        "Antibodies (Immunoglobulins) – proteins made by B cells that bind to specific antigens (types: IgG, IgA, IgM, IgE, IgD).",
+        "Cytokines and Chemokines – chemical messengers that modulate immune responses.",
+        "Complement system – group of proteins that help antibodies and phagocytes clear microbes.",
+        "MHC (Major Histocompatibility Complex) – molecules that present antigens to T cells; MHC I and II."
+      ],
+      "barriers": {
+        "physical": ["intact skin", "mucous membranes"],
+        "chemical": ["acidic pH (stomach, skin)", "enzymes in saliva and tears (like lysozyme)"],
+        "biological": ["normal flora that competes with pathogens"]
+      },
+      "typesOfImmunity": {
+        "innate": "present from birth, immediate response, no memory.",
+        "adaptive": "specific response, has memory, develops after exposure to antigens."
+      }
+    },
+    "vaccineDetails": {
+      "OPV": {
+        "name": "Oral Polio Vaccine",
+        "type": "Live attenuated",
+        "formulations": {
+          "tOPV": "Trivalent (types 1, 2, 3) – earlier",
+          "bOPV": "Bivalent (types 1 & 3) – currently used in India",
+          "mOPV": "Monovalent – used in special campaigns"
+        },
+        "schedule": {
+          "birth": "at birth or within 15 days",
+          "primary": ["6 weeks", "10 weeks", "14 weeks"],
+          "booster": "16–24 months",
+          "pulseCampaigns": "Additional doses during Pulse Polio campaigns"
+        },
+        "storage": {
+          "coldChain": "2–8°C",
+          "longTerm": "Frozen at -20°C",
+          "consideration": "Heat-sensitive – keep away from light and heat"
+        }
+      },
+      "IPV": {
+        "name": "Inactivated Polio Vaccine",
+        "type": "Inactivated (killed)",
+        "features": ["Does not replicate in the body", "Induces strong humoral (IgG) immunity"],
+        "schedule": {
+          "primary": ["6 weeks", "10 weeks", "14 weeks"],
+          "booster": "16–18 months",
+          "combination": "May be given as DPT-HepB-Hib-IPV"
+        },
+        "administration": "Intramuscular (anterolateral thigh in infants)",
+        "storage": {
+          "coldChain": "2–8°C",
+          "stability": "More heat-stable than OPV; does not require freezing"
+        }
+      },
+      "HepatitisB": {
+        "name": "Hepatitis B Vaccine",
+        "type": "Recombinant subunit",
+        "antigen": "HBsAg produced by recombinant DNA in yeast",
+        "schedule": {
+          "birth": "within 24 hours",
+          "primary": ["6 weeks", "10 weeks", "14 weeks"]
+        },
+        "administration": "Intramuscular (anterolateral thigh)",
+        "storage": "2–8°C; do not freeze"
+      },
+      "HepatitisA": {
+        "name": "Hepatitis A Vaccine",
+        "type": ["Inactivated (killed)", "Live attenuated (in some countries)"],
+        "schedule": {
+          "firstDose": "12 months",
+          "secondDose": "6–12 months after first"
+        },
+        "notes": "Not part of India’s UIP; recommended by IAP/private practice",
+        "administration": "Intramuscular (anterolateral thigh or deltoid)",
+        "storage": "2–8°C; do not freeze"
+      },
+      "Pentavalent": {
+        "name": "Pentavalent Vaccine",
+        "combines": ["DPT", "Recombinant Hepatitis B", "Hib"],
+        "schedule": ["6 weeks", "10 weeks", "14 weeks"],
+        "administration": "Intramuscular (vastus lateralis muscle)",
+        "storage": "2–8°C; do not freeze"
+      },
+      "Rotavirus": {
+        "name": "Rotavirus Vaccine",
+        "type": "Live attenuated, oral",
+        "brands": ["Rotavac", "Rotasiil", "Rotarix"],
+        "schedule": ["6 weeks", "10 weeks", "14 weeks"],
+        "administration": "Oral drops (give before injectables)",
+        "storage": "2–8°C; do not freeze"
+      },
+      "MMR": {
+        "name": "MMR Vaccine",
+        "type": "Live attenuated, combination",
+        "schedule": ["9 months", "15–18 months", "4–6 years"],
+        "administration": "Subcutaneous (upper arm or thigh)",
+        "storage": "2–8°C; protect from light; reconstitute before use"
+      },
+      "PCV": {
+        "name": "Pneumococcal Conjugate Vaccine",
+        "type": "Conjugate",
+        "versions": ["PCV13", "PCV10"],
+        "schedule": ["6 weeks", "10 weeks", "14 weeks", "booster at 15–18 months"],
+        "administration": "Intramuscular (anterolateral thigh)",
+        "storage": "2–8°C; do not freeze"
+      },
+      "JE": {
+        "name": "Japanese Encephalitis Vaccine",
+        "types": ["Live attenuated (SA 14-14-2)", "Inactivated"],
+        "schedule": ["9–12 months", "booster at 16–24 months"],
+        "administration": "Subcutaneous (upper arm or thigh)",
+        "storage": "2–8°C; protect from sunlight"
+      },
+      "Influenza": {
+        "name": "Influenza Vaccine",
+        "types": ["Inactivated injectable", "Live attenuated nasal spray"],
+        "scheduleChildren": ["Start ≥6 months with 2 doses in first year","then 1 dose annually"],
+        "administration": "Intramuscular (anterolateral thigh or deltoid)",
+        "storage": "2–8°C; do not freeze"
+      },
+      "Meningococcal": {
+        "name": "Meningococcal Vaccine",
+        "types": ["Polysaccharide (MPSV)", "Conjugate (MCV/MenACWY)"],
+        "scheduleHighRisk": ["9–12 months", "booster after 3 years"],
+        "indications": ["Outbreaks", "Travelers", "Asplenic/complement-deficient children"],
+        "administration": "Intramuscular",
+        "storage": "2–8°C; do not freeze"
+      },
+      "TyphoidConjugate": {
+        "name": "Typhoid Conjugate Vaccine (TCV)",
+        "type": "Conjugate (Vi capsular polysaccharide + carrier)",
+        "schedule": ["Single dose at 9–12 months"],
+        "route": "Intramuscular (anterolateral thigh)",
+        "storage": "2–8°C; do not freeze",
+        "advantages": {
+          "minimumAge": "6 months vs 2 years for polysaccharide",
+          "memory": "Long-lasting protection",
+          "booster": "Booster-friendly"
+        }
+      },
+      "Cholera": {
+        "name": "Cholera Vaccine",
+        "types": ["Oral killed whole-cell", "Live attenuated (rare in India)"],
+        "examples": ["Shanchol®, Euvichol-Plus®"],
+        "schedule": ["2 oral doses at 2-week interval","booster every 3 years in high-risk"],
+        "administration": "Oral",
+        "storage": "2–8°C; do not freeze"
+      },
+      "HPV": {
+        "name": "Human Papillomavirus Vaccine",
+        "type": "Virus-like particle (VLP)",
+        "variants": ["Bivalent (16, 18)","Quadrivalent (6,11,16,18)","Nonavalent (6,11,16,18,31,33,45,52,58)"],
+        "scheduleGirls9to14": ["2 doses at 0 and 6 months"],
+        "schedule15plus": ["3 doses at 0, 1–2, and 6 months"],
+        "administration": "Intramuscular (deltoid or anterolateral thigh)",
+        "storage": "2–8°C; do not freeze"
+      },
+      "Rabies": {
+        "name": "Rabies Vaccine",
+        "type": "Cell culture-derived inactivated",
+        "vaccines": ["PCECV", "PVRV"],
+        "preExposure": ["3 doses IM on Days 0,7,21/28","booster after 1–3 years"],
+        "postExposureUnvaccinated": ["5 doses on Days 0,3,7,14,28 plus RIG on Day 0"],
+        "postExposureVaccinated": ["2 doses on Days 0 and 3","no RIG"],
+        "administration": ["IM (deltoid)","ID (2-site schedule)"],
+        "storage": "2–8°C; do not freeze; use immediately after reconstitution"
+      },
+      "Varicella": {
+        "name": "Varicella Vaccine",
+        "type": "Live attenuated",
+        "scheduleChildren": ["1st dose at 12–15 months","2nd dose at 4–6 years"],
+        "scheduleCatchUp": ["2 doses 4–8 weeks apart for >13 years"],
+        "administration": "Subcutaneous (upper arm)",
+        "storage": "2–8°C; do not freeze; protect from light"
+      }
+    }
+  }
+}
