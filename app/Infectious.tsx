@@ -1,4 +1,5 @@
-// File: app/Immology.tsx
+// File: app/Infectious.tsx
+
 import React, { useState } from "react";
 import {
   View,
@@ -12,31 +13,29 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useRouter } from "expo-router";
 
-import immunologyJson from "../constants/Immunology.json";
+import infectiousJson from "../constants/Infectious.json";
 import HeadingCard from "../components/HeadingCard";
 import JsonRenderer from "../components/JsonRenderer";
 
-const headings = Object.keys(immunologyJson.immunology);
+// Pull the top‐level "InfectiousDiseases" object
+const headings = Object.keys(infectiousJson.InfectiousDiseases);
 const { width } = Dimensions.get("window");
 const MARGIN = 10;
-const CARD_WIDTH = (width - MARGIN * 3) / 2;
 
-export default function ImmologyScreen() {
+export default function InfectiousScreen() {
   const [selected, setSelected] = useState<string | null>(null);
   const router = useRouter();
 
-  /* --- CARD GRID OF HEADINGS --- */
   const renderHeading = ({ item }: { item: string }) => (
     <HeadingCard
       title={formatKey(item)}
-      image={null}
       onPress={() => setSelected(item)}
     />
   );
 
-  /* --- SELECTED SECTION VIEW --- */
   if (selected) {
-    const data = (immunologyJson.immunology as any)[selected];
+    // Lookup under InfectiousDiseases
+    const data = (infectiousJson.InfectiousDiseases as any)[selected];
 
     return (
       <SafeAreaView style={styles.safeArea}>
@@ -45,7 +44,7 @@ export default function ImmologyScreen() {
             <Text style={styles.back}>← Back</Text>
           </TouchableOpacity>
           <Text style={styles.headerTitle}>{formatKey(selected)}</Text>
-          <View style={{ width: 48 }} />{/* spacer for centering */}
+          <View style={{ width: 48 }} />
         </View>
 
         <ScrollView contentContainerStyle={styles.content}>
@@ -55,9 +54,16 @@ export default function ImmologyScreen() {
     );
   }
 
-  /* --- DEFAULT: SHOW HEADING BUTTONS --- */
   return (
     <SafeAreaView style={styles.safeArea}>
+          <View style={[styles.header,{marginBottom: 24}]}>
+          <TouchableOpacity onPress={() => router.back()}>
+            <Text style={styles.back}>← </Text>
+          </TouchableOpacity>
+      <Text style={styles.pageTitle}>Infectious Diseases</Text>
+
+          <View style={{ width: 48 }} />
+        </View>
       <FlatList
         data={headings}
         renderItem={renderHeading}
@@ -71,19 +77,23 @@ export default function ImmologyScreen() {
   );
 }
 
-/* util */
 const formatKey = (s: string) =>
   s
     .replace(/[_\-]/g, " ")
     .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
     .replace(/^./, (c) => c.toUpperCase());
 
-/* styles */
 const styles = StyleSheet.create({
   safeArea: { flex: 1, backgroundColor: "#f8f9fa" },
-  outer: { padding: MARGIN },
-  row: { justifyContent: "space-between" },
-  /* selected mode */
+  pageTitle: {
+    fontSize: 24,
+    fontWeight: "700",
+    textAlign: "center",
+    
+   
+  },
+  outer: { paddingHorizontal: MARGIN, paddingBottom: MARGIN },
+  row: { justifyContent: "space-between", marginBottom: MARGIN * 2 },
   header: {
     flexDirection: "row",
     alignItems: "center",
@@ -96,6 +106,11 @@ const styles = StyleSheet.create({
     shadowRadius: 4
   },
   back: { fontSize: 17, fontWeight: "500", width: 48 },
-  headerTitle: { flex: 1, textAlign: "center", fontSize: 18, fontWeight: "700" },
+  headerTitle: {
+    flex: 1,
+    textAlign: "center",
+    fontSize: 18,
+    fontWeight: "700"
+  },
   content: { padding: 16, paddingBottom: 32 }
 });

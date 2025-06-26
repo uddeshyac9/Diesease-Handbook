@@ -11,7 +11,7 @@ export default function JsonRenderer({
 }: {
   data: any;
   level?: number;
-}): JSX.Element | null {
+}): React.ReactElement | null {
   if (typeof data === "string" || typeof data === "number") {
     return (
       <Text style={[styles.text, { marginLeft: level * INDENT }]}>{data}</Text>

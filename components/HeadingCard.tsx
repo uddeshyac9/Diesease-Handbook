@@ -1,59 +1,75 @@
 // File: components/HeadingCard.tsx
 import React from "react";
-import { TouchableOpacity, Image, View, Text, StyleSheet, Dimensions } from "react-native";
+import {
+  TouchableOpacity,
+  Text,
+  StyleSheet,
+  Dimensions,
+  ViewStyle,
+  TextStyle,
+} from "react-native";
 
 const { width } = Dimensions.get("window");
 const MARGIN = 10;
-const CARD_WIDTH = (width - MARGIN * 3) / 2;
+const BUTTON_WIDTH = (width - MARGIN * 3) / 2;
 
 interface Props {
   title: string;
-  image?: string | null;
   onPress: () => void;
+  style?: ViewStyle;
+  textStyle?: TextStyle;
 }
 
-/** Generic card reused anywhere we need a 2-column grid */
-export default function HeadingCard({ title, image, onPress }: Props) {
-  const sourceProp =
-    typeof image === "string" && image?.length
-      ? { uri: image }
-      : require("../assets/images/icon.png");
-
+/** 
+ * A modern two-column button that wraps long titles onto up to two lines.
+ */
+export default function HeadingCard({
+  title,
+  onPress,
+  style,
+  textStyle,
+}: Props) {
   return (
-    <TouchableOpacity style={styles.card} onPress={onPress} activeOpacity={0.8}>
-      <Image source={sourceProp} style={styles.image} />
-      <View style={styles.textContainer}>
-        <Text style={styles.title}>{title}</Text>
-      </View>
+    <TouchableOpacity
+      style={[styles.button, style]}
+      onPress={onPress}
+      activeOpacity={0.7}
+    >
+      <Text
+        style={[styles.buttonText, textStyle]}
+        numberOfLines={2}
+        ellipsizeMode="tail"
+      >
+        {title}
+      </Text>
     </TouchableOpacity>
   );
 }
 
 const styles = StyleSheet.create({
-  card: {
-    width: CARD_WIDTH,
-    backgroundColor: "#fff",
-    borderRadius: 12,
-    overflow: "hidden",
+  button: {
+    width: BUTTON_WIDTH,
+    paddingVertical: 16,
+    marginBottom: MARGIN,
+    marginHorizontal: MARGIN / 2,
+    backgroundColor: "#4A90E2",
+    borderRadius: 8,
+    alignItems: "center",
+    justifyContent: "center",
+    // shadow (iOS)
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 4,
-    elevation: 2,
-    marginBottom: MARGIN
+    // elevation (Android)
+    elevation: 3,
   },
-  image: {
-    width: "100%",
-    height: CARD_WIDTH * (135 / 155),
-    resizeMode: "cover"
-  },
-  textContainer: {
-    padding: 10,
-    alignItems: "center"
-  },
-  title: {
+  buttonText: {
+    color: "#fff",
     fontSize: 16,
     fontWeight: "600",
-    textAlign: "center"
-  }
+    textAlign: "center",
+    flexWrap: "wrap",     // allow wrapping to multiple lines
+    lineHeight: 20,       // improves readability when wrapped
+  },
 });

@@ -1,0 +1,662 @@
+{
+  "WormInfestations": [
+    {
+      "name": "Roundworm (Ascariasis)",
+      "etiopathogenesis": [
+        "Caused by Ascaris lumbricoides, a large roundworm (~15–30 cm)",
+        "Transmission: Feco-oral route via ingestion of embryonated eggs in contaminated food or water",
+        "Life cycle:",
+        "1. Eggs swallowed → hatch in small intestine",
+        "2. Larvae penetrate intestinal wall → migrate via blood to lungs",
+        "3. Ascend respiratory tract → swallowed again → mature in intestine",
+        "Matures into adult worms in ~2 months"
+      ],
+      "mode_of_transmission": [
+        "Ingestion of infective eggs from contaminated hands, soil, food",
+        "Associated with poor hygiene and sanitation",
+        "No direct person-to-person spread"
+      ],
+      "incubation_period": "4–8 weeks (from ingestion to egg production)",
+      "clinical_features": {
+        "Pulmonary Phase (Larval migration)": [
+          "Occurs ~10–14 days post-infection",
+          "Löffler’s syndrome: dry cough, wheezing, dyspnea, fever, eosinophilia",
+          "Self-limiting (resembles asthma or pneumonia)"
+        ],
+        "Intestinal Phase (Adult worms)": [
+          "Often asymptomatic in mild infections",
+          "Abdominal pain, nausea, anorexia",
+          "Malnutrition and growth retardation in chronic cases",
+          "Intestinal obstruction (esp. in high worm load)",
+          "Passing worms in stool or vomitus",
+          "Appendicitis, biliary obstruction, or pancreatitis (migration to ducts)"
+        ]
+      },
+      "differential_diagnosis": [
+        {
+          "condition": "Appendicitis",
+          "differentiating_clues": "Localized RLQ pain, no worm history"
+        },
+        {
+          "condition": "Partial bowel obstruction",
+          "differentiating_clues": "Colicky pain with vomiting, may mimic high worm load"
+        },
+        {
+          "condition": "Pneumonia/asthma",
+          "differentiating_clues": "No eosinophilia or GI complaints"
+        },
+        {
+          "condition": "Worm infestations (hookworm/pinworm)",
+          "differentiating_clues": "Anemia, anal itching respectively"
+        }
+      ],
+      "diagnosis": [
+        "Stool microscopy: ova detection (fertilized/unfertilized eggs)",
+        "CBC: eosinophilia (esp. in pulmonary phase)",
+        "Abdominal X-ray/USG: may show worms in obstruction",
+        "Sputum exam: may rarely show larvae in early phase"
+      ],
+      "treatment": {
+        "General": [
+          "Single-dose deworming is effective",
+          "Albendazole 400 mg single dose (children >1 yr)",
+          "Mebendazole 100 mg BID × 3 days (or single 500 mg dose)",
+          "Repeat after 2 weeks if needed"
+        ],
+        "Intestinal obstruction": [
+          "Supportive care first → nasogastric decompression",
+          "Surgery or endoscopy if needed"
+        ]
+      },
+      "complications": [
+        "Intestinal obstruction, volvulus",
+        "Biliary ascariasis, cholangitis, pancreatitis",
+        "Malnutrition, anemia (less common than in hookworm)",
+        "Respiratory distress in heavy larval migration"
+      ],
+      "prevention": [
+        "Handwashing with soap before eating, after defecation",
+        "Proper food hygiene: washing vegetables, boiling water",
+        "Avoid open defecation, use of sanitary toilets",
+        "Health education on hygiene practices",
+        "National Deworming Day (India): Observed on February 10th and repeat on August 10th; Albendazole 400 mg given to all children (1–19 years); Part of government’s strategy to reduce worm burden & malnutrition"
+      ]
+    },
+    {
+      "name": "Pinworm (Enterobiasis)",
+      "description": "A common helminthic infection in children caused by Enterobius vermicularis, known for intense perianal itching, especially at night",
+      "etiopathogenesis": [
+        "Caused by Enterobius vermicularis, a small white roundworm (~1 cm)",
+        "Transmission: Feco-oral route (autoinfection common)",
+        "Lifecycle:",
+        "1. Eggs ingested → hatch in small intestine",
+        "2. Adults reside in cecum & colon",
+        "3. Gravid female worms migrate at night to perianal region → lay eggs",
+        "4. Eggs become infective in hours and cause itching",
+        "5. Scratching → eggs under nails → autoinfection or person-to-person spread"
+      ],
+      "mode_of_transmission": [
+        "Direct: hand-to-mouth from contaminated fingers (especially due to scratching)",
+        "Indirect: contaminated clothing, bedding, toilet seats",
+        "Highly contagious in households, schools, daycare"
+      ],
+      "incubation_period": "1 to 2 months",
+      "infective_period": "As long as eggs are shed (several weeks unless treated); High reinfection risk due to autoinfection",
+      "clinical_features": [
+        "Nocturnal perianal itching (most common)",
+        "Disturbed sleep, irritability, teeth grinding (bruxism)",
+        "Perianal excoriations, secondary infection",
+        "Vulvovaginitis in girls (from migrating worms)",
+        "Abdominal pain, nausea (less common)",
+        "Psychological symptoms: restlessness, inattention"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Fungal infection",
+          "differentiating_clues": "Redness, scaling, persistent itching"
+        },
+        {
+          "condition": "Allergic dermatitis",
+          "differentiating_clues": "History of allergens, eczema elsewhere"
+        },
+        {
+          "condition": "UTI or vulvovaginitis",
+          "differentiating_clues": "Dysuria, discharge, odor in urine/genital tract"
+        },
+        {
+          "condition": "Psychogenic itching",
+          "differentiating_clues": "No worms or eggs, emotional triggers"
+        }
+      ],
+      "diagnosis": [
+        "Scotch tape test: Early morning perianal swab using transparent tape; Microscopic exam reveals oval, flattened-sided eggs",
+        "Direct worm visualization at night near anus",
+        "Routine stool exam is often negative"
+      ],
+      "treatment": {
+        "Medication": [
+          "Treat entire household to prevent reinfection",
+          "Albendazole 400 mg single dose (repeat after 2 weeks)",
+          "Alternatives: Mebendazole 100 mg single dose or Pyrantel pamoate 11 mg/kg (max 1 g) — single dose"
+        ],
+        "Symptom relief": [
+          "Antihistamines or topical soothing agents for itching"
+        ]
+      },
+      "complications": [
+        "Perianal dermatitis due to scratching",
+        "Sleep disturbance, behavioral issues in chronic cases",
+        "Vulvovaginitis or urinary tract infection (rare but possible)",
+        "Appendicitis (controversial association)"
+      ],
+      "prevention": [
+        "Trim fingernails short",
+        "Daily morning baths, especially of perianal area",
+        "Handwashing after toilet use, before meals",
+        "Wash clothes, bedding, underwear in hot water",
+        "Educate about avoiding nail-biting and scratching"
+      ]
+    },
+    {
+      "name": "Hookworm Infection",
+      "description": "A helminthic infection caused by Ancylostoma duodenale and Necator americanus, leading to chronic blood loss and iron-deficiency anemia, especially in children",
+      "etiopathogenesis": [
+        "Caused by Ancylostoma duodenale and Necator americanus",
+        "Transmission: skin penetration by filariform larvae in contaminated soil",
+        "Life cycle:",
+        "1. Larvae penetrate skin (usually feet) → enter bloodstream",
+        "2. Migrate to lungs → trachea → swallowed",
+        "3. Mature into adult worms in small intestine",
+        "4. Feed on mucosa → cause chronic blood loss",
+        "A. duodenale causes more blood loss than N. americanus"
+      ],
+      "mode_of_transmission": [
+        "Barefoot walking on contaminated soil",
+        "Feco-oral (rarely)",
+        "Transplacental transmission (very rare)"
+      ],
+      "incubation_period": "4–8 weeks from skin penetration to egg shedding in stool",
+      "infective_period": "Humans are infective as long as adult worms produce eggs; Adult worms may live for 1–2 years",
+      "clinical_features": {
+        "Skin Phase": [
+          "Ground itch: localized rash at entry site (itching, redness)"
+        ],
+        "Pulmonary Phase": [
+          "Dry cough, wheeze, eosinophilia (similar to Löffler’s syndrome)"
+        ],
+        "Intestinal Phase": [
+          "Chronic blood loss → iron deficiency anemia",
+          "Pallor, fatigue, delayed milestones, poor school performance",
+          "Pica",
+          "Abdominal pain, diarrhea (non-specific)",
+          "Protein-energy malnutrition in prolonged cases"
+        ]
+      },
+      "differential_diagnosis": [
+        {
+          "condition": "Nutritional anemia",
+          "differentiating_features": "Lacks eosinophilia or GI complaints"
+        },
+        {
+          "condition": "Thalassemia",
+          "differentiating_features": "Microcytic anemia with normal/high iron"
+        },
+        {
+          "condition": "Ascariasis",
+          "differentiating_features": "Obstruction, no anemia unless severe"
+        },
+        {
+          "condition": "Giardiasis",
+          "differentiating_features": "Steatorrhea, weight loss, no anemia usually"
+        }
+      ],
+      "diagnosis": [
+        "Stool microscopy: Detects oval, thin-shelled eggs",
+        "CBC: Microcytic hypochromic anemia; Eosinophilia",
+        "Peripheral smear: to rule out other causes of anemia"
+      ],
+      "treatment": [
+        "Albendazole 400 mg single dose or Mebendazole 100 mg BID × 3 days",
+        "Iron and folic acid supplementation if anemia present",
+        "Nutritional counseling in severe cases"
+      ],
+      "complications": [
+        "Severe iron deficiency anemia",
+        "Cognitive and growth delay in children",
+        "Protein-energy malnutrition",
+        "Cardiac failure in extreme cases (rare)"
+      ],
+      "prevention": [
+        "Wearing footwear in endemic areas",
+        "Avoiding open defecation",
+        "Sanitary disposal of feces",
+        "Hand and foot hygiene",
+        "Health education"
+      ]
+    },
+    {
+      "name": "Cutaneous Larva Migrans (CLM)",
+      "description": "A creeping skin eruption caused by migration of hookworm larvae (animal origin) within the epidermis — also called \"creeping eruption\"",
+      "etiopathogenesis": [
+        "Caused by larvae of animal hookworms — mainly: Ancylostoma braziliense (cats, dogs), Ancylostoma caninum (dogs)",
+        "Humans = accidental host",
+        "Larvae penetrate skin but can’t complete their lifecycle → remain trapped in skin and migrate",
+        "Found in warm, moist sandy environments (beaches, sandpits, gardens)"
+      ],
+      "mode_of_transmission": "Direct skin contact with soil or sand contaminated by feces of infected animals; Walking barefoot, sitting or lying on ground = common exposure",
+      "incubation_period": "Few days to a week after exposure",
+      "infective_period": "No human-to-human transmission; Not systemically infective in humans",
+      "clinical_features": [
+        "Itchy, serpiginous, raised, red lesion — pathognomonic",
+        "Lesion appears as creeping, snake-like track",
+        "Common sites: feet, buttocks, thighs, hands",
+        "Slow progression: 1–2 cm/day",
+        "Intense itching, worse at night",
+        "Secondary bacterial infection due to scratching may occur"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Scabies",
+          "differentiating_features": "Burrows in web spaces, generalized itch"
+        },
+        {
+          "condition": "Fungal infections (Tinea)",
+          "differentiating_features": "Round lesions with scaling and central clearing"
+        },
+        {
+          "condition": "Allergic dermatitis",
+          "differentiating_features": "No creeping track, often symmetrical"
+        },
+        {
+          "condition": "Larva currens (Strongyloides)",
+          "differentiating_features": "Rapidly moving linear rash, perianal focus"
+        }
+      ],
+      "diagnosis": [
+        "Clinical diagnosis based on typical appearance and history of exposure",
+        "No need for biopsy or imaging in most cases",
+        "Blood: eosinophilia may be present (mild)"
+      ],
+      "treatment": {
+        "First-line": [
+          "Albendazole 400 mg once daily × 3–5 days",
+          "Or Ivermectin 200 mcg/kg once daily × 1–2 days"
+        ],
+        "Symptomatic": [
+          "Antihistamines for itching",
+          "Topical steroids (if inflammation)",
+          "Topical albendazole/thiabendazole for limited lesions (optional)"
+        ]
+      },
+      "complications": [
+        "Secondary bacterial infection",
+        "Persistent itching, sleep disturbance",
+        "Rare: vesicle/bulla formation"
+      ],
+      "prevention": [
+        "Wear footwear and protective clothing on sand/soil",
+        "Avoid sitting or lying directly on beach or garden soil",
+        "Proper disposal of pet feces",
+        "Deworming of pets",
+        "Hygiene education in endemic areas"
+      ]
+    },
+    {
+      "name": "Strongyloidiasis",
+      "description": "An intestinal nematode infection caused by Strongyloides stercoralis, notable for autoinfection, chronicity, and potential for hyperinfection in immunocompromised hosts",
+      "etiopathogenesis": [
+        "Caused by Strongyloides stercoralis, a small intestinal nematode",
+        "Unique feature: can replicate inside the human host via autoinfection",
+        "Lifecycle:",
+        "1. Filariform larvae penetrate skin (usually feet) → enter bloodstream",
+        "2. Travel to lungs, ascend trachea, swallowed → reach small intestine",
+        "3. Mature into adult female worms → lay eggs that hatch into rhabditiform larvae",
+        "4. These may be:",
+        "   • Excreted in stool, or",
+        "   • Transform into filariform larvae in gut → autoinfection",
+        "Autoinfection → chronic infection lasting decades"
+      ],
+      "mode_of_transmission": [
+        "Skin penetration by larvae from contaminated soil",
+        "Common in barefoot walking, poor hygiene areas",
+        "Feco-oral or organ transplant (rare)",
+        "Autoinfection allows lifelong infection if untreated"
+      ],
+      "incubation_period": "1–3 weeks from exposure to symptom onset",
+      "infective_period": "Potentially lifelong due to autoinfection; Risk of hyperinfection in immunocompromised individuals (e.g., steroids, HIV, malignancy)",
+      "clinical_features": {
+        "Skin Phase": [
+          "Itchy, red rash at penetration site (often on feet)"
+        ],
+        "Pulmonary Phase": [
+          "Dry cough, wheezing, fever, Löffler’s syndrome",
+          "Transient infiltrates on chest X-ray"
+        ],
+        "Intestinal Phase": [
+          "Abdominal pain, bloating, diarrhea or constipation",
+          "Malabsorption, nausea",
+          "Eosinophilia is common",
+          "Chronic infection may be asymptomatic"
+        ],
+        "Hyperinfection Syndrome (in immunosuppressed)": [
+          "Dissemination to lungs, CNS, liver",
+          "Severe diarrhea, pneumonia, meningitis, sepsis",
+          "High mortality"
+        ]
+      },
+      "differential_diagnosis": [
+        {
+          "condition": "Hookworm",
+          "differentiating_features": "No autoinfection, more anemia"
+        },
+        {
+          "condition": "Giardiasis",
+          "differentiating_features": "Steatorrhea, no eosinophilia"
+        },
+        {
+          "condition": "IBS/IBD",
+          "differentiating_features": "Chronic symptoms, negative stool for larvae"
+        },
+        {
+          "condition": "Enteric fever",
+          "differentiating_features": "Systemic signs, no eosinophilia"
+        }
+      ],
+      "diagnosis": [
+        "Stool microscopy: rhabditiform larvae (may require multiple samples)",
+        "Concentration techniques improve yield",
+        "Duodenal aspirate or biopsy (for definitive diagnosis)",
+        "Eosinophilia (common but not always present)",
+        "Serology (ELISA) helpful in chronic infection",
+        "Sputum or BAL: larvae in hyperinfection"
+      ],
+      "treatment": [
+        "Treat even asymptomatic cases due to autoinfection risk",
+        "First-line: Ivermectin 200 mcg/kg/day × 1–2 days (repeat in 2 weeks if needed)",
+        "In hyperinfection: continue daily until symptoms and larvae resolve",
+        "Alternative: Albendazole 400 mg BID × 7 days (less effective)"
+      ],
+      "complications": [
+        "Hyperinfection syndrome",
+        "Sepsis, meningitis (due to gut flora translocation)",
+        "Chronic malabsorption, anemia",
+        "Death in disseminated cases (esp. if immunocompromised)"
+      ],
+      "prevention": [
+        "Wearing footwear outdoors",
+        "Proper sanitation and hygiene",
+        "Avoid barefoot walking in endemic areas",
+        "Screening before steroid or immunosuppressive therapy",
+        "Early treatment to prevent chronic carriage"
+      ]
+    },
+    {
+      "name": "Whipworm (Trichuriasis)",
+      "description": "A soil-transmitted helminthic infection caused by Trichuris trichiura, primarily affecting the large intestine, leading to diarrhea, rectal prolapse, and anemia in children",
+      "etiopathogenesis": [
+        "Caused by Trichuris trichiura, a whip-shaped nematode (~4 cm)",
+        "Transmission: feco-oral route by ingesting embryonated eggs from contaminated food, water, or soil",
+        "Lifecycle:",
+        "1. Eggs swallowed → hatch in small intestine",
+        "2. Larvae migrate to cecum and ascending colon",
+        "3. Burrow into mucosa and mature into adult worms",
+        "4. Females lay thousands of eggs daily, passed in stool",
+        "Heavy infections → mucosal damage, inflammation, bleeding"
+      ],
+      "mode_of_transmission": [
+        "Ingestion of infective eggs from contaminated soil, water, or hands",
+        "Related to poor sanitation, open defecation, and geophagia"
+      ],
+      "incubation_period": "1–2 months (from ingestion to egg shedding)",
+      "infective_period": "As long as adult worms remain in the colon (can live up to 1–3 years); No autoinfection",
+      "clinical_features": {
+        "Asymptomatic Cases": [
+          "Often asymptomatic in light infections"
+        ],
+        "Symptomatic Cases (moderate to heavy worm burden)": [
+          "Chronic diarrhea (may contain blood and mucus)",
+          "Abdominal pain, tenesmus",
+          "Failure to thrive, growth delay",
+          "Iron-deficiency anemia (from chronic blood loss)",
+          "Rectal prolapse — characteristic in severe pediatric cases",
+          "Clubbing, pallor, poor school performance in chronic disease"
+        ]
+      },
+      "differential_diagnosis": [
+        {
+          "condition": "Amoebic dysentery",
+          "differentiating_features": "Trophozoites/cysts in stool, abdominal tenderness"
+        },
+        {
+          "condition": "Ulcerative colitis",
+          "differentiating_features": "Chronic bloody diarrhea, systemic signs"
+        },
+        {
+          "condition": "Polyps",
+          "differentiating_features": "Painless rectal bleeding, no eosinophilia"
+        },
+        {
+          "condition": "Shigellosis",
+          "differentiating_features": "Acute onset, fever, more severe systemic illness"
+        }
+      ],
+      "diagnosis": [
+        "Stool microscopy: Shows characteristic barrel-shaped eggs with bipolar plugs",
+        "CBC: May show eosinophilia, hypochromic anemia",
+        "Proctoscopy (rarely needed): may visualize worms in mucosa",
+        "Multiple stool samples may be needed to detect eggs"
+      ],
+      "treatment": [
+        "Treat all symptomatic patients and heavy worm carriers",
+        "First-line: Albendazole 400 mg once daily × 3 days or Mebendazole 100 mg BID × 3 days (less effective as single dose)",
+        "Supportive: Iron and nutritional supplements if anemic or undernourished"
+      ],
+      "complications": [
+        "Rectal prolapse",
+        "Severe anemia",
+        "Growth retardation",
+        "Secondary bacterial infections",
+        "Chronic colitis-like syndrome"
+      ],
+      "prevention": [
+        "Hand hygiene before eating, after defecation",
+        "Proper washing of vegetables and fruits",
+        "Safe drinking water",
+        "Avoid open defecation, use toilets",
+        "Deworming programs in schools and communities"
+      ]
+    },
+    {
+      "name": "Taeniasis",
+      "description": "Intestinal infection caused by adult tapeworms (Taenia solium or Taenia saginata)",
+      "etiopathogenesis": [
+        "Caused by: Taenia solium (pork tapeworm) or Taenia saginata (beef tapeworm)",
+        "Humans are definitive hosts for adult worms",
+        "Lifecycle: Eating undercooked meat containing larval cysts → larvae develop into adult worms in small intestine"
+      ],
+      "mode_of_transmission": "Eating undercooked infected pork (T. solium) or beef (T. saginata)",
+      "incubation_period": "~8–14 weeks after ingestion",
+      "infective_period": "Adult worms may live for years; Eggs shed in stool are immediately infective to others",
+      "clinical_features": [
+        "Often asymptomatic",
+        "May have: Abdominal discomfort, bloating, nausea",
+        "Passage of proglottids (worm segments) in stool",
+        "Weight loss (rare)"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Giardiasis",
+          "differentiating_features": "Diarrhea, steatorrhea, no worm segments"
+        },
+        {
+          "condition": "Ascariasis",
+          "differentiating_features": "Larger worm expelled, no cystic phase"
+        }
+      ],
+      "diagnosis": [
+        "Stool exam: eggs or gravid proglottids",
+        "Microscopy: may differentiate T. saginata vs T. solium"
+      ],
+      "treatment": [
+        "Albendazole 400 mg or Praziquantel 10 mg/kg – single dose",
+        "Hygiene education to prevent reinfection"
+      ],
+      "complications": [
+        "Malabsorption or obstruction (rare)"
+      ],
+      "prevention": [
+        "Proper cooking of meat (esp. pork and beef)",
+        "Personal hygiene: handwashing, nail trimming",
+        "Sanitation: use of latrines, avoid open defecation",
+        "Meat inspection before sale",
+        "Treat infected individuals to prevent egg spread"
+      ]
+    },
+    {
+      "name": "Cysticercosis",
+      "description": "A tissue parasitic infection caused by the larval stage (cysticercus) of the pork tapeworm Taenia solium, with the brain being the most commonly affected organ (Neurocysticercosis)",
+      "etiopathogenesis": [
+        "Caused by Taenia solium eggs (not larvae)",
+        "Feco-oral transmission: ingestion of eggs through contaminated food/water or autoinfection from a tapeworm carrier",
+        "Eggs hatch → larvae (oncospheres) penetrate intestinal mucosa → disseminate hematogenously → form cysticerci in tissues",
+        "Common sites: Brain (Neurocysticercosis – NCC), Muscles, Eyes, Subcutaneous tissue"
+      ],
+      "mode_of_transmission": "Ingestion of Taenia solium eggs from contaminated hands, vegetables, water; Autoinfection from taeniasis",
+      "incubation_period": "Weeks to months after exposure; Clinical presentation depends on cyst location and immune response",
+      "infective_period": "Not transmissible from cysticercosis patient to others; Person with intestinal Taenia solium (taeniasis) can shed infective eggs",
+      "clinical_features": {
+        "Neurocysticercosis (Most common & severe form)": [
+          "Seizures (most common presentation)",
+          "Headache, vomiting, raised intracranial pressure",
+          "Hydrocephalus, focal neurological deficits",
+          "Visual disturbances, altered sensorium",
+          "Cognitive changes or psychiatric symptoms in chronic cases"
+        ],
+        "Extraneural Cysticercosis": [
+          "Subcutaneous nodules: painless, firm, mobile",
+          "Ocular cysts: floaters, visual loss, retinal detachment",
+          "Muscle involvement: pseudohypertrophy, pain"
+        ]
+      },
+      "differential_diagnosis": [
+        {
+          "condition": "Tuberculoma",
+          "differentiating_features": "History of TB, ring lesions, Mantoux positive"
+        },
+        {
+          "condition": "Brain abscess",
+          "differentiating_features": "Fever, rapid deterioration, pus on imaging"
+        },
+        {
+          "condition": "Epilepsy (primary)",
+          "differentiating_features": "No lesion on imaging"
+        },
+        {
+          "condition": "Hydatid cyst",
+          "differentiating_features": "Liver/lung focus, larger cysts, no scolex"
+        }
+      ],
+      "diagnosis": [
+        "Neuroimaging (CT/MRI): Ring-enhancing lesions, cysts with scolex (dot sign); Multiple stages: vesicular, colloidal, granular, calcified",
+        "Serology (ELISA, EITB) for T. solium antibodies",
+        "Ophthalmologic exam if eye involvement suspected",
+        "Histopathology of nodules (if accessible) confirms diagnosis",
+        "CSF: may show mild lymphocytic pleocytosis, eosinophilia, ↑ protein (in NCC)"
+      ],
+      "treatment": {
+        "Antiparasitic": [
+          "Albendazole 15 mg/kg/day × 7–28 days or Praziquantel 50–75 mg/kg/day × 15–30 days",
+          "Usually combined with steroids to reduce inflammatory response"
+        ],
+        "Corticosteroids": [
+          "Dexamethasone or Prednisolone to prevent seizures & edema"
+        ],
+        "Antiepileptics": [
+          "For seizure control — valproate, phenytoin, etc.",
+          "Continue until lesion resolution or calcification"
+        ],
+        "Surgery": [
+          "Ventricular shunt for hydrocephalus",
+          "Eye cyst excision (avoid antiparasitics if intraocular)"
+        ]
+      },
+      "complications": [
+        "Recurrent seizures",
+        "Hydrocephalus",
+        "Permanent neurological deficits",
+        "Vision loss (ocular cysts)",
+        "Death in severe untreated CNS involvement"
+      ],
+      "prevention": [
+        "Cook pork thoroughly",
+        "Handwashing after defecation, before meals",
+        "Proper sanitation and sewage disposal",
+        "Treatment of taeniasis carriers to stop egg shedding",
+        "Public awareness in endemic areas"
+      ]
+    },
+    {
+      "name": "Scarabiasis",
+      "description": "Also known as beetle infestation, Scarabiasis is a rare condition caused by the accidental passage or infestation of beetles (especially Blaps species) in the gastrointestinal or genitourinary tract, mostly in children",
+      "etiopathogenesis": [
+        "Caused by ingestion or entry of beetles, especially from Scarab beetle group",
+        "Common species: Blaps spp., Tenebrio molitor",
+        "Beetles may enter:",
+        "   • Gastrointestinal tract (through ingestion of contaminated food)",
+        "   • Genitourinary tract (through crawling into body openings, especially in children or bedridden patients)",
+        "Rarely, beetles may remain alive and cause mechanical irritation or trauma"
+      ],
+      "mode_of_transmission": [
+        "Accidental ingestion of beetles or beetle larvae in contaminated food/water",
+        "Direct entry into body orifices (anus, vagina, urethra) while sleeping on the ground",
+        "More common in poor hygiene and rural areas"
+      ],
+      "incubation_period": "No true incubation; symptoms occur shortly after infestation",
+      "infective_period": "Not contagious; Involves individual exposure only",
+      "clinical_features": [
+        "Passing of live beetles in stool or urine (alarming to parents)",
+        "Abdominal pain, irritability, and restlessness",
+        "Perianal itching, crawling sensation",
+        "Dysuria or vaginal irritation if beetles enter genitourinary tract",
+        "Mild diarrhea or discomfort may be present",
+        "Often asymptomatic except for passage of beetle"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Pinworm (Enterobiasis)",
+          "differentiating_features": "Nighttime itching, microscopic eggs in tape test"
+        },
+        {
+          "condition": "Worm infestations",
+          "differentiating_features": "Worms seen, not insects"
+        },
+        {
+          "condition": "UTI/Vaginitis",
+          "differentiating_features": "Discharge, odor, microbial cause"
+        }
+      ],
+      "diagnosis": [
+        "Clinical observation of beetle or larvae in stool/urine",
+        "Microscopic identification of species",
+        "Stool exam may be normal otherwise"
+      ],
+      "treatment": [
+        "Mechanical removal of beetles",
+        "Symptomatic care: antihistamines if irritation",
+        "No anthelmintics required (beetles ≠ worms)",
+        "Topical soothing agents if local irritation present"
+      ],
+      "complications": [
+        "Local trauma or irritation",
+        "Psychological distress to parents/child",
+        "Rare: secondary infections due to scratching"
+      ],
+      "prevention": [
+        "Proper food storage and hygiene",
+        "Avoid sleeping directly on the ground",
+        "Clean bedding and clothes",
+        "Insect control in homes, especially in rural areas"
+      ]
+    }
+  ]
+}

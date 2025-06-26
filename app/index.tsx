@@ -1,18 +1,18 @@
 // File: app/index.tsx
+import { useRouter } from "expo-router";
 import React from "react";
 import {
-  View,
-  Text,
-  Image,
-  StyleSheet,
-  TouchableOpacity,
-  FlatList,
+  Alert,
   Dimensions,
+  FlatList,
+  Image,
   StatusBar as RNStatusBar,
-  Alert
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { useRouter } from "expo-router";
 
 // static import of your default icon
 import IconImage from "../assets/images/icon.png";
@@ -29,7 +29,7 @@ const cardTitle = [
       "https://images.unsplash.com/photo-1706201320711-3d85bf15bac4?q=80&w=1981&auto=format&fit=crop"
   },
   {
-    title: "Worm Infestation",
+    title: "Worm Infestations",
     image:
       "https://images.unsplash.com/photo-1680240277111-7a3d022a74b8?q=80&w=1936&auto=format&fit=crop"
   },
@@ -127,10 +127,21 @@ export default function HomeScreen() {
   const router = useRouter();
 
   const handlePress = (item: typeof cardTitle[0]) => {
-    if (item.title === "Immunology") {
-      router.push("/Immology");
-    } else {
-      Alert.alert("Coming soon", `${item.title} section is under construction.`);
+    switch (item.title) {
+      case "Immunology":
+        router.push("/Immunology");
+        break;
+      case "Infectious Diseases":
+        router.push("/Infectious");
+        break;
+         case "Worm Infestations":
+        router.push("/WormInfestations");
+        break;
+        case "Respiratory System":
+        router.push("/RespiratorySystem");
+        break;
+      default:
+        Alert.alert("Coming soon", `${item.title} section is under construction.`);
     }
   };
 

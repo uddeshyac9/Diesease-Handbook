@@ -1,0 +1,1676 @@
+{
+  "InfectiousDiseases": {
+    "Measles": {
+      "Etiopathogenesis": "Caused by Measles virus (RNA virus, Paramyxoviridae family, Morbillivirus genus). Enters via respiratory mucosa → multiplies in local lymphoid tissue → viremia → skin, conjunctiva, and respiratory tract",
+      "ModeOfTransmission": [
+        "Airborne droplets (coughing, sneezing)",
+        "Direct contact with nasal/throat secretions",
+        "Extremely contagious – 90% attack rate among susceptible individuals"
+      ],
+      "IncubationPeriod": "7–14 days (usually 10 days to fever; 14 days to rash)",
+      "InfectivePeriod": "From 4 days before rash to 4 days after rash onset",
+      "ClinicalFeatures": {
+        "ProdromalPhase": [
+          "Cough, Coryza, Conjunctivitis",
+          "Fever (may be high-grade)",
+          "Koplik spots: bluish-white lesions on buccal mucosa (pathognomonic)"
+        ],
+        "ExanthemPhase": [
+          "Maculopapular rash",
+          "Starts behind ears, spreads to face → trunk → limbs",
+          "Rash fades in same order"
+        ]
+      },
+      "DifferentialDiagnosis": {
+        "Rubella": "Milder rash, postauricular nodes",
+        "Roseola": "Rash after defervescence",
+        "Dengue": "Retro-orbital pain, bleeding",
+        "Drug rash": "No prodrome, symmetrical rash"
+      },
+      "Complications": [
+        "Pneumonia (most common cause of death)",
+        "Diarrhea, Otitis media",
+        "Encephalitis",
+        "SSPE (Subacute Sclerosing Panencephalitis) – rare, late CNS complication",
+        "Malnutrition worsening (especially Vitamin A deficiency)"
+      ],
+      "Treatment": [
+        "Supportive only – antipyretics, hydration, cough relief",
+        "Vitamin A supplementation: <12 months: 1 lakh IU; ≥12 months: 2 lakh IU",
+        "Antibiotics for secondary bacterial infections",
+        "Isolation during infective period"
+      ],
+      "Prevention": {
+        "ActiveImmunization": "MMR vaccine (Live attenuated)",
+        "Schedule": [
+          "1st dose: 9 months (UIP)",
+          "2nd dose: 16–24 months (UIP)",
+          "3rd dose: 4–6 years (IAP)"
+        ],
+        "OutbreakControl": [
+          "Measles vaccine within 72 hrs of contact",
+          "Immunoglobulin within 6 days for high-risk contacts (infants, immunocompromised)"
+        ]
+      }
+      },
+   
+    "Rubella": {
+      "Etiopathogenesis": "Caused by the Rubella virus. Family: Togaviridae, Genus: Rubivirus. Spread via nasopharyngeal droplets → virus multiplies locally → viremia → skin & lymph nodes. Crosses placenta → causes Congenital Rubella Syndrome (CRS) in fetuses",
+      "ModeOfTransmission": [
+        "Airborne droplets",
+        "Transplacental (mother to fetus in early pregnancy)"
+      ],
+      "IncubationPeriod": "14–21 days (usually 18 days)",
+      "InfectivePeriod": "1 week before to 1 week after rash. Infants with CRS may shed virus for months",
+      "ClinicalFeatures": {
+        "AcquiredRubella": [
+          "Mild fever, malaise",
+          "Postauricular, occipital, and cervical lymphadenopathy (characteristic)",
+          "Pink, maculopapular rash: Begins on face, spreads to trunk and limbs; Fades in 1–3 days",
+          "Milder than measles"
+        ],
+        "CongenitalRubellaSyndrome": {
+          "OccursWhen": "Mother is infected during first trimester",
+          "ClassicTriad": [
+            "Sensorineural deafness (most common)",
+            "Congenital cataracts",
+            "Congenital heart defects (PDA, pulmonary artery stenosis)"
+          ],
+          "OtherFeatures": [
+            "Microcephaly",
+            "Hepatosplenomegaly",
+            "Blueberry muffin spots",
+            "IUGR"
+          ]
+        }
+      },
+      "DifferentialDiagnosis": {
+        "Measles": "High fever, Koplik spots, 3 Cs",
+        "Scarlet fever": "Sandpaper rash, strawberry tongue",
+        "Roseola": "Rash after fever subsides",
+        "Drug rash": "Symmetric, no prodrome"
+      },
+      "Complications": {
+        "InChildren": [
+          "Arthralgia/arthritis (esp. in adolescent girls)",
+          "Thrombocytopenia",
+          "Encephalitis (rare)"
+        ],
+        "InFetus": "CRS with lifelong disability"
+      },
+      "Treatment": [
+        "Supportive: antipyretics, fluids",
+        "No antiviral therapy",
+        "Monitor pregnant women with exposure — test IgM/IgG levels"
+      ],
+      "Prevention": {
+        "ActiveImmunization": "MMR vaccine (Live attenuated)",
+        "Schedule": [
+          "1st dose: 9 months",
+          "2nd dose: 16–24 months",
+          "3rd dose (IAP): 4–6 years"
+        ],
+        "PregnancyConsideration": [
+          "MMR contraindicated in pregnancy",
+          "Women should avoid pregnancy for at least 1 month after vaccination",
+          "Antenatal rubella IgG testing recommended"
+        ]
+      }
+    },
+    "ErythemaInfectiosum": {
+      "AlsoKnownAs": ["Fifth Disease", "Slapped cheek illness"],
+      "Etiopathogenesis": "Caused by Parvovirus B19 (small, non-enveloped DNA virus). Infects erythroid precursor cells in the bone marrow → transient aplastic crisis in anemic individuals (e.g., thalassemia, sickle cell)",
+      "ModeOfTransmission": [
+        "Respiratory droplets",
+        "Transplacental (may cause foetal hydrops)",
+        "Blood transfusion (rare)"
+      ],
+      "IncubationPeriod": "4 to 14 days (may extend to 21 days)",
+      "InfectivePeriod": "During prodrome, before rash appears. Not contagious once rash is visible",
+      "ClinicalFeatures": {
+        "ClassicalPresentation": [
+          "Prodrome: mild fever, malaise, headache",
+          "\"Slapped cheek\" rash: Bright red rash on both cheeks; Followed by lacy reticular rash on arms, trunk, buttocks; Rash may wax and wane for 2–3 weeks, especially with heat or sunlight"
+        ],
+        "AdolescentsAndAdults": [
+          "Arthralgia/arthritis (especially females) – fingers, wrists, knees",
+          "Rash may be absent"
+        ],
+        "HighRiskGroups": [
+          "Pregnant women: risk of fetal hydrops (due to anemia)",
+          "Hemolytic anemias: risk of transient aplastic crisis",
+          "Immunocompromised: persistent anemia or pancytopenia"
+        ]
+      },
+      "DifferentialDiagnosis": {
+        "Measles": "3 Cs, Koplik spots, descending rash",
+        "Rubella": "Rash + lymphadenopathy",
+        "Roseola": "Rash after defervescence",
+        "Scarlet Fever": "Sandpaper rash, strawberry tongue",
+        "Drug Rash": "No prodrome, may be itchy or symmetric"
+      },
+      "Complications": [
+        "Transient aplastic crisis in patients with hemolytic anemia",
+        "Fetal hydrops or miscarriage if maternal infection during 1st half of pregnancy",
+        "Arthritis (self-limited) in older children and adults",
+        "Chronic anemia in immunocompromised patients"
+      ],
+      "Treatment": [
+        "Supportive only – antipyretics, fluids",
+        "IVIG in immunocompromised patients with persistent anemia",
+        "No antiviral available",
+        "No vaccine available"
+      ],
+      "Prevention": [
+        "No vaccine",
+        "Hand hygiene, avoiding close contact during outbreaks",
+        "Pregnant women should avoid exposure to infected children during outbreaks",
+        "Antenatal counseling if exposure occurs"
+      ]
+    },
+    "RoseolaInfantum": {
+      "AlsoKnownAs": ["Sixth Disease"],
+      "Etiopathogenesis": "Caused by Human Herpesvirus 6 (HHV-6) (most common); Sometimes HHV-7. Virus infects T-lymphocytes → transient viremia → skin and CNS involvement. Commonly affects children aged 6 months to 2 years",
+      "ModeOfTransmission": [
+        "Saliva (from caregivers)",
+        "Spread by close personal contact",
+        "Usually acquired from asymptomatic adults"
+      ],
+      "IncubationPeriod": "5 to 15 days",
+      "InfectivePeriod": "During febrile phase (before rash appears). Not contagious once rash starts",
+      "ClinicalFeatures": {
+        "Stage1": [
+          "Sudden high-grade fever (often >39.5°C) lasting 3–5 days",
+          "Child appears well despite high temperature",
+          "May have mild cold-like symptoms (cough, rhinorrhea)",
+          "Febrile seizures may occur"
+        ],
+        "Stage2": [
+          "Rash appears as fever subsides (defervescence)",
+          "Maculopapular, pink rash: Starts on trunk, spreads to neck, face, extremities; Non-itchy, fades in 1–2 days",
+          "Child remains alert and playful"
+        ]
+      },
+      "DifferentialDiagnosis": {
+        "Measles": "Rash with fever, cough, conjunctivitis",
+        "Rubella": "Lymphadenopathy + rash",
+        "Scarlet Fever": "Sandpaper rash, strawberry tongue",
+        "Drug rash": "History of medication, no fever"
+      },
+      "Complications": [
+        "Febrile seizures (most common)",
+        "Rare: encephalitis, hepatitis, thrombocytopenia",
+        "Reactivation in immunocompromised (e.g., HHV-6 reactivation post-transplant)"
+      ],
+      "Treatment": [
+        "Supportive only: Antipyretics (paracetamol), Hydration",
+        "Antivirals (ganciclovir) used only in immunocompromised"
+      ],
+      "Prevention": [
+        "No vaccine available",
+        "General hygiene",
+        "Avoid contact with febrile children (in infants <6 months)"
+      ]
+    },
+    "HandFootAndMouthDisease": {
+      "Etiopathogenesis": "Caused by Coxsackievirus A16 (most common); Other causative agents: Enterovirus 71, Coxsackie A6. Virus enters via oral or respiratory route → replicates in mucosa and lymphoid tissue → viremia → skin and oral mucosa involvement. Affects mainly children <5 years",
+      "ModeOfTransmission": [
+        "Feco-oral route",
+        "Respiratory droplets",
+        "Direct contact with vesicle fluid or contaminated surfaces",
+        "Highly contagious, especially in daycare settings"
+      ],
+      "IncubationPeriod": "3 to 7 days",
+      "InfectivePeriod": "Most contagious during the first week of illness. Virus can be shed in feces for several weeks after recovery",
+      "ClinicalFeatures": [
+        "Low-grade fever",
+        "Sore throat and malaise",
+        "Painful oral ulcers: Small vesicles → ulcers on tongue, buccal mucosa, soft palate",
+        "Skin rash: Vesicular lesions on palms, soles, buttocks; May also occur on elbows, knees, or genitalia; Lesions are non-itchy, greyish with erythematous halo",
+        "Children may refuse to eat or drink due to mouth pain",
+        "Illness typically resolves in 7–10 days"
+      ],
+      "DifferentialDiagnosis": {
+        "Herpangina": "Similar oral lesions but no rash on hands/feet",
+        "Chickenpox": "Generalized rash, not restricted to hands/feet",
+        "Aphthous ulcers": "Only mouth involvement, no systemic symptoms",
+        "Herpetic gingivostomatitis": "Diffuse gum involvement, high fever"
+      },
+      "Complications": [
+        "Usually mild and self-limited",
+        "Dehydration (due to painful oral lesions)",
+        "Rarely: Aseptic meningitis, Encephalitis, Nail shedding (onychomadesis) post-recovery, Severe disease with Enterovirus 71 (e.g., pulmonary edema, myocarditis)"
+      ],
+      "Treatment": [
+        "Supportive therapy only: Paracetamol for fever and pain, Topical oral gels for ulcers (e.g., lignocaine gel), Maintain hydration",
+        "No antiviral treatment required"
+      ],
+      "Prevention": [
+        "No vaccine available (except for Enterovirus 71 in some countries, not in India)",
+        "Emphasize: Handwashing, Avoid sharing utensils or towels, Isolation of infected child during the first few days of illness"
+      ]
+    },
+    "Mumps": {
+      "Etiopathogenesis": "Caused by the Mumps virus, an RNA virus. Family: Paramyxoviridae, Genus: Rubulavirus. Virus spreads through respiratory epithelium, followed by viremia → localizes in salivary glands, CNS, pancreas, testes/ovaries",
+      "ModeOfTransmission": [
+        "Respiratory droplets (coughing, sneezing)",
+        "Direct contact with saliva or contaminated surfaces",
+        "Highly contagious, especially in unvaccinated populations"
+      ],
+      "IncubationPeriod": "14 to 18 days (range: 12–25 days)",
+      "InfectivePeriod": "2 days before to 5 days after parotid swelling onset",
+      "ClinicalFeatures": [
+        "Low-grade fever, malaise, anorexia",
+        "Unilateral or bilateral parotid gland swelling (painful, tender): Swelling increases over 2–3 days; Ear may be pushed upward/outward",
+        "Pain while chewing or sour food intake",
+        "May involve submandibular/sublingual glands",
+        "20–30% may have asymptomatic or non-specific illness"
+      ],
+      "DifferentialDiagnosis": {
+        "Bacterial parotitis": "High fever, purulent discharge, unilateral",
+        "Cervical lymphadenitis": "Firm, localized lymph node, no salivary pain",
+        "Parapharyngeal abscess": "Trismus, systemic toxicity",
+        "Obstructive sialadenitis": "Recurrent swelling post-meal"
+      },
+      "Complications": [
+        "Orchitis (common in adolescent males; may cause infertility)",
+        "Meningitis, encephalitis",
+        "Oophoritis",
+        "Pancreatitis",
+        "Hearing loss (sensorineural) – rare",
+        "Miscarriage if infection occurs in early pregnancy"
+      ],
+      "Treatment": [
+        "Supportive only: Analgesics and antipyretics, Warm/cold compresses for gland pain, Adequate hydration and soft diet",
+        "Hospitalization if CNS involvement or severe complications"
+      ],
+      "Prevention": {
+        "MMR vaccine": "Measles, Mumps, Rubella – live attenuated",
+        "Schedule": [
+          "1st dose: 9 months (as per UIP)",
+          "2nd dose: 16–24 months",
+          "3rd dose: 4–6 years (IAP recommendation)"
+        ],
+        "Other": "Avoid contact during infective period"
+    },
+    "NonSpecificEnterovirusInfection": {
+      "Etiopathogenesis": "Caused by non-polio enteroviruses: Coxsackieviruses (A & B), Echoviruses, Enterovirus 71 and others. Family: Picornaviridae, Genus: Enterovirus. Virus enters via oropharynx or gastrointestinal tract, replicates in lymphoid tissue, spreads hematogenously to various organs",
+      "ModeOfTransmission": [
+        "Feco-oral route (primary)",
+        "Respiratory droplets",
+        "Contaminated surfaces, water, hands"
+      ],
+      "IncubationPeriod": "Typically, 3 to 7 days",
+      "InfectivePeriod": "Few days before onset of symptoms to 1–2 weeks after recovery. Virus may be shed in feces for several weeks",
+      "ClinicalFeatures": {
+        "Common": [
+          "Often asymptomatic or mild",
+          "May present with non-specific febrile illness",
+          "Common symptoms: Fever, malaise, sore throat; Diarrhea, vomiting; Rash (maculopapular or vesicular); Headache, irritability"
+        ],
+        "OtherPossible": [
+          "Mild upper respiratory tract symptoms",
+          "Non-specific viral exanthem or enanthem",
+          "Cervical lymphadenopathy"
+        ]
+      },
+      "DifferentialDiagnosis": {
+        "Dengue": "Thrombocytopenia, retro-orbital pain, bleeding signs",
+        "Measles": "3 Cs, Koplik spots, high-grade fever, classic rash",
+        "Typhoid": "Step-ladder fever, relative bradycardia, abdominal symptoms",
+        "Influenza": "Prominent respiratory symptoms, myalgia"
+      },
+      "Complications": [
+        "Rare in mild cases, but may include: Aseptic meningitis, Myocarditis, Encephalitis, Neonatal sepsis-like illness, Acute flaccid paralysis (rare; more commonly seen in Enterovirus D68 or EV-A71 outbreaks)"
+      ],
+      "Treatment": [
+        "Supportive care: Paracetamol for fever, Fluids and rest",
+        "No specific antiviral therapy available",
+        "Hospitalization if severe systemic involvement occurs"
+      ],
+      "Prevention": [
+        "No vaccine for non-specific enteroviruses (except Polio, EV-71 in select countries)",
+        "Preventive measures: Hand hygiene, Safe drinking water, Proper sanitation, Avoid close contact with infected individuals"
+      ]
+    },
+    "Parotitis": {
+      "Etiopathogenesis": {
+        "AcuteParotitis": [
+          "Viral (most common): Mumps virus",
+          "Bacterial: Staphylococcus aureus, Streptococcus species",
+          "Non-infectious: autoimmune (e.g., Sjögren’s syndrome), obstructive (e.g., ductal stones)"
+        ],
+        "Pathophysiology": "Salivary stasis or infection → glandular inflammation → swelling, pain, and systemic features in some cases"
+      },
+      "ModeOfTransmission": [
+        "Viral parotitis (e.g., mumps): via respiratory droplets",
+        "Bacterial parotitis: ascending infection via Stensen’s duct, often in dehydrated or immunocompromised children"
+      ],
+      "IncubationPeriod": "For viral causes (e.g., mumps): 14 to 18 days",
+      "InfectivePeriod": "Viral parotitis (e.g., mumps): 2 days before to 5 days after onset of glandular swelling",
+      "ClinicalFeatures": [
+        "Painful swelling of one or both parotid glands: Ear pushed upward and outward; Tenderness over angle of jaw; Pain increases while chewing/sour food",
+        "Fever, malaise, headache may precede swelling",
+        "Trismus and difficulty in opening the mouth",
+        "May have purulent discharge from parotid duct (in bacterial cases)",
+        "Redness over skin in severe bacterial cases",
+        "Dehydration in infants and poor oral intake"
+      ],
+      "DifferentialDiagnosis": {
+        "Mumps": "Bilateral, viral prodrome, no pus from duct",
+        "Bacterial Parotitis": "Unilateral, pus from duct, systemic toxicity",
+        "Cervical Lymphadenitis": "Discrete lymph node swelling, non-fluctuant",
+        "Dental abscess": "Pain localized to jaw/teeth",
+        "Obstructive Sialadenitis": "Recurrent swelling post-meal, stone palpable"
+      },
+      "Complications": {
+        "MumpsParotitis": [
+          "Orchitis, oophoritis",
+          "Meningitis, encephalitis",
+          "Deafness"
+        ],
+        "BacterialParotitis": [
+          "Abscess formation",
+          "Cellulitis",
+          "Septicemia in severe cases"
+        ],
+        "Other": "Chronic or recurrent parotitis (especially in autoimmune or ductal obstruction)"
+      },
+      "Treatment": {
+        "ViralParotitis": [
+          "Supportive: Antipyretics, hydration, soft diet; Warm compress for pain relief",
+          "No specific antiviral therapy"
+        ],
+        "BacterialParotitis": [
+          "Empirical antibiotics: e.g., Cloxacillin or Amoxicillin-clavulanate",
+          "Hydration and oral hygiene",
+          "Surgical drainage if abscess develops"
+        ]
+      },
+      "Prevention": [
+        "MMR vaccination for mumps (Live attenuated)",
+        "Good oral hygiene",
+        "Adequate hydration, especially in ill or postoperative patients",
+        "Prompt treatment of oral infections"
+      ]
+    },
+    "InfectiousMononucleosis": {
+      "Etiopathogenesis": "Caused by Epstein–Barr Virus (EBV). Family: Herpesviridae, Genus: Lymphocryptovirus. EBV infects B lymphocytes and epithelial cells of the oropharynx. Transmitted via saliva → local replication in oropharynx → viremia → generalized lymphoid tissue involvement",
+      "ModeOfTransmission": [
+        "Saliva contact (\"kissing disease\")",
+        "Sharing of utensils, cups, toothbrushes",
+        "Blood transfusion (rare)"
+      ],
+      "IncubationPeriod": "4 to 8 weeks",
+      "InfectivePeriod": "Several weeks to months, even after resolution of symptoms. Virus may be shed intermittently in saliva lifelong",
+      "ClinicalFeatures": {
+        "Prodrome": "fatigue, malaise, myalgia",
+        "ClassicTriad": [
+          "Fever (low to moderate, persistent)",
+          "Pharyngitis (often with exudates)",
+          "Generalized lymphadenopathy (especially posterior cervical)"
+        ],
+        "OtherFindings": [
+          "Hepatosplenomegaly (may lead to risk of rupture)",
+          "Maculopapular rash, especially after ampicillin/amoxicillin",
+          "Palatal petechiae",
+          "Periorbital edema (Hoagland sign)",
+          "Atypical lymphocytosis on CBC (>10%)",
+          "Elevated liver enzymes (mild hepatitis)"
+        ]
+      },
+      "DifferentialDiagnosis": {
+        "Streptococcal pharyngitis": "No lymphocytosis, rapid improvement with antibiotics",
+        "CMV mononucleosis": "Similar but milder pharyngitis, negative heterophile test",
+        "Toxoplasmosis": "Similar nodes, but no sore throat or splenomegaly",
+        "HIV acute seroconversion": "High-risk exposure history, generalized symptoms"
+      },
+      "Complications": [
+        "Splenic rupture (life-threatening; avoid sports)",
+        "Airway obstruction (due to tonsillar hypertrophy)",
+        "Hepatitis, jaundice",
+        "Hemolytic anemia, thrombocytopenia",
+        "Guillain-Barré syndrome, meningoencephalitis (rare)",
+        "Chronic active EBV infection (very rare)"
+      ],
+      "Treatment": [
+        "Supportive care: Antipyretics, hydration, rest; Soft diet if sore throat",
+        "Corticosteroids in severe tonsillar hypertrophy or airway compromise",
+        "Avoid ampicillin/amoxicillin (rash risk)",
+        "Avoid contact sports for 3–4 weeks due to splenic rupture risk"
+      ],
+      "Prevention": [
+        "No vaccine available",
+        "Avoid saliva exposure from symptomatic individuals",
+        "Maintain good hygiene practices (no sharing of drinks or utensils)"
+      ]
+    },
+    "Chickenpox": {
+      "Etiopathogenesis": "Caused by Varicella-Zoster Virus (VZV). Family: Herpesviridae. Primary infection causes varicella (chickenpox). Virus enters via respiratory mucosa or conjunctiva → replicates in lymph nodes → viremia → characteristic skin rash. Establishes latency in dorsal root ganglia, can reactivate as herpes zoster (shingles)",
+      "ModeOfTransmission": [
+        "Airborne droplets from coughing/sneezing",
+        "Direct contact with vesicular fluid",
+        "Highly contagious, especially in closed settings"
+      ],
+      "IncubationPeriod": "10 to 21 days (commonly 14–16 days)",
+      "InfectivePeriod": "1–2 days before rash onset until all lesions have crusted (usually 5–7 days after rash onset)",
+      "ClinicalFeatures": {
+        "Prodrome": "fever, malaise, sore throat, headache (especially in older children)",
+        "Rash": [
+          "Starts as macules → papules → vesicles → pustules → crusts",
+          "Appears in crops over 2–4 days",
+          "Involves trunk, face, scalp, then extremities",
+          "Lesions in different stages at the same time (classic feature)",
+          "Itchy"
+        ],
+        "OtherFindings": [
+          "Low to moderate fever",
+          "Oral lesions possible",
+          "Mild lymphadenopathy"
+        ]
+      },
+      "DifferentialDiagnosis": {
+        "Hand-Foot-Mouth Disease": "Rash on palms/soles, oral ulcers, no trunk dominance",
+        "Insect bite hypersensitivity": "Lesions localized, no fever, non-vesicular",
+        "Impetigo": "Pustular or honey-colored crusts, bacterial etiology",
+        "Disseminated herpes zoster": "Usually in immunocompromised children"
+      },
+      "Complications": [
+        "Secondary bacterial infection of skin (most common)",
+        "Pneumonia, especially in adolescents and adults",
+        "Encephalitis, cerebellar ataxia",
+        "Hepatitis, thrombocytopenia",
+        "Reye syndrome (if aspirin is used)",
+        "Congenital varicella syndrome (if maternal infection in early pregnancy)",
+        "Neonatal varicella (if mother develops varicella 5 days before to 2 days after delivery)"
+      ],
+      "Treatment": [
+        "Supportive care in healthy children: Antipyretics (avoid aspirin), Antihistamines for itching, Maintain skin hygiene to prevent superinfection",
+        "Antivirals (Acyclovir) in: Immunocompromised children, Severe or complicated cases, Adolescents, Neonates or pregnant women with exposure",
+        "Varicella-Zoster Immunoglobulin (VZIG) for post-exposure prophylaxis in high-risk individuals"
+      ],
+      "Prevention": [
+        "Live attenuated varicella vaccine",
+        "Schedule: 1st dose: 15 months (IAP); 2nd dose: 4–6 years",
+        "Isolation of infected individuals until all lesions crust over",
+        "Post-exposure prophylaxis with vaccine or VZIG as indicated"
+      ]
+    },
+    "HerpesSimplexVirusInfection": {
+      "Etiopathogenesis": "Caused by Herpes Simplex Virus: HSV-1: commonly causes orofacial (labial) herpes; HSV-2: primarily causes genital herpes. Virus infects mucocutaneous surfaces → replicates locally → travels via sensory nerves → establishes latency in dorsal root ganglia. Reactivation can occur due to stress, illness, trauma, or immunosuppression",
+      "ModeOfTransmission": [
+        "Direct contact with infected saliva, mucosal secretions, or vesicular fluid",
+        "HSV-1: mostly acquired in childhood via oral contact",
+        "HSV-2: usually sexually transmitted",
+        "Vertical transmission from mother to newborn (especially HSV-2 during vaginal delivery)"
+      ],
+      "IncubationPeriod": "2 to 12 days (commonly 4–6 days)",
+      "InfectivePeriod": "Highest during active lesions. Asymptomatic viral shedding can also transmit the infection",
+      "ClinicalFeatures": {
+        "PrimaryHSV1": [
+          "Gingivostomatitis (commonest presentation): Painful oral ulcers, swollen gums (gingiva), drooling; Fever, irritability, refusal to feed; Vesicular lesions on lips, tongue, buccal mucosa; Lymphadenopathy",
+          "Duration: 7–10 days"
+        ],
+        "RecurrentHSV1": [
+          "Herpes labialis (cold sores): Localized grouped vesicles at vermillion border; Tingling or burning precedes vesicles; Resolves in 5–7 days"
+        ],
+        "PrimaryHSV2": [
+          "Painful vesicular lesions on genitalia",
+          "Dysuria, inguinal lymphadenopathy",
+          "May be asymptomatic"
+        ],
+        "NeonatalHSV": [
+          "Acquired during delivery",
+          "Can present as: Localized skin, eye, mouth disease (SEM); CNS involvement (encephalitis); Disseminated infection (life-threatening)"
+        ]
+      },
+      "DifferentialDiagnosis": {
+        "Aphthous ulcers": "Non-vesicular, no systemic signs",
+        "Herpangina": "Ulcers limited to posterior pharynx",
+        "Hand-Foot-Mouth Disease": "Rash on palms/soles, less gum involvement",
+        "Impetigo (bullous)": "Honey-colored crusts, bacterial etiology",
+        "Stevens–Johnson Syndrome": "Extensive mucosal involvement, systemic toxicity"
+      },
+      "Complications": [
+        "Dehydration (due to painful oral ulcers)",
+        "Herpetic whitlow (finger lesion in healthcare workers)",
+        "Eczema herpeticum (widespread HSV in atopic dermatitis patients)",
+        "Encephalitis (especially HSV-1 in children/adults)",
+        "Keratoconjunctivitis",
+        "Neonatal herpes (disseminated or CNS disease; high mortality)"
+      ],
+      "Treatment": {
+        "MildMucocutaneous": [
+          "Supportive care (fluids, pain relief)",
+          "Topical agents may help"
+        ],
+        "ModerateToSevere": [
+          "Acyclovir (oral or IV depending on severity)",
+          "Duration: 5–10 days",
+          "Neonatal herpes, encephalitis → IV Acyclovir"
+        ],
+        "ChronicSuppression": "Considered for frequent recurrences"
+      },
+      "Prevention": [
+        "Avoid contact with active lesions",
+        "Barrier methods for genital herpes",
+        "Pregnant women with active genital herpes: cesarean delivery recommended",
+        "No vaccine currently available"
+      ]
+    },
+    "Poliomyelitis": {
+      "Etiopathogenesis": "Caused by Poliovirus, an RNA virus. Family: Picornaviridae, Genus: Enterovirus. Three serotypes: Type 1, 2, and 3 (Type 1 most commonly associated with paralysis). Virus enters via oral route, multiplies in pharynx and gut → spreads to regional lymph nodes → viremia → may invade CNS (anterior horn cells) leading to neuronal destruction",
+      "ModeOfTransmission": [
+        "Feco-oral route (main)",
+        "Occasionally via oropharyngeal secretions",
+        "Highly contagious, especially in areas with poor sanitation"
+      ],
+      "IncubationPeriod": "7 to 14 days (range: 3–35 days)",
+      "InfectivePeriod": "7–10 days before onset of symptoms. Continues for up to 6 weeks in stool after infection",
+      "ClinicalFeatures": {
+        "Subclinical": [
+          "~90–95%",
+          "No symptoms",
+          "Virus presents in stool; contagious"
+        ],
+        "AbortivePolio": [
+          "~4–8%",
+          "Mild febrile illness",
+          "Symptoms: sore throat, headache, malaise, nausea",
+          "No CNS involvement",
+          "Recovery within a few days"
+        ],
+        "NonParalyticPolio": [
+          "~1–2%",
+          "Features of aseptic meningitis",
+          "Fever, neck stiffness, vomiting, photophobia",
+          "Muscle tenderness without paralysis"
+        ],
+        "ParalyticPolio": [
+          "<1%",
+          "Sudden onset flaccid paralysis (asymmetric, proximal > distal, no sensory loss)",
+          "No bowel/bladder involvement initially",
+          "Fever at onset or shortly before paralysis",
+          "Most commonly affects lower limbs",
+          "Bulbar polio: respiratory and cranial nerve involvement",
+          "Post-polio syndrome: recurrence of weakness years later"
+        ]
+      },
+      "DifferentialDiagnosis": {
+        "Guillain–Barré syndrome": "Symmetric, ascending paralysis, sensory involved",
+        "Transverse myelitis": "Bladder/bowel involved early, sensory level",
+        "Traumatic neuritis": "Follows trauma, localized weakness",
+        "Acute cerebellitis": "Ataxia without true weakness"
+      },
+      "Complications": [
+        "Permanent paralysis",
+        "Respiratory failure (bulbar/diaphragmatic involvement)",
+        "Deformities, contractures",
+        "Post-polio syndrome",
+        "Death (due to respiratory or bulbar failure)"
+      ],
+      "Treatment": [
+        "Supportive care only: Bed rest during acute phase, Pain control, Adequate hydration and nutrition",
+        "Physical therapy to maintain joint mobility and muscle strength",
+        "Ventilatory support if respiratory muscles are involved"
+      ],
+      "Prevention": {
+        "OPV": [
+          "Live attenuated",
+          "Induces mucosal and systemic immunity",
+          "Risk: Vaccine-Associated Paralytic Polio (VAPP)"
+        ],
+        "IPV": [
+          "Killed virus",
+          "Given via injection",
+          "No risk of VAPP; induces strong systemic immunity"
+        ],
+        "NationalImmunizationSchedule": [
+          "Birth: OPV-0",
+          "6, 10, 14 weeks: IPV + OPV",
+          "Booster: 16–24 months",
+          "Pulse Polio: Additional OPV doses during national campaigns"
+        ]
+      }
+    },
+    "Rabies": {
+      "Etiopathogenesis": "Caused by Rabies virus. Family: Rhabdoviridae, Genus: Lyssavirus. Bullet-shaped, enveloped RNA virus. Virus enters via bite/scratch → replicates in muscle → enters peripheral nerves via acetylcholine receptors → spreads centripetally to CNS → causes acute progressive encephalitis",
+      "ModeOfTransmission": [
+        "Bite or scratch from infected animals (dogs, bats, cats, monkeys, etc.)",
+        "Contact with saliva or neural tissue of infected animals",
+        "Human-to-human transmission: extremely rare (organ transplant cases reported)"
+      ],
+      "IncubationPeriod": "1 to 3 months (range: a few days to a year). Shorter with deep, multiple, or head/neck bites",
+      "InfectivePeriod": "In animals: typically 3–7 days before symptoms appear until death",
+      "ClinicalFeatures": {
+        "FuriousRabies": [
+          "Fever, paresthesia at bite site (early symptom)",
+          "Hydrophobia: painful spasms triggered by attempts to drink water",
+          "Aerophobia, photophobia",
+          "Agitation, confusion, hallucinations",
+          "Hyperactivity, alternating with lucid intervals",
+          "Progresses to coma and death in days"
+        ],
+        "ParalyticRabies": [
+          "Flaccid, ascending paralysis resembling Guillain–Barré syndrome",
+          "Slower progression to coma and death",
+          "Hydrophobia and agitation usually absent"
+        ]
+      },
+      "DifferentialDiagnosis": {
+        "GBS": "No hydrophobia, slower progression, no CNS signs",
+        "Tetanus": "Spastic paralysis, jaw stiffness, risus sardonicus",
+        "Acute viral encephalitis": "No bite history, different prodrome pattern",
+        "Hysteria": "Normal neurological exam, non-progressive"
+      },
+      "Complications": [
+        "Fatal encephalitis (almost 100% mortality if symptoms appear)",
+        "Respiratory failure",
+        "Autonomic instability",
+        "Aspiration pneumonia",
+        "Death usually within 1–2 weeks of symptom onset"
+      ],
+      "Treatment": [
+        "Once clinical symptoms appear, no effective treatment",
+        "Supportive ICU care",
+        "Palliative care for airway, seizures, hydration",
+        "Milwaukee Protocol: experimental, rarely successful",
+        "Emphasis is on prevention and post-exposure prophylaxis"
+      ],
+      "Prevention": {
+        "PostExposureProphylaxis": [
+          "Category I – Touching or feeding animals, licks on intact skin → No treatment",
+          "Category II – Nibbling, minor scratches (no bleeding) → Wound care + Rabies vaccine",
+          "Category III – Transdermal bites/scratches, licks on broken skin → Wound care + Rabies vaccine + Rabies Immunoglobulin (RIG)",
+          "Wound care: Immediate washing with soap and water for at least 15 min",
+          "Rabies Vaccine Schedule (IM route): Days 0, 3, 7, 14, 28",
+          "RIG: Infiltrate around wound site + IM elsewhere; Dose: 20 IU/kg (human RIG) or 40 IU/kg (equine RIG)"
+        ],
+        "PreExposureProphylaxis": [
+          "For high-risk individuals (veterinarians, lab workers, children in endemic areas)",
+          "Days 0 and 7 (and sometimes day 21 or 28)"
+        ]
+      }
+    },
+    "DengueFever": {
+      "Etiopathogenesis": "Caused by Dengue virus (DENV), an RNA virus of the Flaviviridae family. Four serotypes: DENV-1 to DENV-4. Transmitted by Aedes aegypti (day-biting mosquito). Primary infection gives lifelong immunity to that serotype; secondary infection with a different serotype increases risk of severe dengue due to antibody-dependent enhancement (ADE).",
+      "ModeOfTransmission": [
+        "Mosquito bite (Aedes aegypti)",
+        "Vertical transmission (rare)",
+        "Not spread person-to-person directly"
+      ],
+      "IncubationPeriod": "4 to 10 days (average 5–7 days)",
+      "InfectivePeriod": "Humans are viremic and can infect mosquitoes from 1 day before to 5 days after onset of fever",
+      "ClinicalFeatures": {
+        "FebrilePhase": [
+          "High-grade fever (sudden onset)",
+          "Headache, retro-orbital pain",
+          "Myalgia, arthralgia ('break-bone fever')",
+          "Nausea, vomiting, rash",
+          "Mild bleeding (epistaxis, gum bleeding, petechiae)"
+        ],
+        "CriticalPhase": [
+          "Defervescence of fever (usually after day 3–7)",
+          "Plasma leakage → hemoconcentration, pleural effusion, ascites",
+          "Shock may develop (Dengue Shock Syndrome)",
+          "Bleeding: GI bleed, mucosal hemorrhage, DIC",
+          "Risk of organ dysfunction"
+        ],
+        "RecoveryPhase": [
+          "Reabsorption of extravascular fluid",
+          "Bradycardia, convalescent rash ('white islands in sea of red')",
+          "Clinical improvement"
+        ]
+      },
+      "LaboratoryFindings": [
+        "Thrombocytopenia (<100,000/mm³)",
+        "Leukopenia, raised hematocrit (plasma leakage marker)",
+        "Elevated LFTs, mild hyponatremia",
+        "NS1 Antigen: early detection (days 1–5)",
+        "IgM/IgG ELISA: after day 5",
+        "RT-PCR for viral RNA (confirmation)"
+      ],
+      "DifferentialDiagnosis": {
+        "Chikungunya": "Severe joint pain, less hemorrhage, slower onset",
+        "Malaria": "Periodic fever, positive smear/antigen test",
+        "Typhoid": "Step-ladder fever, rose spots, splenomegaly",
+        "Leptospirosis": "Conjunctival suffusion, myalgia, jaundice"
+      },
+      "Complications": [
+        "Dengue Hemorrhagic Fever (DHF)",
+        "Dengue Shock Syndrome (DSS)",
+        "Multi-organ dysfunction",
+        "Encephalopathy, myocarditis",
+        "Severe bleeding, fluid overload"
+      ],
+      "Treatment": {
+        "General": [
+          "No specific antiviral treatment",
+          "Supportive care based on clinical phase"
+        ],
+        "OutpatientManagement": [
+          "Paracetamol for fever (avoid NSAIDs)",
+          "Maintain hydration",
+          "Monitor platelets and hematocrit"
+        ],
+        "HospitalizationIndications": [
+          "Warning signs (abdominal pain, persistent vomiting, mucosal bleed, lethargy, hepatomegaly, rising hematocrit with falling platelets)",
+          "Platelets <20,000 or clinical bleeding",
+          "Hypotension/shock"
+        ],
+        "DengueShockManagement": [
+          "Prompt fluid resuscitation (crystalloids)",
+          "Monitor hematocrit and urine output",
+          "Blood products only if major bleeding"
+        ]
+      },
+      "Prevention": [
+        "No universally available vaccine in India (Dengvaxia not widely recommended)",
+        "Mosquito control: Eliminate breeding sites (stagnant water), use mosquito nets/repellents, wear full-sleeved clothing, daytime mosquito precautions"
+      ]
+    },
+    "Chikungunya": {
+      "Etiopathogenesis": "Caused by Chikungunya virus (CHIKV), an RNA virus (Togaviridae family, Alphavirus genus). Transmitted by Aedes aegypti and Aedes albopictus. Virus replicates in skin and lymph nodes, then viremia affects joints, muscles, skin, and CNS.",
+      "ModeOfTransmission": [
+        "Bite of infected Aedes mosquitoes (mostly daytime biters)",
+        "Vertical transmission (mother to fetus) possible during perinatal period"
+      ],
+      "IncubationPeriod": "2 to 12 days (commonly 3–7 days)",
+      "InfectivePeriod": "Human host is viremic and can infect mosquitoes from 1–2 days before to 5–6 days after onset of fever",
+      "ClinicalFeatures": {
+        "AcutePhase": [
+          "Sudden high-grade fever",
+          "Severe polyarthralgia/polyarthritis (hallmark): symmetrical, often small joints (wrists, fingers, ankles), pain may be disabling",
+          "Skin rash (maculopapular), usually on trunk and limbs",
+          "Headache, photophobia, myalgia, conjunctivitis",
+          "Possible lymphadenopathy"
+        ],
+        "PostAcuteOrChronicPhase": [
+          "Arthralgia/arthritis may persist for weeks to months",
+          "More common in older children and adolescents",
+          "Mimics rheumatoid arthritis in chronic form"
+        ]
+      },
+      "DifferentialDiagnosis": {
+        "Dengue": "Bleeding tendency, leukopenia, plasma leakage",
+        "RheumaticFever": "Migratory arthritis, carditis, prior sore throat",
+        "ViralArthritis": "May resemble but less intense joint pain",
+        "ReactiveArthritis": "History of GI/genitourinary infection"
+      },
+      "Complications": [
+        "Persistent arthritis/arthralgia",
+        "Tenosynovitis, myositis",
+        "Neurological involvement (rare): encephalitis, Guillain–Barré syndrome",
+        "Neonatal disease if transmitted perinatally",
+        "Hepatitis, myocarditis (rare)"
+      ],
+      "Treatment": [
+        "Supportive only: Paracetamol for fever and pain, adequate hydration",
+        "Avoid NSAIDs until dengue is ruled out (risk of bleeding)",
+        "Chronic joint symptoms: may require NSAIDs or short-term corticosteroids (under supervision)"
+      ],
+      "Prevention": [
+        "No vaccine available currently",
+        "Vector control: Eliminate breeding sites, use mosquito repellents and nets, wear protective clothing",
+        "Avoid mosquito bites during daytime"
+      ]
+    },
+    "AvianInfluenza": {
+      "AlsoKnownAs": ["Bird Flu"],
+      "Etiopathogenesis": "Caused by Avian Influenza A viruses (notably H5N1, H7N9, H5N6). Family: Orthomyxoviridae, Genus: Influenza A. Birds (especially poultry) are natural hosts. Virus enters via inhalation or mucosal contact with infected bird secretions/excretions. Severe cases involve diffuse alveolar damage, ARDS, cytokine storm, multi-organ involvement.",
+      "ModeOfTransmission": [
+        "Direct contact with infected birds or surfaces contaminated with bird droppings, saliva, or nasal secretions",
+        "Inhalation of aerosols during handling or culling of poultry",
+        "No sustained human-to-human transmission (rare close-contact cases possible)"
+      ],
+      "IncubationPeriod": "2 to 8 days (can be up to 17 days)",
+      "InfectivePeriod": "Not precisely defined; assumed to begin 1–2 days before symptom onset. Viral shedding may last up to 10 days or more, especially in severe cases.",
+      "ClinicalFeatures": {
+        "EarlySymptoms": [
+          "High-grade fever, chills",
+          "Cough, sore throat, rhinorrhea",
+          "Headache, malaise, myalgia",
+          "Conjunctivitis (common in H7 subtype)"
+        ],
+        "ProgressiveIllness": [
+          "Rapidly worsening respiratory distress",
+          "Pneumonia (often bilateral and diffuse)",
+          "Hypoxia, cyanosis, tachypnea",
+          "ARDS, multi-organ dysfunction",
+          "GI symptoms (nausea, vomiting, diarrhea) may be present"
+        ]
+      },
+      "DifferentialDiagnosis": {
+        "SeasonalInfluenza": "Milder, more common human-to-human spread",
+        "COVID-19": "Overlapping symptoms; needs PCR differentiation",
+        "BacterialPneumonia": "More localized, productive cough, lobar consolidation",
+        "Dengue": "Rash, thrombocytopenia, bleeding tendency"
+      },
+      "Complications": [
+        "Acute Respiratory Distress Syndrome (ARDS)",
+        "Secondary bacterial pneumonia",
+        "Sepsis and multi-organ failure",
+        "Encephalitis, myocarditis (rare)",
+        "Death if not treated early (high case fatality rate for H5N1)"
+      ],
+      "Treatment": [
+        "Supportive care: oxygen, fluid management, antipyretics, mechanical ventilation if ARDS develops",
+        "Antivirals (start early): Oseltamivir (75 mg BID for 5–10 days), Zanamivir (alternative), resistance may occur",
+        "Empirical antibiotics if secondary bacterial infection is suspected"
+      ],
+      "Prevention": [
+        "Avoid contact with sick/dead birds or live poultry markets",
+        "Use PPE when handling birds (especially during outbreaks)",
+        "Hand hygiene and respiratory precautions",
+        "No approved universal vaccine for avian influenza in humans",
+        "Prophylactic Oseltamivir for exposed individuals in outbreak settings (under guidance)"
+      ]
+    },
+    "SARS": {
+      "AlsoKnownAs": ["Severe Acute Respiratory Syndrome"],
+      "Etiopathogenesis": "Caused by SARS-CoV (a coronavirus), family Coronaviridae, genus Betacoronavirus. Origin: believed to be transmitted from civets or bats to humans. Enters respiratory tract, binds ACE2 receptors, replicates in pneumocytes, causes alveolar damage, cytokine storm, and ARDS.",
+      "ModeOfTransmission": [
+        "Respiratory droplets (primary mode)",
+        "Direct contact with contaminated surfaces",
+        "Aerosol-generating procedures in healthcare settings (higher risk)",
+        "Nosocomial transmission common in outbreaks"
+      ],
+      "IncubationPeriod": "2 to 10 days (average 4–6 days)",
+      "InfectivePeriod": "Begins with onset of symptoms; peak viral shedding day 7–10; may continue up to 21 days in severely ill patients",
+      "ClinicalFeatures": {
+        "InitialPhase": [
+          "High-grade fever (>38°C)",
+          "Chills, rigors",
+          "Dry cough, sore throat",
+          "Myalgia, malaise, headache",
+          "Occasionally diarrhea"
+        ],
+        "ProgressivePhase": [
+          "Dyspnea, hypoxia",
+          "Worsening chest infiltrates on imaging",
+          "Tachypnea, cyanosis, respiratory failure",
+          "~10–20% require ICU admission"
+        ],
+        "PediatricCases": [
+          "Usually milder",
+          "Infants: fever, cough, rhinorrhea, often no severe respiratory symptoms"
+        ]
+      },
+      "DifferentialDiagnosis": {
+        "COVID-19": "Longer incubation, broader symptom spectrum",
+        "Influenza": "Rapid onset, seasonal occurrence, upper respiratory signs more common",
+        "AtypicalPneumonia": "Slower onset, less systemic toxicity",
+        "HantavirusPulmonarySyndrome": "Exposure to rodents, rapid pulmonary edema"
+      },
+      "Complications": [
+        "Acute Respiratory Distress Syndrome (ARDS)",
+        "Respiratory failure requiring mechanical ventilation",
+        "Multi-organ dysfunction",
+        "Nosocomial spread",
+        "High mortality in adults (~10%), especially elderly and those with comorbidities"
+      ],
+      "Treatment": [
+        "No specific antiviral therapy proven effective",
+        "Supportive care: oxygen therapy, mechanical ventilation if needed, fluids and electrolyte management",
+        "Experimental therapies (not standard): ribavirin, interferons, corticosteroids (used with caution)"
+      ],
+      "Prevention": [
+        "Infection control measures: hand hygiene, use of masks and PPE in healthcare settings, isolation of suspected/confirmed cases",
+        "No vaccine available for SARS-CoV (distinct from SARS-CoV-2)",
+        "Post-2003, SARS cases not reported, but vigilance remains essential"
+      ]
+    }
+  },  
+  "AidsInChildren": {
+    "Etiopathogenesis": "Caused by Human Immunodeficiency Virus (HIV). HIV-1 (most common), HIV-2 (less virulent). Virus targets CD4+ T lymphocytes, leading to gradual immune system destruction. AIDS develops when CD4 count drops significantly or with opportunistic infections/malignancies.",
+    "ModeOfTransmission": [
+      "Vertical (mother-to-child) transmission: during pregnancy, delivery, or breastfeeding",
+      "Blood transfusion (in settings without proper screening)",
+      "Unsafe injections or surgical procedures",
+      "Sexual abuse (rare but possible)"
+    ],
+    "IncubationPeriod": [
+      "Variable",
+      "Many children remain asymptomatic for months to years",
+      "Disease progression tends to be faster in infants than adults"
+    ],
+    "InfectivePeriod": [
+      "Lifelong once infected",
+      "Risk of transmission to others via blood, body fluids, and breastfeeding"
+    ],
+    "ClinicalFeatures": {
+      "EarlyInfancy": [
+        "Failure to thrive",
+        "Persistent oral thrush",
+        "Prolonged diarrhea",
+        "Recurrent bacterial infections"
+      ],
+      "LaterChildhood": [
+        "Generalized lymphadenopathy",
+        "Hepatosplenomegaly",
+        "Recurrent pneumonia, otitis media",
+        "Parotid enlargement, chronic dermatitis",
+        "Delayed milestones, neurological regression",
+        "Opportunistic infections: Pneumocystis jirovecii pneumonia, TB, CMV, etc."
+      ],
+      "AIDSDefiningConditions": [
+        "Candidiasis (esophageal, tracheal, bronchial)",
+        "Recurrent severe bacterial infections",
+        "Encephalopathy",
+        "HIV-associated wasting",
+        "Kaposi’s sarcoma, lymphomas (rare in children)"
+      ]
+    },
+    "DifferentialDiagnosis": {
+      "SevereCombinedImmunodeficiency": "Presents earlier, family history, T-cell defect",
+      "Malnutrition": "No lymphadenopathy or opportunistic infections",
+      "Tuberculosis": "May coexist; requires ruling out active TB",
+      "CysticFibrosis": "Pancreatic involvement, meconium ileus history"
+    },
+    "Complications": [
+      "Opportunistic infections",
+      "HIV encephalopathy",
+      "Growth failure",
+      "Neoplasms",
+      "Developmental delay",
+      "Social stigma and psychological impact"
+    ],
+    "Treatment": {
+      "AntiretroviralTherapy": [
+        "Lifelong treatment with combination ART (cART)",
+        "First-line: 2 NRTIs + 1 NNRTI or PI",
+        "Goals: suppress viral load, improve immunity (CD4), prevent progression"
+      ],
+      "Prophylaxis": [
+        "Cotrimoxazole for Pneumocystis jirovecii (starting at 6 weeks)",
+        "INH prophylaxis for TB in endemic areas",
+        "Routine immunizations + special consideration for live vaccines"
+      ],
+      "NutritionalAndPsychosocialSupport": [
+        "Monitor growth and neurodevelopment",
+        "Address school performance, mental health, and family support"
+      ]
+    },
+    "Prevention": [
+      "Prevention of Parent-to-Child Transmission (PPTCT): Antenatal HIV testing, ART for HIV-positive mothers, safe delivery practices, avoid breastfeeding if replacement feeding is safe, neonatal ART prophylaxis for baby, early infant diagnosis (PCR at 6 weeks)",
+      "Safe blood transfusion, sterile injections, and health education",
+      "Counseling and testing for family members"
+    ]
+  },
+  "ScarletFever": {
+  "Etiopathogenesis": [
+    "Caused by Group A β-hemolytic Streptococcus (Streptococcus pyogenes)",
+    "Certain strains produce erythrogenic exotoxins → hypersensitivity reaction → rash and systemic features",
+    "Often follows streptococcal pharyngitis"
+  ],
+  "ModeOfTransmission": [
+    "Respiratory droplets from infected or carrier individuals",
+    "Rarely via fomites",
+    "Peak incidence in school-aged children"
+  ],
+  "IncubationPeriod": "2 to 5 days",
+  "InfectivePeriod": [
+    "Begins during the prodrome or early febrile phase",
+    "Untreated cases: infective for 10–21 days",
+    "With antibiotics: infectivity drops significantly after 24 hours"
+  ],
+  "ClinicalFeatures": {
+    "Prodrome": [
+      "Fever, sore throat, headache",
+      "Vomiting, abdominal pain common in children",
+      "Tonsillar exudates, tender anterior cervical lymphadenopathy"
+    ],
+    "Rash": [
+      "Appears within 12–48 hours of fever onset",
+      "Fine, red, sandpaper-like rash (feels like sandpaper)",
+      "Begins on neck, chest, axilla, spreads to trunk and extremities",
+      "Prominent in skin folds (Pastia’s lines)",
+      "Blanchable, spares perioral area (circumoral pallor)",
+      "Rash fades in 4–5 days → followed by desquamation, especially of palms and soles"
+    ],
+    "OtherSigns": [
+      "Strawberry tongue (white-coated tongue with red papillae early, later red beefy tongue)",
+      "Palatal petechiae"
+    ]
+  },
+  "DifferentialDiagnosis": {
+    "Measles": "Koplik spots, non-blanching rash, slower onset",
+    "KawasakiDisease": "Conjunctivitis, extremity edema, coronary risk",
+    "DrugRash": "Often itchy, lacks strawberry tongue and sore throat",
+    "ToxicShockSyndrome": "Multisystem involvement, hypotension"
+  },
+  "Complications": {
+    "Suppurative": [
+      "Otitis media",
+      "Sinusitis",
+      "Peritonsillar abscess"
+    ],
+    "NonSuppurative": [
+      "Acute rheumatic fever",
+      "Post-streptococcal glomerulonephritis",
+      "Arthritis"
+    ]
+  },
+  "Treatment": [
+    "Antibiotic therapy (to prevent complications and reduce transmission): Penicillin V for 10 days (drug of choice)",
+    "Alternatives: Amoxicillin, Azithromycin (in penicillin allergy)",
+    "Antipyretics for fever",
+    "Hydration, soft diet, and rest"
+  ],
+  "Prevention": [
+    "Early identification and treatment of streptococcal pharyngitis",
+    "Avoid sharing utensils/toys during infectious period",
+    "No vaccine available",
+    "Exclude from school for 24 hours after starting antibiotics"
+  ]
+},
+   "Pertussis-(Whooping-Cough)": {
+    "description": "A highly contagious respiratory disease caused by Bordetella pertussis, characterized by prolonged coughing spells and inspiratory 'whoop'",
+    "etiopathogenesis": [
+      "Caused by Bordetella pertussis (Gram-negative coccobacillus)",
+      "Adheres to ciliated respiratory epithelium → releases pertussis toxin, adenylate cyclase toxin, and tracheal cytotoxin",
+      "Leads to paralysis of mucociliary apparatus → persistent cough, inflammation",
+      "No tissue invasion; damage is toxin-mediated"
+    ],
+    "modeOfTransmission": [
+      "Respiratory droplets (coughing/sneezing)",
+      "Highly contagious: attack rate up to 90% in unvaccinated close contacts"
+    ],
+    "incubationPeriod": "7 to 10 days (range 4–21 days)",
+    "infectivePeriod": [
+      "Highly infectious in catarrhal phase",
+      "Infectious up to 3 weeks after cough onset",
+      "Drops dramatically after 5 days of antibiotics"
+    ],
+    "clinicalFeatures": {
+      "CatarrhalStage": [
+        "Duration: 1–2 weeks",
+        "Mild cough, coryza, sneezing, low-grade fever",
+        "Often mistaken for upper respiratory infection",
+        "Most contagious phase"
+      ],
+      "ParoxysmalStage": [
+        "Duration: 2–6 weeks",
+        "Paroxysms of intense coughing (≥10 coughs in a single breath)",
+        "Inspiratory 'whoop' (classic, often absent in infants)",
+        "Post-tussive vomiting, cyanosis, exhaustion",
+        "Worse at night; apnea spells in infants (life-threatening)"
+      ],
+      "ConvalescentStage": [
+        "Duration: 2–4+ weeks",
+        "Gradual reduction in severity and frequency of cough",
+        "Cough may persist for weeks ('100-day cough')"
+      ]
+    },
+    "differentialDiagnosis": {
+      "Bronchiolitis": "Wheeze, fever, less intense cough, age <2 years",
+      "Tuberculosis": "Chronicity, weight loss, contact history",
+      "Foreign body aspiration": "Sudden onset, localized findings, asymmetric breath sounds",
+      "Asthma": "Wheeze, triggers, no whooping"
+    },
+    "complications": [
+      "Apnea (especially <6 months)",
+      "Pneumonia (common cause of death)",
+      "Seizures, encephalopathy",
+      "Subconjunctival hemorrhages, epistaxis, hernias from forceful coughing",
+      "Failure to thrive"
+    ],
+    "treatment": {
+      "antibiotics": [
+        "Azithromycin: 10 mg/kg/day × 5 days (preferred in <1 month)",
+        "Clarithromycin or Erythromycin (older children)"
+      ],
+      "supportive": [
+        "Monitor oxygenation, hydration",
+        "Nutrition and feeding support"
+      ],
+      "hospitalizeIf": [
+        "Age <6 months",
+        "Apnea, hypoxia, dehydration, or complications"
+      ]
+    },
+    "prevention": {
+      "immunization": {
+        "vaccine": "DPT/Pentavalent",
+        "schedule": [
+          "6, 10, 14 weeks (primary)",
+          "16–24 months, 5 years (boosters)",
+          "Tdap in adolescents and pregnant women"
+        ]
+      },
+      "postExposureProphylaxis": [
+        "Azithromycin for close contacts (especially infants and pregnant women)"
+      ]
+    }
+  },
+  "typhoidFever": {
+    "description": "A systemic bacterial illness caused by Salmonella Typhi, characterized by prolonged fever, abdominal symptoms, and potential complications",
+    "etiopathogenesis": [
+      "Caused by Salmonella enterica serovar Typhi (Gram-negative bacillus)",
+      "Feco-oral transmission → survives gastric acid → invades intestinal mucosa → enters bloodstream",
+      "Multiplies in reticuloendothelial system (liver, spleen, bone marrow)",
+      "Bacteremia leads to systemic symptoms; reinfection of intestines → ulceration, possible perforation"
+    ],
+    "modeOfTransmission": [
+      "Feco-oral route via contaminated food/water",
+      "Carriers can spread disease",
+      "More common in areas with poor sanitation"
+    ],
+    "incubationPeriod": "7 to 14 days (range 3–30 days)",
+    "infectivePeriod": [
+      "From early illness until organism cleared from stool/urine",
+      "Chronic carriers may excrete bacteria for >1 year"
+    ],
+    "clinicalFeatures": {
+      "Week1": [
+        "Step-ladder pattern fever",
+        "Toxic look, malaise, headache",
+        "Relative bradycardia, dry coated tongue",
+        "Epistaxis may occur"
+      ],
+      "Week2": [
+        "High-grade continuous fever",
+        "Abdominal pain, distension, soft hepatosplenomegaly",
+        "Rose spots on trunk (faint salmon-colored macules)",
+        "Diarrhea or constipation"
+      ],
+      "Week3": [
+        "Delirium ('typhoid state')",
+        "Complications: intestinal bleeding, perforation, encephalopathy",
+        "Weight loss, dehydration"
+      ],
+      "Week4": [
+        "Gradual defervescence",
+        "Convalescence: slow recovery of appetite and strength"
+      ]
+    },
+    "differentialDiagnosis": {
+      "Malaria": "Periodic fever, positive smear, splenomegaly",
+      "Tuberculosis": "Chronicity, lymphadenopathy, cough",
+      "Enteroviral fever": "Shorter course, milder symptoms",
+      "UTI": "Urinary symptoms, positive urine culture"
+    },
+    "complications": [
+      "Intestinal hemorrhage",
+      "Intestinal perforation (ileum)",
+      "Hepatitis, cholecystitis",
+      "Encephalopathy, meningitis",
+      "Myocarditis",
+      "Chronic carriage (especially in females, gallbladder disease)"
+    ],
+    "treatment": {
+      "antibiotics": {
+        "uncomplicated": ["Azithromycin", "Cefixime", "Ceftriaxone"],
+        "MDR": ["Ceftriaxone", "Meropenem", "Azithromycin"],
+        "XDR": ["Carbapenems or newer agents"]
+      },
+      "supportiveCare": [
+        "Antipyretics (Paracetamol)",
+        "Fluid and electrolyte management",
+        "Nutritional support"
+      ]
+    },
+    "prevention": {
+      "vaccination": {
+        "TCV": "Single dose at 9 months–1 year",
+        "Vi polysaccharide": "≥2 years, booster every 3 years"
+      },
+      "hygiene": [
+        "Safe drinking water, handwashing",
+        "Food safety (avoid street food, raw salads)",
+        "Screening and treatment of carriers"
+      ]
+    }
+  },
+  "tetanus": {
+    "description": "A potentially fatal neuroparalytic disorder caused by a neurotoxin from Clostridium tetani, characterized by muscle rigidity and spasms",
+    "etiopathogenesis": [
+      "Caused by Clostridium tetani (anaerobic, spore-forming, Gram-positive bacillus)",
+      "Spores enter through wounds or umbilical stump → germinate → release tetanospasmin",
+      "Tetanospasmin blocks inhibitory neurotransmitters (GABA, glycine) → muscle hyperactivity and spasm"
+    ],
+    "modeOfTransmission": [
+      "Contaminated wounds: puncture, burns, surgical wounds, dental infections",
+      "Umbilical stump infection in neonates",
+      "Non-immunized or inadequately immunized individuals at higher risk"
+    ],
+    "incubationPeriod": "3 to 21 days (typically 7–10 days; shorter → more severe)",
+    "infectivePeriod": "Not contagious person-to-person; only infective when spores introduced into anaerobic environment",
+    "clinicalFeatures": {
+      "Generalized": [
+        "Trismus (lockjaw)",
+        "Risus sardonicus (sardonic smile)",
+        "Opisthotonus (hyperextension)",
+        "Painful muscle spasms triggered by stimuli",
+        "Dysphagia, neck/abdomen rigidity",
+        "Laryngospasm, apnea → may cause sudden death"
+      ],
+      "Neonatal": [
+        "Onset 3–10 days after birth",
+        "Inability to suckle, stiffness, spasms, seizures",
+        "Often fatal"
+      ],
+      "Localized": [
+        "Muscle rigidity near injury site; may progress to generalized form"
+      ]
+    },
+    "differentialDiagnosis": {
+      "Meningitis": "Fever, altered sensorium, photophobia",
+      "Dystonia": "History of neurological disease or drug side effect",
+      "Hypocalcemia": "Carpopedal spasm, positive Chvostek/Trousseau",
+      "Strychnine poisoning": "Rapid onset, no latency"
+    },
+    "complications": [
+      "Laryngospasm, apnea",
+      "Fractures, rhabdomyolysis, myoglobinuria",
+      "Aspiration pneumonia",
+      "Autonomic instability (tachycardia, hypertension, sweating)",
+      "Death due to respiratory failure or arrhythmias"
+    ],
+    "treatment": {
+      "antitoxin": [
+        "Human Tetanus Immune Globulin (HTIG) IM — 500 IU",
+        "Equine antitoxin (if HTIG unavailable; test for hypersensitivity)"
+      ],
+      "woundCare": ["Surgical debridement", "Antibiotics: Metronidazole preferred, Penicillin G alternative"],
+      "spasmControl": ["Diazepam", "Baclofen or other relaxants", "Magnesium sulfate in severe cases"],
+      "supportive": ["Airway maintenance, possible ventilation", "Minimize stimuli", "Nutrition and ICU-level care"]
+    },
+    "prevention": {
+      "activeImmunization": {
+        "DPT/Pentavalent": "6, 10, 14 weeks; boosters at 16–24 months, 5 years, 10 years; Tdap in adolescence & pregnancy"
+      },
+      "woundProphylaxis": "Td booster ± HTIG if >5 years since last dose",
+      "neonatalTetanusPrevention": ["Clean delivery practices", "Maternal TT immunization during pregnancy"]
+    }
+  },
+  "tuberculosis": {
+    "description": "A chronic infectious disease caused by Mycobacterium tuberculosis, primarily affecting the lungs but capable of involving almost any organ",
+    "etiopathogenesis": [
+      "Caused by Mycobacterium tuberculosis (acid-fast bacillus)",
+      "Transmitted via inhalation of aerosolized droplets from active pulmonary TB",
+      "Inhaled bacilli reach alveoli → phagocytosed → may be destroyed or multiply",
+      "Outcomes: primary, latent, progressive primary, reactivation"
+    ],
+    "modeOfTransmission": [
+      "Airborne droplets from coughing, sneezing, talking",
+      "Close contact in poorly ventilated areas",
+      "Rare: ingestion (M. bovis)"
+    ],
+    "incubationPeriod": "2 to 12 weeks for primary infection; variable for reactivation",
+    "infectivePeriod": [
+      "Active pulmonary TB: contagious until 2–3 weeks of effective treatment",
+      "Latent TB: not infectious"
+    ],
+    "clinicalFeatures": {
+      "Pulmonary": [
+        "Chronic cough (≥2 weeks)",
+        "Fever (low-grade, evening rise)",
+        "Weight loss, anorexia",
+        "Night sweats",
+        "Hemoptysis (advanced)"
+      ],
+      "Extrapulmonary": [
+        "Lymph node TB: painless cervical lymphadenopathy",
+        "TB meningitis: fever, irritability, seizures",
+        "Bone/joint TB: Pott’s disease",
+        "Abdominal TB: pain, diarrhea/constipation, ascites",
+        "Miliary TB: disseminated disease"
+      ]
+    },
+    "differentialDiagnosis": {
+      "Pneumonia": "Acute onset, lobar findings, rapid recovery",
+      "Malignancy": "Weight loss, cough; confirmed by biopsy",
+      "Lymphoma": "B-symptoms, rapid node enlargement",
+      "HIV-related illness": "CD4-based evaluation needed"
+    },
+    "complications": [
+      "Fibrocavitary lung damage, bronchiectasis",
+      "Disseminated/miliary TB",
+      "Hydrocephalus, infarcts in TB meningitis",
+      "Cold abscesses, spinal deformity",
+      "MDR/XDR TB"
+    ],
+    "treatment": {
+      "intensivePhase": ["Isoniazid", "Rifampicin", "Pyrazinamide", "Ethambutol — 2 months"],
+      "continuationPhase": ["Isoniazid", "Rifampicin — 4 months"],
+      "duration": {
+        "uncomplicated": "6 months",
+        "meningitis/bone": "9–12 months",
+        "MDR/XDR": "≥12 months per sensitivity"
+      }
+    },
+    "prevention": {
+      "BCG": "At birth",
+      "earlyDetection": "Contact tracing, isoniazid prophylaxis for under-5s",
+      "airbornePrecautions": "In hospitals"
+    }
+  },
+  "leptospirosis": {
+    "description": "A zoonotic bacterial infection caused by Leptospira interrogans, presenting from mild flu-like illness to severe multiorgan failure",
+    "etiopathogenesis": [
+      "Caused by Leptospira interrogans (spirochete)",
+      "Enters through abrasions/mucous membranes when exposed to contaminated water/soil",
+      "Rodent reservoir → spirochetemia → immune phase with organ involvement"
+    ],
+    "modeOfTransmission": [
+      "Contact with contaminated water, soil, food",
+      "Flooding, sewage exposure, agricultural or recreational water activities"
+    ],
+    "incubationPeriod": "2 to 30 days (commonly 7–12 days)",
+    "infectivePeriod": "No human-to-human; animals shed bacteria for weeks to months",
+    "clinicalFeatures": {
+      "LeptospiremicPhase": [
+        "High-grade fever, chills",
+        "Myalgia (calf, lumbar muscles)",
+        "Conjunctival suffusion",
+        "Headache, vomiting, abdominal pain"
+      ],
+      "ImmunePhase": [
+        "Meningeal signs, aseptic meningitis",
+        "Weil’s disease: jaundice, hepatomegaly, oliguria, renal failure, hemorrhage, hypotension",
+        "Pulmonary hemorrhage, ARDS"
+      ]
+    },
+    "differentialDiagnosis": {
+      "Dengue": "Leukopenia, rash, bleeding, tourniquet test +",
+      "Malaria": "Cyclical fever, splenomegaly, parasitemia",
+      "Viral hepatitis": "No conjunctival suffusion or myalgia",
+      "Typhoid": "Step-ladder fever, bradycardia, rose spots"
+    },
+    "complications": [
+      "Weil’s disease (icteric leptospirosis)",
+      "Pulmonary hemorrhage syndrome",
+      "Myocarditis, arrhythmias",
+      "Aseptic meningitis",
+      "Pancreatitis, uveitis"
+    ],
+    "treatment": {
+      "mild": ["Doxycycline (>8 yrs)", "Azithromycin or Amoxicillin (<8 yrs)"],
+      "severe": ["IV Penicillin G", "IV Ceftriaxone or Cefotaxime"],
+      "supportive": ["Hydration, antipyretics", "Manage organ failure", "Dialysis if needed"]
+    },
+    "prevention": [
+      "Avoid contaminated water/soil",
+      "Protective clothing, footwear",
+      "Rodent control",
+      "Chemoprophylaxis: Doxycycline weekly in outbreaks"
+    ]
+  },
+  "lymeDisease": {
+    "description": "A multisystem infectious disease caused by Borrelia burgdorferi, transmitted through tick bites",
+    "etiopathogenesis": [
+      "Caused by Borrelia burgdorferi (spirochete)",
+      "Transmitted by Ixodes tick bite → localized infection → hematogenous spread"
+    ],
+    "modeOfTransmission": [
+      "Bite of infected Ixodes ticks",
+      "Risk increases with attachment >36 hrs"
+    ],
+    "incubationPeriod": "3 to 30 days (typically 7–10 days)",
+    "infectivePeriod": "Not communicable person-to-person",
+    "clinicalFeatures": {
+      "EarlyLocalized": [
+        "Erythema migrans (‘bull’s eye’) at bite site",
+        "Flu-like symptoms: fever, malaise, myalgia, arthralgia"
+      ],
+      "EarlyDisseminated": [
+        "Multiple erythema migrans",
+        "Neurological: facial palsy, meningitis",
+        "Cardiac: AV block, myocarditis",
+        "Migratory joint pain"
+      ],
+      "LateDisease": [
+        "Lyme arthritis (large joints)",
+        "Encephalopathy, neuropathy"
+      ]
+    },
+    "differentialDiagnosis": {
+      "Rheumatic fever": "Migratory arthritis, carditis",
+      "Juvenile idiopathic arthritis": "Chronic, ANA/RF+",
+      "Viral meningitis": "No rash or tick history",
+      "Bell’s palsy": "No systemic features"
+    },
+    "complications": [
+      "Chronic arthritis",
+      "Heart block or myocarditis",
+      "Persistent neurological deficits",
+      "Post-treatment Lyme syndrome"
+    ],
+    "treatment": {
+      "earlyLocalized": ["Amoxicillin (<8 yrs)", "Doxycycline (>8 yrs) — 14–21 days"],
+      "neurologicCardiac": ["IV Ceftriaxone 14–28 days"],
+      "arthritis": ["Oral antibiotics 28 days; IV if refractory"]
+    },
+    "prevention": [
+      "Avoid tick areas, wear protective clothing",
+      "Use repellents (DEET)",
+      "Check and remove ticks promptly"
+    ]
+  },
+  "malaria": {
+    "description": "A protozoal disease caused by Plasmodium spp., transmitted by female Anopheles mosquitoes, with cyclical fever",
+    "etiopathogenesis": [
+      "Caused by P. falciparum, P. vivax, P. malariae, P. ovale, P. knowlesi",
+      "Mosquito bite → sporozoites to liver → merozoites to RBCs → schizont rupture → fever spikes",
+      "P. vivax/ovale form hypnozoites → relapses"
+    ],
+    "modeOfTransmission": [
+      "Female Anopheles mosquito bite",
+      "Blood transfusion, congenital, needle sharing"
+    ],
+    "incubationPeriod": {
+      "P. vivax": "10–14 days",
+      "P. falciparum": "9–14 days",
+      "P. malariae": "18–40 days",
+      "P. ovale": "10–24 days"
+    },
+    "infectivePeriod": "Contagious to mosquitoes while gametocytes present",
+    "clinicalFeatures": {
+      "Uncomplicated": [
+        "Tertian (48 hr) or quartan (72 hr) fever",
+        "Chills, rigors, sweating",
+        "Headache, malaise, vomiting",
+        "Splenomegaly, hepatomegaly, anemia"
+      ],
+      "Severe": [
+        "Cerebral malaria: seizures, coma",
+        "Severe anemia, hypoglycemia",
+        "Jaundice, hemoglobinuria",
+        "Pulmonary edema, ARDS, shock, renal failure"
+      ]
+    },
+    "differentialDiagnosis": {
+      "Enteric fever": "Step-ladder fever",
+      "Dengue": "Retro-orbital pain, rash",
+      "Leptospirosis": "Conjunctival suffusion, jaundice",
+      "Viral fever": "No cyclicity"
+    },
+    "complications": [
+      "Cerebral malaria",
+      "Hemolytic anemia",
+      "Renal failure",
+      "Pulmonary edema",
+      "Hypoglycemia",
+      "Death (especially P. falciparum)"
+    ],
+    "treatment": {
+      "P.vivax": ["Chloroquine ×3 days + Primaquine ×14 days"],
+      "P.falciparumUncomplicated": ["ACT + single-dose Primaquine"],
+      "Severe": ["IV Artesunate → oral ACT", "Supportive care"]
+    },
+    "prevention": {
+      "chemoprophylaxis": ["Chloroquine/Mefloquine/Doxycycline"],
+      "vectorControl": ["Nets, repellents, eliminate breeding sites"],
+      "vaccine": ["RTS,S/AS01 (Mosquirix) in limited settings"]
+    }
+  },
+  "toxoplasmosis": {
+    "description": "A parasitic disease caused by Toxoplasma gondii, affecting immunocompromised and fetuses",
+    "etiopathogenesis": [
+      "Definitive host: cats (oocysts in feces)",
+      "Transmission: ingestion of oocysts, tissue cysts, transplacental, rarely transfusion",
+      "Trophozoites invade tissues, can cross placenta"
+    ],
+    "modeOfTransmission": [
+      "Contaminated food/water (oocysts)",
+      "Under-cooked meat (cysts)",
+      "Transplacental",
+      "Rare: transfusion, transplant"
+    ],
+    "incubationPeriod": "5–23 days post ingestion; congenital timing varies",
+    "infectivePeriod": "Cats shed oocysts 1–3 weeks; humans not significant shedders",
+    "clinicalFeatures": {
+      "Acquired": ["Often asymptomatic", "Low-grade fever, lymphadenopathy, myalgia"],
+      "Congenital": [
+        "Chorioretinitis",
+        "Intracranial calcifications",
+        "Hydrocephalus",
+        "Seizures, hepatosplenomegaly"
+      ],
+      "Immunocompromised": ["CNS lesions, pulmonary or disseminated disease"]
+    },
+    "differentialDiagnosis": {
+      "CMV": "Periventricular calcifications",
+      "Rubella": "Cataracts, PDA",
+      "Herpes": "Skin vesicles",
+      "Other CNS infections": "No eye involvement"
+    },
+    "complications": [
+      "Vision loss",
+      "Neurological deficits",
+      "Hydrocephalus",
+      "Seizures",
+      "Death in severe cases"
+    ],
+    "treatment": {
+      "congenitalSevere": ["Pyrimethamine + Sulfadiazine + Folinic acid × up to 1 year"],
+      "immunocompromised": ["Same + ART if HIV; TMP-SMX prophylaxis"],
+      "mild": ["Often self-limiting; consider TMP-SMX"]
+    },
+    "prevention": [
+      "Avoid undercooked meat",
+      "Wash produce thoroughly",
+      "Avoid cat litter (pregnant women)",
+      "Prenatal screening in endemic areas"
+    ]
+  },
+  "scrubTyphus": {
+    "description": "A mite-borne rickettsial infection caused by Orientia tsutsugamushi, with fever, eschar, lymphadenopathy",
+    "etiopathogenesis": [
+      "Transmitted by chigger mite bites",
+      "Organism invades endothelium → vasculitis, thrombosis"
+    ],
+    "modeOfTransmission": ["Chigger mite bite only"],
+    "incubationPeriod": "6 to 21 days (typically 10–12 days)",
+    "infectivePeriod": "Not human-to-human; only via bite",
+    "clinicalFeatures": [
+      "High-grade fever, chills, headache, myalgia, GI symptoms",
+      "Eschar at bite site",
+      "Generalized lymphadenopathy, maculopapular rash",
+      "Severe: meningitis, pneumonia, ARDS, myocarditis, AKI"
+    ],
+    "differentialDiagnosis": {
+      "Dengue": "Bleeding, no eschar",
+      "Typhoid": "GI-predominant",
+      "Malaria": "Blood smear +",
+      "Leptospirosis": "Conjunctival suffusion"
+    },
+    "complications": [
+      "Meningoencephalitis",
+      "Myocarditis, shock",
+      "ARDS",
+      "AKI",
+      "MODS"
+    ],
+    "treatment": {
+      "firstLine": "Doxycycline 5 mg/kg/day ×5–7 days",
+      "alternatives": ["Azithromycin (pregnancy/children <8)", "Chloramphenicol"],
+      "supportive": ["Antipyretics, IV fluids"]
+    },
+    "prevention": [
+      "Avoid mite-infested areas",
+      "Wear protective clothing, use DEET",
+      "No vaccine available"
+    ]
+  },
+  "filariasis": {
+    "description": "A parasitic vector-borne disease caused by filarial worms, leading to lymphatic obstruction and elephantiasis",
+    "etiopathogenesis": [
+      "Wuchereria bancrofti, Brugia malayi, Brugia timori in lymphatics → microfilariae in blood",
+      "Host inflammation and fibrosis → obstruction"
+    ],
+    "modeOfTransmission": "Female mosquito bite (Culex, Anopheles, Aedes)",
+    "incubationPeriod": "6 months to 1 year",
+    "infectivePeriod": "As long as microfilariae circulate",
+    "clinicalFeatures": {
+      "Asymptomatic": ["Microfilariae present, subclinical damage"],
+      "Acute": ["Fever, adenolymphangitis, cellulitis, epididymo-orchitis, TPE"],
+      "Chronic": ["Lymphedema, elephantiasis, hydrocele, chyluria"]
+    },
+    "differentialDiagnosis": {
+      "Cellulitis": "Bacterial culture +",
+      "Lymphoma": "Painless nodes",
+      "Nephrotic syndrome": "Proteinuria",
+      "Congenital lymphedema": "Non-infective"
+    },
+    "complications": [
+      "Disfigurement, disability",
+      "Secondary infections",
+      "Psychosocial impact",
+      "Renal damage, chyluria",
+      "Tropical pulmonary eosinophilia"
+    ],
+    "treatment": {
+      "DEC": "6 mg/kg/day ×12 days (microfilaricidal + macrofilaricidal)",
+      "alternatives": ["Albendazole 400 mg single dose", "Ivermectin"],
+      "TPE": "DEC 3 weeks + corticosteroids"
+    },
+    "prevention": {
+      "vectorControl": ["Nets, repellents, insecticides"],
+      "MDA": "Annual DEC + Albendazole",
+      "program": "NFCP (India)"
+    }
+  },
+  "tetanusNeonatorum": {
+    "description": "A life-threatening neonatal condition caused by Clostridium tetani via unhygienic umbilical stump practices",
+    "etiopathogenesis": [
+      "Spores enter umbilical stump → tetanospasmin release → spasm"
+    ],
+    "modeOfTransmission": [
+      "Contaminated instruments or dressings at birth"
+    ],
+    "incubationPeriod": "3 to 10 days after birth",
+    "infectivePeriod": "Not contagious",
+    "clinicalFeatures": [
+      "Onset within first 2 weeks",
+      "Failure to suckle, irritability",
+      "Trismus, generalized stiffness, opisthotonus",
+      "Painful spasms triggered by stimuli"
+    ],
+    "differentialDiagnosis": {
+      "Sepsis/meningitis": "Altered sensorium, fever",
+      "HIE": "Birth asphyxia history",
+      "Hypocalcemia": "Jitteriness, positive signs",
+      "Stiff baby syndrome": "Congenital, non-progressive"
+    },
+    "complications": [
+      "Apnea, respiratory failure",
+      "Aspiration pneumonia",
+      "Fractures",
+      "Dehydration, malnutrition",
+      "High mortality"
+    ],
+    "treatment": {
+      "antitoxin": "TIG 3000–6000 IU IM",
+      "antibiotics": ["Metronidazole IV", "Penicillin G second line"],
+      "supportive": ["Dark, quiet environment", "Sedation/muscle relaxants", "NG feeding", "Ventilation", "Umbilical stump care"]
+    },
+    "prevention": {
+      "maternalImmunization": "Two TT/Td doses during pregnancy, boosters every 10 years",
+      "safeDelivery": ["Clean cord care", "Sterile instruments"],
+      "publicHealth": "UIP goal: eliminate neonatal tetanus"
+    }
+  }
+   }
+}

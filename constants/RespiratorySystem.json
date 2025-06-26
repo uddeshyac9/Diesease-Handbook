@@ -1,0 +1,757 @@
+{
+  "RespiratorySystem": [
+    {
+      "name": "Common Cold",
+      "description": "A mild, self-limited upper respiratory tract viral infection, common in children due to immature immunity",
+      "etiopathogenesis": [
+        "Caused by rhinoviruses (most common), coronaviruses, adenoviruses, RSV, etc.",
+        "Spread via droplets, direct contact, and fomites",
+        "Affects nasal mucosa, pharynx, sinuses"
+      ],
+      "mode_of_transmission": [
+        "Airborne droplets, hand-to-nose contact",
+        "Peak incidence: preschool children in winter months"
+      ],
+      "incubation_period": "1–3 days",
+      "infective_period": "1 day before symptoms start to 5–7 days after onset; Can be longer in young children",
+      "clinical_features": [
+        "Sneezing, nasal congestion, watery discharge",
+        "Sore throat, dry cough, low-grade fever",
+        "Headache, malaise",
+        "Nasal discharge may become thicker (not always bacterial)",
+        "Duration: 4–10 days"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Allergic rhinitis",
+          "differentiating_features": "Seasonal, itchy eyes, eosinophilia"
+        },
+        {
+          "condition": "Sinusitis",
+          "differentiating_features": "Persistent thick nasal discharge >10 days"
+        },
+        {
+          "condition": "Influenza",
+          "differentiating_features": "Sudden high fever, myalgia, fatigue"
+        }
+      ],
+      "treatment": [
+        "Supportive only:",
+        "Saline nasal drops, steam inhalation",
+        "Paracetamol for fever",
+        "Hydration, rest",
+        "Avoid antibiotics unless secondary bacterial infection suspected"
+      ],
+      "complications": [
+        "Otitis media",
+        "Sinusitis",
+        "Worsening asthma"
+      ],
+      "prevention": [
+        "Hand hygiene, avoid crowded places",
+        "Cover cough/sneeze",
+        "Breastfeeding in infants for passive immunity"
+      ]
+    },
+    {
+      "name": "Pharyngotonsillar Infection",
+      "description": "Inflammation of the pharynx and/or tonsils, commonly viral but may be bacterial (notably Group A Streptococcus)",
+      "etiopathogenesis": [
+        "Viral causes (most common): Adenovirus, rhinovirus, influenza, EBV",
+        "Bacterial causes: Group A β-hemolytic Streptococcus (GAS) = Strep throat",
+        "Spread via respiratory droplets and direct contact"
+      ],
+      "mode_of_transmission": [
+        "Airborne droplets, shared utensils, coughing/sneezing",
+        "More common in school-aged children"
+      ],
+      "incubation_period": "1–4 days",
+      "infective_period": [
+        "Viral: 3–8 days",
+        "Streptococcal: Until 24 hours after antibiotic initiation"
+      ],
+      "clinical_features": {
+        "Viral": [
+          "Gradual onset, sore throat",
+          "Coryza, cough, hoarseness",
+          "Mild fever, red pharynx",
+          "Tonsillar enlargement may be present"
+        ],
+        "Bacterial (GAS)": [
+          "Sudden onset, high fever",
+          "Severe sore throat, painful swallowing",
+          "Enlarged tender anterior cervical lymph nodes",
+          "Tonsillar exudate, strawberry tongue",
+          "No cough",
+          "Palatal petechiae may be seen"
+        ]
+      },
+      "differential_diagnosis": [
+        {
+          "condition": "Infectious mononucleosis",
+          "differentiating_clues": "Splenomegaly, atypical lymphocytes, +Monospot"
+        },
+        {
+          "condition": "Diphtheria",
+          "differentiating_clues": "Grayish membrane, bleeding on touch"
+        },
+        {
+          "condition": "Herpangina",
+          "differentiating_clues": "Vesicles on tonsillar pillars, enteroviral"
+        }
+      ],
+      "diagnosis": [
+        "Clinical: Centor criteria for GAS suspicion",
+        "Throat swab: Rapid antigen detection test (RADT) or culture",
+        "CBC: ↑ leukocytes in bacterial; lymphocytosis in viral/EBV",
+        "Monospot test for EBV (if suspect mono)"
+      ],
+      "treatment": {
+        "Viral": [
+          "Supportive care only: hydration, analgesics, rest"
+        ],
+        "Bacterial (GAS)": [
+          "Penicillin V × 10 days",
+          "Or Amoxicillin 50 mg/kg/day × 10 days",
+          "For penicillin allergy: Azithromycin or Cephalexin"
+        ]
+      },
+      "complications": [
+        "Peritonsillar abscess (quinsy)",
+        "Rheumatic fever, glomerulonephritis (GAS)",
+        "Otitis media, sinusitis",
+        "Airway obstruction (rare)"
+      ],
+      "prevention": [
+        "Avoid sharing food/drinks",
+        "Hand hygiene",
+        "Complete antibiotic course in bacterial cases to prevent complications"
+      ]
+    },
+    {
+      "name": "Croup (Laryngotracheobronchitis)",
+      "description": "A viral infection of the upper airway (larynx + trachea), leading to narrowing and classic barking cough and stridor",
+      "etiopathogenesis": [
+        "Cause: Mostly Parainfluenza virus type 1, also RSV, Influenza, Adenovirus",
+        "Pathology: Viral inflammation → subglottic edema → airway narrowing",
+        "Peak age: 6 months to 3 years"
+      ],
+      "mode_of_transmission": [
+        "Airborne droplets and contact with respiratory secretions",
+        "More common in cold months"
+      ],
+      "incubation_period": "2–6 days",
+      "infective_period": "Few days before to a week after symptoms start",
+      "clinical_features": [
+        "Barking \"seal-like\" cough (hallmark)",
+        "Hoarseness of voice",
+        "Inspiratory stridor (worsens with agitation)",
+        "Low-grade fever",
+        "Worse at night, may wake child suddenly",
+        "Mild retractions in moderate-severe cases",
+        "Symptoms usually peak on day 2–3 and resolve by 5–7 days"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Epiglottitis",
+          "clue": "Rapid onset, high fever, drooling, toxic child"
+        },
+        {
+          "condition": "Foreign body",
+          "clue": "Sudden onset stridor, no fever"
+        },
+        {
+          "condition": "Bacterial tracheitis",
+          "clue": "High fever, toxic, thick secretions"
+        }
+      ],
+      "diagnosis": [
+        "Clinical diagnosis mostly",
+        "Neck X-ray: shows \"Steeple sign\" (subglottic narrowing)",
+        "Pulse oximetry to assess hypoxia in severe cases"
+      ],
+      "treatment": {
+        "Mild (no stridor at rest)": [
+          "Home care, humidified air, hydration",
+          "Single dose dexamethasone (0.15–0.6 mg/kg PO)"
+        ],
+        "Moderate to severe (stridor at rest or respiratory distress)": [
+          "Nebulized epinephrine (racemic or L-epinephrine)",
+          "O2 if hypoxic",
+          "Dexamethasone IV/IM if not tolerating oral",
+          "Observe for at least 2 hours post-nebulization"
+        ]
+      },
+      "complications": [
+        "Respiratory distress",
+        "Hypoxia",
+        "Rare: bacterial superinfection (tracheitis)"
+      ],
+      "prevention": [
+        "Hand hygiene, avoid contact with sick children",
+        "No vaccine specific for croup",
+        "Influenza vaccination may reduce related episodes"
+      ]
+    },
+    {
+      "name": "Acute Bronchitis",
+      "description": "A self-limited inflammation of the bronchi, usually viral, resulting in persistent cough in children",
+      "etiopathogenesis": [
+        "Cause: Viruses: Influenza, Parainfluenza, RSV, Adenovirus",
+        "Rarely Mycoplasma pneumoniae in older children",
+        "Inflammation of bronchial mucosa → edema, mucus → cough"
+      ],
+      "mode_of_transmission": [
+        "Droplets and direct contact with respiratory secretions",
+        "Common after or during a cold or URTI"
+      ],
+      "incubation_period": "2–6 days (depends on virus)",
+      "infective_period": "Typically, during the first week of symptoms",
+      "clinical_features": [
+        "Persistent dry or productive cough",
+        "Sore throat, low-grade fever",
+        "Rhonchi/wheezing on auscultation",
+        "No signs of pneumonia (no crepitations, no respiratory distress)",
+        "Duration: cough may persist for 2–3 weeks"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Pneumonia",
+          "clue": "Fever, tachypnea, crepitations on auscultation"
+        },
+        {
+          "condition": "Bronchiolitis (infants)",
+          "clue": "<2 yrs, wheezing, respiratory distress"
+        },
+        {
+          "condition": "Asthma",
+          "clue": "Recurrent, triggers, family history"
+        }
+      ],
+      "diagnosis": [
+        "Clinical diagnosis",
+        "Chest X-ray if diagnosis is uncertain or prolonged cough",
+        "CBC may show mild leukocytosis or normal",
+        "Rule out pneumonia or asthma if not improving"
+      ],
+      "treatment": [
+        "Supportive care only",
+        "Hydration, humidified air, antipyretics",
+        "Honey (if >1 yr) for cough relief",
+        "Antibiotics not recommended (unless suspected bacterial infection)",
+        "Bronchodilators if wheezing or underlying asthma"
+      ],
+      "complications": [
+        "Secondary bacterial infection",
+        "Asthma exacerbation in predisposed children",
+        "Rare progression to pneumonia"
+      ],
+      "prevention": [
+        "Hand hygiene, cough etiquette",
+        "Avoid smoke exposure",
+        "Influenza vaccination for children ≥6 months"
+      ]
+    },
+    {
+      "name": "Acute Bronchiolitis",
+      "description": "A common viral lower respiratory tract infection in infants, characterized by inflammation of the bronchioles leading to wheezing and respiratory distress",
+      "etiopathogenesis": [
+        "Most common cause: Respiratory Syncytial Virus (RSV)",
+        "Other causes: Parainfluenza, Influenza, Adenovirus, Human Metapneumovirus",
+        "Affects children <2 years, especially <6 months",
+        "Virus → bronchiolar epithelial damage → mucus, edema, airway narrowing"
+      ],
+      "mode_of_transmission": [
+        "Respiratory droplets, direct contact",
+        "Highly contagious, especially in daycare settings"
+      ],
+      "incubation_period": "4–6 days",
+      "infective_period": "From 1–2 days before symptoms to 1–2 weeks after",
+      "clinical_features": [
+        "Starts as URI (cold, mild fever, runny nose)",
+        "Progresses to:",
+        "Tachypnea, wheezing, subcostal retractions",
+        "Crepitations (fine) on auscultation",
+        "Feeding difficulty, irritability",
+        "Apnea (in very young infants)",
+        "Symptoms peak by day 3–5, recover in 7–10 days"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Asthma",
+          "clues": "Recurrent episodes, older child, history"
+        },
+        {
+          "condition": "Pneumonia",
+          "clues": "Focal signs, higher fever, crepitations"
+        },
+        {
+          "condition": "Foreign body",
+          "clues": "Sudden onset, localized wheeze, no fever"
+        }
+      ],
+      "diagnosis": [
+        "Clinical diagnosis in most cases",
+        "Pulse oximetry to assess oxygen saturation",
+        "Chest X-ray: hyperinflation, patchy atelectasis (not routine)",
+        "RSV antigen test (nasopharyngeal aspirate) – optional, for high-risk settings"
+      ],
+      "treatment": [
+        "Supportive care is the mainstay",
+        "Hydration and feeding support (IV/NG if needed)",
+        "Oxygen therapy if SpO₂ < 92%",
+        "Saline nasal drops + suction for nasal blockage",
+        "No routine use of bronchodilators, steroids, or antibiotics",
+        "Hospitalize if: Severe distress, Poor feeding, Hypoxia, High-risk infant"
+      ],
+      "complications": [
+        "Apnea (especially in infants <6 weeks)",
+        "Respiratory failure",
+        "Later development of recurrent wheezing/asthma-like episodes"
+      ],
+      "prevention": [
+        "Hand hygiene",
+        "Avoid exposure to sick contacts",
+        "Palivizumab (monoclonal antibody) in high-risk infants (e.g., prematurity, CHD) – monthly during RSV season"
+      ]
+    },
+    {
+      "name": "Pneumonia",
+      "description": "Inflammation of lung parenchyma, usually infectious, leading to consolidation and impaired gas exchange",
+      "etiopathogenesis": {
+        "common_causes_by_age": [
+          {
+            "age_group": "<2 months",
+            "pathogens": "GBS, E. coli, Klebsiella, Chlamydia, RSV"
+          },
+          {
+            "age_group": "2 months – 5 yrs",
+            "pathogens": "Viruses (RSV, Adenovirus, Influenza), S. pneumoniae, H. influenzae"
+          },
+          {
+            "age_group": ">5 years",
+            "pathogens": "Mycoplasma pneumoniae, S. pneumoniae, viruses"
+          }
+        ],
+        "mechanism": "Pathogens enter alveoli → inflammation → exudate → consolidation, poor oxygenation"
+      },
+      "mode_of_transmission": [
+        "Droplet, aerosol, and direct contact"
+      ],
+      "incubation_period": "2–7 days, varies with etiology",
+      "infective_period": "During symptomatic phase, especially in viral cases",
+      "clinical_features": [
+        "Fever, chills",
+        "Tachypnea (key clinical sign!)",
+        "Cough ± sputum",
+        "Chest indrawing, nasal flaring, grunting (severe)",
+        "Crepitations, bronchial breath sounds",
+        "Cyanosis in severe cases",
+        "Viral pneumonia: may have wheezing",
+        "Bacterial: high fever, rapid onset"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Bronchiolitis",
+          "clues": "<2 yrs, wheezing, viral prodrome"
+        },
+        {
+          "condition": "Asthma",
+          "clues": "Recurrent, wheeze, history of atopy"
+        },
+        {
+          "condition": "Tuberculosis",
+          "clues": "Chronic, weight loss, contact history"
+        }
+      ],
+      "diagnosis": [
+        "Clinical signs: Tachypnea, crepitations, indrawing",
+        "Chest X-ray: lobar or patchy consolidation",
+        "CBC: neutrophilia in bacterial; lymphocytosis in viral",
+        "Blood culture, sputum culture in severe/complicated cases"
+      ],
+      "treatment": {
+        "Outpatient (non-severe)": [
+          "Amoxicillin 40–50 mg/kg/day divided BID × 5 days",
+          "Viral: supportive only"
+        ],
+        "Inpatient (moderate-severe)": [
+          "IV Ampicillin + Gentamicin",
+          "IV Ceftriaxone in suspected S. pneumoniae",
+          "Oxygen, nebulization if wheeze",
+          "Antipyretics, fluids, nutrition"
+        ]
+      },
+      "complications": [
+        "Pleural effusion",
+        "Empyema",
+        "Lung abscess",
+        "Sepsis, ARDS"
+      ],
+      "prevention": [
+        "Pneumococcal, Hib, and Influenza vaccines",
+        "Exclusive breastfeeding for 6 months",
+        "Good nutrition, hygiene, avoiding smoke exposure",
+        "Early treatment of URTI to prevent progression"
+      ]
+    },
+    {
+      "name": "Pleural Effusion",
+      "description": "Abnormal accumulation of fluid in the pleural space, often secondary to infection, malignancy, or systemic disease",
+      "etiopathogenesis": {
+        "types": [
+          "Parapneumonic effusion: due to pneumonia",
+          "Empyema: infected purulent pleural effusion",
+          "Tubercular: chronic effusion in TB-endemic regions",
+          "Transudate: due to systemic causes (e.g., nephrotic syndrome, heart failure)"
+        ],
+        "fluid_types": [
+          "Transudate (low protein)",
+          "Exudate (high protein, inflammation)"
+        ]
+      },
+      "mode_of_transmission": [
+        "Not transmissible",
+        "Often a complication of primary infections (e.g., pneumonia, TB)"
+      ],
+      "incubation_period": "Variable; develops during or after respiratory infection",
+      "infective_period": "Depends on underlying infection (e.g., pneumonia, TB)",
+      "clinical_features": [
+        "Cough, chest pain (pleuritic)",
+        "Dyspnea — increases with effusion size",
+        "Fever if infective cause",
+        "Decreased chest expansion on affected side",
+        "Stony dullness on percussion",
+        "Diminished breath sounds over effusion",
+        "Egophony above fluid level"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Pneumonia",
+          "clues": "Crepitations, bronchial breath sounds"
+        },
+        {
+          "condition": "Empyema",
+          "clues": "Thick pus, toxic child"
+        },
+        {
+          "condition": "Heart failure",
+          "clues": "Bilateral effusions, signs of volume overload"
+        }
+      ],
+      "diagnosis": [
+        "Chest X-ray: homogenous opacity, obliteration of costophrenic angle",
+        "Ultrasound chest: detects small effusions, guides aspiration",
+        "Pleural fluid analysis: Appearance, protein, LDH; Gram stain, culture, AFB, ADA",
+        "CBC, ESR, Mantoux test (for TB)"
+      ],
+      "treatment": [
+        "Treat underlying cause: Pneumonia → antibiotics; TB → ATT; Heart failure → diuretics",
+        "Thoracentesis: diagnostic ± therapeutic",
+        "Chest tube drainage if: Purulent fluid (empyema) or Large symptomatic effusion",
+        "Nutrition, O₂ support if needed"
+      ],
+      "complications": [
+        "Empyema",
+        "Fibrothorax",
+        "Sepsis",
+        "Respiratory compromise"
+      ],
+      "prevention": [
+        "Early and adequate treatment of pneumonia, TB",
+        "Vaccination: Hib, Pneumococcal",
+        "Nutritional support and hygiene in high-risk children"
+      ]
+    },
+    {
+      "name": "Empyema Thoracis",
+      "description": "A collection of pus in the pleural cavity, usually as a complication of pneumonia or pleural effusion",
+      "etiopathogenesis": [
+        "Usually secondary to bacterial pneumonia",
+        "Common organisms: Streptococcus pneumoniae, Staphylococcus aureus (incl. MRSA), Mycobacterium tuberculosis",
+        "Stages:",
+        "1. Exudative (serous fluid)",
+        "2. Fibrinopurulent (pus, septations)",
+        "3. Organizing (fibrous thickening)"
+      ],
+      "mode_of_transmission": [
+        "Not directly transmissible",
+        "Results from spread of infection to pleural space"
+      ],
+      "incubation_period": "Develops over days to weeks during or after pneumonia",
+      "infective_period": "Active during pneumonia or TB phase, not once closed",
+      "clinical_features": [
+        "Persistent high fever, chills",
+        "Toxic appearance, poor appetite",
+        "Cough, chest pain",
+        "Breathlessness, tachypnea",
+        "Reduced chest movement, dullness on percussion",
+        "Absent or reduced breath sounds",
+        "Intercostal bulge may be present in chronic cases"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Pleural effusion",
+          "differentiating_clues": "Non-purulent fluid, less systemic toxicity"
+        },
+        {
+          "condition": "Pneumonia",
+          "differentiating_clues": "No pleural signs, focal crepitations"
+        },
+        {
+          "condition": "Lung abscess",
+          "differentiating_clues": "Localized cavity, not in pleural space"
+        }
+      ],
+      "diagnosis": [
+        "Chest X-ray: dense homogenous opacity, no air bronchogram",
+        "Ultrasound chest: septations, fluid loculations",
+        "Diagnostic thoracentesis: Thick frank pus, ↑ protein & LDH, ↓ glucose; Gram stain, culture, AFB",
+        "CBC: leukocytosis, ↑ CRP/ESR",
+        "Blood culture may be positive"
+      ],
+      "treatment": [
+        "IV antibiotics: Empirical: Ceftriaxone + Vancomycin; Modify based on culture",
+        "Chest tube drainage (Intercostal Drainage – ICD)",
+        "Fibrinolytics (e.g., urokinase) if loculated",
+        "Antitubercular therapy (ATT) if TB suspected",
+        "Surgical decortication (if no response after 1–2 weeks)",
+        "Supportive care: O₂, nutrition, analgesia"
+      ],
+      "complications": [
+        "Fibrothorax",
+        "Bronchopleural fistula",
+        "Sepsis",
+        "Growth retardation in chronic untreated cases"
+      ],
+      "prevention": [
+        "Timely treatment of pneumonia",
+        "Vaccination: Pneumococcal, Hib, BCG",
+        "Nutritional support",
+        "TB screening in endemic areas"
+      ]
+    },
+    {
+      "name": "Pneumothorax",
+      "description": "Presence of air in the pleural space, causing partial or complete lung collapse",
+      "etiopathogenesis": {
+        "types": [
+          "Spontaneous: Primary (no underlying disease), Secondary (lung disease)",
+          "Traumatic: penetrating injury, mechanical ventilation",
+          "Iatrogenic: after procedures",
+          "Tension pneumothorax: air enters but cannot escape → emergency"
+        ]
+      },
+      "mode_of_transmission": [
+        "Non-communicable",
+        "Results from trauma or lung pathology"
+      ],
+      "incubation_period": "Not applicable (sudden onset condition)",
+      "infective_period": "Not infectious",
+      "clinical_features": [
+        "Sudden onset dyspnea, dry cough",
+        "Unilateral chest pain",
+        "Tachypnea, tachycardia",
+        "Decreased breath sounds on affected side",
+        "Hyperresonance on percussion",
+        "Tension pneumothorax features: Severe distress, Tracheal shift, Hypotension, cyanosis"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Pleural effusion",
+          "clue": "Dull percussion, no sudden onset"
+        },
+        {
+          "condition": "Pneumonia",
+          "clue": "Fever, crepitations, not hyperresonant"
+        },
+        {
+          "condition": "Foreign body",
+          "clue": "Choking history, localized wheeze"
+        }
+      ],
+      "diagnosis": [
+        "Chest X-ray: Visible pleural line, absent lung markings, collapsed lung",
+        "Ultrasound chest: absence of lung sliding sign",
+        "ABG: may show hypoxia"
+      ],
+      "treatment": {
+        "Small, asymptomatic": [
+          "Observation + supplemental oxygen"
+        ],
+        "Moderate/large or symptomatic": [
+          "Needle aspiration or intercostal chest drain (ICD)"
+        ],
+        "Tension pneumothorax (EMERGENCY)": [
+          "Immediate needle decompression (2nd ICS, midclavicular line)",
+          "Followed by chest tube placement"
+        ],
+        "Additional": [
+          "Treat underlying lung disease",
+          "Avoid air travel until resolution",
+          "Surgery if recurrent (pleurodesis)"
+        ]
+      },
+      "complications": [
+        "Respiratory failure",
+        "Hemopneumothorax",
+        "Infection",
+        "Recurrent pneumothorax"
+      ],
+      "prevention": [
+        "Careful monitoring in mechanical ventilation",
+        "Avoid forceful cough/sneezing post-thoracic procedures",
+        "Prevent trauma",
+        "Prompt treatment of underlying respiratory illnesses"
+      ]
+    },
+    {
+      "name": "Asthma",
+      "description": "A chronic inflammatory disorder of the airways leading to reversible airway obstruction, bronchospasm, and hyperresponsiveness",
+      "etiopathogenesis": {
+        "triggers": [
+          "Allergens (dust, pollen), exercise, infections, smoke, strong odors, weather change, emotional stress"
+        ],
+        "pathology": [
+          "Chronic airway inflammation",
+          "Mucosal edema, bronchial hyperreactivity",
+          "Excess mucus production",
+          "Leads to episodic bronchoconstriction"
+        ],
+        "types": [
+          "Intermittent asthma",
+          "Mild, Moderate, Severe Persistent asthma – based on frequency of symptoms & lung function"
+        ]
+      },
+      "mode_of_transmission": "Non-infectious, but viral URTIs often trigger episodes",
+      "clinical_features": [
+        "Recurrent episodes of: Wheezing, Cough (worse at night/early morning), Shortness of breath, Chest tightness",
+        "Prolonged expiration, use of accessory muscles in severe cases",
+        "Symptom-free intervals in between attacks"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Bronchiolitis",
+          "clues": "<2 years, first episode, viral prodrome"
+        },
+        {
+          "condition": "Foreign body aspiration",
+          "clues": "Sudden onset wheeze, localized signs"
+        },
+        {
+          "condition": "Cystic fibrosis",
+          "clues": "Chronic symptoms, failure to thrive, steatorrhea"
+        }
+      ],
+      "diagnosis": [
+        "Clinical diagnosis based on recurrent symptoms",
+        "Pulmonary function test (PFT) in children >5 yrs: ↓ FEV₁, improved post-bronchodilator",
+        "Peak Expiratory Flow Rate (PEFR) variability ≥20%",
+        "Chest X-ray: hyperinflation (during acute attack)",
+        "Allergy testing may help identify triggers"
+      ],
+      "treatment": {
+        "Acute Attack (Mild to Moderate)": [
+          "Inhaled short-acting β2 agonist (SABA): Salbutamol via MDI/spacer or nebulizer",
+          "Oral corticosteroids (e.g., Prednisolone 1–2 mg/kg for 3–5 days)",
+          "Oxygen if hypoxic"
+        ],
+        "Severe Attack": [
+          "Frequent nebulized SABA ± Ipratropium",
+          "IV corticosteroids",
+          "IV magnesium sulfate if not responding",
+          "Hospital admission if no improvement"
+        ],
+        "Long-term Control": [
+          "Inhaled corticosteroids (ICS) = mainstay",
+          "Add LABA, leukotriene receptor antagonists (e.g., montelukast) if needed",
+          "Avoid triggers"
+        ]
+      },
+      "complications": [
+        "Status asthmaticus",
+        "Air trapping, atelectasis",
+        "Poor growth due to repeated steroid use or chronic disease",
+        "School absenteeism, reduced quality of life"
+      ],
+      "prevention_education": [
+        "Avoid known triggers (dust, smoke, pets)",
+        "Educate caregivers on inhaler technique, symptoms, action plan",
+        "Vaccination: Influenza, Pneumococcal",
+        "Use of asthma action plan for home management",
+        "Monitor growth and development"
+      ]
+    },
+    {
+      "name": "Emphysema",
+      "description": "Abnormal, irreversible dilatation and destruction of alveoli leading to impaired gas exchange (rare in children)",
+      "etiopathogenesis": [
+        "Destruction of alveolar walls → loss of surface area for gas exchange",
+        "Loss of elastic recoil → air trapping",
+        "Types:",
+        "Congenital lobar emphysema (CLE) – overinflated lobe in neonates/infants",
+        "Secondary emphysema – due to: Severe asthma, Cystic fibrosis, α₁-antitrypsin deficiency, Bronchopulmonary dysplasia"
+      ],
+      "clinical_features": {
+        "Congenital Lobar Emphysema": [
+          "Presents in neonates or infants",
+          "Respiratory distress, tachypnea",
+          "Unilateral chest overexpansion",
+          "Mediastinal shift",
+          "Decreased breath sounds on affected side"
+        ],
+        "Secondary Emphysema": [
+          "Chronic cough, wheezing, dyspnea",
+          "Barrel-shaped chest",
+          "Poor exercise tolerance",
+          "Recurrent respiratory infections"
+        ]
+      },
+      "differential_diagnosis": [
+        {
+          "condition": "Pneumothorax",
+          "clues": "Sudden onset, hyperresonant, absent breath sounds"
+        },
+        {
+          "condition": "Bronchiolitis",
+          "clues": "Viral prodrome, diffuse wheeze"
+        },
+        {
+          "condition": "Asthma",
+          "clues": "Recurrent, reversible episodes"
+        }
+      ],
+      "diagnosis": [
+        "Chest X-ray: Overinflated lung fields, Hyperlucency, flattened diaphragm, Mediastinal shift (in CLE)",
+        "CT scan chest: confirms diagnosis, detects bullae",
+        "Pulmonary function test (PFT): ↓ FEV₁, ↑ residual volume",
+        "α₁-antitrypsin levels: if suspected deficiency"
+      ],
+      "treatment": {
+        "Congenital Lobar Emphysema": [
+          "Supportive for mild cases",
+          "Surgical lobectomy for severe or progressive distress"
+        ],
+        "Secondary Emphysema": [
+          "Bronchodilators",
+          "Inhaled corticosteroids if coexisting asthma",
+          "Pulmonary rehabilitation",
+          "Vaccination to prevent infections",
+          "Avoid exposure to smoke/pollutants"
+        ]
+      },
+      "complications": [
+        "Respiratory failure",
+        "Pulmonary hypertension",
+        "Cor pulmonale",
+        "Spontaneous pneumothorax"
+      ],
+      "prevention": [
+        "Early diagnosis and management of chronic lung diseases",
+        "Limit oxygen toxicity/barotrauma in neonates",
+        "Avoid passive smoking",
+        "Genetic counseling if α₁-antitrypsin deficiency is present"
+      ]
+    }
+  ]
+}
