@@ -1,0 +1,179 @@
+{
+  "title": "GROWTH AND DEVELOPMENT IN CHILDREN",
+  "definition": {
+    "growth": "Quantitative increase in physical parameters like height, weight, head circumference, etc.",
+    "development": "Qualitative improvement in function, skills, and capacities (e.g., cognition, motor, social)",
+    "maturation": "Progress toward full functional capacity"
+  },
+  "importance": [
+    "Tracks health and nutrition",
+    "Detects early signs of illness or developmental delay",
+    "Helps in age-appropriate parenting and stimulation",
+    "Basis for growth charts, milestones, and national health programs"
+  ],
+  "determinants": {
+    "intrinsic": [
+      "Genetics",
+      "Endocrines (GH, thyroid)",
+      "Intrauterine environment",
+      "Sex (boys grow more initially)",
+      "Ethnicity"
+    ],
+    "extrinsic": [
+      "Nutrition (breastfeeding, complementary)",
+      "Socioeconomic status",
+      "Infections (e.g., TORCH)",
+      "Parental care, stimulation",
+      "Environment, access to health services"
+    ]
+  },
+  "growth_monitoring_parameters": {
+    "weight": {
+      "expected": [
+        {"age": "Birth", "weight": "~2.5–3.5 kg"},
+        {"age": "5 months", "weight": "Double birth weight"},
+        {"age": "1 year", "weight": "Triple birth weight"},
+        {"age": "2 years", "weight": "Quadruple birth weight"},
+        {"age": "3–12 yrs", "weight": "~2–2.5 kg/year gain"}
+      ],
+      "formula": "Weight (kg) = 2 × (Age in years + 4) [1–7 yrs]"
+    },
+    "height": {
+      "expected": [
+        {"age": "Birth", "height": "~50 cm"},
+        {"age": "1 year", "height": "~75 cm"},
+        {"age": "2 years", "height": "~85 cm"},
+        {"age": "4 years", "height": "~100 cm"},
+        {"age": "After 2 yrs", "height": "+5–6 cm/year till puberty"}
+      ],
+      "formula": "Height (cm) = Age × 6 + 77 [2–12 yrs]"
+    },
+    "head_circumference": {
+      "expected": [
+        {"age": "Birth", "hc": "~35 cm"},
+        {"age": "6 months", "hc": "~43 cm"},
+        {"age": "1 year", "hc": "~47 cm"},
+        {"age": "2 years", "hc": "~49 cm"},
+        {"age": "6 years", "hc": "~51–52 cm"}
+      ],
+      "note": "Most rapid HC growth occurs in first year (brain development phase)"
+    },
+    "muac": {
+      "stable_age_range": "6 months to 5 years",
+      "classification": [
+        {"threshold": "<12.5 cm", "condition": "Moderate Acute Malnutrition"},
+        {"threshold": "<11.5 cm", "condition": "Severe Acute Malnutrition"}
+      ]
+    },
+    "bmi": {
+      "classification": [
+        {"percentile": "<5th", "category": "Underweight"},
+        {"percentile": ">85th", "category": "Overweight"},
+        {"percentile": ">95th", "category": "Obesity"}
+      ],
+      "note": "Uses WHO & IAP age-specific BMI centiles"
+    }
+  },
+  "developmental_domains": [
+    {"domain": "Gross motor", "examples": "Sitting, crawling, walking, running"},
+    {"domain": "Fine motor", "examples": "Reaching, grasping, drawing"},
+    {"domain": "Language", "examples": "Cooing, babbling, speaking"},
+    {"domain": "Social/Personal", "examples": "Smiling, stranger anxiety, role play"},
+    {"domain": "Cognitive", "examples": "Object permanence, problem solving"}
+  ],
+  "developmental_milestones": {
+    "gross_motor": [
+      {"age": "1 month", "milestone": "Head lag present"},
+      {"age": "3 months", "milestone": "Neck holding"},
+      {"age": "5 months", "milestone": "Rolls over"},
+      {"age": "6 months", "milestone": "Sits with support"},
+      {"age": "8 months", "milestone": "Sits without support"},
+      {"age": "9 months", "milestone": "Pulls to stand"},
+      {"age": "12 months", "milestone": "Walks with support"},
+      {"age": "15 months", "milestone": "Walks alone"},
+      {"age": "2 years", "milestone": "Runs well"}
+    ],
+    "fine_motor": [
+      {"age": "3 months", "milestone": "Hand regard"},
+      {"age": "5 months", "milestone": "Reaches for objects"},
+      {"age": "7 months", "milestone": "Transfers object"},
+      {"age": "9 months", "milestone": "Pincer grasp (immature)"},
+      {"age": "12 months", "milestone": "Mature pincer grasp"},
+      {"age": "18 months", "milestone": "Scribbles"},
+      {"age": "2 years", "milestone": "Tower of 6 cubes"},
+      {"age": "3 years", "milestone": "Copies circle"}
+    ],
+    "language": [
+      {"age": "1 month", "milestone": "Alert to sound"},
+      {"age": "3 months", "milestone": "Coos"},
+      {"age": "6 months", "milestone": "Babbles"},
+      {"age": "9 months", "milestone": "Responds to name"},
+      {"age": "12 months", "milestone": "Says 1–2 words with meaning"},
+      {"age": "18 months", "milestone": "10 words vocabulary"},
+      {"age": "2 years", "milestone": "2–3 word sentences"},
+      {"age": "3 years", "milestone": "Asks questions"}
+    ],
+    "social_adaptive": [
+      {"age": "6 weeks", "milestone": "Social smile"},
+      {"age": "6 months", "milestone": "Stranger anxiety"},
+      {"age": "9 months", "milestone": "Waves bye-bye"},
+      {"age": "12 months", "milestone": "Comes when called"},
+      {"age": "2 years", "milestone": "Parallel play"},
+      {"age": "3 years", "milestone": "Cooperative play"},
+      {"age": "4 years", "milestone": "Dresses with help"},
+      {"age": "5 years", "milestone": "Toilet trained"}
+    ]
+  },
+  "red_flag_signs": [
+    "No social smile by 3 months",
+    "No head control by 4 months",
+    "Cannot sit unsupported by 9 months",
+    "No speech by 18 months",
+    "Loss of milestones at any age",
+    "Not walking by 18 months",
+    "Not speaking in phrases by 2.5 years"
+  ],
+  "developmental_assessment_tools": [
+    "Denver Developmental Screening Test II (DDST-II)",
+    "Trivandrum Developmental Screening Chart (TDSC)",
+    "Bayley’s Scale of Infant Development (BSID)",
+    "Growth Charts (WHO/IAP) for anthropometry"
+  ],
+  "development_quotient": {
+    "formula": "DQ = (Developmental Age / Chronological Age) × 100",
+    "classification": {"dq": "<70", "condition": "Developmental Delay"}
+  },
+  "growth_charts": {
+    "types": [
+      "WHO Growth Standards (0–5 years)",
+      "IAP Growth Charts (for Indian children >5 years)"
+    ],
+    "parameters": [
+      "weight-for-age",
+      "height-for-age",
+      "BMI-for-age",
+      "HC-for-age"
+    ],
+    "classifications": [
+      {"condition": "Underweight", "criteria": "Weight-for-age < -2 SD"},
+      {"condition": "Stunting", "criteria": "Height-for-age < -2 SD"},
+      {"condition": "Wasting", "criteria": "Weight-for-height < -2 SD"}
+    ]
+  },
+  "puberty_growth": {
+    "boys": {
+      "onset": "11–12 yrs",
+      "final_height": "17–18 yrs",
+      "muscle_fat_gain": "Gain more muscle"
+    },
+    "girls": {
+      "onset": "9–11 yrs",
+      "final_height": "15–16 yrs",
+      "muscle_fat_gain": "Gain more fat"
+    },
+    "peak_height_velocity": [
+      {"gender": "Girls", "velocity": "~9 cm/year", "age": "~11 years"},
+      {"gender": "Boys", "velocity": "~10.3 cm/year", "age": "~13.5 years"}
+    ]
+  }
+}

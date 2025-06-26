@@ -1,0 +1,876 @@
+{
+  "DERMATOLOGY": {
+    "ATOPIC_DERMATITIS": {
+      "definition": "A pruritic, chronic inflammatory skin disease beginning in infancy/childhood characterized by eczema, dry skin, and recurring flares.",
+      "etiopathogenesis": [
+        "Genetic predisposition (filaggrin mutation)",
+        "Immunological dysfunction (↑ IgE, Th2 response)",
+        "Skin barrier defects",
+        "Environmental triggers (heat, sweat, allergens)"
+      ],
+      "clinical_features": {
+        "triad": "Dryness + Itching + Eczema",
+        "age_distribution": [
+          {"age": "Infantile (<2 yrs)", "sites": "Cheeks, scalp, extensor limbs"},
+          {"age": "Childhood (2–12 yrs)", "sites": "Flexural areas (elbows, knees, neck)"},
+          {"age": "Adolescent/Adult", "sites": "Hands, eyelids, flexures, neck"}
+        ],
+        "symptoms": [
+          "Pruritus (hallmark)",
+          "Xerosis (dry skin)",
+          "Lichenification",
+          "Erythematous oozing patches (acute phase)",
+          "Hypopigmentation post-healing"
+        ]
+      },
+      "diagnostic_criteria": {
+        "essential": "Itching",
+        "supportive": [
+          "Typical distribution",
+          "Chronic/relapsing course",
+          "Personal/family atopy history",
+          "Dry skin",
+          "Early onset"
+        ]
+      },
+      "investigations": [
+        {"test": "Clinical diagnosis", "use": "Main diagnostic method"},
+        {"test": "Serum IgE", "use": "Often elevated"},
+        {"test": "Allergy testing", "use": "Identify triggers"},
+        {"test": "Skin swab", "use": "If secondary infection suspected"}
+      ],
+      "management": {
+        "general_measures": [
+          "Frequent emollients",
+          "Lukewarm baths with mild soap",
+          "Cotton clothing",
+          "Nail trimming"
+        ],
+        "pharmacologic": [
+          {"class": "Topical steroids", "use": "First-line for flares"},
+          {"class": "Topical calcineurin inhibitors", "examples": "Tacrolimus, Pimecrolimus"},
+          {"class": "Oral antihistamines", "use": "Pruritus relief"},
+          {"class": "Antibiotics", "use": "Secondary infection"},
+          {"class": "Biologics", "examples": "Dupilumab for severe cases"}
+        ],
+        "emollient_tips": [
+          "Apply within 3 minutes post-bath",
+          "Use fragrance-free thick moisturizers",
+          "Continue during remission"
+        ]
+      },
+      "complications": [
+        "Secondary bacterial infection",
+        "Eczema herpeticum (HSV)",
+        "Growth retardation (steroid misuse)",
+        "Sleep disturbance"
+      ],
+      "mnemonic": {
+        "name": "IT DRY SKIN",
+        "expansion": [
+          "I – Itchy",
+          "T – Typical distribution",
+          "D – Dry skin",
+          "R – Relapsing & remitting",
+          "Y – Young age onset",
+          "S – Secondary infection risk",
+          "K – Keep skin moist",
+          "I – Immunologic basis",
+          "N – No cure but controllable"
+        ]
+      }
+    },
+    "NAPKIN_RASH": {
+      "definition": "Acute inflammation in diaper-covered area due to irritation and moisture.",
+      "etiopathogenesis": [
+        "Prolonged moisture exposure",
+        "Friction",
+        "Ammonia irritation",
+        "Candida superinfection (>60%)"
+      ],
+      "clinical_types": [
+        {"type": "Irritant Dermatitis", "features": "Red rash on convex areas, spares folds"},
+        {"type": "Candidal Dermatitis", "features": "Beefy red rash with satellite lesions"},
+        {"type": "Allergic contact", "features": "Reaction to wipes/diaper material"},
+        {"type": "Bacterial superinfection", "features": "Pustules, oozing, crusting"}
+      ],
+      "diagnosis": [
+        "Clinical exam",
+        "KOH mount for Candida",
+        "Swab culture if infected"
+      ],
+      "management": {
+        "general_care": [
+          "Frequent diaper changes",
+          "Diaper-free time",
+          "Mild cleansers",
+          "Superabsorbent diapers"
+        ],
+        "topical_therapy": [
+          {"agent": "Zinc oxide paste", "use": "Barrier protection"},
+          {"agent": "Clotrimazole/Nystatin", "use": "Antifungal for Candida"},
+          {"agent": "Hydrocortisone 1%", "use": "Short-term for inflammation"},
+          {"agent": "Mupirocin", "use": "Bacterial infection"}
+        ],
+        "avoid": [
+          "Potent steroids",
+          "Talcum powders"
+        ]
+      },
+      "complications": [
+        "Candida/bacterial superinfection",
+        "Chronic skin changes",
+        "Misdiagnosis of serious conditions"
+      ],
+      "mnemonic": {
+        "name": "DIAPER",
+        "expansion": [
+          "D – Dry frequently",
+          "I – Identify Candida",
+          "A – Apply barrier creams",
+          "P – Protect skin folds",
+          "E – Eliminate irritants",
+          "R – Rule out superinfections"
+        ]
+      }
+    },
+    "CONTACT_DERMATITIS": {
+      "definition": "Inflammatory skin reaction from direct contact with irritants/allergens.",
+      "types": [
+        {"type": "Irritant (ICD)", "mechanism": "Non-immunologic", "examples": "Soaps, detergents"},
+        {"type": "Allergic (ACD)", "mechanism": "Type IV hypersensitivity", "examples": "Nickel, perfumes"}
+      ],
+      "clinical_features": {
+        "irritant": [
+          "Immediate onset",
+          "Localized to contact site",
+          "Dry, red, cracked skin",
+          "Mild itching"
+        ],
+        "allergic": [
+          "Delayed onset (24-72 hrs)",
+          "May spread beyond contact",
+          "Vesicular, oozing rash",
+          "Intense itching"
+        ]
+      },
+      "diagnosis": [
+        "Clinical evaluation",
+        "Patch testing for ACD",
+        "Rule out scabies/atopic dermatitis"
+      ],
+      "management": {
+        "general": [
+          "Avoid triggers",
+          "Protective barriers",
+          "Emollients"
+        ],
+        "pharmacologic": [
+          {"agent": "Topical steroids", "use": "Anti-inflammatory"},
+          {"agent": "Oral antihistamines", "use": "Pruritus relief"},
+          {"agent": "Oral steroids", "use": "Severe cases"},
+          {"agent": "Antibiotics", "use": "Secondary infection"}
+        ]
+      },
+      "complications": [
+        "Chronic lichenification",
+        "Secondary infection",
+        "Post-inflammatory pigmentation"
+      ],
+      "mnemonic": {
+        "name": "CONTACT",
+        "expansion": [
+          "C – Caused by contact",
+          "O – Onset fast (ICD) or delayed (ACD)",
+          "N – Not always itchy (more in ACD)",
+          "T – Type IV hypersensitivity (ACD)",
+          "A – Avoid trigger",
+          "C – Creams (steroids, emollients)",
+          "T – Test patch (for allergy)"
+        ]
+      }
+    },
+    "PITYRIASIS_ALBA": {
+      "definition": "Benign condition with hypopigmented scaly patches on face in children.",
+      "epidemiology": [
+        "Ages 3-16 years",
+        "More noticeable in dark skin",
+        "Summer exacerbation",
+        "Atopic association"
+      ],
+      "clinical_features": [
+        "Hypopigmented macules/patches",
+        "Fine scaling",
+        "Face (cheeks, chin)",
+        "Asymptomatic/mild itching",
+        "No systemic signs"
+      ],
+      "diagnosis": [
+        "Clinical exam",
+        "Wood's lamp for contrast",
+        "KOH to rule out tinea"
+      ],
+      "differential": [
+        {"condition": "Tinea versicolor", "differences": "More scaling, KOH+"},
+        {"condition": "Vitiligo", "differences": "Depigmented, no scaling"},
+        {"condition": "Leprosy", "differences": "Sensory loss in endemic areas"}
+      ],
+      "management": [
+        "Reassurance (self-limiting)",
+        "Emollients",
+        "Hydrocortisone 1% for inflammation",
+        "Tacrolimus ointment",
+        "Avoid harsh soaps/sun"
+      ],
+      "mnemonic": {
+        "name": "PALE FACE",
+        "expansion": [
+          "P – Patches (hypopigmented)",
+          "A – Atopic association",
+          "L – Lesions on face",
+          "E – Emollients first line",
+          "F – Fine scales",
+          "A – Asymptomatic mostly",
+          "C – Common in children",
+          "E – Exclude other causes"
+        ]
+      }
+    },
+    "DERMATOPHYTOSIS": {
+      "definition": "Superficial fungal infection of skin/hair/nails by dermatophytes.",
+      "causative_organisms": [
+        "Trichophyton (most common)",
+        "Microsporum",
+        "Epidermophyton"
+      ],
+      "risk_factors": [
+        "Hot humid climate",
+        "Poor hygiene",
+        "Sharing personal items",
+        "Immunocompromise"
+      ],
+      "clinical_types": [
+        {"type": "Tinea corporis", "features": "Body (ringworm)"},
+        {"type": "Tinea cruris", "features": "Groin (jock itch)"},
+        {"type": "Tinea capitis", "features": "Scalp with hair loss"},
+        {"type": "Tinea pedis", "features": "Feet (athlete's foot)"},
+        {"type": "Tinea unguium", "features": "Nails (onychomycosis)"}
+      ],
+      "clinical_features": [
+        "Annular lesions with central clearing",
+        "Itchy, scaly borders",
+        "Hair loss in tinea capitis",
+        "Nail thickening/discoloration"
+      ],
+      "diagnosis": [
+        {"test": "KOH mount", "finding": "Hyaline hyphae"},
+        {"test": "Wood's lamp", "finding": "Green fluorescence (Microsporum)"},
+        {"test": "Fungal culture", "use": "Chronic/recurrent cases"}
+      ],
+      "treatment": {
+        "topical": [
+          "Clotrimazole/Miconazole",
+          "Apply 2x daily for 2-4 weeks"
+        ],
+        "systemic": [
+          {"drug": "Griseofulvin", "duration": "6-8 weeks (scalp)"},
+          {"drug": "Terbinafine", "duration": "2-6 weeks"},
+          {"note": "Liver monitoring for systemic therapy"}
+        ]
+      },
+      "complications": [
+        "Recurrence",
+        "Kerion (inflammatory tinea capitis)",
+        "Chronic onychomycosis"
+      ],
+      "prevention": [
+        "Keep skin dry",
+        "Avoid tight clothing",
+        "Don't share towels/combs",
+        "Treat family members"
+      ],
+      "mnemonic": {
+        "name": "TINEA",
+        "expansion": [
+          "T – Thick red border",
+          "I – Itchy lesion",
+          "N – Nails/hair involvement",
+          "E – Epidermophyton/Microsporum/Trichophyton",
+          "A – Antifungals (topical/systemic)"
+        ]
+      }
+    },
+    "SCABIES": {
+      "definition": "Contagious infestation by Sarcoptes scabiei mite.",
+      "clinical_features": [
+        "Intense nocturnal itching",
+        "Burrows in web spaces/wrists",
+        "Papules/vesicles in flexural areas",
+        "Infants: Face/palms/soles involvement"
+      ],
+      "variants": [
+        {"type": "Nodular", "features": "Persistent itchy nodules"},
+        {"type": "Crusted (Norwegian)", "features": "Immunocompromised, highly contagious"}
+      ],
+      "diagnosis": [
+        "Clinical history/exam",
+        "Ink test/dermoscopy for burrows",
+        "Skin scraping microscopy"
+      ],
+      "treatment": {
+        "topical": [
+          {"agent": "Permethrin 5%", "use": "Drug of choice"},
+          {"agent": "Sulfur 6-10%", "use": "Infants <2 months"}
+        ],
+        "systemic": [
+          {"agent": "Ivermectin", "dose": "200 mcg/kg single dose"}
+        ],
+        "additional_measures": [
+          "Treat all contacts",
+          "Hot water laundry",
+          "Manage post-scabetic itch"
+        ]
+      },
+      "complications": [
+        "Secondary bacterial infection",
+        "Post-streptococcal glomerulonephritis",
+        "Sleep disturbance"
+      ],
+      "mnemonic": {
+        "name": "SCABIES",
+        "expansion": [
+          "S – Spread via contact",
+          "C – Crusted form in immunocompromised",
+          "A – At night itching worse",
+          "B – Burrows diagnostic",
+          "I – Infants: palms/soles involved",
+          "E – Entire family treatment",
+          "S – Scabicidal creams (permethrin)"
+        ]
+      }
+    },
+    "PEDICULOSIS": {
+      "types": [
+        {"type": "Capitis", "site": "Scalp", "organism": "Pediculus humanus capitis"},
+        {"type": "Corporis", "site": "Body", "organism": "Pediculus humanus corporis"},
+        {"type": "Pubis", "site": "Pubic", "organism": "Pthirus pubis"}
+      ],
+      "transmission": [
+        "Head-to-head contact",
+        "Sharing combs/hats/bedding",
+        "Clothing (body lice)"
+      ],
+      "clinical_features": [
+        "Scalp itching (occipital/retroauricular)",
+        "Visible nits/lice",
+        "Excoriations",
+        "Maculae ceruleae (pubic lice)"
+      ],
+      "diagnosis": [
+        "Visual inspection",
+        "Fine-toothed comb",
+        "Dermoscopy"
+      ],
+      "treatment": {
+        "topical": [
+          {"agent": "Permethrin 1%", "application": "Apply to scalp, rinse after 10 min"},
+          {"agent": "Malathion 0.5%", "use": "Resistant cases"},
+          {"agent": "Wet combing", "frequency": "Every 3-4 days × 2 weeks"}
+        ],
+        "oral": [
+          {"agent": "Ivermectin", "dose": "200 mcg/kg"}
+        ],
+        "supportive": [
+          "Hot water laundry (>60°C)",
+          "Disinfect combs",
+          "No school exclusion post-treatment"
+        ]
+      },
+      "complications": [
+        "Impetigo",
+        "Lymphadenitis",
+        "Anemia (chronic heavy infestation)"
+      ],
+      "mnemonic": {
+        "name": "LICE",
+        "expansion": [
+          "L – Look for nits/lice",
+          "I – Itchy scalp (occipital)",
+          "C – Comb + Cream (permethrin)",
+          "E – Educate on hygiene"
+        ]
+      }
+    },
+    "URTICARIA": {
+      "classification": [
+        {"type": "Acute", "duration": "<6 weeks"},
+        {"type": "Chronic", "duration": ">6 weeks"},
+        {"type": "Physical", "triggers": "Heat/cold/pressure"},
+        {"type": "Angioedema", "features": "Deeper tissue swelling"}
+      ],
+      "pathophysiology": "Mast cell degranulation → histamine release",
+      "triggers": [
+        "Foods (nuts, seafood)",
+        "Infections (viral, parasitic)",
+        "Drugs (NSAIDs, antibiotics)",
+        "Insect bites"
+      ],
+      "clinical_features": [
+        "Transient wheals (<24 hrs)",
+        "Central pallor with erythema",
+        "Angioedema (lip/eye swelling)",
+        "No residual marks"
+      ],
+      "diagnosis": [
+        "Clinical evaluation",
+        "Food/drug diary",
+        "CBC/stool for parasites",
+        "ANA/thyroid tests (chronic)"
+      ],
+      "management": {
+        "general": [
+          "Trigger avoidance",
+          "Cool compresses"
+        ],
+        "pharmacologic": [
+          {"step": "1st line", "agents": "Non-sedating antihistamines (Cetirizine, Loratadine)"},
+          {"step": "2nd line", "agents": "Sedating antihistamines at night"},
+          {"step": "Refractory", "agents": "Steroids, Omalizumab"}
+        ]
+      },
+      "complications": [
+        "Anaphylaxis",
+        "Sleep disturbance",
+        "Chronic urticaria (1-3%)"
+      ],
+      "mnemonic": {
+        "name": "WHEALS",
+        "expansion": [
+          "W – Wheals (pale centers)",
+          "H – Histamine-mediated",
+          "E – Episodes <24 hours",
+          "A – Angioedema may coexist",
+          "L – Look for trigger",
+          "S – Sedating/non-sedating antihistamines"
+        ]
+      }
+    },
+    "ACNE_VULGARIS": {
+      "pathogenesis": {
+        "four_ps": [
+          "Plugging of follicles",
+          "↑ Sebum production",
+          "Propionibacterium acnes",
+          "Perifollicular inflammation"
+        ]
+      },
+      "clinical_types": [
+        {"type": "Comedonal", "features": "Blackheads/whiteheads"},
+        {"type": "Inflammatory", "features": "Papules/pustules"},
+        {"type": "Nodulocystic", "features": "Deep nodules/cysts"}
+      ],
+      "grading": [
+        {"grade": "I", "features": "Comedones only"},
+        {"grade": "II", "features": "Comedones + papules"},
+        {"grade": "III", "features": "Comedones + papules + pustules"},
+        {"grade": "IV", "features": "Nodules/cysts/scars"}
+      ],
+      "management": {
+        "mild": [
+          "Topical retinoids (Adapalene)",
+          "Benzoyl peroxide",
+          "Topical antibiotics"
+        ],
+        "moderate_severe": [
+          "Oral antibiotics (Doxycycline)",
+          "Oral Isotretinoin",
+          "Hormonal therapy (females)"
+        ],
+        "general": [
+          "Gentle cleansing",
+          "Avoid picking",
+          "Diet modification"
+        ]
+      },
+      "complications": [
+        "Post-inflammatory hyperpigmentation",
+        "Scarring (ice pick, boxcar)",
+        "Psychological impact"
+      ],
+      "mnemonic": {
+        "name": "ACNE",
+        "expansion": [
+          "A – Androgens ↑ sebum",
+          "C – Comedones (black/whiteheads)",
+          "N – Normal flora → inflammation",
+          "E – Effective with Retinoids/BPO"
+        ]
+      }
+    },
+    "HEMANGIOMAS": {
+      "classification": [
+        {"type": "Infantile", "features": "Postnatal growth, involution"},
+        {"type": "Congenital", "subtypes": ["RICH (involuting)", "NICH (non-involuting)"]},
+        {"type": "Segmental", "features": "Dermatomal distribution"}
+      ],
+      "natural_history": [
+        {"phase": "Proliferative", "duration": "1-6 months"},
+        {"phase": "Plateau", "duration": "6-12 months"},
+        {"phase": "Involution", "duration": "5-7 years"}
+      ],
+      "complications": [
+        "Ulceration",
+        "Visual/airway obstruction",
+        "PHACES syndrome",
+        "Cosmetic disfigurement"
+      ],
+      "management": [
+        {"scenario": "Uncomplicated", "approach": "Observation"},
+        {"scenario": "Ulcerated/disfiguring", "approach": "Timolol gel"},
+        {"scenario": "Function-threatening", "approach": "Oral Propranolol"},
+        {"scenario": "Refractory", "approach": "Surgery/laser"}
+      ],
+      "investigations": [
+        "Ultrasound with Doppler",
+        "MRI for deep lesions",
+        "Echo for PHACES"
+      ],
+      "mnemonic": {
+        "name": "HEMANGIOMA",
+        "expansion": [
+          "H – Head & neck common",
+          "E – Endothelial proliferation",
+          "M – Most resolve by 5-7 years",
+          "A – Attention if ulcerated",
+          "N – NICH/RICH types",
+          "G – Growth phases",
+          "I – Indications for propranolol",
+          "O – Observation first-line",
+          "M – MRI for deep lesions",
+          "A – Avoid unnecessary intervention"
+        ]
+      }
+    },
+    "PSORIASIS": {
+      "pathogenesis": [
+        "Genetic susceptibility (HLA-Cw6)",
+        "T-cell mediated inflammation",
+        "↑ Keratinocyte turnover",
+        "Triggered by trauma/infection/stress"
+      ],
+      "clinical_types": [
+        {"type": "Plaque", "features": "Scaly plaques on extensors"},
+        {"type": "Guttate", "features": "Drop-like lesions post-streptococcal"},
+        {"type": "Inverse", "features": "Flexural involvement"},
+        {"type": "Pustular", "features": "Sterile pustules"},
+        {"type": "Nail", "features": "Pitting, onycholysis"}
+      ],
+      "diagnostic_signs": [
+        "Koebner phenomenon",
+        "Auspitz sign"
+      ],
+      "management": {
+        "mild": [
+          "Topical corticosteroids",
+          "Calcipotriol",
+          "Coal tar"
+        ],
+        "moderate_severe": [
+          "Phototherapy (NB-UVB)",
+          "Methotrexate",
+          "Biologics (Etanercept, Adalimumab)"
+        ],
+        "avoid": [
+          "Systemic steroids (rebound risk)",
+          "Triggering drugs (Lithium, beta-blockers)"
+        ]
+      },
+      "mnemonic": {
+        "name": "PLAQUES",
+        "expansion": [
+          "P – Plaques with silvery scales",
+          "L – Lesions on extensor surfaces",
+          "A – Auspitz sign + Arthritis",
+          "Q – Quality of life impact",
+          "U – UV light therapy",
+          "E – Erythema + scaling",
+          "S – Steroids, salicylic acid"
+        ]
+      }
+    },
+    "SEBORRHEIC_DERMATITIS": {
+      "epidemiology": [
+        "Bimodal: Infancy (cradle cap) and adolescence",
+        "Male predominance",
+        "Worsens with stress/winter"
+      ],
+      "clinical_features": {
+        "infants": [
+          "Scalp (cradle cap)",
+          "Forehead/eyebrows",
+          "Diaper area"
+        ],
+        "adolescents": [
+          "Scalp (dandruff)",
+          "Nasolabial folds",
+          "Chest/upper back"
+        ],
+        "characteristics": [
+          "Greasy yellowish scales",
+          "Mild erythema",
+          "Non-pruritic"
+        ]
+      },
+      "differential": [
+        {"condition": "Atopic dermatitis", "differences": "Itchy, flexural involvement"},
+        {"condition": "Psoriasis", "differences": "Thick silvery scales"},
+        {"condition": "Tinea capitis", "differences": "Broken hairs, KOH+"}
+      ],
+      "management": [
+        {"agent": "Ketoconazole shampoo", "use": "First-line"},
+        {"agent": "Hydrocortisone 1%", "use": "Short-term for inflammation"},
+        {"agent": "Zinc pyrithione", "use": "Scalp maintenance"},
+        {"agent": "Salicylic acid", "use": "Crust removal"},
+        {"note": "Avoid potent steroids on face"}
+      ],
+      "prognosis": [
+        "Infantile form resolves by 6-12 months",
+        "Adolescent form recurrent"
+      ],
+      "mnemonic": {
+        "name": "SEBO",
+        "expansion": [
+          "S – Scales (greasy, yellowish)",
+          "E – Erythema in sebaceous areas",
+          "B – Benign & self-limiting",
+          "O – Overgrowth of Malassezia"
+        ]
+      }
+    },
+    "RASH_ILLNESSES": {
+      "approach": [
+        "Assess rash type/distribution",
+        "Note associated symptoms",
+        "Check vaccination status",
+        "Consider infectious contacts"
+      ],
+      "viral_exanthems": [
+        {"disease": "Measles", "rash": "Maculopapular, cephalocaudal spread", "clues": "Koplik spots, 3C's (cough, coryza, conjunctivitis)"},
+        {"disease": "Rubella", "rash": "Pink macules, quick spread", "clues": "Postauricular lymphadenopathy"},
+        {"disease": "Erythema infectiosum", "rash": "Slapped cheek + lacy rash", "clues": "Parvovirus B19"},
+        {"disease": "Roseola", "rash": "Maculopapular post-fever", "clues": "HHV-6, high fever 3-4 days"},
+        {"disease": "Chickenpox", "rash": "Vesicular in crops", "clues": "Various stages, intense itching"}
+      ],
+      "red_flags": [
+        "Petechiae/purpura (meningococcemia)",
+        "Mucosal involvement (SJS/TEN)",
+        "Toxic appearance (TSS)"
+      ],
+      "management": [
+        "Symptomatic care",
+        "Avoid aspirin",
+        "Isolation if contagious",
+        "Complication monitoring"
+      ],
+      "mnemonic": {
+        "name": "MEASLES R CHIEF",
+        "expansion": "Viral exanthems: Measles, Erythema infectiosum, Adenovirus, Scarlet fever, Roseola, Enteroviruses, Rubella, Chickenpox, HFMD, Influenza, EBV/CMV"
+      }
+    },
+    "TINEA_VERSICOLOR": {
+      "etiology": "Malassezia furfur overgrowth",
+      "predisposing_factors": [
+        "Hot humid climate",
+        "Oily skin",
+        "Immunosuppression",
+        "Excessive sweating"
+      ],
+      "clinical_features": [
+        "Hypo/hyperpigmented macules",
+        "Fine scaling (scratch sign +)",
+        "Trunk/chest distribution",
+        "Asymptomatic"
+      ],
+      "diagnosis": [
+        "KOH mount: Spaghetti & meatballs",
+        "Wood's lamp: Yellow-green fluorescence"
+      ],
+      "treatment": {
+        "topical": [
+          "Ketoconazole shampoo",
+          "Selenium sulfide lotion",
+          "Apply 2-4 weeks"
+        ],
+        "systemic": [
+          {"agent": "Fluconazole", "dose": "150-300mg weekly × 2-4 weeks"},
+          {"agent": "Itraconazole", "dose": "100-200mg daily × 5-7 days"}
+        ],
+        "prevention": "Weekly antifungal shampoo in summer"
+      },
+      "mnemonic": {
+        "name": "VERSICOLOR",
+        "expansion": [
+          "V – Variable pigmentation",
+          "E – Evoked scale sign +",
+          "R – Recurs often",
+          "S – Spaghetti & meatballs on KOH",
+          "I – Itraconazole for extensive",
+          "C – Cosmetic concern",
+          "O – Oily skin risk",
+          "L – Lesions on trunk",
+          "O – Observe Wood's lamp",
+          "R – Regular topicals effective"
+        ]
+      }
+    },
+    "VITILIGO": {
+      "pathogenesis": "Autoimmune melanocyte destruction",
+      "clinical_types": [
+        {"type": "Segmental", "features": "Unilateral, stable"},
+        {"type": "Non-segmental", "features": "Bilateral, symmetric"},
+        {"type": "Universal", "features": ">80% depigmentation"}
+      ],
+      "poor_prognostic_factors": [
+        "Leukotrichia",
+        "Mucosal involvement",
+        "Long duration"
+      ],
+      "management": {
+        "topical": [
+          "Corticosteroids",
+          "Tacrolimus"
+        ],
+        "phototherapy": [
+          "NB-UVB",
+          "PUVA"
+        ],
+        "systemic": [
+          "Short-course steroids for rapid spread"
+        ]
+      },
+      "mnemonic": {
+        "name": "VITILIGO",
+        "expansion": [
+          "V – Variable onset",
+          "I – Immune-mediated",
+          "T – Thyroid link",
+          "I – Ill-defined early → sharp later",
+          "L – Leukotrichia = poor prognosis",
+          "I – Important psychological impact",
+          "G – Generalized/segmental",
+          "O – Options: Topicals, NB-UVB"
+        ]
+      }
+    },
+    "LEPROSY": {
+      "cardinal_signs": [
+        "Hypopigmented anesthetic patch",
+        "Thickened nerves",
+        "AFB in slit skin smear"
+      ],
+      "classification": [
+        {"type": "TT (Tuberculoid)", "features": "1-2 lesions, nerve involvement"},
+        {"type": "LL (Lepromatous)", "features": "Numerous lesions, minimal sensation loss"}
+      ],
+      "treatment": {
+        "paucibacillary": "Rifampicin + Dapsone × 6 months",
+        "multibacillary": "Rifampicin + Dapsone + Clofazimine × 12 months"
+      },
+      "lepra_reactions": [
+        {"type": "Type I (Reversal)", "management": "Prednisolone"},
+        {"type": "Type II (ENL)", "management": "Thalidomide/Steroids"}
+      ],
+      "public_health": [
+        "BCG partial protection",
+        "Contact screening",
+        "Notifiable disease"
+      ],
+      "mnemonic": {
+        "name": "LEPROSY",
+        "expansion": [
+          "L – Loss of sensation",
+          "E – Erythematous/hypopigmented patches",
+          "P – Peripheral nerve thickening",
+          "R – Ridley-Jopling types",
+          "O – Organism: M. leprae",
+          "S – Slit skin smear",
+          "Y – Year-long MDT"
+        ]
+      }
+    },
+    "XEROSIS": {
+      "causes": {
+        "intrinsic": [
+          "Atopic dermatitis",
+          "Hypothyroidism",
+          "Ichthyosis"
+        ],
+        "extrinsic": [
+          "Cold weather",
+          "Frequent bathing",
+          "Harsh soaps"
+        ]
+      },
+      "clinical_features": [
+        "Dry rough skin",
+        "Fine scaling",
+        "Itching",
+        "Fissures in severe cases"
+      ],
+      "management": [
+        "Short lukewarm baths",
+        "Fragrance-free moisturizers",
+        "Petroleum jelly",
+        "Urea creams (older children)",
+        "Hydrocortisone if eczematized"
+      ],
+      "mnemonic": {
+        "name": "DRY SKIN",
+        "expansion": [
+          "D – Dry scaly patches",
+          "R – Rough feel",
+          "Y – Yes to emollients post-bath",
+          "S – Soap-free cleansers",
+          "K – Keep covered in cold",
+          "I – Itching common",
+          "N – Need barrier protection"
+        ]
+      }
+    },
+    "MOLLUSCUM_CONTAGIOSUM": {
+      "transmission": [
+        "Skin-to-skin contact",
+        "Autoinoculation",
+        "Fomites (towels, toys)"
+      ],
+      "clinical_features": [
+        "Skin-colored dome papules",
+        "Central umbilication",
+        "Face/trunk/extremities",
+        "Grouped lesions"
+      ],
+      "management": [
+        {"approach": "Observation", "note": "Self-resolves in 6-18 months"},
+        {"approach": "Topical", "agents": ["KOH 5-10%", "Cantharidin"]},
+        {"approach": "Procedural", "options": ["Cryotherapy", "Curettage"]}
+      ],
+      "prevention": [
+        "Avoid scratching",
+        "Don't share towels",
+        "Cover lesions"
+      ],
+      "mnemonic": {
+        "name": "MC VIRUS",
+        "expansion": [
+          "M – Multiple pearly papules",
+          "C – Central umbilication",
+          "V – Virus (Poxvirus)",
+          "I – Immunocompromised at risk",
+          "R – Resolves spontaneously",
+          "U – Umbilication diagnostic",
+          "S – Spread by touch"
+        ]
+      }
+    }
+  }
+}

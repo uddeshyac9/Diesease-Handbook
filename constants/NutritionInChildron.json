@@ -1,0 +1,170 @@
+{
+  "NUTRITION_IN_CHILDREN": {
+    "importance": {
+      "key_points": [
+        "Supports physical growth, cognitive development, and immunity",
+        "Prevents malnutrition and micronutrient deficiencies",
+        "Influences adult health outcomes (DOHaD concept)",
+        "Inadequate nutrition leads to stunting, wasting, and NCD risk"
+      ]
+    },
+    "age_wise_requirements": [
+      {"age_group": "0-6 months", "focus": "Exclusive breastfeeding"},
+      {"age_group": "6-12 months", "focus": "Complementary feeding + breastfeeding"},
+      {"age_group": "1-3 years", "focus": "Transition to family diet, high energy density"},
+      {"age_group": "4-6 years", "focus": "Balanced diet, food diversity"},
+      {"age_group": "7-12 years", "focus": "Iron, calcium, fiber-rich diet"},
+      {"age_group": "Adolescents", "focus": "Protein, iron, calcium, zinc; avoid junk food"}
+    ],
+    "macronutrients": {
+      "carbohydrates": {
+        "energy_contribution": "60-65%",
+        "recommended_types": "Complex carbs: cereals, millets, vegetables",
+        "avoid": "Excess refined sugars"
+      },
+      "proteins": {
+        "functions": ["Growth", "Enzyme production", "Immune function"],
+        "requirements": [
+          {"age": "Infants", "dose": "1.5-2 g/kg/day"},
+          {"age": "Older children", "dose": "~1 g/kg/day"}
+        ],
+        "sources": {
+          "high_biological_value": ["Egg", "Milk", "Meat"],
+          "plant_based": "Cereals + pulses combination"
+        }
+      },
+      "fats": {
+        "energy_contribution": "30-40% (infants)",
+        "essential_fatty_acids": ["Omega-3", "Omega-6"],
+        "sources": ["Ghee", "Oils", "Nuts", "Breast milk"],
+        "critical_nutrient": "DHA for brain development"
+      }
+    },
+    "micronutrients": [
+      {"nutrient": "Iron", "function": "Hemoglobin, brain development", "deficiency": "Anemia, cognitive delay"},
+      {"nutrient": "Zinc", "function": "Immunity, wound healing", "deficiency": "Diarrhea, growth failure"},
+      {"nutrient": "Vitamin A", "function": "Vision, epithelium", "deficiency": "Night blindness"},
+      {"nutrient": "Vitamin D", "function": "Calcium metabolism", "deficiency": "Rickets"},
+      {"nutrient": "Calcium", "function": "Bone/teeth formation", "deficiency": "Poor mineralization"},
+      {"nutrient": "Iodine", "function": "Thyroid hormone", "deficiency": "Cretinism, goiter"},
+      {"nutrient": "Folate/B12", "function": "DNA synthesis", "deficiency": "Megaloblastic anemia"}
+    ],
+    "breastfeeding": {
+      "duration": "Exclusive for 0-6 months",
+      "composition": [
+        "Colostrum: rich in IgA, lactoferrin",
+        "70% water, 7% protein, 25% fats",
+        "Lactose ~7 g/dl"
+      ],
+      "types": [
+        {"type": "Foremilk", "characteristics": "Watery, thirst-quenching"},
+        {"type": "Hindmilk", "characteristics": "Fat-rich, provides satiety"}
+      ],
+      "benefits": [
+        "↓ risk of infections, NEC, allergies",
+        "Promotes maternal bonding",
+        "Aids uterine involution"
+      ]
+    },
+    "complementary_feeding": {
+      "start_age": "6 months",
+      "principles": [
+        "Timely (6-8 months)",
+        "Adequate (energy + micronutrients)",
+        "Safe (clean preparation)",
+        "Responsive (interactive feeding)"
+      ],
+      "progression": [
+        {"age": "6-8 months", "texture": "Purees, mashed foods", "frequency": "2-3 meals + 1 snack"},
+        {"age": "9-11 months", "texture": "Finger foods, chopped", "frequency": "3-4 meals + 1-2 snacks"},
+        {"age": "12-24 months", "texture": "Family diet", "frequency": "3-4 meals + 2 snacks"}
+      ],
+      "key_foods": [
+        "Iron-rich: egg yolk, meat, green leafy vegetables"
+      ],
+      "avoid": [
+        "Sugar",
+        "Salt",
+        "Honey (botulism risk)",
+        "Cow's milk before 1 year"
+      ]
+    },
+    "preschool_school_age": {
+      "diet": "Balanced: cereals, legumes, vegetables, fruits, dairy",
+      "encourage": [
+        "Family meals",
+        "Hand hygiene",
+        "≥60 min physical activity/day"
+      ],
+      "monitor": [
+        "Weight",
+        "Height",
+        "BMI percentile"
+      ],
+      "limit": [
+        "Screen time <2 hours",
+        "Sugary drinks",
+        "Processed snacks"
+      ]
+    },
+    "adolescents": {
+      "requirements": [
+        {"nutrient": "Protein", "dose": "~1.2 g/kg"},
+        {"nutrient": "Iron", "dose": "Girls: 28mg/day, Boys: 12mg/day"},
+        {"nutrient": "Calcium", "dose": "1000-1300 mg/day"}
+      ],
+      "risks": [
+        "Anemia (especially girls)",
+        "Vitamin D deficiency",
+        "Obesity"
+      ],
+      "prevention": [
+        "Avoid fad dieting",
+        "Address undernutrition in athletes"
+      ]
+    },
+    "special_conditions": [
+      {"condition": "Prematurity", "nutrition": "High-calorie formula, calcium, vitamin D"},
+      {"condition": "LBW infants", "nutrition": "Frequent feeding, iron supplements from 2mo"},
+      {"condition": "Celiac disease", "nutrition": "Gluten-free diet"},
+      {"condition": "Lactose intolerance", "nutrition": "Lactose-free formulas"},
+      {"condition": "Vegetarians", "nutrition": "Ensure iron, B12, protein-rich sources"},
+      {"condition": "Obese child", "nutrition": "Calorie regulation, activity promotion"}
+    ],
+    "deficiencies": {
+      "macronutrient": [
+        "Marasmus: severe calorie deficit → wasting",
+        "Kwashiorkor: protein deficiency → edema"
+      ],
+      "micronutrient": [
+        "Vitamin A → Night blindness",
+        "Iron → Anemia",
+        "Zinc → Diarrhea, dermatitis",
+        "B1 → Beriberi",
+        "B3 → Pellagra",
+        "C → Scurvy",
+        "D → Rickets"
+      ]
+    },
+    "national_programs": [
+      "POSHAN Abhiyaan",
+      "ICDS (Anganwadi-based)",
+      "Mid-Day Meal Scheme",
+      "Vitamin A Prophylaxis (9 doses till 5yrs)",
+      "WIFS (Weekly Iron Supplementation)",
+      "National Deworming Day (Albendazole biannually)"
+    ],
+    "assessment": {
+      "methods": [
+        {"method": "Anthropometry", "examples": "Weight-for-age, height-for-age, BMI-for-age"},
+        {"method": "Clinical Signs", "examples": "Skin, hair, nails, eyes"},
+        {"method": "Dietary Recall", "examples": "24-hour recall, food frequency"},
+        {"method": "Biochemical Tests", "examples": "Hb, serum iron, vitamin levels"}
+      ],
+      "growth_charts": [
+        "WHO charts for <5yrs",
+        "IAP charts for Indian school children"
+      ]
+    }
+  }
+}

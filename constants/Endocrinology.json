@@ -1,0 +1,540 @@
+{
+  "endocrinologyTopics": [
+    {
+      "topic": "HYPOTHYROIDISM",
+      "definition": "A condition where the thyroid gland fails to produce sufficient thyroid hormones, affecting growth, metabolism, and neurodevelopment.",
+      "types": [
+        {
+          "type": "Congenital (CH)",
+          "description": "Present at birth – most common preventable cause of mental retardation"
+        },
+        {
+          "type": "Acquired",
+          "description": "Occurs later – often due to autoimmune thyroiditis (Hashimoto's)"
+        }
+      ],
+      "causes": {
+        "Congenital": [
+          "Thyroid dysgenesis (agenesis, ectopia)",
+          "Dyshormonogenesis (enzyme defects)",
+          "TSH receptor mutations",
+          "Maternal iodine deficiency",
+          "Maternal antithyroid drugs"
+        ],
+        "Acquired": [
+          "Autoimmune thyroiditis (most common)",
+          "Iodine deficiency or excess",
+          "Radiation, thyroid surgery",
+          "Drugs (lithium, amiodarone)"
+        ]
+      },
+      "clinical_features": {
+        "Congenital": {
+          "Early Signs": [
+            "Prolonged jaundice",
+            "Large posterior fontanelle",
+            "Constipation",
+            "Hypotonia",
+            "Umbilical hernia"
+          ],
+          "Late Signs": [
+            "Coarse facies",
+            "Developmental delay",
+            "Macroglossia",
+            "Delayed milestones, stunted growth",
+            "Puffy face, dry skin"
+          ]
+        },
+        "Acquired": [
+          "Fatigue, constipation",
+          "Poor height gain but normal weight (short & chubby)",
+          "Dry skin, cold intolerance",
+          "Delayed puberty",
+          "Bradycardia",
+          "Goiter"
+        ]
+      },
+      "investigations": [
+        {"test": "Serum TSH, Free T4", "use": "Primary screening"},
+        {"test": "T3", "use": "Less reliable in children"},
+        {"test": "Anti-TPO antibodies", "use": "If autoimmune thyroiditis suspected"},
+        {"test": "Thyroid scan (Tc-99)", "use": "In congenital: detect agenesis/ectopy"},
+        {"test": "Ultrasound thyroid", "use": "Assess gland presence/size"},
+        {"test": "Bone age X-ray", "use": "Delayed in hypothyroid children"},
+        {"test": "Newborn screening", "use": "Done within 48–72 hrs of life"}
+      ],
+      "treatment": [
+        {"condition": "Congenital", "treatment": "Levothyroxine 10–15 mcg/kg/day – start early!"},
+        {"condition": "Acquired", "treatment": "Levothyroxine adjusted per TSH & T4"},
+        {"condition": "Monitoring", "treatment": "TSH/T4 every 6–8 weeks initially, then every 3–6 months"}
+      ],
+      "prognosis": [
+        {"type": "Congenital", "outcome": "Excellent if treated before 2–3 weeks"},
+        {"type": "Acquired", "outcome": "Good with lifelong compliance"}
+      ],
+      "mnemonic": {
+        "name": "THYROID KIDS",
+        "points": [
+          "T – TSH ↑, T4 ↓ (primary)",
+          "H – Hypotonia, hoarse cry (infants)",
+          "Y – Yellow baby (prolonged jaundice)",
+          "R – Retardation if untreated",
+          "O – Oral thyroxine daily",
+          "I – Iodine disorders (cause)",
+          "D – Delayed milestones, delayed puberty",
+          "K – Keep monitoring TSH every few months",
+          "I – Infant screen crucial (CH)",
+          "D – Dysgenesis most common",
+          "S – Short stature in acquired cases"
+        ]
+      }
+    },
+    {
+      "topic": "HYPERTHYROIDISM",
+      "definition": "A condition where the thyroid gland produces excess thyroid hormones, leading to increased metabolism and sympathetic overactivity.",
+      "etiology": [
+        {"cause": "Graves’ disease", "notes": "Most common cause in children (autoimmune)"},
+        {"cause": "Toxic adenoma / multinodular goiter", "notes": "Rare in children"},
+        {"cause": "Subacute (viral) thyroiditis", "notes": "Transient, painful"},
+        {"cause": "Hashitoxicosis", "notes": "Hyperthyroid phase of Hashimoto’s"},
+        {"cause": "Exogenous thyroxine", "notes": "Factitious (overdose or accidental)"},
+        {"cause": "TSH-secreting pituitary adenoma", "notes": "Rare"}
+      ],
+      "clinical_features": {
+        "General": ["Weight loss", "Increased appetite", "Fatigue"],
+        "CVS": ["Tachycardia", "Palpitations", "Wide pulse pressure"],
+        "GIT": ["Increased stool frequency", "Diarrhea"],
+        "Skin/Hair": ["Warm, moist skin", "Fine hair"],
+        "CNS": ["Tremors", "Emotional lability", "Hyperactivity"],
+        "Eyes": ["Exophthalmos (Graves)", "Lid lag", "Stare"],
+        "Growth": ["Tall stature", "Advanced bone age"],
+        "Menstrual": ["Oligomenorrhea or amenorrhea"],
+        "Infants": ["Irritability", "Poor weight gain", "Vomiting", "Goiter"]
+      },
+      "investigations": [
+        {"test": "TSH", "interpretation": "Suppressed (↓↓↓)"},
+        {"test": "Free T4 & T3", "interpretation": "Elevated"},
+        {"test": "Anti-TSH receptor Ab (TRAb/TSI)", "interpretation": "Positive in Graves’ disease"},
+        {"test": "Radioiodine uptake scan", "interpretation": "High uptake in Graves’, low in thyroiditis"},
+        {"test": "ECG", "interpretation": "Sinus tachycardia or arrhythmia"},
+        {"test": "Bone age X-ray", "interpretation": "Advanced for age"}
+      ],
+      "treatment": {
+        "medical": [
+          {"drug": "Carbimazole", "action": "Inhibits thyroid hormone synthesis", "note": "Preferred in children"},
+          {"drug": "Methimazole", "action": "Alternative to carbimazole", "note": "Teratogenic"},
+          {"drug": "Propranolol", "action": "Symptomatic relief", "note": "Blocks T4→T3 conversion"}
+        ],
+        "definitive": [
+          {"option": "Radioactive Iodine (RAI)", "indication": "Not first choice in young children"},
+          {"option": "Surgery (thyroidectomy)", "indication": "Large goiter, severe exophthalmos"}
+        ]
+      },
+      "complications": [
+        "Thyroid storm",
+        "Premature epiphyseal fusion",
+        "Cardiac arrhythmias",
+        "Osteopenia",
+        "Graves’ ophthalmopathy",
+        "ATD side effects (agranulocytosis)"
+      ],
+      "mnemonic": {
+        "name": "HYPER ACTIVE",
+        "points": [
+          "H – Hyperactivity, Heat intolerance",
+          "Y – You lose weight, Yet eating well",
+          "P – Palpitations, Pulse ↑",
+          "E – Exophthalmos, Emotional changes",
+          "R – Restlessness, Reflexes brisk",
+          "A – Anti-TSH receptor Ab (+)",
+          "C – Carbimazole = treatment of choice",
+          "T – Tremors",
+          "I – Iodine scan: high uptake",
+          "V – Very rare in infants",
+          "E – Eye signs → specific to Graves'"
+        ]
+      }
+    },
+    {
+      "topic": "TALL STATURE IN CHILDREN",
+      "definition": "Height >97th percentile or >+2 SD for age/sex",
+      "classification": {
+        "normal_variants": [
+          {"type": "Familial tall stature", "features": "Normal bone age, tall parents"},
+          {"type": "Constitutional advancement", "features": "Advanced bone age, early puberty"}
+        ],
+        "pathological": [
+          {"cause": "Precocious puberty", "features": "Early growth spurt, advanced bone age"},
+          {"cause": "Hyperthyroidism", "features": "Tall, goiter, increased bone age"},
+          {"cause": "GH excess (Gigantism)", "features": "Rapid growth, coarse facies"},
+          {"cause": "Marfan syndrome", "features": "Arm span > height, lens dislocation"},
+          {"cause": "Klinefelter syndrome", "features": "Tall boy, small testes, gynecomastia"},
+          {"cause": "Homocystinuria", "features": "Marfanoid, mental retardation"},
+          {"cause": "Sotos syndrome", "features": "Large head, delayed development"}
+        ]
+      },
+      "investigations": [
+        {"test": "Growth chart", "utility": "Confirm tall stature"},
+        {"test": "Bone age X-ray", "utility": "Advanced in endocrine causes"},
+        {"test": "Thyroid function tests", "utility": "Rule out hyperthyroidism"},
+        {"test": "IGF-1, GH levels", "utility": "Suspected gigantism"},
+        {"test": "Karyotype", "utility": "Suspected Klinefelter"},
+        {"test": "Serum homocysteine", "utility": "Homocystinuria"},
+        {"test": "Echocardiography", "utility": "Marfan/homocystinuria"}
+      ],
+      "management": [
+        {"condition": "Normal variant", "treatment": "Reassurance"},
+        {"condition": "Precocious puberty", "treatment": "GnRH analogs"},
+        {"condition": "Hyperthyroidism", "treatment": "Antithyroid drugs"},
+        {"condition": "Gigantism", "treatment": "Surgery/radiotherapy"},
+        {"condition": "Psychosocial concern", "treatment": "High-dose sex steroids (controversial)"}
+      ],
+      "mnemonic": {
+        "name": "TALL FACTS",
+        "points": [
+          "T – Thyrotoxicosis",
+          "A – Advanced puberty",
+          "L – Long limbs (Marfan, Klinefelter)",
+          "L – Large head (Sotos)",
+          "F – Familial variant",
+          "A – Arm span > height (Marfan)",
+          "C – Constitutional (benign)",
+          "T – Tall boy + Testes small (Klinefelter)",
+          "S – Syndromes (homocystinuria, GH excess)"
+        ]
+      }
+    },
+    {
+      "topic": "SHORT STATURE IN CHILDREN",
+      "definition": "Height <3rd percentile or <-2 SD for age/gender",
+      "classification": {
+        "normal_variants": [
+          {"type": "Familial short stature", "features": "Short parents, normal bone age"},
+          {"type": "Constitutional growth delay", "features": "Delayed bone age, delayed puberty"}
+        ],
+        "pathological": [
+          {"category": "Nutritional", "causes": ["Malnutrition", "Celiac disease"]},
+          {"category": "Systemic diseases", "causes": ["CHD", "CKD", "IBD"]},
+          {"category": "Endocrine", "causes": ["GH deficiency", "Hypothyroidism"]},
+          {"category": "Genetic", "causes": ["Turner syndrome", "Down syndrome"]},
+          {"category": "Skeletal dysplasias", "causes": ["Achondroplasia", "Rickets"]}
+        ]
+      },
+      "investigations": [
+        {"test": "Growth chart", "purpose": "Confirm short stature"},
+        {"test": "Bone age X-ray", "purpose": "Assess growth potential"},
+        {"test": "CBC, ESR, CRP", "purpose": "Systemic illness"},
+        {"test": "Thyroid function tests", "purpose": "Hypothyroidism"},
+        {"test": "IGF-1, GH stimulation test", "purpose": "GH deficiency"},
+        {"test": "Karyotype", "purpose": "Turner syndrome"},
+        {"test": "Anti-TTG IgA", "purpose": "Celiac disease"}
+      ],
+      "management": [
+        {"cause": "Familial/Constitutional", "treatment": "Reassurance"},
+        {"cause": "GH deficiency", "treatment": "Recombinant GH"},
+        {"cause": "Hypothyroidism", "treatment": "Levothyroxine"},
+        {"cause": "Celiac disease", "treatment": "Gluten-free diet"},
+        {"cause": "Turner syndrome", "treatment": "GH + Estrogen"}
+      ],
+      "mnemonic": {
+        "name": "SHORT GROWTH",
+        "points": [
+          "S – Systemic illness",
+          "H – Hypothyroidism",
+          "O – Out of family pattern",
+          "R – Rickets or Renal disease",
+          "T – Turner syndrome",
+          "G – GH deficiency",
+          "R – Ruling out chronic diseases",
+          "O – Obesity with short stature",
+          "W – Weight loss (malabsorption)",
+          "T – TTG for celiac",
+          "H – Hormonal causes"
+        ]
+      }
+    },
+    {
+      "topic": "OBESITY IN CHILDREN",
+      "definition": "BMI >95th percentile for age/sex",
+      "etiology": {
+        "exogenous": [
+          "High-calorie diet",
+          "Lack of physical activity",
+          "Excessive screen time"
+        ],
+        "endogenous": [
+          {"type": "Endocrine", "clues": "Hypothyroidism, Cushing's"},
+          {"type": "Genetic Syndromes", "clues": "Prader-Willi, Bardet-Biedl"},
+          {"type": "Hypothalamic", "clues": "CNS insult history"}
+        ]
+      },
+      "clinical_features": {
+        "General": ["Excess fat", "Central adiposity"],
+        "Endocrine": ["Acanthosis nigricans", "Early puberty"],
+        "MSK": ["Flat feet", "Joint pain"],
+        "CVS": ["Hypertension"],
+        "Psychological": ["Low self-esteem", "Depression"]
+      },
+      "management": {
+        "lifestyle": [
+          "Dietary counseling",
+          "Physical activity ≥60 min/day",
+          "Limit screen time <2 hrs/day"
+        ],
+        "medical": [
+          {"drug": "Orlistat", "note": "≥12 years"},
+          {"drug": "Metformin", "note": "Insulin resistance"}
+        ],
+        "surgery": "Bariatric surgery (post-puberty)"
+      },
+      "mnemonic": {
+        "name": "BIG KID",
+        "points": [
+          "B – BMI >95th percentile",
+          "I – Insulin resistance signs",
+          "G – Growth chart & Genetic syndromes",
+          "K – Keep screen time low",
+          "I – Include family in plan",
+          "D – Diet & Daily exercise"
+        ]
+      }
+    },
+    {
+      "topic": "AMBIGUOUS GENITALIA",
+      "definition": "External genitalia not clearly male/female",
+      "causes_by_genetic_sex": [
+        {"sex": "46 XX DSD", "cause": "Congenital Adrenal Hyperplasia (CAH)"},
+        {"sex": "46 XY DSD", "cause": "Androgen Insensitivity Syndrome (AIS)"},
+        {"sex": "Ovotesticular DSD", "cause": "Both ovarian/testicular tissue"},
+        {"sex": "Chromosomal DSD", "cause": "Turner/Klinefelter syndromes"}
+      ],
+      "investigations": [
+        {"test": "Karyotype", "purpose": "Chromosomal sex"},
+        {"test": "Serum 17-OH progesterone", "purpose": "CAH diagnosis"},
+        {"test": "Electrolytes", "purpose": "Salt-wasting crisis"},
+        {"test": "Ultrasound pelvis", "purpose": "Uterus/ovary detection"},
+        {"test": "Testosterone/DHT", "purpose": "Androgen defects"}
+      ],
+      "management_principles": [
+        "Emergency stabilization for salt-wasting",
+        "Multidisciplinary team approach",
+        "Gender assignment based on multiple factors",
+        "Hormone replacement (e.g., glucocorticoids)",
+        "Parental counseling"
+      ],
+      "mnemonic": {
+        "name": "GENDER MAP",
+        "points": [
+          "G – Gonads assessment",
+          "E – External genitalia exam",
+          "N – Newborn screening for CAH",
+          "D – Do karyotype early",
+          "E – Electrolyte disturbances",
+          "R – Refer to multidisciplinary team",
+          "M – MRI/USG for internal organs",
+          "A – Androgen levels, 17-OHP",
+          "P – Parental counseling"
+        ]
+      }
+    },
+    {
+      "topic": "CONGENITAL ADRENAL HYPERPLASIA (CAH)",
+      "most_common_type": "21-Hydroxylase Deficiency",
+      "clinical_features": {
+        "Neonates": [
+          "46XX: Ambiguous genitalia",
+          "46XY: Normal genitalia (present later with crisis)",
+          "Vomiting, dehydration, shock"
+        ],
+        "Older_Children": [
+          "Precocious puberty",
+          "Tall childhood/short adult height",
+          "Hirsutism in females"
+        ]
+      },
+      "diagnosis": [
+        {"test": "Serum 17-OH progesterone", "result": "↑↑↑"},
+        {"test": "Electrolytes", "result": "↓Na⁺, ↑K⁺ in salt-wasting"},
+        {"test": "Cortisol", "result": "↓"},
+        {"test": "ACTH", "result": "↑"},
+        {"test": "Newborn screening", "result": "17-OHP measurement"}
+      ],
+      "treatment": {
+        "acute_crisis": ["IV fluids", "IV hydrocortisone"],
+        "long_term": [
+          "Hydrocortisone 10-15 mg/m²/day",
+          "Fludrocortisone (salt-wasting)",
+          "Salt supplementation (infants)"
+        ]
+      },
+      "mnemonic": {
+        "name": "CAH-VIRILIZE",
+        "points": [
+          "C – Cortisol ↓",
+          "A – ACTH ↑ → Adrenal hyperplasia",
+          "H – Hyponatremia + Hyperkalemia",
+          "V – Virilization in 46XX",
+          "I – Increased 17-OHP",
+          "R – Recessive inheritance",
+          "I – Internal female genitalia",
+          "L – Late onset = non-classic",
+          "I – IV hydrocortisone in crisis",
+          "Z – Zero aldosterone → salt loss",
+          "E – Early diagnosis critical"
+        ]
+      }
+    },
+    {
+      "topic": "DELAYED PUBERTY",
+      "definition": "No puberty by age 13 (girls) or 14 (boys)",
+      "classification": [
+        {"type": "Constitutional Delay (CDGP)", "features": "Most common, familial"},
+        {"type": "Hypogonadotropic Hypogonadism", "features": "Central cause (e.g., Kallmann)"},
+        {"type": "Hypergonadotropic Hypogonadism", "features": "Gonadal failure (e.g., Turner)"}
+      ],
+      "investigations": [
+        {"test": "Bone age X-ray", "purpose": "Delayed in CDGP"},
+        {"test": "FSH, LH, Estradiol/Testosterone", "purpose": "Differentiate types"},
+        {"test": "Karyotype", "purpose": "Turner/Klinefelter"},
+        {"test": "MRI brain", "purpose": "CNS lesions"}
+      ],
+      "management": [
+        {"type": "CDGP", "treatment": "Reassurance or short-term sex steroids"},
+        {"type": "Hypogonadotropic", "treatment": "Pulsatile GnRH or sex steroids"},
+        {"type": "Hypergonadotropic", "treatment": "Hormone replacement therapy"}
+      ],
+      "mnemonic": {
+        "name": "LATE BLOOM",
+        "points": [
+          "L – Lack of secondary sex characteristics",
+          "A – Age >13/14 criteria",
+          "T – Test: FSH/LH classification",
+          "E – Evaluate bone age",
+          "B – Brain MRI for lesions",
+          "L – Look for Turner/Klinefelter",
+          "O – Onset delayed in CDGP",
+          "O – Often familial",
+          "M – Manage with reassurance/steroids"
+        ]
+      }
+    },
+    {
+      "topic": "DIABETES MELLITUS (T1DM)",
+      "definition": "Autoimmune destruction of β-cells causing absolute insulin deficiency",
+      "clinical_features": [
+        "Polyuria, Polydipsia, Polyphagia",
+        "Weight loss",
+        "Fatigue",
+        "Enuresis",
+        "DKA (vomiting, dehydration)"
+      ],
+      "diagnosis": [
+        {"test": "Fasting Plasma Glucose", "cutoff": "≥126 mg/dL"},
+        {"test": "Random Plasma Glucose", "cutoff": "≥200 mg/dL with symptoms"},
+        {"test": "HbA1c", "cutoff": "≥6.5%"}
+      ],
+      "management": {
+        "insulin_therapy": [
+          {"type": "Basal", "examples": "Glargine, Detemir"},
+          {"type": "Bolus", "examples": "Lispro, Aspart"}
+        ],
+        "other": [
+          "SMBG (4-6x/day)",
+          "Balanced diet",
+          "Exercise management",
+          "Education on hypoglycemia/DKA"
+        ]
+      },
+      "complications": {
+        "acute": ["Hypoglycemia", "DKA"],
+        "chronic": ["Retinopathy", "Nephropathy"]
+      },
+      "mnemonic": {
+        "name": "DIABETES CARE",
+        "points": [
+          "D – Daily insulin",
+          "I – Infections watch",
+          "A – Autoantibodies (GAD)",
+          "B – Blood sugar monitoring",
+          "E – Eat balanced diet",
+          "T – Thyroid/Celiac screening",
+          "E – Educate family",
+          "S – Sick day rules",
+          "C – Complications screening",
+          "A – Annual eye/kidney tests",
+          "R – Regular growth monitoring",
+          "E – Emergency recognition"
+        ]
+      }
+    },
+    {
+      "topic": "DIABETES INSIPIDUS (DI)",
+      "definition": "Inability to concentrate urine due to ADH deficiency/resistance",
+      "types": [
+        {"type": "Central DI", "causes": ["Head trauma", "Tumors", "CNS infections"]},
+        {"type": "Nephrogenic DI", "causes": ["Congenital mutations", "Lithium", "Hypercalcemia"]},
+        {"type": "Primary Polydipsia", "causes": ["Psychogenic disorders"]}
+      ],
+      "diagnostic_tests": [
+        {"test": "Serum sodium", "result": "↑ (Hypernatremia)"},
+        {"test": "Urine osmolality", "result": "↓ (<300 mOsm/kg)"},
+        {"test": "Water deprivation test", "result": "Differentiates DI types"}
+      ],
+      "management": [
+        {"type": "Central DI", "treatment": "Desmopressin (DDAVP)"},
+        {"type": "Nephrogenic DI", "treatment": "Thiazides + low-salt diet"},
+        {"type": "Infants", "treatment": "Water-rich feeds"}
+      ],
+      "mnemonic": {
+        "name": "DRY KID",
+        "points": [
+          "D – Dehydration despite drinking",
+          "R – Reduced ADH / Renal resistance",
+          "Y – Young child with polyuria",
+          "K – Kidneys lose free water",
+          "I – Investigate with osmolarity",
+          "D – DDAVP for central DI"
+        ]
+      }
+    },
+    {
+      "topic": "CUSHING SYNDROME",
+      "definition": "Excess glucocorticoid exposure",
+      "causes": [
+        "Exogenous steroids (most common)",
+        "Pituitary adenoma (Cushing disease)",
+        "Adrenal tumors",
+        "Ectopic ACTH (rare)"
+      ],
+      "clinical_features": [
+        "Moon facies, Buffalo hump",
+        "Purple striae, thin skin",
+        "Growth failure with weight gain",
+        "Muscle weakness",
+        "Hypertension, hyperglycemia"
+      ],
+      "diagnosis": [
+        {"test": "24-hour urinary cortisol", "result": "↑↑↑"},
+        {"test": "Overnight dexamethasone test", "result": "No suppression"},
+        {"test": "ACTH levels", "result": "Localizes cause"}
+      ],
+      "treatment": [
+        {"cause": "Exogenous steroids", "treatment": "Gradual taper"},
+        {"cause": "Pituitary adenoma", "treatment": "Transsphenoidal surgery"},
+        {"cause": "Adrenal tumor", "treatment": "Adrenalectomy"}
+      ],
+      "mnemonic": {
+        "name": "CUSHING",
+        "points": [
+          "C – Central obesity",
+          "U – Unusual fat distribution",
+          "S – Striae, Skin thinning",
+          "H – Hypertension, Hirsutism",
+          "I – Impaired growth, Immunity ↓",
+          "N – Neuropsych symptoms",
+          "G – Glucose intolerance"
+        ]
+      }
+    }
+  ]
+}

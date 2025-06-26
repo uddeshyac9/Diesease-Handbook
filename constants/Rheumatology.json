@@ -1,0 +1,346 @@
+{
+  "RHEUMATOLOGY": {
+    "JUVENILE_IDIOPATHIC_ARTHRITIS": {
+      "definition": "Chronic arthritis of unknown origin beginning before age 16, lasting ≥6 weeks, after excluding other known causes.",
+      "classification": [
+        {"subtype": "Oligoarticular (50–60%)", "features": "≤4 joints, large joints, girls <6 yrs, ANA+"},
+        {"subtype": "Polyarticular (RF-negative)", "features": "≥5 joints, asymmetric, mild systemic features"},
+        {"subtype": "Polyarticular (RF-positive)", "features": "Like adult RA, symmetrical, small joints, worse prognosis"},
+        {"subtype": "Systemic-onset (Still’s disease)", "features": "High daily fever, rash, organomegaly, arthritis may come later"},
+        {"subtype": "Enthesitis-related", "features": "Older boys, spine/hip, HLA-B27+, enthesitis"},
+        {"subtype": "Psoriatic arthritis", "features": "Arthritis + psoriasis or nail pitting, dactylitis"},
+        {"subtype": "Undifferentiated", "features": "Doesn't fit any category fully"}
+      ],
+      "etiopathogenesis": [
+        "Autoimmune T-cell–mediated inflammation of synovium",
+        "Genetic predisposition (HLA associations)",
+        "Environmental triggers (unknown)"
+      ],
+      "clinical_features": {
+        "general": [
+          "Morning stiffness",
+          "Joint pain and swelling (warmth, ↓ROM)",
+          "Limping, irritability in young children",
+          "Delayed growth, limb length discrepancy"
+        ],
+        "subtype_specific": [
+          {"subtype": "Systemic JIA", "signs": "Quotidian fever, salmon-pink evanescent rash, hepatosplenomegaly, lymphadenopathy"},
+          {"subtype": "Oligoarticular", "signs": "Knee, ankle; risk of uveitis"},
+          {"subtype": "RF+ Polyarticular", "signs": "Symmetrical small joint arthritis"},
+          {"subtype": "Enthesitis-Related", "signs": "Heel pain, sacroiliitis, HLA-B27+"}
+        ]
+      },
+      "extra_articular_involvement": [
+        "Uveitis (esp. in ANA+ oligoarticular type)",
+        "Fever, rash, serositis (systemic JIA)",
+        "Growth delay (chronic disease or steroid use)"
+      ],
+      "investigations": [
+        {"test": "CBC, ESR, CRP", "purpose": "Inflammation"},
+        {"test": "ANA", "purpose": "+ve in oligoarticular → risk of uveitis"},
+        {"test": "Rheumatoid factor (RF)", "purpose": "+ve in aggressive polyarticular disease"},
+        {"test": "Anti-CCP", "purpose": "Predicts erosive disease"},
+        {"test": "HLA-B27", "purpose": "Enthesitis-related JIA"},
+        {"test": "Eye exam (slit-lamp)", "purpose": "Detect uveitis"},
+        {"test": "X-ray joints", "purpose": "Usually normal early; may show joint space narrowing later"}
+      ],
+      "management": {
+        "general_principles": [
+          "Early diagnosis + prompt treatment = better outcomes",
+          "Goal: Remission + joint preservation"
+        ],
+        "pharmacologic": [
+          {"drug_type": "NSAIDs", "examples": "Ibuprofen, Naproxen", "notes": "First-line for mild cases"},
+          {"drug_type": "DMARDs", "examples": "Methotrexate (drug of choice)", "notes": "For persistent disease"},
+          {"drug_type": "Biologics", "examples": "Etanercept, Adalimumab", "notes": "For refractory or severe disease"},
+          {"drug_type": "Steroids", "examples": "Oral/IV or intra-articular", "notes": "Systemic JIA or flares"},
+          {"drug_type": "Eye drops", "examples": "For uveitis (steroids, mydriatics)", "notes": ""}
+        ],
+        "non_pharmacologic": [
+          "Physiotherapy – maintain joint mobility",
+          "Occupational therapy – function adaptation",
+          "Counseling & family education",
+          "Regular eye screening – esp. in ANA+ patients"
+        ]
+      },
+      "complications": [
+        "Joint contractures, deformities",
+        "Chronic uveitis → blindness",
+        "Growth retardation",
+        "Osteoporosis",
+        "Amyloidosis (rare, systemic JIA)",
+        "Medication side effects (steroids, methotrexate)"
+      ],
+      "mnemonic": {
+        "name": "JIA FACTS",
+        "expansion": [
+          "J – Joint swelling (>6 weeks)",
+          "I – Inflammatory markers ↑",
+          "A – ANA+ → risk of uveitis",
+          "F – Fever + rash → systemic onset",
+          "A – Arthritis (oligo/poly/systemic)",
+          "C – CCP/RF for polyarticular",
+          "T – Treat early with DMARDs",
+          "S – Slit-lamp exam for all ANA+ kids"
+        ]
+      }
+    },
+    "RHEUMATIC_FEVER": {
+      "definition": "Immune-mediated sequela occurring 2–3 weeks after untreated GAS pharyngitis, affecting children aged 5–15 years.",
+      "etiopathogenesis": "Molecular mimicry: Antibodies against streptococcal M-protein cross-react with host tissues (heart, joints, brain)",
+      "diagnostic_criteria": {
+        "major": [
+          "Carditis (clinical or subclinical via echocardiography)",
+          "Polyarthritis or monoarthritis",
+          "Chorea (Sydenham’s chorea)",
+          "Erythema marginatum",
+          "Subcutaneous nodules"
+        ],
+        "minor": [
+          "Fever",
+          "Arthralgia",
+          "↑ ESR/CRP",
+          "Prolonged PR interval (ECG)"
+        ],
+        "requirements": "2 major OR 1 major + 2 minor + evidence of preceding GAS infection"
+      },
+      "clinical_features": [
+        {"feature": "Carditis", "details": "Pancarditis, apical systolic murmur (MR), subclinical carditis via echo"},
+        {"feature": "Arthritis", "details": "Migratory, large joints, resolves without deformity"},
+        {"feature": "Sydenham’s Chorea", "details": "Involuntary jerky movements, emotional lability"},
+        {"feature": "Erythema Marginatum", "details": "Non-pruritic, serpiginous rash"},
+        {"feature": "Subcutaneous Nodules", "details": "Painless, firm, over bony prominences"}
+      ],
+      "investigations": [
+        {"test": "ASO / Anti-DNase B", "purpose": "Evidence of streptococcal infection"},
+        {"test": "CBC, ESR, CRP", "purpose": "Inflammatory markers"},
+        {"test": "ECG", "purpose": "Prolonged PR interval"},
+        {"test": "Echocardiography", "purpose": "Detects carditis, valvular lesions"},
+        {"test": "Throat swab culture", "purpose": "GAS identification"}
+      ],
+      "management": {
+        "acute_treatment": [
+          {"step": "Treat Streptococcal Infection", "details": "Benzathine penicillin G IM or Penicillin V oral (Erythromycin if allergy)"},
+          {"step": "Anti-inflammatory Therapy", "details": "Aspirin for arthritis/carditis, Prednisolone for severe carditis"},
+          {"step": "Chorea Management", "details": "Haloperidol/sodium valproate, rest"}
+        ],
+        "secondary_prophylaxis": [
+          {"risk_group": "No carditis", "duration": "5 years or until age 21"},
+          {"risk_group": "Carditis, no residual", "duration": "10 years or until age 21"},
+          {"risk_group": "Carditis + residual", "duration": ">10 years or until 40 years or lifelong"}
+        ]
+      },
+      "complications": [
+        "Rheumatic Heart Disease (valvular damage)",
+        "Heart failure",
+        "Recurrent attacks",
+        "Infective endocarditis"
+      ],
+      "mnemonic": {
+        "name": "JONES",
+        "expansion": [
+          "J – Joints (migratory arthritis)",
+          "O – ❤️ (Carditis)",
+          "N – Nodules (subcutaneous)",
+          "E – Erythema marginatum",
+          "S – Sydenham chorea"
+        ]
+      }
+    },
+    "KAWASAKI_DISEASE": {
+      "definition": "Acute, self-limited, systemic vasculitis primarily affecting coronary arteries in children <5 years.",
+      "epidemiology": [
+        "Peak age: 6 months – 5 years",
+        "More common in boys",
+        "Leading cause of acquired heart disease in developed countries"
+      ],
+      "diagnostic_criteria": {
+        "required": "Fever ≥5 days + 4 out of 5:",
+        "features": [
+          {"sign": "C (Conjunctivitis)", "description": "Bilateral, non-purulent"},
+          {"sign": "R (Rash)", "description": "Polymorphous, non-vesicular"},
+          {"sign": "A (Adenopathy)", "description": "Cervical lymphadenopathy >1.5 cm"},
+          {"sign": "S (Strawberry tongue)", "description": "Red, cracked lips & oral mucosa"},
+          {"sign": "H (Hands & feet changes)", "description": "Erythema, edema → peeling"}
+        ],
+        "mnemonic": "CRASH & BURN"
+      },
+      "phases": [
+        {"phase": "Acute (0–10 days)", "features": "High fever, mucocutaneous signs"},
+        {"phase": "Subacute (10–25 days)", "features": "Desquamation, thrombocytosis, coronary aneurysms"},
+        {"phase": "Convalescent (>25 days)", "features": "Symptoms resolve"}
+      ],
+      "investigations": [
+        {"test": "CBC", "findings": "↑ WBC, anemia, ↑ platelets"},
+        {"test": "ESR/CRP", "findings": "Elevated"},
+        {"test": "LFTs", "findings": "Mild ↑ transaminases"},
+        {"test": "Urine", "findings": "Sterile pyuria"},
+        {"test": "Echocardiography", "findings": "Coronary aneurysms, pericardial effusion"}
+      ],
+      "management": {
+        "first_line": [
+          {"treatment": "IVIG", "dose": "2 g/kg over 10–12 hrs (within first 10 days)"},
+          {"treatment": "Aspirin", "dose": "30–50 mg/kg/day initially, then 3–5 mg/kg/day"}
+        ],
+        "resistant_cases": [
+          "Repeat IVIG",
+          "Corticosteroids",
+          "Infliximab (anti-TNF)"
+        ],
+        "monitoring": "Echo at diagnosis, 2 weeks, 6–8 weeks"
+      },
+      "complications": [
+        "Coronary artery aneurysms (15–25% if untreated)",
+        "Myocardial infarction",
+        "Valvular disease",
+        "Arrhythmias",
+        "Heart failure"
+      ],
+      "mnemonic": {
+        "name": "FEBRILE",
+        "expansion": [
+          "F – Fever ≥5 days",
+          "E – Eye redness (conjunctivitis)",
+          "B – BCG site reactivation",
+          "R – Rash (polymorphous)",
+          "I – Inflammation of lips/oral mucosa",
+          "L – Lymphadenopathy (cervical)",
+          "E – Extremity changes (peeling)"
+        ]
+      }
+    },
+    "TOXIC_SHOCK_SYNDROME": {
+      "definition": "Acute febrile illness caused by superantigen toxins, resulting in cytokine storm and multiorgan failure.",
+      "etiology": [
+        {"organism": "Staphylococcus aureus", "toxin": "TSST-1"},
+        {"organism": "Group A Streptococcus", "toxin": "Exotoxins A, B"}
+      ],
+      "risk_factors": [
+        "Prolonged tampon use",
+        "Post-surgical wounds",
+        "Skin/soft tissue infections",
+        "Immunocompromised states"
+      ],
+      "clinical_features": [
+        {"system": "General", "features": "Sudden high-grade fever, chills"},
+        {"system": "Skin", "features": "Diffuse erythematous rash, desquamation (palms/soles)"},
+        {"system": "Cardiovascular", "features": "Hypotension, shock"},
+        {"system": "GI", "features": "Vomiting, diarrhea"},
+        {"system": "Renal", "features": "Oliguria, ↑ creatinine"},
+        {"system": "Hepatic", "features": "Elevated liver enzymes"},
+        {"system": "CNS", "features": "Confusion, seizures"},
+        {"system": "Mucous membranes", "features": "Hyperemia"}
+      ],
+      "diagnostic_criteria": [
+        "Fever ≥102°F",
+        "Diffuse macular erythroderma",
+        "Desquamation (1–2 weeks later)",
+        "Hypotension",
+        "Multisystem involvement (≥3 systems)",
+        "Negative results for other infections"
+      ],
+      "management": [
+        {"component": "Hemodynamic support", "details": "IV fluids, inotropes"},
+        {"component": "Antibiotics", "details": "Clindamycin + Vancomycin/Ceftriaxone"},
+        {"component": "Source control", "details": "Remove tampon, drain abscess"},
+        {"component": "IVIG", "details": "For severe strep TSS"},
+        {"component": "Supportive care", "details": "Oxygen, renal support"}
+      ],
+      "complications": [
+        "Multiorgan failure",
+        "ARDS",
+        "DIC",
+        "Shock (30% mortality in strep cases)"
+      ],
+      "mnemonic": {
+        "name": "TSS SHOCK",
+        "expansion": [
+          "T – Toxin mediated",
+          "S – Sudden high fever",
+          "S – Skin rash + desquamation",
+          "S – Shock (hypotension)",
+          "H – Hepatic & renal involvement",
+          "O – Other systems (GI, CNS, muscles)",
+          "C – Culture site (often local, not blood)",
+          "K – Keep in ICU & give IVIG"
+        ]
+      }
+    },
+    "OSTEOARTHRITIS": {
+      "definition": "Degenerative joint disease involving loss of articular cartilage, bony overgrowth, and joint space narrowing.",
+      "types": [
+        {"type": "Primary OA", "features": "Age-related, idiopathic, >50 years"},
+        {"type": "Secondary OA", "features": "Trauma, infection, metabolic disease"}
+      ],
+      "risk_factors": [
+        "Age >50 years",
+        "Obesity",
+        "Female gender (postmenopausal)",
+        "Joint malalignment/trauma",
+        "Repetitive stress occupations"
+      ],
+      "common_joints": [
+        "Knee (most common in India)",
+        "Hip",
+        "Spine (cervical/lumbar)",
+        "Hands (DIP/PIP joints)",
+        "1st carpometacarpal joint"
+      ],
+      "clinical_features": [
+        "Joint pain (worsens with activity)",
+        "Morning stiffness <30 minutes",
+        "Reduced ROM",
+        "Crepitus",
+        "Bony swelling (osteophytes)",
+        "No systemic signs"
+      ],
+      "radiological_features": [
+        {"feature": "L – Loss of joint space", "description": "Asymmetrical narrowing"},
+        {"feature": "O – Osteophytes", "description": "Marginal bony outgrowths"},
+        {"feature": "S – Subchondral sclerosis", "description": "Increased bone density"},
+        {"feature": "S – Subchondral cysts", "description": "Fluid-filled cavities"}
+      ],
+      "investigations": [
+        "ESR/CRP normal",
+        "Synovial fluid: non-inflammatory (WBC <2000/mm³)",
+        "X-ray diagnostic (shows LOSS features)"
+      ],
+      "management": {
+        "non_pharmacologic": [
+          "Weight reduction",
+          "Physiotherapy (quadriceps strengthening)",
+          "Orthotics/braces",
+          "Walking aids"
+        ],
+        "pharmacologic": [
+          {"category": "Analgesics", "examples": "Paracetamol (first-line)"},
+          {"category": "NSAIDs", "examples": "Ibuprofen, Naproxen (short term)"},
+          {"category": "Topical", "examples": "Diclofenac gel"},
+          {"category": "Intra-articular", "examples": "Steroids/hyaluronic acid"},
+          {"category": "Supplements", "examples": "Glucosamine/chondroitin"}
+        ],
+        "surgical": [
+          "Total joint replacement (knee/hip)",
+          "Osteotomy/arthroscopy"
+        ]
+      },
+      "complications": [
+        "Joint deformity",
+        "Muscle wasting",
+        "Functional disability",
+        "Dependency in elderly"
+      ],
+      "mnemonic": {
+        "name": "O.A. PAIN",
+        "expansion": [
+          "O – Osteophytes",
+          "A – Asymmetrical joint space loss",
+          "P – Pain with use",
+          "A – Age-related",
+          "I – Inflammation absent",
+          "N – Narrowing of joint space"
+        ]
+      }
+    }
+  }
+}

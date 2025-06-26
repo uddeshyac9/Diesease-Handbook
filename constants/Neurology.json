@@ -1,0 +1,369 @@
+{
+  "neurology": [
+    {
+      "name": "Meningitis",
+      "description": "Inflammation of the meninges (coverings of brain & spinal cord)",
+      "types": [
+        {"type": "Bacterial (pyogenic)", "description": "Most serious, rapid progression"},
+        {"type": "Viral (aseptic)", "description": "Milder, self-limited"},
+        {"type": "Tuberculous (TBM)", "description": "Subacute onset, chronic course"}
+      ],
+      "etiopathogenesis": [
+        "Pathogens enter via nasopharynx → bloodstream → CSF",
+        "Inflammation → ↑ ICP, meningeal irritation, cerebral edema"
+      ],
+      "organisms_by_age": [
+        {"age_group": "Neonates", "organisms": "E. coli, Group B Streptococcus"},
+        {"age_group": "Infants/Children", "organisms": "S. pneumoniae, N. meningitidis"}
+      ],
+      "clinical_features": {
+        "infants": [
+          "Fever, poor feeding",
+          "Bulging anterior fontanelle",
+          "High-pitched cry"
+        ],
+        "older_children": [
+          "Fever, headache, vomiting",
+          "Neck stiffness, photophobia",
+          "Kernig's/Brudzinski's signs positive"
+        ]
+      },
+      "diagnosis": {
+        "csf_analysis": {
+          "bacterial": "Turbid, ↑ neutrophils, ↑↑ protein, ↓↓ glucose",
+          "viral": "Clear, ↑ lymphocytes, mild ↑ protein",
+          "tbm": "Cobweb-like, ↑ lymphocytes, ↑↑ protein, ↓ glucose"
+        },
+        "other_tests": ["CBC: ↑ WBC", "Blood culture", "CT/MRI if raised ICP"]
+      },
+      "treatment": {
+        "empirical_antibiotics": [
+          "<1 month: Ampicillin + Cefotaxime",
+          ">1 month: Ceftriaxone + Vancomycin"
+        ],
+        "supportive": [
+          "Antipyretics, fluids, oxygen",
+          "Anticonvulsants for seizures",
+          "Mannitol for raised ICP"
+        ],
+        "duration": {
+          "bacterial": "7-14 days",
+          "tbm": "9-12 months"
+        }
+      },
+      "complications": [
+        "Hearing loss (sensorineural)",
+        "Hydrocephalus",
+        "Intellectual disability"
+      ],
+      "prevention": [
+        "Vaccination: Hib, PCV, Meningococcal",
+        "Prophylactic Rifampicin for close contacts"
+      ]
+    },
+    {
+      "name": "Brain Abscess",
+      "description": "Localized collection of pus within brain parenchyma",
+      "etiopathogenesis": [
+        "Begins as cerebritis → encapsulated abscess",
+        "Entry routes: contiguous spread, hematogenous, trauma"
+      ],
+      "clinical_features": [
+        "Fever, headache, vomiting",
+        "Signs of raised ICP: papilledema, altered sensorium",
+        "Focal neurological deficits",
+        "Seizures"
+      ],
+      "diagnosis": [
+        "MRI brain: ring-enhancing lesion (gold standard)",
+        "CT brain with contrast",
+        "CBC: leukocytosis"
+      ],
+      "treatment": {
+        "medical": [
+          "Empirical IV antibiotics: Ceftriaxone + Metronidazole ± Vancomycin (4-6 weeks)",
+          "Mannitol for raised ICP",
+          "Antiepileptics for seizures"
+        ],
+        "surgical": [
+          "Aspiration via burr hole",
+          "Craniotomy for multiloculated abscesses"
+        ]
+      },
+      "complications": [
+        "Seizure disorder",
+        "Focal neurological deficits",
+        "Rupture into ventricles → ventriculitis"
+      ],
+      "prevention": [
+        "Timely treatment of ear/sinus infections",
+        "Prophylaxis in cyanotic heart disease"
+      ]
+    },
+    {
+      "name": "Epilepsy",
+      "description": "Chronic neurological disorder with recurrent unprovoked seizures",
+      "definition": "≥2 unprovoked seizures >24 hours apart",
+      "seizure_types": [
+        {"type": "Focal", "subtypes": ["Aware (simple)", "Impaired awareness (complex)"]},
+        {"type": "Generalized", "subtypes": ["Tonic-clonic", "Absence", "Myoclonic"]}
+      ],
+      "clinical_features": [
+        "Sudden jerky movements, eye deviation",
+        "Loss of consciousness (generalized)",
+        "Post-ictal confusion/drowsiness",
+        "Aura in focal seizures"
+      ],
+      "diagnosis": [
+        "EEG: detects epileptiform activity",
+        "MRI brain: structural causes",
+        "Metabolic tests if indicated"
+      ],
+      "treatment": {
+        "medications": [
+          "Generalized tonic-clonic: Valproate, Levetiracetam",
+          "Absence: Ethosuximide, Valproate",
+          "Focal: Carbamazepine, Oxcarbazepine"
+        ],
+        "status_epilepticus_management": [
+          "1. Midazolam/Lorazepam",
+          "2. Phenytoin/Fosphenytoin",
+          "3. Phenobarbitone/Levetiracetam",
+          "4. ICU sedation if refractory"
+        ]
+      },
+      "complications": [
+        "Cognitive/behavioral issues",
+        "SUDEP (Sudden Unexpected Death in Epilepsy)",
+        "AED side effects"
+      ]
+    },
+    {
+      "name": "Febrile Seizures",
+      "description": "Seizures with fever in children 6 months to 5 years without CNS infection",
+      "types": [
+        {"type": "Simple", "features": "Generalized, <15 min, once in 24 hrs"},
+        {"type": "Complex", "features": "Focal, >15 min, >1 episode in 24 hrs"}
+      ],
+      "clinical_features": [
+        "Occurs during rapid rise of fever",
+        "Generalized tonic-clonic movement",
+        "Brief postictal sleepiness"
+      ],
+      "management": {
+        "acute": [
+          "Midazolam (buccal/intranasal) if >5 min",
+          "Antipyretics for comfort (not prevention)"
+        ],
+        "long_term": [
+          "No daily AED for simple FS",
+          "Intermittent clobazam for recurrent complex FS"
+        ]
+      },
+      "prognosis": [
+        "Excellent for simple FS",
+        "Slight ↑ epilepsy risk if complex FS/family history"
+      ]
+    },
+    {
+      "name": "Cerebral Palsy (CP)",
+      "description": "Non-progressive motor disorder from brain damage affecting movement/posture",
+      "types": [
+        {"type": "Spastic", "features": "↑ Tone, stiffness, hyperreflexia (most common)"},
+        {"type": "Dyskinetic/Athetoid", "features": "Involuntary writhing movements"},
+        {"type": "Ataxic", "features": "Poor coordination, balance issues"}
+      ],
+      "clinical_features": [
+        "Delayed motor milestones",
+        "Spasticity or hypotonia",
+        "Scissoring gait, toe walking",
+        "Persistence of primitive reflexes",
+        "Seizures (30-50%)"
+      ],
+      "management": {
+        "medical": [
+          "Antispasticity: Baclofen, Diazepam",
+          "Botulinum toxin for focal spasticity",
+          "Antiepileptics for seizures"
+        ],
+        "rehab": [
+          "Physiotherapy",
+          "Occupational therapy",
+          "Speech therapy"
+        ]
+      },
+      "prevention": [
+        "Good antenatal care",
+        "Prevention of birth asphyxia",
+        "Early treatment of neonatal jaundice"
+      ]
+    },
+    {
+      "name": "Stroke in Children",
+      "description": "Neurological emergency from disrupted cerebral blood flow",
+      "types": [
+        {"type": "Ischemic (AIS)", "description": "Arterial blockage → infarction"},
+        {"type": "Hemorrhagic", "description": "Vessel rupture → bleeding"},
+        {"type": "Cerebral Sinovenous Thrombosis (CSVT)", "description": "Clot in venous sinuses"}
+      ],
+      "clinical_features": [
+        "Sudden hemiparesis (most common)",
+        "Facial asymmetry, aphasia",
+        "Visual disturbance, seizures",
+        "Headache/vomiting (hemorrhagic/CSVT)"
+      ],
+      "management": {
+        "acute": [
+          "Stabilize ABC",
+          "Control seizures/fever/glucose",
+          "Neuroprotective measures"
+        ],
+        "specific": [
+          "Ischemic: Antiplatelets (Aspirin)",
+          "CSVT: Anticoagulation (LMWH)",
+          "Hemorrhagic: Neurosurgical evaluation"
+        ]
+      },
+      "complications": [
+        "Recurrent stroke",
+        "Seizure disorder",
+        "Cognitive/learning disabilities"
+      ]
+    },
+    {
+      "name": "Transverse Myelitis (TM)",
+      "description": "Inflammatory disorder causing spinal cord dysfunction",
+      "clinical_features": [
+        "Rapid bilateral weakness (lower limbs > upper)",
+        "Sensory loss with clear level",
+        "Bladder/bowel dysfunction",
+        "Autonomic disturbances"
+      ],
+      "treatment": [
+        "IV methylprednisolone 30 mg/kg/day × 3-5 days",
+        "IVIG/plasmapheresis if no response",
+        "Foley catheterization, bowel management"
+      ],
+      "prognosis_factors": [
+        {"factor": "Good", "condition": "Rapid improvement in 1st week"},
+        {"factor": "Poor", "condition": "Complete lesions, NMO-positive"}
+      ]
+    },
+    {
+      "name": "Guillain-Barré Syndrome (GBS)",
+      "description": "Acute immune-mediated polyneuropathy causing ascending paralysis",
+      "clinical_features": [
+        "Ascending symmetric weakness (legs → arms → face)",
+        "Areflexia (early sign)",
+        "Respiratory failure in severe cases",
+        "Autonomic instability"
+      ],
+      "diagnosis": [
+        "NCS: Slowed conduction (demyelinating form)",
+        "CSF: Albuminocytological dissociation (↑ protein, normal WBC)"
+      ],
+      "treatment": [
+        "IVIG 2 g/kg over 2-5 days (first-line)",
+        "Plasmapheresis alternative",
+        "ICU monitoring for respiratory failure"
+      ],
+      "prognosis": [
+        "85-90% children recover fully",
+        "Recovery begins in 2-4 weeks"
+      ]
+    },
+    {
+      "name": "Bell's Palsy",
+      "description": "Acute idiopathic unilateral facial nerve palsy",
+      "clinical_features": [
+        "Sudden unilateral facial weakness",
+        "Inability to wrinkle forehead (LMN feature)",
+        "Incomplete eye closure (lagophthalmos)",
+        "Loss of taste (anterior 2/3 tongue)"
+      ],
+      "treatment": [
+        "Oral prednisolone 1-2 mg/kg/day × 7-10 days",
+        "Eye care: Lubricant drops, patching",
+        "Facial physiotherapy"
+      ],
+      "prognosis": [
+        "90-95% recover within 2-4 weeks",
+        "Poorer if no recovery by 3 weeks"
+      ]
+    },
+    {
+      "name": "Acute Flaccid Paralysis (AFP)",
+      "description": "Sudden flaccid weakness/paralysis in children <15 years",
+      "key_conditions": [
+        {"condition": "Poliomyelitis", "features": "Asymmetric, fever at onset"},
+        {"condition": "GBS", "features": "Symmetric ascending, areflexia"},
+        {"condition": "Transverse Myelitis", "features": "Sensory level, bladder involvement"}
+      ],
+      "surveillance": [
+        "Report all AFP cases <15 yrs within 24 hrs",
+        "Collect 2 stool samples within 14 days",
+        "60-day follow-up for residual paralysis"
+      ]
+    },
+    {
+      "name": "Duchenne Muscular Dystrophy (DMD)",
+      "description": "X-linked recessive myopathy from dystrophin deficiency",
+      "clinical_features": [
+        "Delayed motor milestones (2-5 yrs)",
+        "Gower's sign (climbing on self to stand)",
+        "Calf pseudohypertrophy",
+        "Progressive proximal weakness"
+      ],
+      "management": [
+        "Oral corticosteroids (Prednisolone/Deflazacort)",
+        "Physiotherapy to maintain mobility",
+        "ACE inhibitors for cardiomyopathy"
+      ],
+      "prognosis": [
+        "Loss of ambulation by 10-12 years",
+        "Cardiomyopathy, respiratory insufficiency",
+        "Life expectancy: late teens to 20s"
+      ]
+    },
+    {
+      "name": "Ataxia",
+      "description": "Disorder of coordination from cerebellar/sensory dysfunction",
+      "types": [
+        {"type": "Cerebellar", "features": "Broad-based gait, intention tremor"},
+        {"type": "Sensory", "features": "Worsens with eyes closed"},
+        {"type": "Vestibular", "features": "Vertigo, nausea"}
+      ],
+      "causes": [
+        {"onset": "Acute", "examples": "Post-viral cerebellitis, drug intoxication"},
+        {"onset": "Chronic", "examples": "Friedreich's ataxia, cerebellar tumors"}
+      ],
+      "management": [
+        "Supportive care for post-viral cases",
+        "Physiotherapy, speech therapy",
+        "Specific treatment for underlying cause"
+      ]
+    },
+    {
+      "name": "Developmental Delay",
+      "description": "Failure to attain milestones in ≥1 domains at expected age",
+      "domains": [
+        "Gross motor",
+        "Fine motor",
+        "Language",
+        "Social/adaptive",
+        "Cognitive"
+      ],
+      "red_flags": [
+        "No social smile by 6 months",
+        "No walking by 18 months",
+        "No meaningful words by 2 years",
+        "Regression of skills"
+      ],
+      "management": [
+        "Multidisciplinary early intervention",
+        "Physio/occupational/speech therapy",
+        "Treat underlying conditions"
+      ]
+    }
+  ]
+}

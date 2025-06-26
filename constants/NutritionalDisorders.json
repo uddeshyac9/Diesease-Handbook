@@ -1,0 +1,323 @@
+{
+  "NUTRITIONAL_DISORDERS": {
+    "FAILURE_TO_THRIVE": {
+      "definition": "Inadequate physical growth in infants/children diagnosed by: weight-for-age <3rd percentile, weight-for-height <5th percentile, or crossing 2 major percentile lines downward.",
+      "types": [
+        {"type": "Organic", "causes": ["CHD", "Malabsorption", "Renal disease", "CP"]},
+        {"type": "Non-organic", "causes": ["Environmental", "Psychosocial", "Neglect"]},
+        {"type": "Mixed", "causes": ["Combination of organic and non-organic"]}
+      ],
+      "etiology": {
+        "inadequate_intake": ["Improper feeding", "Formula dilution", "Poverty", "Neglect"],
+        "increased_losses": ["Malabsorption", "Persistent diarrhea"],
+        "increased_requirements": ["Chronic infections", "CHD", "Thyrotoxicosis"],
+        "impaired_utilization": ["Metabolic disorders", "Chronic renal/liver disease"]
+      },
+      "clinical_features": [
+        "Poor weight gain (first sign)",
+        "Delayed milestones",
+        "Apathy/irritability",
+        "Wasting/stunting",
+        "Signs of neglect/abuse"
+      ],
+      "diagnosis": {
+        "history": ["Feeding practices", "Growth history", "Psychosocial background"],
+        "physical_exam": ["Anthropometry (weight, height, HC)", "Plot on growth charts"],
+        "investigations": [
+          "CBC, ESR, CRP",
+          "Urine/stool exam",
+          "LFT, RFT",
+          "Celiac serology",
+          "HIV/TB workup"
+        ]
+      },
+      "management": {
+        "general_principles": ["Nutritional rehabilitation", "Structured feeding schedule"],
+        "mild_moderate": ["Diet counseling", "Multivitamins", "Monitor weight gain (10-15g/kg/day)"],
+        "severe": ["Hospitalization", "Treat complications", "Multidisciplinary care"],
+        "address_cause": ["Treat underlying condition"]
+      },
+      "prognosis": [
+        "Good with early intervention",
+        "Delayed treatment: persistent growth failure, cognitive delays"
+      ]
+    },
+    "RICKETS": {
+      "definition": "Disorder of growing bone due to defective mineralization from vitamin D/calcium/phosphate deficiency.",
+      "etiology": {
+        "nutritional": ["Vitamin D deficiency", "Calcium deficiency"],
+        "vitamin_d_dependent": ["Type I (1α-hydroxylase deficiency)", "Type II (Receptor defect)"],
+        "vitamin_d_resistant": ["X-linked hypophosphatemic rickets"],
+        "other": ["Chronic liver/kidney disease", "Malabsorption", "Anticonvulsants"]
+      },
+      "pathophysiology": "↓ Vit D/Ca → ↑ PTH → ↑ Bone resorption & phosphate excretion → Poor mineralization",
+      "clinical_features": {
+        "skeletal": [
+          "Craniotabes",
+          "Rachitic rosary",
+          "Harrison's sulcus",
+          "Bowing of legs",
+          "Widened wrists/ankles"
+        ],
+        "systemic": [
+          "Hypotonia ('floppy baby')",
+          "Irritability",
+          "Growth retardation",
+          "Hypocalcemic seizures"
+        ]
+      },
+      "diagnosis": {
+        "labs": [
+          {"test": "Calcium", "finding": "Normal or ↓"},
+          {"test": "Phosphate", "finding": "↓"},
+          {"test": "ALP", "finding": "↑↑"},
+          {"test": "25(OH) Vit D", "finding": "↓"},
+          {"test": "PTH", "finding": "↑"}
+        ],
+        "imaging": ["X-ray wrists/knees: cupping, fraying, widened epiphysis"]
+      },
+      "treatment": {
+        "nutritional_rickets": [
+          {"therapy": "Vitamin D", "dose": "Stoss: 6 lakh IU or Daily: 2000-5000IU/day × 6-8wk"},
+          {"therapy": "Calcium", "dose": "500-800mg/day elemental"},
+          "Nutritional counseling",
+          "Sunlight exposure"
+        ],
+        "other_types": [
+          "Type I: Calcitriol",
+          "Type II: High-dose calcitriol + phosphate",
+          "Hypophosphatemic: Phosphate + calcitriol"
+        ]
+      },
+      "prevention": [
+        "Vitamin D drops (400 IU/day) with breastfeeding",
+        "Sunlight exposure 15-30 min/day",
+        "Fortified foods"
+      ],
+      "prognosis": [
+        "Excellent with early treatment",
+        "Persistent deformities if late diagnosis"
+      ]
+    },
+    "PROTEIN_ENERGY_MALNUTRITION": {
+      "classification": {
+        "mild_moderate": "Weight-for-age -2 to -3 SD",
+        "sam": ["Weight-for-height < -3 SD", "MUAC <11.5cm", "Bilateral edema"],
+        "mam": "Weight-for-height -2 to -3 SD",
+        "clinical_types": [
+          {"type": "Marasmus", "features": "Severe wasting, no edema"},
+          {"type": "Kwashiorkor", "features": "Edema, dermatosis, lethargy"},
+          {"type": "Marasmic-Kwashiorkor", "features": "Combination"}
+        ]
+      },
+      "etiology": [
+        "Poverty, poor feeding",
+        "Early breastfeeding cessation",
+        "Repeated infections",
+        "Maternal malnutrition"
+      ],
+      "clinical_features": [
+        "Failure to thrive",
+        "Wasting/edema",
+        "Hair changes (flag sign)",
+        "Flaky paint dermatosis",
+        "Moon face (Kwashiorkor)",
+        "Diarrhea, infections"
+      ],
+      "assessment": {
+        "anthropometry": ["Weight-for-height", "Height-for-age", "MUAC", "Head circumference"],
+        "investigations": [
+          "CBC, electrolytes",
+          "Blood glucose",
+          "Serum albumin",
+          "Stool exam",
+          "Chest X-ray"
+        ]
+      },
+      "management": {
+        "who_10_steps": [
+          "Treat/prevent hypoglycemia",
+          "Treat/prevent hypothermia",
+          "Treat/prevent dehydration",
+          "Correct electrolytes",
+          "Treat infections (antibiotics)",
+          "Correct micronutrients",
+          "Start cautious feeding (F-75)",
+          "Rebuild with high-energy feeds (F-100/RUTF)",
+          "Emotional stimulation",
+          "Follow-up planning"
+        ],
+        "micronutrients": ["Vitamin A", "Folic acid", "Zinc", "Iron (after stabilization)"]
+      },
+      "prevention": [
+        "Exclusive breastfeeding × 6mo",
+        "Timely complementary feeding",
+        "Growth monitoring",
+        "Vitamin A supplementation"
+      ],
+      "prognosis": [
+        "Good with early management",
+        "Stunting/developmental delay if delayed"
+      ]
+    },
+    "MARASMUS": {
+      "definition": "Severe wasting from calorie deficiency without edema; subtype of SAM.",
+      "etiology": [
+        "Inadequate caloric intake",
+        "Infections (diarrhea, measles)",
+        "Improper weaning",
+        "Malabsorption",
+        "Neglect"
+      ],
+      "clinical_features": [
+        "Severe wasting (visible ribs)",
+        "Old man appearance",
+        "Baggy pants sign",
+        "Irritability/apathy",
+        "No edema"
+      ],
+      "differential": {
+        "marasmus_vs_kwashiorkor": [
+          {"feature": "Edema", "marasmus": "Absent", "kwashiorkor": "Present"},
+          {"feature": "Appetite", "marasmus": "Preserved", "kwashiorkor": "Poor"}
+        ]
+      },
+      "management": {
+        "who_steps_adapted": [
+          "Treat/prevent hypoglycemia/hypothermia",
+          "Careful rehydration (ORS)",
+          "Correct electrolytes",
+          "Empirical antibiotics",
+          "Micronutrient correction",
+          "F-75 starter formula → F-100/RUTF",
+          "Sensory stimulation"
+        ]
+      },
+      "prognosis": [
+        "Good with early recognition",
+        "Death risk if untreated",
+        "Refeeding syndrome risk"
+      ]
+    },
+    "BERIBERI": {
+      "definition": "Thiamine (B₁) deficiency syndrome with neurological/cardiovascular manifestations.",
+      "causes": [
+        "Thiamine-deficient breastfeeding",
+        "Polished rice-based diet",
+        "Prolonged PN without vitamins",
+        "Hypermetabolic states"
+      ],
+      "clinical_types": [
+        {"type": "Wet Beriberi", "age": "Infants <6mo", "features": ["Cardiac failure", "Edema"]},
+        {"type": "Dry Beriberi", "age": "Older children", "features": ["Peripheral neuropathy", "Muscle wasting"]},
+        {"type": "Shoshin", "age": "Infants <3mo", "features": ["Sudden cardiac collapse"]}
+      ],
+      "diagnosis": {
+        "clinical": "Signs + dietary history",
+        "supportive_tests": ["Erythrocyte transketolase", "Blood pyruvate/lactate"],
+        "therapeutic_trial": "Response to thiamine in 24-48hr"
+      },
+      "management": {
+        "thiamine": [
+          {"age": "Infants", "dose": "10-25mg IV/IM daily × 1wk → 10mg oral × 6wk"},
+          {"age": "Older children", "dose": "50-100mg IM × 1wk → 10-20mg oral"}
+        ],
+        "supportive": ["Oxygen/diuretics for wet type", "Nutritional rehab"]
+      },
+      "prognosis": [
+        "Excellent if early",
+        "Irreversible damage if delayed",
+        "Fatal in Shoshin type"
+      ]
+    },
+    "SCURVY": {
+      "definition": "Vitamin C deficiency causing defective collagen synthesis with bleeding/bone changes.",
+      "etiology": [
+        "Boiled milk feeding",
+        "Low fruit/vegetable intake",
+        "Selective diets (autism)",
+        "Malabsorption"
+      ],
+      "clinical_features": {
+        "triad": [
+          "Bleeding manifestations (petechiae, gum bleeding)",
+          "Musculoskeletal signs (joint swelling, pseudoparalysis)",
+          "Gum changes (spongy, bleeding)"
+        ],
+        "other": ["Corkscrew hairs", "Anemia", "Delayed wound healing"]
+      },
+      "radiology": [
+        "White line of Frankel",
+        "Pelkan's spurs",
+        "Trümmerfeld zone",
+        "Subperiosteal hemorrhage"
+      ],
+      "diagnosis": ["Clinical + dietary history", "X-ray long bones", "Therapeutic trial"],
+      "treatment": {
+        "vitamin_c": "100-300mg/day orally × 1mo",
+        "nutrition": ["Citrus fruits", "Guava", "Amla", "Green leafy vegetables"]
+      },
+      "prognosis": ["Excellent with early treatment", "Anemia/fractures if delayed"]
+    },
+    "PELLAGRA": {
+      "definition": "Niacin (B₃) deficiency presenting with '3 Ds': Dermatitis, Diarrhea, Dementia.",
+      "etiology": {
+        "primary": ["Maize-based diets", "Low tryptophan/niacin"],
+        "secondary": ["Malabsorption", "Isoniazid therapy", "Hartnup disease"]
+      },
+      "clinical_features": {
+        "dermatitis": ["Photosensitive rash", "Casal's necklace"],
+        "diarrhea": ["Watery offensive stools", "Glossitis"],
+        "dementia": ["Irritability", "Poor concentration", "Psychosis"],
+        "other": ["Fatigue", "Beefy tongue"]
+      },
+      "diagnosis": ["Clinical triad", "Dietary history", "Therapeutic trial"],
+      "treatment": {
+        "niacin": "100-300mg/day nicotinamide × 3-4wk",
+        "supportive": ["Protein-rich diet", "Multivitamins"]
+      },
+      "prognosis": ["Excellent if early", "Death if untreated"]
+    },
+    "NIGHT_BLINDNESS": {
+      "definition": "Earliest sign of Vitamin A deficiency; impaired vision in dim light due to rod cell dysfunction.",
+      "etiology": [
+        "Inadequate Vit A intake",
+        "Prolonged breastfeeding without supplements",
+        "PEM",
+        "Malabsorption",
+        "Measles infection"
+      ],
+      "who_classification": [
+        "XN: Night blindness",
+        "X1A: Conjunctival xerosis",
+        "X1B: Bitot's spots",
+        "X2: Corneal xerosis",
+        "X3: Corneal ulceration/keratomalacia"
+      ],
+      "clinical_features": [
+        "Difficulty seeing in dim light",
+        "Child clings to objects in darkness",
+        "Bitot's spots",
+        "Corneal xerosis/ulceration"
+      ],
+      "diagnosis": ["Clinical history", "Dietary assessment", "Therapeutic response"],
+      "management": {
+        "vitamin_a_dosing": [
+          {"age": "<6mo", "dose": "50,000 IU × 2 doses 24hr apart"},
+          {"age": "6-12mo", "dose": "100,000 IU × 2 doses"},
+          {"age": ">12mo", "dose": "200,000 IU × 2 doses"}
+        ],
+        "supportive": ["Treat underlying conditions", "Nutritional rehab"]
+      },
+      "prevention": [
+        "Vitamin A prophylaxis: 100k IU at 9mo, 200k IU q6mo till 5yrs",
+        "Diet rich in Vit A",
+        "Food fortification"
+      ],
+      "prognosis": [
+        "Reversible if early (XN, X1A)",
+        "Irreversible blindness if keratomalacia"
+      ]
+    }
+  }
+}

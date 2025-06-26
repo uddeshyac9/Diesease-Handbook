@@ -1,0 +1,291 @@
+{
+  "hematologicaldiseases": [
+    {
+      "name": "Thalassemia",
+      "description": "Inherited blood disorders caused by defective hemoglobin chain synthesis",
+      "types": [
+        {
+          "type": "β-Thalassemia",
+          "subtypes": [
+            {"name": "Minor", "description": "Heterozygous trait, mild/no anemia"},
+            {"name": "Major", "description": "Homozygous, severe transfusion-dependent anemia"},
+            {"name": "Intermedia", "description": "Milder than major, may not need transfusions"}
+          ]
+        },
+        {
+          "type": "α-Thalassemia",
+          "subtypes": [
+            {"name": "Hydrops fetalis", "description": "All 4 genes deleted, fatal"},
+            {"name": "HbH disease", "description": "3 genes deleted, moderate-severe anemia"}
+          ]
+        }
+      ],
+      "etiopathogenesis": [
+        "Deficient α or β chain synthesis",
+        "Unpaired chains → RBC damage → ineffective erythropoiesis & hemolysis",
+        "Bone marrow expansion → bony deformities",
+        "Iron overload from transfusions + absorption"
+      ],
+      "clinical_features": [
+        "Severe pallor (onset by 6-12 months)",
+        "Jaundice, hepatosplenomegaly",
+        "Frontal bossing, maxillary hypertrophy ('chipmunk facies')",
+        "Growth retardation, delayed puberty",
+        "Iron overload signs: bronze skin, diabetes, cardiac failure"
+      ],
+      "diagnosis": {
+        "tests": [
+          {"test": "CBC", "findings": "Microcytic hypochromic anemia"},
+          {"test": "Peripheral smear", "findings": "Target cells, nucleated RBCs"},
+          {"test": "Hb electrophoresis/HPLC", "findings": "↓ HbA, ↑ HbF, ↑ HbA₂ in minor"}
+        ]
+      },
+      "treatment": [
+        "Regular blood transfusions (every 3-4 weeks)",
+        "Iron chelation therapy: Deferasirox, Desferrioxamine",
+        "Hematopoietic Stem Cell Transplant (HSCT) - curative option"
+      ],
+      "prevention": [
+        "Carrier screening and genetic counseling",
+        "Prenatal diagnosis (CVS/amniocentesis)"
+      ],
+      "complications": [
+        "Iron overload: liver/heart/pancreas damage",
+        "Infections (transfusion/splenectomy-related)",
+        "Bone deformities, gallstones",
+        "Cardiomyopathy (leading cause of death)"
+      ]
+    },
+    {
+      "name": "Sickle Cell Anemia (SCA)",
+      "description": "Genetic hemoglobinopathy causing RBC sickling → chronic hemolysis and vaso-occlusion",
+      "genetics": [
+        {"type": "Homozygous (SCA)", "features": "Severe disease (HbSS)"},
+        {"type": "Heterozygous (Trait)", "features": "Asymptomatic (HbAS)"}
+      ],
+      "clinical_features": [
+        "Chronic hemolytic anemia: pallor, jaundice",
+        "Vaso-occlusive crises: bone/joint pain",
+        "Dactylitis (hand-foot syndrome) in infants",
+        "Splenic sequestration: acute Hb drop + shock",
+        "Stroke, acute chest syndrome, priapism"
+      ],
+      "diagnosis": {
+        "tests": [
+          {"test": "Peripheral smear", "findings": "Sickle cells, target cells"},
+          {"test": "Hb electrophoresis/HPLC", "findings": "↑ HbS (no HbA in disease)"}
+        ]
+      },
+      "treatment": [
+        "Supportive: Pain management, hydration",
+        "Prophylactic penicillin till age 5",
+        "Hydroxyurea to ↑ HbF",
+        "Stem cell transplant (curative)"
+      ],
+      "complications": [
+        "Aplastic crisis (Parvovirus B19)",
+        "Splenic sequestration crisis",
+        "Stroke (ischemic)",
+        "Acute chest syndrome"
+      ],
+      "prevention": [
+        "Genetic counseling",
+        "Newborn screening in endemic areas",
+        "Avoid dehydration and extreme cold"
+      ]
+    },
+    {
+      "name": "G6PD Deficiency",
+      "description": "X-linked recessive enzymopathy causing acute hemolysis from oxidative stress",
+      "triggers": [
+        "Infections (most common trigger)",
+        "Drugs: Sulfa, antimalarials, nitrofurantoin",
+        "Foods: Fava beans (favism)",
+        "Chemicals: Naphthalene"
+      ],
+      "clinical_features": [
+        "Acute hemolytic crisis: pallor, jaundice, dark urine",
+        "Neonatal jaundice (prolonged/severe)"
+      ],
+      "diagnosis": {
+        "tests": [
+          {"test": "Peripheral smear", "findings": "Bite cells, Heinz bodies"},
+          {"test": "G6PD enzyme assay", "findings": "↓ enzyme activity (avoid during acute crisis)"}
+        ]
+      },
+      "treatment": [
+        "Stop trigger (drug/food/infection)",
+        "Supportive care and hydration",
+        "Transfusion if severe anemia"
+      ],
+      "complications": [
+        "Severe anemia requiring transfusion",
+        "Kernicterus in newborns"
+      ],
+      "prevention": [
+        "Avoid triggers (educate family)",
+        "Screen high-risk neonates for jaundice"
+      ]
+    },
+    {
+      "name": "Iron Deficiency Anemia (IDA)",
+      "description": "Most common nutritional anemia from inadequate iron → reduced Hb synthesis",
+      "causes_by_age": [
+        {"age": "Infants", "causes": "Early cow's milk, exclusive BF >6 months"},
+        {"age": "Toddlers", "causes": "Excess cow's milk, poor iron-rich diet"},
+        {"age": "Adolescents", "causes": "Growth spurt, menstruation, poor diet"}
+      ],
+      "clinical_features": [
+        "Pallor, fatigue, irritability",
+        "Poor appetite, delayed milestones",
+        "Pica (eating non-food items)",
+        "Brittle nails, glossitis, angular stomatitis"
+      ],
+      "diagnosis": {
+        "tests": [
+          {"test": "CBC", "findings": "↓ Hb, ↓ MCV, ↓ MCH - microcytic hypochromic"},
+          {"test": "Serum ferritin", "findings": "↓ (most sensitive marker)"}
+        ],
+        "stages": [
+          "Iron depletion: ↓ ferritin, normal Hb",
+          "Iron-deficient erythropoiesis: ↓ serum iron",
+          "IDA: ↓ Hb, ↓ MCV, symptoms"
+        ]
+      },
+      "treatment": [
+        "Elemental iron: 3–6 mg/kg/day × 3 months",
+        "Deworming if needed (Albendazole)",
+        "Nutritional advice: iron-rich foods"
+      ],
+      "complications": [
+        "Cognitive/behavioral delays",
+        "Growth failure",
+        "High-output cardiac failure (severe)"
+      ],
+      "prevention": [
+        "Exclusive breastfeeding + iron-rich weaning",
+        "IFA supplementation programs",
+        "Fortified foods, routine deworming"
+      ]
+    },
+    {
+      "name": "Acquired Autoimmune Hemolytic Anemia (AIHA)",
+      "description": "Immune system destroys RBCs via autoantibodies → hemolytic anemia",
+      "types": [
+        {"type": "Warm AIHA", "features": "IgG antibodies active at 37°C (most common)"},
+        {"type": "Cold AIHA", "features": "IgM antibodies active at cold temps (post-infectious)"}
+      ],
+      "triggers": [
+        "Idiopathic (most common)",
+        "Infections: EBV, Mycoplasma",
+        "Autoimmune disorders: SLE",
+        "Drugs: Penicillin, cephalosporins"
+      ],
+      "clinical_features": [
+        "Sudden-onset pallor, fatigue",
+        "Jaundice, dark urine (hemoglobinuria)",
+        "Splenomegaly"
+      ],
+      "diagnosis": {
+        "tests": [
+          {"test": "Peripheral smear", "findings": "Spherocytes, polychromasia"},
+          {"test": "Direct Coombs Test (DAT)", "findings": "Positive (confirms diagnosis)"}
+        ]
+      },
+      "treatment": [
+        "Corticosteroids (Prednisolone 1–2 mg/kg/day)",
+        "Folic acid supplementation",
+        "Rituximab for steroid-refractory cases"
+      ],
+      "complications": [
+        "Severe anemia requiring transfusion",
+        "Hemolytic crisis",
+        "Steroid side effects (growth delay)"
+      ]
+    },
+    {
+      "name": "Thrombocytopenia",
+      "description": "Platelet count <150,000/μL → bleeding tendency",
+      "classification": [
+        {"count": "100,000–150,000/μL", "severity": "Mild"},
+        {"count": "50,000–100,000/μL", "severity": "Moderate"},
+        {"count": "<50,000/μL", "severity": "Severe (risk spontaneous bleeding)"}
+      ],
+      "causes": [
+        {
+          "age": "Neonatal",
+          "examples": "Alloimmune, sepsis, TORCH infections"
+        },
+        {
+          "age": "Childhood",
+          "examples": "ITP, dengue, leukemia, DIC"
+        }
+      ],
+      "clinical_features": [
+        "Petechiae, purpura, ecchymosis",
+        "Mucosal bleeding (epistaxis, gum bleed)",
+        "Intracranial hemorrhage (rare but life-threatening)"
+      ],
+      "diagnosis": {
+        "tests": [
+          {"test": "CBC + Peripheral smear", "purpose": "Platelet count, rule out pseudothrombocytopenia"},
+          {"test": "Bone marrow exam", "purpose": "If suspect aplasia/leukemia"}
+        ]
+      },
+      "treatment": [
+        "Observation if asymptomatic & >30,000/μL",
+        "ITP: Steroids/IVIG",
+        "Platelet transfusion if actively bleeding"
+      ],
+      "complications": [
+        "Severe bleeding (GI, intracranial)",
+        "Chronic thrombocytopenia"
+      ],
+      "prevention": [
+        "Avoid offending drugs",
+        "Educate on signs of bleeding",
+        "Avoid contact sports with low platelets"
+      ]
+    },
+    {
+      "name": "Hemophilia",
+      "description": "Hereditary bleeding disorder from clotting factor deficiency",
+      "types": [
+        {"type": "Hemophilia A", "factor": "VIII", "frequency": "Most common (80%)"},
+        {"type": "Hemophilia B", "factor": "IX", "frequency": "15-20%"},
+        {"type": "Hemophilia C", "factor": "XI", "frequency": "Rare"}
+      ],
+      "severity_classification": [
+        {"level": "Severe (<1%)", "features": "Spontaneous bleeding, hemarthrosis"},
+        {"level": "Moderate (1-5%)", "features": "Bleeding after minor trauma"},
+        {"level": "Mild (5-40%)", "features": "Bleeding after major trauma/surgery"}
+      ],
+      "clinical_features": [
+        "Hemarthrosis (joint bleeds) → deformity",
+        "Muscle hematomas",
+        "Prolonged bleeding after trauma/surgery"
+      ],
+      "diagnosis": {
+        "tests": [
+          {"test": "aPTT", "findings": "Prolonged (key test)"},
+          {"test": "Factor assay", "findings": "Confirms deficiency"}
+        ]
+      },
+      "treatment": [
+        "Factor replacement therapy (VIII/IX)",
+        "Desmopressin (DDAVP) for mild Hem A",
+        "Antifibrinolytics for mucosal bleeding"
+      ],
+      "complications": [
+        "Chronic joint damage (arthropathy)",
+        "Inhibitor development (antibodies)",
+        "Psychosocial issues"
+      ],
+      "prevention": [
+        "Genetic counseling",
+        "Avoid contact sports/trauma",
+        "Vaccinate against Hepatitis B"
+      ]
+    }
+  ]
+}

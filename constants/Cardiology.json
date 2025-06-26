@@ -1,0 +1,398 @@
+{
+ "Cardiology" : {
+  "CARDIAC_FAILURE": {
+    "definition": "Pediatric heart failure is the inability of the heart to maintain adequate circulation for the metabolic needs of the growing body, leading to pulmonary, systemic, or both types of congestion.",
+    "etiopathogenesis": {
+      "neonates": "Critical congenital heart disease (e.g., HLHS, TAPVC)",
+      "infants": "Large VSD, PDA, AV canal defect",
+      "older_children": "Rheumatic heart disease (mitral/aortic valve lesions), cardiomyopathy",
+      "any_age": "Myocarditis, Kawasaki disease (coronary aneurysm), arrhythmia"
+    },
+    "clinical_features": {
+      "infants": [
+        "Poor feeding, sweating during feeds",
+        "Tachypnea, subcostal retractions",
+        "Poor weight gain",
+        "Irritability",
+        "Cold extremities"
+      ],
+      "older_children": [
+        "Fatigue, dyspnea on exertion",
+        "Orthopnea",
+        "Edema (periorbital, pedal)",
+        "Abdominal distension (hepatomegaly)",
+        "Cough or wheezing (pulmonary congestion)"
+      ],
+      "signs": [
+        "Tachycardia",
+        "Gallop rhythm (S3)",
+        "Hepatomegaly",
+        "Rales (wet lungs)",
+        "Murmurs if structural defect present"
+      ]
+    },
+    "types": {
+      "left_sided": "Pulmonary congestion: dyspnea, orthopnea, rales",
+      "right_sided": "Systemic congestion: hepatomegaly, edema",
+      "systolic_failure": "↓ Contractility (e.g., myocarditis, dilated CMP)",
+      "diastolic_failure": "↓ Relaxation (e.g., hypertrophic CMP)"
+    },
+    "investigations": [
+      {"test": "Chest X-ray", "purpose": "Cardiomegaly, pulmonary edema"},
+      {"test": "ECG", "purpose": "Chamber hypertrophy, arrhythmia"},
+      {"test": "Echocardiography", "purpose": "Mainstay – EF, structural defects, pericardial effusion"},
+      {"test": "BNP/NT-proBNP", "purpose": "Elevated in volume overload"},
+      {"test": "CBC, RFT, LFT", "purpose": "Rule out systemic causes"},
+      {"test": "ABG", "purpose": "In severe heart failure (for hypoxia/acidosis)"}
+    ],
+    "treatment": {
+      "general_measures": [
+        "Oxygen if needed",
+        "Salt restriction",
+        "Fluid management (if significant edema)"
+      ],
+      "pharmacologic_therapy": [
+        {"drug_class": "Diuretics", "example": "Furosemide", "role": "↓ Preload, relieve congestion"},
+        {"drug_class": "ACE inhibitors", "example": "Enalapril, Captopril", "role": "↓ Afterload, improves cardiac output"},
+        {"drug_class": "Inotropes (severe)", "example": "Dobutamine, Milrinone", "role": "↑ Contractility in acute phase"},
+        {"drug_class": "Beta-blockers", "example": "Carvedilol (cautiously used)", "role": "Chronic HF management"},
+        {"drug_class": "Digoxin", "example": "", "role": "In selected patients with poor LV function"}
+      ],
+      "treat_underlying_cause": [
+        "Surgery/intervention for CHD (e.g., PDA, VSD)",
+        "Antibiotics for rheumatic fever or myocarditis",
+        "Arrhythmia management",
+        "Antivirals/IVIG for viral myocarditis (selective)"
+      ]
+    },
+    "complications": [
+      "Pulmonary edema",
+      "Failure to thrive",
+      "Cardiac arrest",
+      "Thromboembolism",
+      "Multi-organ dysfunction (in advanced cases)"
+    ],
+    "mnemonic": {
+      "name": "FAIL HEART",
+      "expansion": [
+        "F – Feeding difficulty, Fatigue",
+        "A – Arrhythmia, Apical impulse displaced",
+        "I – Irritability, Inadequate weight gain",
+        "L – Lungs: rales, retractions",
+        "H – Hepatomegaly",
+        "E – Edema (systemic)",
+        "A – Activity intolerance",
+        "R – Respiratory distress",
+        "T – Tachycardia"
+      ]
+    }
+  },
+  "ATRIAL_SEPTAL_DEFECT": {
+    "definition": "A congenital heart defect characterized by a persistent opening in the interatrial septum, causing a left-to-right shunt.",
+    "types": [
+      {"type": "Ostium secundum", "details": "Most common (≈70%), located at fossa ovalis"},
+      {"type": "Ostium primum", "details": "Associated with AV canal defects (Down syndrome)"},
+      {"type": "Sinus venosus", "details": "Near SVC or IVC, often with abnormal pulmonary venous drainage"},
+      {"type": "Coronary sinus type", "details": "Very rare"}
+    ],
+    "hemodynamics": "Left-to-right shunt → increased flow to RA & RV → RV volume overload → pulmonary overcirculation → Risk of pulmonary hypertension and Eisenmenger syndrome",
+    "clinical_features": {
+      "infants": "Usually asymptomatic",
+      "older_children": "Recurrent respiratory infections, fatigue, poor weight gain",
+      "adolescents_adults": "Dyspnea, palpitations, stroke (paradoxical embolism)",
+      "large_ASD": "Heart failure symptoms in infancy"
+    },
+    "physical_exam": [
+      "Wide and fixed split of 2nd heart sound (S2) – hallmark",
+      "Systolic ejection murmur at pulmonary area (↑ flow across pulmonary valve)",
+      "Mid-diastolic murmur at tricuspid area (↑ flow across tricuspid valve)"
+    ],
+    "investigations": [
+      {"test": "ECG", "findings": "Right axis deviation, RBBB"},
+      {"test": "Chest X-ray", "findings": "Cardiomegaly, ↑ pulmonary vascularity"},
+      {"test": "Echocardiography", "findings": "Diagnostic, shows ASD & shunt"},
+      {"test": "Bubble contrast echo", "findings": "For small ASDs or PFO"},
+      {"test": "Cardiac catheterization", "findings": "If pulmonary HTN suspected"}
+    ],
+    "treatment": {
+      "observation": "Small ASD (<5 mm), may close spontaneously",
+      "transcatheter_closure": "For secundum ASDs (moderate-large)",
+      "surgical_repair": "For primum/sinus venosus ASDs or large defects",
+      "timing": "Elective closure between 2–5 years of age",
+      "post_procedure": "Antiplatelet (e.g., aspirin) may be advised post device closure for 6 months"
+    },
+    "complications": [
+      "Pulmonary hypertension",
+      "Right heart failure",
+      "Arrhythmias (AF/flutter)",
+      "Paradoxical embolism",
+      "Eisenmenger syndrome"
+    ],
+    "mnemonic": {
+      "name": "ASD HEART",
+      "expansion": [
+        "A – Asymptomatic early",
+        "S – Secundum most common",
+        "D – Diastolic murmur (tricuspid), Device closure",
+        "H – Heart sounds: wide & fixed S2",
+        "E – Echo confirms",
+        "A – AV canal defect (primum type)",
+        "R – Right heart overload",
+        "T – Transcatheter or surgery by 5 years"
+      ]
+    }
+  },
+  "VENTRICULAR_SEPTAL_DEFECT": {
+    "definition": "A congenital defect in the interventricular septum resulting in abnormal communication between left and right ventricles.",
+    "types": [
+      {"type": "Perimembranous", "details": "Most common (70–80%)"},
+      {"type": "Muscular", "details": "May be multiple (\"Swiss-cheese\" type)"},
+      {"type": "Inlet (AV canal type)", "details": "Associated with Down syndrome"},
+      {"type": "Outlet (supracristal)", "details": "More common in Asians; risk of aortic valve prolapse"}
+    ],
+    "hemodynamics": "Left-to-right shunt (LV → RV) → ↑ Pulmonary blood flow → Pulmonary hypertension → Risk of Eisenmenger syndrome",
+    "clinical_features": {
+      "small_restrictive": "Asymptomatic, loud murmur, no heart failure",
+      "moderate": "Poor feeding, FTT, mild CHF",
+      "large_nonrestrictive": "CHF signs, hepatomegaly, tachypnea, recurrent LRTIs"
+    },
+    "physical_exam": [
+      "Pansystolic murmur at left lower sternal border",
+      "Thrill may be palpable (in small VSDs)",
+      "Loud P2 in large VSD with pulmonary hypertension",
+      "Signs of heart failure (tachypnea, hepatomegaly)"
+    ],
+    "investigations": [
+      {"test": "ECG", "findings": "LA/LV enlargement (large VSD)"},
+      {"test": "Chest X-ray", "findings": "Cardiomegaly, increased pulmonary markings"},
+      {"test": "Echo with Doppler", "findings": "Confirms diagnosis, shunt visualization"},
+      {"test": "Cardiac catheterization", "findings": "Done when PA pressures or operability is uncertain"}
+    ],
+    "management": {
+      "observation": "For small VSDs (<3 mm) – most close spontaneously within 1–2 years",
+      "medical_chf": [
+        "Diuretics (Furosemide)",
+        "ACE inhibitors (Captopril/Enalapril)",
+        "High-calorie feeds"
+      ],
+      "surgical_device_closure": [
+        {"indication": "Large VSD with failure to thrive", "timing": "By 6–12 months"},
+        {"indication": "Moderate VSD with volume overload", "timing": "By 1–2 years"},
+        {"indication": "Small VSD with complications (e.g., aortic cusp prolapse)", "timing": "At diagnosis"},
+        {"note": "Device closure reserved for selected muscular/perimembranous types"}
+      ],
+      "contraindication": "Eisenmenger syndrome (not operable if irreversible)"
+    },
+    "complications": [
+      "Pulmonary hypertension",
+      "Aortic regurgitation (esp. in outlet VSD)",
+      "Eisenmenger syndrome",
+      "Infective endocarditis",
+      "Growth failure, repeated pneumonia"
+    ],
+    "mnemonic": {
+      "name": "VSD CLOSE",
+      "expansion": [
+        "V – Very common congenital heart defect",
+        "S – Shunting: left to right",
+        "D – Defect in septum (perimembranous most common)",
+        "C – CHF symptoms in large VSD",
+        "L – Loud pansystolic murmur",
+        "O – Observation for small VSD",
+        "S – Surgery for large/complicated ones",
+        "E – Eisenmenger if left untreated"
+      ]
+    }
+  },
+  "CONGENITAL_HEART_DISEASE": {
+    "definition": "Anatomic defects in the heart or great vessels present from birth due to abnormal embryogenesis.",
+    "classification": {
+      "acyanotic": [
+        "ASD",
+        "VSD",
+        "PDA",
+        "AV canal defect",
+        "Pulmonary stenosis",
+        "Aortic stenosis",
+        "Coarctation of aorta"
+      ],
+      "cyanotic": [
+        "Tetralogy of Fallot (TOF)",
+        "Transposition of Great Arteries (TGA)",
+        "Tricuspid atresia",
+        "Total Anomalous Pulmonary Venous Connection (TAPVC)",
+        "Truncus arteriosus",
+        "Ebstein anomaly",
+        "Pulmonary atresia"
+      ],
+      "physiology": [
+        {"type": "L → R shunt", "examples": "ASD, VSD, PDA"},
+        {"type": "R → L shunt", "examples": "TOF, TGA"},
+        {"type": "Obstructive lesions", "examples": "Aortic stenosis, coarctation"},
+        {"type": "Complex CHD", "examples": "HLHS, single ventricle physiology"}
+      ]
+    },
+    "symptoms": {
+      "neonates_infants": [
+        "Cyanosis (central)",
+        "Tachypnea, poor feeding",
+        "Repeated RTIs (L→R shunt)",
+        "Failure to thrive"
+      ],
+      "older_children": [
+        "Exertional dyspnea/fatigue",
+        "Squatting (TOF)",
+        "Palpitations, chest pain",
+        "Clubbing (cyanotic CHD)"
+      ]
+    },
+    "key_clinical_clues": [
+      {"sign": "Cyanosis not relieved by oxygen", "suggests": "Cyanotic CHD"},
+      {"sign": "Wide fixed S2", "suggests": "ASD"},
+      {"sign": "Pansystolic murmur at LLSB", "suggests": "VSD"},
+      {"sign": "Continuous murmur at 2nd ICS", "suggests": "PDA"},
+      {"sign": "Clubbing + cyanosis", "suggests": "Long-standing R→L shunt"},
+      {"sign": "BP differential in limbs", "suggests": "Coarctation of aorta"}
+    ],
+    "investigations": [
+      {"test": "Pulse oximetry", "utility": "Detects hypoxemia"},
+      {"test": "ECG", "utility": "Chamber enlargement, rhythm"},
+      {"test": "Chest X-ray", "utility": "Cardiomegaly, pulmonary markings"},
+      {"test": "Echocardiography", "utility": "Mainstay – confirms diagnosis, anatomy"},
+      {"test": "Cardiac catheterization", "utility": "If operability/pulmonary pressures uncertain"},
+      {"test": "CT/MRI angiography", "utility": "For complex CHDs or great vessel anomalies"}
+    ],
+    "management": {
+      "initial_stabilization": [
+        "Oxygen (use cautiously in duct-dependent lesions)",
+        "Prostaglandin E1 infusion in duct-dependent cyanotic lesions",
+        "Treat CHF (diuretics, ACE inhibitors)"
+      ],
+      "definitive_treatment": [
+        "Medical follow-up (some small ASDs, VSDs, PDAs)",
+        "Device closure (ASD, PDA, some VSDs)",
+        "Surgical repair (complex or large defects)",
+        "Palliative surgeries (e.g., BT shunt in TOF, Glenn, Fontan)"
+      ]
+    },
+    "complications": [
+      "Pulmonary hypertension",
+      "Eisenmenger syndrome",
+      "Arrhythmias",
+      "Stroke (paradoxical embolism)",
+      "Failure to thrive, recurrent pneumonia",
+      "Infective endocarditis"
+    ],
+    "mnemonic": {
+      "name": "CHD FACTS",
+      "expansion": [
+        "C – Cyanotic vs Acyanotic",
+        "H – Heart murmurs common",
+        "D – Diagnosis: Echo is key",
+        "F – Failure to thrive, feeding difficulty",
+        "A – Acyanotic = L→R; Cyanotic = R→L",
+        "C – Clubbing in late cyanotic CHD",
+        "T – Treat CHF, consider surgery",
+        "S – Screen with pulse ox at birth"
+      ]
+    }
+  },
+  "PATENT_DUCTUS_ARTERIOSUS": {
+    "definition": "Failure of closure of the fetal ductus arteriosus within 72 hours of birth.",
+    "fetal_physiology": "In utero: Ductus allows blood to bypass lungs; Normally closes due to ↑ oxygen and ↓ prostaglandins after birth",
+    "risk_factors": [
+      "Prematurity",
+      "Hypoxia, RDS, respiratory failure",
+      "Congenital rubella",
+      "High altitude births",
+      "Chromosomal syndromes (Trisomy 13, 18)"
+    ],
+    "clinical_features": {
+      "small": "Asymptomatic; murmur only",
+      "moderate": "Tachypnea, poor feeding, failure to thrive",
+      "large": "Features of CHF – breathlessness, sweating, hepatomegaly"
+    },
+    "physical_signs": [
+      "Continuous \"machinery\" murmur at left 2nd ICS (Gibson’s murmur)",
+      "Wide pulse pressure",
+      "Bounding pulses",
+      "Active precordium",
+      "S3 gallop if CHF present"
+    ],
+    "investigations": [
+      {"test": "Chest X-ray", "findings": "Cardiomegaly, ↑ pulmonary vascularity"},
+      {"test": "ECG", "findings": "LA/LV enlargement"},
+      {"test": "Echocardiography", "findings": "Confirms diagnosis, shows left-to-right flow"},
+      {"test": "Cardiac catheterization", "findings": "Rarely needed unless anatomy uncertain"}
+    ],
+    "treatment": {
+      "medical": [
+        "Indomethacin or Ibuprofen (preterm infants)",
+        "Paracetamol (alternative)"
+      ],
+      "device_closure": "Preferred in children >6 months with suitable anatomy",
+      "surgical_ligation": "If device closure fails, symptomatic neonates, or very large PDA"
+    },
+    "complications": [
+      "Congestive heart failure",
+      "Pulmonary hypertension",
+      "Eisenmenger syndrome",
+      "Infective endocarditis",
+      "Growth failure, recurrent LRTIs"
+    ],
+    "mnemonic": {
+      "name": "PDA CLOSE",
+      "expansion": [
+        "P – Prematurity, Pulse bounding",
+        "D – Ductus stays open → shunt L→R",
+        "A – Acyanotic CHD",
+        "C – Continuous murmur (machinery type)",
+        "L – Left heart overload",
+        "O – Options: NSAIDs, Occlusion device",
+        "S – Surgery if large or symptomatic",
+        "E – Eisenmenger if late"
+      ]
+    }
+  },
+  "PATENT_FORAMEN_OVALE": {
+    "definition": "Persistent flap-like opening between atria due to failure of septum primum to fuse with septum secundum after birth (not a true septal defect).",
+    "epidemiology": "Present in ~25–30% of general population",
+    "pathophysiology": "Fetal life: Allows oxygenated blood bypass; After birth: Functional closure by ↑ LA pressure; No significant shunt unless RA pressure elevated",
+    "clinical_relevance": [
+      {"scenario": "Healthy individuals", "importance": "Usually silent, benign"},
+      {"scenario": "Cryptogenic stroke", "importance": "Channel for paradoxical embolism"},
+      {"scenario": "Migraine with aura", "importance": "Associated in some studies"},
+      {"scenario": "Decompression sickness", "importance": "Divers with PFO at increased risk"},
+      {"scenario": "Platypnea-orthodeoxia", "importance": "Rare syndrome of hypoxia worsened on sitting"}
+    ],
+    "diagnosis": [
+      {"test": "TTE Echocardiography", "utility": "Initial test; may miss small PFOs"},
+      {"test": "Bubble contrast echo", "utility": "Preferred; shows microbubbles in LA"},
+      {"test": "TEE", "utility": "Gold standard for small PFO detection"},
+      {"test": "Color Doppler", "utility": "Visualize shunting"}
+    ],
+    "management": [
+      {"scenario": "Asymptomatic", "approach": "No treatment required"},
+      {"scenario": "Cryptogenic stroke with PFO", "approach": "Antiplatelets (Aspirin), Anticoagulation (if DVT/PE), Device closure (select cases)"},
+      {"scenario": "Frequent migraine or divers", "approach": "Case-by-case decision for closure"}
+    ],
+    "complications": [
+      "Paradoxical embolism → stroke/TIA",
+      "Air embolism in divers",
+      "Hypoxemia in rare shunting syndromes"
+    ],
+    "mnemonic": {
+      "name": "PFO FACT",
+      "expansion": [
+        "P – Present in 1/4 of population",
+        "F – Flap-like, not a true hole",
+        "O – Often asymptomatic",
+        "F – Found in cryptogenic stroke",
+        "A – Air embolism risk in divers",
+        "C – Contrast echo confirms",
+        "T – Treatment rarely needed, closure if indicated"
+      ]
+    }
+  }
+  }
+}

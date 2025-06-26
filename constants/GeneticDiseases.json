@@ -1,0 +1,507 @@
+{
+  "geneticDiseases": [
+    {
+      "topic": "DOWN SYNDROME (TRISOMY 21)",
+      "definition": "Genetic disorder caused by an extra copy of chromosome 21 leading to characteristic physical features, intellectual disability, and increased risk of congenital conditions.",
+      "etiology": [
+        "Trisomy 21 (95%): Complete extra chromosome 21",
+        "Translocation (3-4%): Part of chromosome 21 attached to another chromosome",
+        "Mosaicism (1-2%): Mixture of normal and trisomy 21 cells"
+      ],
+      "risk_factors": [
+        "Advanced maternal age (>35 years)",
+        "Previous child with Down Syndrome",
+        "Parental balanced translocation carrier"
+      ],
+      "clinical_features": {
+        "facial": [
+          "Flat facial profile",
+          "Epicanthal folds",
+          "Upslanting palpebral fissures",
+          "Brushfield spots"
+        ],
+        "head_neck": [
+          "Brachycephaly",
+          "Small ears",
+          "Short neck with redundant skin"
+        ],
+        "extremities": [
+          "Single palmar crease",
+          "Clinodactyly",
+          "Wide sandal gap"
+        ],
+        "systemic": [
+          "Short stature",
+          "Hypotonia",
+          "Intellectual disability (mild-moderate)",
+          "AV septal defects (50%)",
+          "Duodenal atresia",
+          "Hirschsprung's disease"
+        ]
+      },
+      "diagnosis": {
+        "prenatal": [
+          "Screening: Combined test (NT + dual markers)",
+          "Confirmatory: Chorionic villus sampling/amniocentesis"
+        ],
+        "postnatal": [
+          "Clinical suspicion",
+          "Karyotyping confirmation"
+        ]
+      },
+      "investigations": [
+        "Echocardiogram",
+        "Thyroid function tests",
+        "Hearing and vision screening",
+        "CBC",
+        "Developmental assessment"
+      ],
+      "management": [
+        "Multidisciplinary team approach",
+        "Early intervention programs",
+        "Regular monitoring of growth/thyroid/hearing",
+        "Parent counseling"
+      ],
+      "prognosis": {
+        "life_expectancy": "60+ years with care",
+        "education": "Most can attend school",
+        "adult_life": "Semi-independent living possible",
+        "risks": "Early-onset Alzheimer's after 40"
+      },
+      "mnemonic": {
+        "name": "DOWN SYNDROME",
+        "points": [
+          "D - Developmental delay",
+          "O - Open mouth with protruding tongue",
+          "W - Weak muscle tone",
+          "N - Nasal bridge flat",
+          "S - Single palmar crease",
+          "Y - Yellow spots in iris",
+          "N - Nondisjunction",
+          "D - Duodenal atresia",
+          "R - Round face",
+          "O - Obesity in adolescence",
+          "M - Mental retardation",
+          "E - Endocardial cushion defects"
+        ]
+      }
+    },
+    {
+      "topic": "TURNER SYNDROME (45, X)",
+      "definition": "Genetic disorder in phenotypic females caused by complete/partial absence of one X chromosome.",
+      "etiology": [
+        "Monosomy X (45,X) - 50-60%",
+        "Mosaicism (45,X/46,XX) - 30%",
+        "Structural X abnormalities"
+      ],
+      "clinical_features": {
+        "neonatal": [
+          "Puffy hands/feet",
+          "Webbed neck",
+          "Low posterior hairline"
+        ],
+        "childhood": [
+          "Short stature",
+          "Recurrent otitis media",
+          "Delayed motor skills"
+        ],
+        "adolescence": [
+          "Primary amenorrhea",
+          "Poor breast development",
+          "Streak ovaries",
+          "Infertility"
+        ],
+        "other": [
+          "Cubitus valgus",
+          "Hypothyroidism",
+          "Horseshoe kidney"
+        ]
+      },
+      "diagnosis": [
+        "Karyotyping (gold standard)",
+        "Pelvic ultrasound",
+        "Hormonal profile (↑ FSH/LH)",
+        "Echocardiography",
+        "Renal ultrasound"
+      ],
+      "management": [
+        "Growth hormone therapy",
+        "Estrogen replacement at 11-12 years",
+        "Progesterone for menstruation",
+        "Comorbidity monitoring",
+        "Fertility options (ART)"
+      ],
+      "prognosis": "Normal life expectancy without major anomalies",
+      "mnemonic": {
+        "name": "TURNER",
+        "points": [
+          "T - Tall stature absent",
+          "U - Underdeveloped ovaries",
+          "R - Recurrent otitis media",
+          "N - Neck webbing",
+          "E - Edema in neonates",
+          "R - Renal/cardiac anomalies"
+        ]
+      }
+    },
+    {
+      "topic": "FRAGILE X SYNDROME",
+      "definition": "Most common inherited cause of intellectual disability and autism, caused by CGG repeat expansion in FMR1 gene.",
+      "genetics": {
+        "gene": "FMR1 on Xq27.3",
+        "repeats": {
+          "normal": "<45",
+          "premutation": "55-200",
+          "full_mutation": ">200"
+        },
+        "inheritance": "X-linked dominant"
+      },
+      "clinical_features": {
+        "neurological": [
+          "Intellectual disability",
+          "Autism spectrum traits",
+          "Hyperactivity"
+        ],
+        "physical": [
+          "Large ears",
+          "Long narrow face",
+          "Macroorchidism (post-puberty)",
+          "Hyperextensible joints"
+        ],
+        "behavioral": [
+          "Poor eye contact",
+          "Hand flapping",
+          "Social anxiety"
+        ]
+      },
+      "diagnosis": "DNA analysis for CGG repeats",
+      "management": [
+        "Developmental therapies",
+        "Special education",
+        "Medications (stimulants/SSRIs)",
+        "Genetic counseling"
+      ],
+      "associated_conditions": [
+        "FXTAS in older males",
+        "FXPOI in females"
+      ],
+      "mnemonic": {
+        "name": "FRAGILE X",
+        "points": [
+          "F - Flat feet, long face",
+          "R - Repeats (CGG >200)",
+          "A - Autism-like behavior",
+          "G - Giant gonads",
+          "I - Intellectual disability",
+          "L - Large ears",
+          "E - Eye contact poor",
+          "X - X-linked inheritance"
+        ]
+      }
+    },
+    {
+      "topic": "CYSTIC FIBROSIS (CF)",
+      "definition": "Autosomal recessive disorder causing thick secretions affecting lungs, pancreas and other organs.",
+      "genetics": {
+        "gene": "CFTR on 7q31",
+        "common_mutation": "ΔF508",
+        "inheritance": "Autosomal recessive"
+      },
+      "pathophysiology": "Defective chloride transport → viscous secretions",
+      "clinical_features": {
+        "respiratory": [
+          "Chronic cough",
+          "Bronchiectasis",
+          "Recurrent pneumonia"
+        ],
+        "gastrointestinal": [
+          "Meconium ileus",
+          "Pancreatic insufficiency",
+          "Failure to thrive"
+        ],
+        "endocrine": [
+          "CF-related diabetes",
+          "Delayed puberty"
+        ]
+      },
+      "diagnosis": {
+        "gold_standard": "Sweat chloride >60 mmol/L",
+        "other": [
+          "Newborn screening (IRT)",
+          "Genetic testing",
+          "Stool elastase"
+        ]
+      },
+      "management": {
+        "respiratory": [
+          "Chest physiotherapy",
+          "DNase, hypertonic saline",
+          "Antibiotics"
+        ],
+        "nutritional": [
+          "High-calorie diet",
+          "Pancreatic enzymes",
+          "Vitamin ADEK"
+        ],
+        "modulators": "CFTR modulators (ivacaftor)"
+      },
+      "prognosis": "Median survival >40 years",
+      "mnemonic": {
+        "name": "CF AIRWAYS",
+        "points": [
+          "C - Chronic cough",
+          "F - Failure to thrive",
+          "A - Autosomal recessive",
+          "I - Infertility in males",
+          "R - Recurrent infections",
+          "W - Wheezing",
+          "A - ADEK deficiency",
+          "Y - Yellow stools",
+          "S - Sweat test diagnostic"
+        ]
+      }
+    },
+    {
+      "topic": "CLEFT LIP",
+      "definition": "Congenital failure of fusion of maxillary and medial nasal processes.",
+      "etiology": [
+        "Multifactorial inheritance",
+        "Maternal smoking/alcohol",
+        "Folic acid deficiency"
+      ],
+      "classification": {
+        "laterality": ["Unilateral", "Bilateral"],
+        "completeness": ["Complete", "Incomplete"]
+      },
+      "clinical_features": [
+        "Visible gap in upper lip",
+        "Feeding difficulties",
+        "Nasal deformity",
+        "Speech/dental issues"
+      ],
+      "management": {
+        "feeding": "Special bottles/techniques",
+        "surgical": {
+          "timing": "Rule of 10s (10 weeks/10 lbs/10g Hb)",
+          "technique": "Millard or Tennison-Randall repair"
+        }
+      },
+      "mnemonic": {
+        "name": "CLEFT LIP",
+        "points": [
+          "C - Congenital split",
+          "L - Lateral",
+          "E - Etiology multifactorial",
+          "F - Feeding difficulties",
+          "T - Timing of repair",
+          "L - Lip-nose deformity",
+          "I - Incomplete/complete",
+          "P - Plastic surgery care"
+        ]
+      }
+    },
+    {
+      "topic": "CLEFT PALATE",
+      "definition": "Failure of fusion of palatal shelves leading to opening in roof of mouth.",
+      "clinical_features": [
+        "Feeding difficulties (nasal regurgitation)",
+        "Hypernasal speech",
+        "Recurrent otitis media",
+        "Dental anomalies"
+      ],
+      "management": {
+        "feeding": "Specialized bottles",
+        "surgical": "Palatoplasty at 9-18 months",
+        "hearing": "Tympanostomy tubes",
+        "speech": "Speech therapy"
+      },
+      "mnemonic": {
+        "name": "PALATE",
+        "points": [
+          "P - Palatal shelves fail to fuse",
+          "A - Associated feeding difficulty",
+          "L - Language delay",
+          "A - Associated syndromes",
+          "T - Tympanostomy needed",
+          "E - Early surgery"
+        ]
+      }
+    },
+    {
+      "topic": "KLINEFELTER SYNDROME (47, XXY)",
+      "definition": "Genetic condition in males with extra X chromosome(s).",
+      "clinical_features": {
+        "childhood": [
+          "Mild developmental delay",
+          "Poor coordination"
+        ],
+        "adolescence": [
+          "Tall stature",
+          "Small firm testes",
+          "Gynecomastia",
+          "Delayed puberty"
+        ],
+        "adulthood": [
+          "Infertility (azoospermia)",
+          "Osteoporosis"
+        ]
+      },
+      "diagnosis": [
+        "Karyotyping (47,XXY)",
+        "↑ FSH/LH, ↓ Testosterone",
+        "Semen analysis"
+      ],
+      "management": [
+        "Testosterone replacement",
+        "Fertility options (ICSI)",
+        "Gynecomastia surgery"
+      ],
+      "mnemonic": {
+        "name": "KLINEFELTER",
+        "points": [
+          "K - Karyotype 47,XXY",
+          "L - Learning difficulties",
+          "I - Infertility",
+          "N - No facial hair",
+          "E - Enlarged breasts",
+          "F - Firm small testes",
+          "E - Elevated FSH/LH",
+          "L - Low testosterone",
+          "T - Tall stature",
+          "E - Emotional issues",
+          "R - Replacement needed"
+        ]
+      }
+    },
+    {
+      "topic": "HYDROCEPHALUS",
+      "definition": "Abnormal CSF accumulation in brain ventricles.",
+      "types": [
+        {
+          "type": "Communicating",
+          "cause": "Impaired CSF absorption"
+        },
+        {
+          "type": "Non-communicating",
+          "cause": "CSF flow obstruction"
+        }
+      ],
+      "clinical_features": {
+        "infants": [
+          "Rapid head growth",
+          "Bulging fontanelle",
+          "Sunset eyes"
+        ],
+        "older_children": [
+          "Headache",
+          "Vomiting",
+          "Papilledema"
+        ]
+      },
+      "management": [
+        "VP shunt",
+        "Endoscopic third ventriculostomy"
+      ],
+      "mnemonic": {
+        "name": "HEADS (infants)",
+        "points": [
+          "H - Head circumference ↑",
+          "E - Eyes (sunset sign)",
+          "A - Anterior fontanelle bulging",
+          "D - Dilated scalp veins",
+          "S - Suture separation"
+        ]
+      }
+    },
+    {
+      "topic": "SPINA BIFIDA",
+      "definition": "Neural tube defect with incomplete vertebral closure.",
+      "classification": [
+        {
+          "type": "Occulta",
+          "features": "Hidden defect, skin intact"
+        },
+        {
+          "type": "Cystica",
+          "subtypes": [
+            "Meningocele",
+            "Myelomeningocele"
+          ]
+        }
+      ],
+      "mnemonic": {
+        "name": "SPINA",
+        "points": [
+          "S - Skin changes",
+          "P - Paralysis of limbs",
+          "I - Incontinence",
+          "N - Neural tube defect",
+          "A - Arnold-Chiari association"
+        ]
+      }
+    },
+    {
+      "topic": "MENINGOCELE",
+      "definition": "Protrusion of meninges without neural tissue.",
+      "clinical_features": [
+        "CSF-filled sac covered with skin",
+        "Normal neurological function",
+        "No motor/sensory deficits"
+      ],
+      "management": "Surgical repair in first days",
+      "prognosis": "Excellent with surgery",
+      "mnemonic": {
+        "name": "MENINGOCELE",
+        "points": [
+          "M - Midline spinal cyst",
+          "E - Exposed meninges",
+          "N - No neural tissue",
+          "I - Intact function",
+          "N - Normal bladder/bowel",
+          "G - Good prognosis",
+          "O - Operate early",
+          "C - CSF-filled",
+          "E - Elevated AFP",
+          "L - Lumbosacral common",
+          "E - Early detection"
+        ]
+      }
+    },
+    {
+      "topic": "MYELOMENINGOCELE",
+      "definition": "Protrusion of spinal cord and meninges through vertebral defect.",
+      "clinical_features": [
+        "Exposed neural tissue",
+        "Lower limb paralysis",
+        "Bladder/bowel incontinence",
+        "Hydrocephalus (90%)"
+      ],
+      "management": [
+        "Urgent surgical repair (<48hr)",
+        "VP shunt for hydrocephalus",
+        "Lifelong multidisciplinary care"
+      ],
+      "mnemonic": {
+        "name": "MYELOMENINGOCELE",
+        "points": [
+          "M - Midline swelling",
+          "Y - Yellowish CSF sac",
+          "E - Exposed neural tissue",
+          "L - Limb paralysis",
+          "O - Orthopedic deformities",
+          "M - Meninges + cord",
+          "E - Early closure",
+          "N - Neurogenic bladder",
+          "I - Incontinence",
+          "N - Neural tube defect",
+          "G - Gait abnormalities",
+          "O - Often hydrocephalus",
+          "C - Chiari II",
+          "E - Elevated MSAFP",
+          "L - Lifelong care",
+          "E - Early rehab"
+        ]
+      }
+    }
+  ]
+}

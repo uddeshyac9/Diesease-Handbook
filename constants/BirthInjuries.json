@@ -1,0 +1,316 @@
+{
+  "birth_injuries": [
+    {
+      "topic": "BIRTH ASPHYXIA",
+      "definition": "Impairment of gas exchange leading to hypoxemia, hypercapnia, and metabolic acidosis causing multi-organ dysfunction",
+      "etiology": {
+        "maternal": [
+          "Preeclampsia/eclampsia",
+          "Maternal hypotension",
+          "Prolonged labor",
+          "Placental abruption"
+        ],
+        "fetal": [
+          "Cord prolapse",
+          "Multiple gestation",
+          "Prematurity",
+          "Congenital anomalies"
+        ]
+      },
+      "pathophysiology": "Hypoxia → anaerobic metabolism → acidosis → cellular injury → multi-organ damage",
+      "diagnostic_criteria": [
+        "Delayed onset of respiration",
+        "Apgar <7 at 1/5 min",
+        "Arterial pH <7.0",
+        "Evidence of HIE",
+        "Multisystem involvement"
+      ],
+      "hie_grading": [
+        {
+          "stage": "I (Mild)",
+          "consciousness": "Hyperalert",
+          "tone": "Normal/increased",
+          "seizures": "None",
+          "eeg": "Normal"
+        },
+        {
+          "stage": "II (Moderate)",
+          "consciousness": "Lethargic",
+          "tone": "Hypotonia",
+          "seizures": "Frequent",
+          "eeg": "Abnormal"
+        },
+        {
+          "stage": "III (Severe)",
+          "consciousness": "Coma",
+          "tone": "Flaccid",
+          "seizures": "Rare/prolonged",
+          "eeg": "Severely abnormal"
+        }
+      ],
+      "investigations": [
+        "ABG (metabolic acidosis)",
+        "Blood glucose/calcium",
+        "Cranial MRI (after 5-7 days)",
+        "EEG",
+        "Renal/hepatic function tests"
+      ],
+      "management": {
+        "immediate": "Neonatal Resuscitation Protocol (NRP)",
+        "post_resuscitation": [
+          "NICU admission",
+          "Maintain normothermia/normoglycemia",
+          "Treat seizures (Phenobarbitone)",
+          "Fluid/electrolyte management"
+        ],
+        "hypothermia": "Core temp 33-34°C for 72 hrs (within 6 hrs of birth)"
+      },
+      "complications": [
+        "Cerebral palsy",
+        "Developmental delay",
+        "Seizure disorders",
+        "Multi-organ failure"
+      ],
+      "prognosis": "Depends on HIE severity - Stage III has high mortality"
+    },
+    {
+      "topic": "CEPHALOHEMATOMA",
+      "definition": "Subperiosteal hemorrhage confined to one cranial bone (usually parietal)",
+      "etiology": [
+        "Instrumental delivery",
+        "Prolonged labor",
+        "Macrosomia",
+        "Primigravida mother"
+      ],
+      "clinical_features": [
+        "Appears 24-48 hrs after birth",
+        "Well-demarcated swelling not crossing sutures",
+        "Normal overlying skin",
+        "Resolves in 2-6 weeks"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Caput succedaneum",
+          "features": "Present at birth, crosses sutures"
+        },
+        {
+          "condition": "Subgaleal hemorrhage",
+          "features": "Fluctuant, ill-defined, crosses sutures"
+        }
+      ],
+      "management": [
+        "Conservative (no aspiration)",
+        "Monitor bilirubin levels",
+        "Avoid intervention unless infected"
+      ],
+      "complications": ["Hyperbilirubinemia", "Calcification"],
+      "prognosis": "Excellent - resolves completely"
+    },
+    {
+      "topic": "CAPUT SUCCEDANEUM",
+      "definition": "Diffuse edematous scalp swelling above periosteum",
+      "etiology": [
+        "Pressure during labor",
+        "Premature rupture of membranes",
+        "Instrumental delivery"
+      ],
+      "clinical_features": [
+        "Present at birth",
+        "Ill-defined swelling crossing sutures",
+        "Overlying skin bruising",
+        "Resolves in 3-5 days"
+      ],
+      "key_differentiation": "Caput crosses sutures - Cephalohematoma does not",
+      "management": "Reassurance only",
+      "prognosis": "Resolves spontaneously"
+    },
+    {
+      "topic": "INTRACRANIAL HEMORRHAGE (ICH)",
+      "types": [
+        {
+          "type": "Subdural",
+          "location": "Between dura and arachnoid"
+        },
+        {
+          "type": "Subarachnoid",
+          "location": "Between arachnoid and pia"
+        },
+        {
+          "type": "Intraventricular (IVH)",
+          "location": "Ventricular system"
+        }
+      ],
+      "risk_factors": [
+        "Instrumental delivery",
+        "Prematurity (<32 weeks)",
+        "Perinatal asphyxia",
+        "Vitamin K deficiency"
+      ],
+      "clinical_features": {
+        "general": [
+          "Poor feeding",
+          "Lethargy/irritability",
+          "High-pitched cry"
+        ],
+        "neurological": [
+          "Seizures",
+          "Bulging fontanelle",
+          "Apnea/bradycardia"
+        ]
+      },
+      "diagnosis": [
+        "Cranial ultrasound (preterms)",
+        "CT/MRI (term infants)",
+        "Lumbar puncture (xanthochromia)"
+      ],
+      "management": {
+        "supportive": [
+          "Airway/breathing support",
+          "Seizure control (Phenobarbitone)",
+          "Correct metabolic imbalances"
+        ],
+        "specific": [
+          "Vitamin K administration",
+          "Surgical intervention for large bleeds"
+        ]
+      },
+      "complications": [
+        "Hydrocephalus",
+        "Cerebral palsy",
+        "Neurodevelopmental delay"
+      ],
+      "prognosis": "Grade I-II IVH: Good outcome; Severe ICH: High mortality"
+    },
+    {
+      "topic": "BRACHIAL PALSY (Erb's Palsy)",
+      "definition": "Upper limb paralysis from brachial plexus injury",
+      "types": [
+        {
+          "type": "Erb's Palsy",
+          "roots": "C5-C6",
+          "presentation": "Waiter's tip posture"
+        },
+        {
+          "type": "Klumpke's Palsy",
+          "roots": "C8-T1",
+          "presentation": "Hand/wrist paralysis"
+        }
+      ],
+      "risk_factors": [
+        "Shoulder dystocia",
+        "Macrosomia",
+        "Breech presentation",
+        "Excessive lateral traction"
+      ],
+      "clinical_features": [
+        "Waiter's tip posture (adducted shoulder, extended elbow)",
+        "Absent Moro reflex",
+        "Preserved grasp reflex"
+      ],
+      "management": {
+        "conservative": [
+          "Immobilization first 7-10 days",
+          "Passive physiotherapy",
+          "Range-of-motion exercises"
+        ],
+        "surgical_referral": "No recovery by 3-6 months"
+      },
+      "complications": [
+        "Joint contractures",
+        "Muscle atrophy",
+        "Permanent weakness"
+      ],
+      "prognosis": "90% recover by 3-6 months with early intervention"
+    },
+    {
+      "topic": "BELL'S PALSY",
+      "definition": "Unilateral lower motor neuron facial paralysis",
+      "etiology": {
+        "neonates": [
+          "Birth trauma (forceps)",
+          "Congenital syndromes",
+          "Intrauterine positioning"
+        ],
+        "older_children": [
+          "Idiopathic (most common)",
+          "Post-viral (HSV-1, EBV)",
+          "Otitis media"
+        ]
+      },
+      "clinical_features": [
+        "Unilateral facial weakness (forehead involved)",
+        "Lagophthalmos (inability to close eye)",
+        "Drooping mouth corner",
+        "Drooling/feeding difficulty (neonates)"
+      ],
+      "management": {
+        "neonatal": [
+          "Observation",
+          "Eye protection (lubrication)"
+        ],
+        "children": [
+          "Oral corticosteroids",
+          "Eye care",
+          "Facial muscle exercises"
+        ]
+      },
+      "prognosis": "Neonates: Complete recovery; Children: 80-90% recovery in 6 weeks"
+    },
+    {
+      "topic": "CLAVICLE FRACTURE",
+      "definition": "Midshaft clavicle fracture from birth trauma",
+      "risk_factors": [
+        "Macrosomia",
+        "Shoulder dystocia",
+        "Instrumental delivery",
+        "Breech presentation"
+      ],
+      "clinical_features": [
+        "Swelling/crepitus over clavicle",
+        "Asymmetric Moro reflex",
+        "Limited arm movement",
+        "Palpable callus (delayed presentation)"
+      ],
+      "management": [
+        "Gentle handling",
+        "Sleeve-to-chest technique for immobilization",
+        "No casting required"
+      ],
+      "complications": ["Callus formation", "Associated Erb's palsy"],
+      "prognosis": "Complete healing in 2-3 weeks"
+    },
+    {
+      "topic": "BRUISES OF SKIN",
+      "definition": "Superficial hemorrhages from birth trauma",
+      "common_sites": [
+        "Presenting head part",
+        "Face/neck (forceps)",
+        "Shoulders/chest (dystocia)",
+        "Buttocks/thighs (breech)"
+      ],
+      "clinical_features": [
+        "Bluish-red discoloration",
+        "Non-blanching",
+        "Tenderness",
+        "No underlying mass"
+      ],
+      "differential_diagnosis": [
+        {
+          "condition": "Mongolian spots",
+          "features": "Congenital sacral blue-gray discoloration"
+        },
+        {
+          "condition": "Neonatal purpura",
+          "features": "Pathologic thrombocytopenia"
+        }
+      ],
+      "management": [
+        "Gentle handling",
+        "Monitor for jaundice",
+        "Parental reassurance"
+      ],
+      "complications": ["Hyperbilirubinemia if extensive"],
+      "prognosis": "Resolves spontaneously in 4-7 days"
+    }
+  ]
+}

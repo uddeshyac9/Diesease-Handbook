@@ -1,0 +1,125 @@
+{
+  "normal_newborn_features": {
+    "general_parameters": [
+      "Weight: 2.5–4 kg",
+      "Length: 48–52 cm",
+      "Head circumference: ~35 cm",
+      "Chest circumference: ~33 cm",
+      "Temperature: 36.5–37.5°C",
+      "Respiratory rate: 40–60 breaths/min",
+      "Heart rate: 100–160 beats/min",
+      "Posture: Flexed limbs, spontaneous symmetrical movements",
+      "Activity: Active, cries vigorously",
+      "Color: Pink (acrocyanosis may be normal)"
+    ],
+    "skin": [
+      "Vernix caseosa: White cheesy protective covering",
+      "Lanugo: Fine hair on shoulders/back",
+      "Milia: White papules on nose/cheeks (resolve spontaneously)",
+      "Erythema toxicum neonatorum: Benign erythematous rash",
+      "Mongolian spots: Blue-gray buttock/back discoloration",
+      "Acrocyanosis: Bluish hands/feet (normal in early days)",
+      "Desquamation: Peeling skin in post-term infants",
+      "Transient pustular melanosis: Pustules leaving pigmented macules",
+      "Breast engorgement: Due to maternal hormones",
+      "Pseudo-menstruation: Vaginal bleeding from estrogen withdrawal",
+      "Harlequin color change: Temporary half-body color variation"
+    ],
+    "head_and_scalp": [
+      "Shape: May be molded from birth canal",
+      "Fontanelles:",
+      "  - Anterior: Diamond-shaped (2-3 cm), closes by 12-18 months",
+      "  - Posterior: Triangular, closes by 6-8 weeks",
+      "Caput succedaneum: Edematous swelling crossing suture lines",
+      "Cephalohematoma: Subperiosteal bleed not crossing sutures",
+      "Craniotabes: Soft parietal bone areas",
+      "Hair: Sparse or full, often sheds in months"
+    ],
+    "eyes": [
+      "Eyelids may be edematous",
+      "Subconjunctival hemorrhage: Resolves spontaneously",
+      "Red reflex: Present and equal bilaterally",
+      "Doll's eye phenomenon: Normal finding",
+      "Strabismus: May be transient (normal up to 6 months)",
+      "Visual response: Fixation on light/face within weeks"
+    ],
+    "ears": [
+      "Pinna: Well-formed with quick recoil",
+      "Low-set ears may indicate syndromes",
+      "Auditory response: Present (startle to sound)"
+    ],
+    "nose": [
+      "Nasal breathing: Obligatory in newborns",
+      "Sneezing: Common without infection",
+      "Nasal flaring: May be transient or indicate distress"
+    ],
+    "mouth_and_oral_cavity": [
+      "Sucking reflex: Present",
+      "Epstein pearls: White cysts on gums/palate",
+      "Natal/neonatal teeth: Rare but possible",
+      "Tongue: Central and mobile (ankyloglossia may occur)"
+    ],
+    "neck": [
+      "Short with good tone",
+      "Head lag: Normal when pulled to sitting position",
+      "Sternocleidomastoid mass: May indicate birth injury"
+    ],
+    "chest": [
+      "Shape: Circular (~33 cm circumference)",
+      "Xiphoid prominence may be visible",
+      "Breast tissue enlargement: Normal in both sexes",
+      "Respiratory rate: 40-60/min with periodic breathing patterns",
+      "No retractions or nasal flaring in normal infant"
+    ],
+    "cardiovascular_system": [
+      "Heart rate: 100-160 bpm",
+      "S1 and S2 normally heard",
+      "Functional murmurs may occur in first 48 hours",
+      "Femoral pulses: Equal and palpable",
+      "Acrocyanosis: Normal (central cyanosis is not)"
+    ],
+    "abdomen": [
+      "Soft and non-distended",
+      "Liver: Palpable 1-2 cm below right costal margin",
+      "Spleen tip may be palpable",
+      "Umbilical stump: Dry, falls by 7-10 days",
+      "Umbilical hernia: Common, usually resolves by age 2",
+      "Visible peristalsis: Due to thin abdominal wall"
+    ],
+    "genitalia": {
+      "male": [
+        "Testes: Usually descended",
+        "Scrotal edema or hydrocele may be present",
+        "Meatus: Check for hypospadias"
+      ],
+      "female": [
+        "Labia majora may cover minora",
+        "White mucoid discharge or pseudo-menstruation normal",
+        "Prominent clitoris/labia may be noted"
+      ]
+    },
+    "anus": [
+      "Patent and normally placed",
+      "First meconium passed within 24-48 hours",
+      "No perianal tags or fissures"
+    ],
+    "musculoskeletal": [
+      "Symmetrical limb movements",
+      "Physiological bowing of legs",
+      "Flat feet due to fat pads",
+      "No joint contractures or swelling",
+      "Hip stability: Ortolani and Barlow signs should be negative",
+      "Spine: Midline, no sinuses or hair tufts"
+    ],
+    "neurological": [
+      "Tone: Flexed limbs at rest",
+      "Moro reflex: Present and symmetric",
+      "Rooting reflex: Turns head toward stimulus",
+      "Sucking/swallowing: Coordinated",
+      "Grasp reflex: Tight grip",
+      "Tonic neck reflex: Present",
+      "Stepping reflex: Walking simulation when held upright",
+      "Alertness: Periods of quiet alertness and sleep"
+    ]
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "BEHAVIORAL_DISEASES": {
+    "AUTISM_SPECTRUM_DISORDER": {
+      "definition": "Neurodevelopmental disorder characterized by deficits in social communication/interaction and restricted/repetitive behaviors, presenting before age 3 on a severity spectrum.",
+      "etiology": {
+        "genetic": ["SHANK3", "MECP2", "CHD8 mutations"],
+        "syndromic_associations": ["Fragile X", "Rett syndrome", "Tuberous sclerosis"],
+        "risk_factors": ["Advanced parental age", "Prenatal valproate/rubella exposure"],
+        "note": "No causal link to vaccines"
+      },
+      "clinical_features": {
+        "social_communication_deficits": [
+          "Poor eye contact",
+          "No response to name",
+          "Delayed/absent speech",
+          "Lack of shared interest",
+          "Prefers being alone"
+        ],
+        "restricted_repetitive_behaviors": [
+          "Hand flapping, rocking",
+          "Insistence on routines",
+          "Fixated interests",
+          "Sensory hypersensitivity/hyposensitivity"
+        ],
+        "developmental_red_flags": [
+          "No babbling by 12mo",
+          "No words by 16mo",
+          "No 2-word phrases by 24mo",
+          "Regression of milestones"
+        ]
+      },
+      "diagnosis": {
+        "screening_tools": ["M-CHAT-R/F (16-30mo)", "CARS", "CAST", "SCQ"],
+        "dsm5_criteria": [
+          "Persistent social communication deficits",
+          "≥2 restricted/repetitive behavior types",
+          "Early developmental onset",
+          "Functional impairment"
+        ],
+        "severity_levels": ["Level 1 (Mild)", "Level 2 (Moderate)", "Level 3 (Severe)"]
+      },
+      "associated_conditions": [
+        "Intellectual disability",
+        "ADHD",
+        "Epilepsy (30%)",
+        "Anxiety/sleep disorders",
+        "GI issues"
+      ],
+      "management": {
+        "behavioral_therapy": [
+          "Applied Behavior Analysis (ABA)",
+          "Speech therapy",
+          "Occupational therapy",
+          "Social skills training"
+        ],
+        "educational_support": ["IEP", "Visual learning (PECS)", "Structured routines"],
+        "pharmacotherapy": [
+          "Risperidone/Aripiprazole (irritability)",
+          "Melatonin (sleep)",
+          "Methylphenidate/Atomoxetine (ADHD)"
+        ],
+        "parental_counseling": ["Family support", "Home programs", "Autism networks"]
+      },
+      "prognosis": [
+        "Better with: normal IQ, speech by age 5, early intervention",
+        "Lifelong impairments in social/adaptive functioning",
+        "Variable independence"
+      ],
+      "mnemonic": {
+        "name": "AUTISM",
+        "expansion": [
+          "A – Atypical communication",
+          "U – Unusual fixated interests",
+          "T – Trouble with social interaction",
+          "I – Insistence on sameness",
+          "S – Sensory issues",
+          "M – Motor stereotypies"
+        ]
+      }
+    },
+    "ATTENTION_DEFICIT_HYPERACTIVITY_DISORDER": {
+      "definition": "Neurodevelopmental disorder with persistent inattention and/or hyperactivity-impulsivity interfering with functioning, onset before age 12.",
+      "etiology": {
+        "genetic": "Heritability ~75%",
+        "neurobiological": "Dopamine/norepinephrine dysfunction in prefrontal cortex",
+        "environmental": ["Prenatal alcohol/tobacco exposure", "Prematurity", "Early trauma"]
+      },
+      "clinical_features": {
+        "inattention": [
+          "Difficulty sustaining attention",
+          "Careless mistakes",
+          "Easily distracted",
+          "Avoids mental effort tasks",
+          "Disorganized"
+        ],
+        "hyperactivity_impulsivity": [
+          "Fidgeting/tapping",
+          "Leaves seat inappropriately",
+          "Excessive running/climbing",
+          "Talks excessively",
+          "Interrupts/intrudes"
+        ],
+        "dsm5_subtypes": [
+          "Predominantly Inattentive",
+          "Predominantly Hyperactive-Impulsive",
+          "Combined Type"
+        ]
+      },
+      "diagnosis": {
+        "criteria": [
+          "Symptoms ≥6 months",
+          "Present in ≥2 settings",
+          "Onset before age 12",
+          "Functional impairment"
+        ],
+        "tools": ["Conners' Rating Scales", "Vanderbilt Scale", "Teacher/parent assessments"]
+      },
+      "comorbid_conditions": [
+        "Oppositional Defiant Disorder (ODD)",
+        "Conduct Disorder (CD)",
+        "Learning disabilities",
+        "Anxiety/Depression"
+      ],
+      "management": {
+        "behavioral_therapy": ["First-line for <6yrs", "Positive reinforcement", "Parent training"],
+        "pharmacotherapy": [
+          "Stimulants: Methylphenidate, Amphetamine salts",
+          "Non-stimulants: Atomoxetine, Guanfacine, Clonidine"
+        ],
+        "school_support": ["Resource rooms", "Behavioral contracts", "Teacher coordination"],
+        "counseling": ["Parent/teacher monitoring", "Realistic expectations", "Long-term planning"]
+      },
+      "prognosis": [
+        "50-70% persist into adolescence",
+        "30-50% persist into adulthood",
+        "Poor prognosis with: conduct disorder, low IQ, poor family support"
+      ],
+      "mnemonic": {
+        "name": "ATTENTION",
+        "expansion": [
+          "A – Avoids tasks needing focus",
+          "T – Talks excessively",
+          "T – Trouble waiting turns",
+          "E – Easily distracted",
+          "N – Not listening when spoken to",
+          "T – Taps or fidgets",
+          "I – Interrupts or intrudes",
+          "O – Often forgetful",
+          "N – Not organized"
+        ]
+      }
+    },
+    "PICA": {
+      "definition": "Eating disorder involving persistent consumption of non-nutritive substances for ≥1 month, developmentally inappropriate.",
+      "etiology": {
+        "psychosocial": ["Neglect", "Poor supervision", "Lack of stimulation"],
+        "nutritional": ["Iron deficiency", "Zinc deficiency"],
+        "associated_conditions": ["Intellectual disability", "ASD", "OCD"],
+        "cultural": "Non-pathological if culturally supported/temporary"
+      },
+      "common_substances": [
+        "Geophagia (soil/clay)",
+        "Pagophagia (ice)",
+        "Amylophagia (starch)",
+        "Trichophagia (hair)",
+        "Coprophagia (feces)"
+      ],
+      "clinical_features": [
+        "Frequent consumption of non-food items",
+        "GI symptoms: abdominal pain, parasitic infestation",
+        "Nutritional deficiencies",
+        "Growth/school impact"
+      ],
+      "diagnosis": {
+        "clinical": "History of persistent behavior >1 month",
+        "screening": ["CBC", "Iron studies", "Serum zinc", "Lead level", "Stool O&P"]
+      },
+      "management": {
+        "nutritional": "Correct deficiencies",
+        "behavioral": [
+          "Positive reinforcement",
+          "Habit reversal training",
+          "Parental supervision"
+        ],
+        "treat_comorbidities": ["ASD", "ID", "OCD management"]
+      },
+      "prognosis": [
+        "Resolves with age in infants/toddlers",
+        "Good with early nutritional/psychosocial support",
+        "Requires long-term therapy if developmental issues"
+      ],
+      "mnemonic": {
+        "name": "PICA",
+        "expansion": [
+          "P – Psychological factors",
+          "I – Intellectual disability/ASD",
+          "C – Cultural habits",
+          "A – Anemia/deficiencies"
+        ]
+      }
+    },
+    "BREATH_HOLDING_SPELLS": {
+      "definition": "Non-epileptic episodes of breath-holding during expiration triggered by emotion/pain, followed by cyanosis/pallor, occurring between 6mo-6yrs.",
+      "types": [
+        "Cyanotic (most common, emotional trigger)",
+        "Pallid (pain/fright trigger, vagal overactivity)",
+        "Mixed"
+      ],
+      "etiology": [
+        "Autonomic dysregulation",
+        "Iron deficiency association",
+        "Familial tendency"
+      ],
+      "clinical_features": [
+        "Trigger → Crying → Breath-holding → Cyanosis/Pallor → Brief LOC",
+        "Duration <1 minute",
+        "Rapid recovery, no postictal state",
+        "Normal development"
+      ],
+      "warning_signs": [
+        "Spells during sleep",
+        "Prolonged unresponsiveness",
+        "Postictal drowsiness",
+        "Absent trigger"
+      ],
+      "diagnosis": [
+        "Clinical history/observation",
+        "ECG for pallid spells",
+        "Hb/iron studies"
+      ],
+      "management": {
+        "parental_counseling": ["Reassurance", "Calm handling", "Safety during falls"],
+        "iron_supplementation": "If deficiency present",
+        "behavioral": ["Consistent discipline", "Avoid over-attention"]
+      },
+      "prognosis": [
+        "Resolves by 5-6 years",
+        "No long-term sequelae",
+        "No epilepsy risk"
+      ],
+      "mnemonic": {
+        "name": "BREATHE",
+        "expansion": [
+          "B – Benign condition",
+          "R – Rule out anemia",
+          "E – Emotional/pain trigger",
+          "A – Autonomic basis",
+          "T – Transient LOC",
+          "H – Hemoglobin check",
+          "E – Education & reassurance"
+        ]
+      }
+    },
+    "ANXIETY_DISORDERS": {
+      "definition": "Excessive developmentally-inappropriate fear/worry impairing functioning; most common pediatric psychiatric disorder.",
+      "types": [
+        "Separation Anxiety Disorder",
+        "Generalized Anxiety Disorder (GAD)",
+        "Social Anxiety Disorder",
+        "Specific Phobia",
+        "Panic Disorder",
+        "Selective Mutism"
+      ],
+      "etiology": [
+        "Genetic predisposition",
+        "Environmental: parenting style, trauma",
+        "Neurobiological: serotonin/GABA dysregulation",
+        "Temperamental: behavioral inhibition"
+      ],
+      "clinical_features": [
+        "Physical: abdominal pain, palpitations",
+        "Excessive worry about school/family",
+        "Avoidance behaviors",
+        "Restlessness, sleep difficulties",
+        "Symptoms ≥4 weeks"
+      ],
+      "diagnosis": {
+        "clinical": "History and observation",
+        "tools": ["SCARED", "CBCL"],
+        "rule_out": ["Hyperthyroidism", "Cardiac arrhythmia"]
+      },
+      "differential_diagnosis": [
+        "Depression",
+        "ADHD",
+        "ASD",
+        "Normal developmental fears"
+      ],
+      "management": {
+        "counseling": ["Psychoeducation", "Avoid reinforcement", "Structured routines"],
+        "cbt": "Gold standard treatment",
+        "pharmacotherapy": ["SSRIs (fluoxetine, sertraline)"],
+        "school_support": ["Teacher coordination", "Academic modifications"]
+      },
+      "prognosis": [
+        "Good with early treatment",
+        "Risk of depression/substance abuse if untreated",
+        "Relapse possible"
+      ],
+      "mnemonic": {
+        "name": "FEAR",
+        "expansion": [
+          "F – Fear of separation/situations",
+          "E – Excessive worry/somatic",
+          "A – Avoidance behaviors",
+          "R – Restlessness/irritability"
+        ]
+      }
+    },
+    "DEPRESSION": {
+      "definition": "Mood disorder with persistent sadness/irritability, anhedonia, and associated symptoms impairing function; presents with irritability in children.",
+      "epidemiology": [
+        "~2% children, 8% adolescents",
+        "Female predominance post-puberty"
+      ],
+      "etiology": {
+        "biological": ["Genetic", "Neurotransmitter dysregulation"],
+        "psychosocial": ["Abuse", "Bullying", "Academic pressure"],
+        "comorbidities": ["Chronic illness", "Anxiety", "ADHD"]
+      },
+      "clinical_features": {
+        "core_symptoms": [
+          "Sadness/irritability",
+          "Anhedonia",
+          "Fatigue",
+          "Worthlessness/guilt",
+          "Concentration issues",
+          "Sleep/appetite disturbances",
+          "Suicidal ideation"
+        ],
+        "child_specific": [
+          "School refusal",
+          "Somatic complaints",
+          "Poor peer relationships"
+        ],
+        "duration": "≥2 weeks with impairment"
+      },
+      "diagnosis": {
+        "assessment": ["Child/parent/teacher interviews"],
+        "tools": ["PHQ-9 Modified", "CDI"],
+        "rule_out": ["Hypothyroidism", "Anemia", "Substance use"]
+      },
+      "differential_diagnosis": [
+        "Bipolar disorder",
+        "Adjustment disorder",
+        "Normal mood changes"
+      ],
+      "management": {
+        "psychotherapy": ["CBT", "Interpersonal therapy", "Family therapy"],
+        "pharmacotherapy": ["Fluoxetine (≥8yrs)", "Escitalopram (≥12yrs)"],
+        "school_support": ["Academic load reduction", "Counselor involvement"],
+        "suicide_risk": ["Mandatory assessment", "Safety planning"]
+      },
+      "prognosis": [
+        "Response in 6-12 weeks with treatment",
+        "High relapse risk",
+        "Untreated: substance use, suicide risk"
+      ],
+      "mnemonic": {
+        "name": "SIGECAPS (Child Adapted)",
+        "expansion": [
+          "S – Sleep disturbance",
+          "I – Interest loss",
+          "G – Guilt/low self-worth",
+          "E – Energy low",
+          "C – Concentration issues",
+          "A – Appetite changes",
+          "P – Psychomotor changes",
+          "S – Suicidal thoughts"
+        ]
+      }
+    },
+    "ANOREXIA_NERVOSA": {
+      "definition": "Eating disorder with distorted body image, fear of weight gain, and food restriction leading to low body weight; primarily affects adolescent females.",
+      "epidemiology": [
+        "Peak onset 13-18yrs",
+        "F:M ≈ 10:1",
+        "Increasing prevalence"
+      ],
+      "etiology": {
+        "biological": ["Genetic", "Serotonin imbalance"],
+        "psychological": ["Perfectionism", "OCD traits"],
+        "sociocultural": ["Media influence", "Weight-focused sports"],
+        "family": ["Controlling environments"]
+      },
+      "clinical_features": {
+        "dsm5_criteria": [
+          "Significantly low weight",
+          "Intense fear of weight gain",
+          "Distorted body image"
+        ],
+        "additional": [
+          "Preoccupation with calories",
+          "Ritualistic eating",
+          "Excessive exercise",
+          "Amenorrhea (common)"
+        ],
+        "physical_signs": [
+          "BMI <5th percentile",
+          "Bradycardia/hypotension",
+          "Lanugo/dry skin",
+          "Hypothermia",
+          "Delayed puberty"
+        ]
+      },
+      "complications": [
+        "Electrolyte imbalances",
+        "Cardiac arrhythmias",
+        "Osteopenia/osteoporosis",
+        "Growth retardation"
+      ],
+      "diagnosis": {
+        "clinical": "DSM-5 criteria",
+        "tools": ["EAT-26", "SCOFF questionnaire"],
+        "labs": ["CBC", "Electrolytes", "ECG", "Bone density scan"],
+        "rule_out": ["GI disorders", "Endocrine disorders"]
+      },
+      "differential_diagnosis": [
+        "Bulimia nervosa",
+        "Depression",
+        "Celiac disease"
+      ],
+      "management": {
+        "nutritional": ["Gradual weight gain", "NG feeds if severe", "Refeeding syndrome prevention"],
+        "psychotherapy": ["Family-Based Therapy", "CBT"],
+        "pharmacotherapy": ["SSRIs for comorbidities only"],
+        "hospitalization_criteria": ["BMI<15", "Electrolyte imbalance", "Bradycardia"]
+      },
+      "prognosis": [
+        "50-70% recovery with early intervention",
+        "5-6% mortality in severe cases",
+        "Poor prognosis: late onset, purging behaviors"
+      ],
+      "mnemonic": {
+        "name": "ANOREXIA",
+        "expansion": [
+          "A – Avoids meals",
+          "N – Negative body image",
+          "O – Obsession with food/weight",
+          "R – Ritualistic eating",
+          "E – Electrolyte imbalance",
+          "X – eXcessive exercise",
+          "I – Intense fear of fat",
+          "A – Amenorrhea/Adolescent girls"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "newborn_problems": [
+    {
+      "topic": "NEONATAL JAUNDICE",
+      "definition": "Yellow discoloration of skin and sclera due to elevated serum bilirubin (>5 mg/dL) in the first 28 days of life",
+      "classification": [
+        {
+          "type": "Physiological Jaundice",
+          "onset": "After 24 hours",
+          "peak": "Day 3-5",
+          "resolution": "Day 10 (term), Day 14 (preterm)"
+        },
+        {
+          "type": "Pathological Jaundice",
+          "criteria": [
+            "Onset within first 24 hours",
+            "Bilirubin rise >5 mg/dL/day",
+            "Serum bilirubin >15 mg/dL (term)",
+            "Prolonged >14 days (term)/>21 days (preterm)",
+            "Conjugated bilirubin >2 mg/dL or >20% of total"
+          ]
+        },
+        {
+          "type": "Prolonged Jaundice",
+          "definition": "Persistence beyond 14 days (term) or 21 days (preterm)",
+          "causes": ["Cholestasis", "Hypothyroidism", "UTI", "Breast milk jaundice"]
+        }
+      ],
+      "etiology": {
+        "unconjugated": [
+          "Physiological",
+          "Breast milk jaundice",
+          "Hemolytic (ABO/Rh incompatibility, G6PD deficiency)",
+          "Sepsis",
+          "Prematurity",
+          "Polycythemia"
+        ],
+        "conjugated": [
+          "Neonatal hepatitis",
+          "Biliary atresia",
+          "Galactosemia",
+          "Hypothyroidism",
+          "TORCH infections"
+        ]
+      },
+      "clinical_features": [
+        "Cephalocaudal progression of yellow discoloration",
+        "Lethargy/poor feeding",
+        "Pale/acholic stools (conjugated)",
+        "Dark urine (conjugated)",
+        "Neurological signs in kernicterus"
+      ],
+      "assessment": {
+        "methods": ["Transcutaneous bilirubinometry", "Serum bilirubin"],
+        "labs": [
+          "Blood group & Coombs test",
+          "CBC/Reticulocyte count",
+          "G6PD level",
+          "LFT",
+          "Urine culture",
+          "TSH/TORCH screen"
+        ]
+      },
+      "red_flags": [
+        "Jaundice in first 24 hrs",
+        "Rapid rise (>0.5 mg/dL/hr)",
+        "Conjugated hyperbilirubinemia",
+        "Neurological symptoms",
+        "Persistence >2-3 weeks"
+      ],
+      "management": [
+        {
+          "method": "Phototherapy",
+          "indication": "Based on AAP nomogram",
+          "precautions": ["Eye protection", "Hydration"]
+        },
+        {
+          "method": "Exchange transfusion",
+          "indication": "Failed phototherapy or encephalopathy signs"
+        },
+        {
+          "method": "Treat underlying cause",
+          "examples": [
+            "Antibiotics for sepsis",
+            "Kasai procedure for biliary atresia",
+            "Temporary breastfeeding cessation"
+          ]
+        }
+      ],
+      "complications": [
+        "Acute bilirubin encephalopathy",
+        "Kernicterus (chronic)",
+        "Anemia"
+      ],
+      "prognosis": "Excellent with early treatment",
+      "parental_counseling": [
+        "Reassurance for physiological jaundice",
+        "Exclusive breastfeeding importance",
+        "Monitor urine/stool color",
+        "Recognize danger signs"
+      ]
+    },
+    {
+      "topic": "UMBILICAL SEPSIS (Omphalitis)",
+      "definition": "Bacterial infection of umbilical stump and surrounding skin",
+      "etiology": {
+        "pathogens": [
+          "Staphylococcus aureus",
+          "Streptococcus pyogenes",
+          "E. coli/Klebsiella",
+          "Anaerobes"
+        ],
+        "risk_factors": [
+          "Home delivery",
+          "Unhygienic cord care",
+          "Prematurity",
+          "Immunodeficiency"
+        ]
+      },
+      "clinical_features": [
+        "Redness/swelling at umbilical stump",
+        "Purulent discharge",
+        "Foul odor",
+        "Fever/irritability",
+        "Abdominal wall induration (advanced cases)"
+      ],
+      "diagnosis": {
+        "clinical": "Based on appearance",
+        "labs": ["CBC", "CRP", "Blood culture", "Discharge culture"]
+      },
+      "differential_diagnosis": [
+        "Umbilical granuloma",
+        "Patent urachus",
+        "Contact dermatitis"
+      ],
+      "management": {
+        "mild_cases": [
+          "Local chlorhexidine cleansing",
+          "Oral antibiotics (cloxacillin)"
+        ],
+        "severe_cases": [
+          "Hospitalization",
+          "IV antibiotics (cloxacillin + gentamicin)",
+          "Surgical consult if necrosis"
+        ]
+      },
+      "complications": [
+        "Septicemia",
+        "Necrotizing fasciitis",
+        "Portal vein thrombosis",
+        "Peritonitis"
+      ],
+      "prevention": [
+        "Clean cord care (chlorhexidine)",
+        "Avoid traditional substances",
+        "Hygiene education"
+      ],
+      "prognosis": "Excellent if treated early"
+    },
+    {
+      "topic": "UMBILICAL HERNIA",
+      "definition": "Protrusion of abdominal contents through umbilical ring defect",
+      "risk_factors": [
+        "Prematurity",
+        "Low birth weight",
+        "Hypothyroidism",
+        "Increased intra-abdominal pressure"
+      ],
+      "clinical_features": [
+        "Soft, reducible umbilical bulge",
+        "Prominent during crying/straining",
+        "Normal overlying skin",
+        "Asymptomatic usually"
+      ],
+      "diagnosis": "Clinical examination",
+      "differential_diagnosis": [
+        "Umbilical granuloma",
+        "Omphalitis",
+        "Epigastric hernia"
+      ],
+      "complications": ["Incarceration", "Strangulation (rare)", "Skin ulceration"],
+      "management": {
+        "conservative": [
+          "Watchful waiting (closes by 2-3 years)",
+          "Avoid taping/banding"
+        ],
+        "surgical": {
+          "indications": [
+            "Persistence beyond 3-5 years",
+            "Defect >1.5-2 cm",
+            "Complications"
+          ]
+        }
+      },
+      "parental_counseling": [
+        "Reassure about spontaneous closure",
+        "No home remedies",
+        "Report warning signs"
+      ],
+      "prognosis": "90-95% close spontaneously"
+    },
+    {
+      "topic": "NEONATAL SEPSIS",
+      "definition": "Systemic infection in first 28 days of life",
+      "classification": [
+        {
+          "type": "Early-Onset Sepsis (EOS)",
+          "onset": "<72 hours",
+          "source": "Maternal genital tract"
+        },
+        {
+          "type": "Late-Onset Sepsis (LOS)",
+          "onset": ">72 hours",
+          "source": "Nosocomial/community"
+        }
+      ],
+      "etiology": {
+        "EOS": ["GBS", "E. coli", "Listeria"],
+        "LOS": ["Klebsiella", "Staphylococcus", "Candida"]
+      },
+      "risk_factors": {
+        "EOS": [
+          "Prematurity",
+          "Maternal fever",
+          "PROM >18 hrs"
+        ],
+        "LOS": [
+          "Prolonged hospitalization",
+          "Invasive procedures",
+          "Malnutrition"
+        ]
+      },
+      "clinical_features": [
+        "Poor feeding",
+        "Lethargy/irritability",
+        "Temperature instability",
+        "Respiratory distress/apnea",
+        "Jaundice",
+        "Seizures"
+      ],
+      "diagnosis": {
+        "sepsis_screen": [
+          "TLC <5000 or >20,000/mm³",
+          "ANC <1500/mm³",
+          "I/T ratio >0.2",
+          "CRP >10 mg/L"
+        ],
+        "confirmatory": [
+          "Blood culture",
+          "CSF analysis",
+          "Urine culture (LOS)"
+        ]
+      },
+      "management": {
+        "empirical_antibiotics": {
+          "EOS": "Ampicillin + Gentamicin",
+          "LOS": "Vancomycin + Cefotaxime"
+        },
+        "duration": {
+          "culture_negative": "5-7 days",
+          "culture_positive": "10-14 days",
+          "meningitis": "14-21 days"
+        },
+        "supportive_care": [
+          "Temperature regulation",
+          "Oxygen",
+          "Fluids/glucose"
+        ]
+      },
+      "complications": [
+        "Meningitis",
+        "Septic shock",
+        "DIC",
+        "Neurodevelopmental delays"
+      ],
+      "prevention": [
+        "Aseptic delivery",
+        "Hand hygiene",
+        "Early breastfeeding",
+        "Maternal GBS screening"
+      ],
+      "prognosis": "Depends on early detection"
+    },
+    {
+      "topic": "ENURESIS",
+      "definition": "Involuntary voiding after age 5",
+      "types": [
+        {
+          "type": "Primary Nocturnal",
+          "description": "Never achieved nighttime dryness"
+        },
+        {
+          "type": "Secondary",
+          "description": "Re-emergence after ≥6 months dryness"
+        },
+        {
+          "type": "Diurnal",
+          "description": "Daytime wetting"
+        }
+      ],
+      "etiology": [
+        "Genetic predisposition",
+        "Delayed bladder maturation",
+        "Reduced nocturnal ADH",
+        "Constipation",
+        "Emotional stress"
+      ],
+      "clinical_evaluation": {
+        "history": "Voiding patterns, fluid intake",
+        "physical_exam": "Spine, perineum",
+        "tests": [
+          "Urine routine/microscopy",
+          "Voiding diary",
+          "Ultrasound KUB (if indicated)"
+        ],
+        "red_flags": [
+          "Daytime symptoms",
+          "Dysuria",
+          "Abnormal gait",
+          "Sacral dimple"
+        ]
+      },
+      "management": {
+        "non_pharmacologic": [
+          "Limit evening fluids",
+          "Void before bedtime",
+          "Enuresis alarm",
+          "Positive reinforcement"
+        ],
+        "pharmacologic": [
+          "Desmopressin (DDAVP)",
+          "Imipramine (rarely)",
+          "Oxybutynin (for diurnal)"
+        ]
+      },
+      "prognosis": "15% spontaneous resolution/year",
+      "parental_counseling": [
+        "Non-blaming approach",
+        "Avoid punishments",
+        "Reassure about normal development"
+      ]
+    },
+    {
+      "topic": "INTELLECTUAL DISABILITY (MENTAL RETARDATION)",
+      "definition": "Neurodevelopmental disorder with IQ <70 and adaptive deficits before age 18",
+      "classification": [
+        {
+          "severity": "Mild",
+          "iq_range": "50-69",
+          "function": "Independent with support"
+        },
+        {
+          "severity": "Moderate",
+          "iq_range": "35-49",
+          "function": "Needs daily supervision"
+        },
+        {
+          "severity": "Severe",
+          "iq_range": "20-34",
+          "function": "Continuous support needed"
+        },
+        {
+          "severity": "Profound",
+          "iq_range": "<20",
+          "function": "Total dependency"
+        }
+      ],
+      "etiology": {
+        "prenatal": [
+          "Genetic syndromes",
+          "TORCH infections",
+          "Fetal alcohol syndrome"
+        ],
+        "perinatal": [
+          "Birth asphyxia",
+          "Prematurity",
+          "Neonatal sepsis"
+        ],
+        "postnatal": [
+          "CNS infections",
+          "Head trauma",
+          "Malnutrition"
+        ]
+      },
+      "clinical_features": [
+        "Delayed milestones",
+        "Poor school performance",
+        "Deficits in adaptive behavior",
+        "Speech delay",
+        "Dysmorphic features (syndromic)"
+      ],
+      "diagnosis": {
+        "iq_tests": ["Stanford-Binet", "Wechsler scales"],
+        "adaptive_scales": ["Vineland Adaptive Behavior Scale"],
+        "investigations": [
+          "Karyotyping",
+          "Fragile X testing",
+          "TSH/T4",
+          "Neuroimaging"
+        ]
+      },
+      "management": [
+        "Early intervention programs",
+        "Individualized Education Program (IEP)",
+        "Speech/occupational therapy",
+        "Behavioral therapy (ABA)",
+        "Medical management of comorbidities"
+      ],
+      "prognosis": "Depends on severity and early intervention"
+    },
+    {
+      "topic": "OPHTHALMIA NEONATORUM",
+      "definition": "Acute conjunctivitis in first 28 days, usually birth canal-acquired",
+      "etiology_by_onset": [
+        {
+          "onset": "<24 hours",
+          "cause": "Chemical (silver nitrate)"
+        },
+        {
+          "onset": "2-5 days",
+          "cause": "Neisseria gonorrhoeae"
+        },
+        {
+          "onset": "5-14 days",
+          "cause": "Chlamydia trachomatis"
+        },
+        {
+          "onset": ">14 days",
+          "cause": "HSV type II"
+        }
+      ],
+      "risk_factors": [
+        "Maternal STI",
+        "PROM",
+        "Inadequate antenatal screening"
+      ],
+      "clinical_features": [
+        "Eyelid swelling",
+        "Conjunctival redness",
+        "Purulent discharge",
+        "Chemosis"
+      ],
+      "diagnosis": [
+        "Gram/Giemsa stain",
+        "Culture",
+        "PCR",
+        "Fluorescein staining"
+      ],
+      "management": {
+        "general": "Saline eye cleaning",
+        "specific": [
+          {
+            "pathogen": "Gonococcal",
+            "treatment": "Ceftriaxone + eye irrigation"
+          },
+          {
+            "pathogen": "Chlamydial",
+            "treatment": "Oral erythromycin × 14 days"
+          },
+          {
+            "pathogen": "HSV",
+            "treatment": "IV acyclovir × 14-21 days"
+          }
+        ]
+      },
+      "complications": [
+        "Corneal ulceration",
+        "Blindness",
+        "Chlamydial pneumonia"
+      ],
+      "prevention": [
+        "Antenatal STI screening",
+        "Prophylactic eye drops (tetracycline/erythromycin)",
+        "Clean delivery practices"
+      ],
+      "prognosis": "Excellent with early treatment"
+    }
+  ]
+}
