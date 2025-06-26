@@ -139,7 +139,13 @@ export default function HomeScreen() {
         break;
         case "Respiratory System":
         router.push("/RespiratorySystem");
-        break;
+        break; 
+         case "Gastrointestinal System":
+        router.push("/GastrointestinalSystem");
+        break; 
+          case "Nephrology":
+        router.push("/Nephrology");
+        break; 
       default:
         Alert.alert("Coming soon", `${item.title} section is under construction.`);
     }

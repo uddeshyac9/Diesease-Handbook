@@ -2,7 +2,7 @@
   "immunology": {
     "introduction": {
       
-      "text": "Immunology is the study of the body’s defense mechanisms that protect against infections, eliminate abnormal cells, and maintain tolerance to self. The immune system includes organs, cells, and soluble factors that identify and neutralize harmful agents such as microbes, toxins, and cancer cells.",
+      "definition": "Immunology is the study of the body’s defense mechanisms that protect against infections, eliminate abnormal cells, and maintain tolerance to self. The immune system includes organs, cells, and soluble factors that identify and neutralize harmful agents such as microbes, toxins, and cancer cells.",
       "pediatricsImportance": [
         "Infants have immature immunity and are more prone to infections.",
         "Understanding immune development helps guide vaccine planning and infection control.",

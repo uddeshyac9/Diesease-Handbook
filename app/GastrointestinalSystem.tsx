@@ -1,48 +1,41 @@
-// File: app/WormInfestations.tsx
+// File: app/GastrointestinalSystem.tsx
+
 import React, { useState } from "react";
 import {
   View,
   FlatList,
   StyleSheet,
-  Dimensions,
   ScrollView,
   Text,
-  TouchableOpacity
+  TouchableOpacity,
+  Dimensions
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useRouter } from "expo-router";
 
-import wormJson from "../constants/WormInfestations.json";
+import giJson from "../constants/GastrointestinalSystem.json";
 import HeadingCard from "../components/HeadingCard";
 import JsonRenderer from "../components/JsonRenderer";
 
 const { width } = Dimensions.get("window");
 const MARGIN = 10;
 
-/** pretty‐print JSON keys for the renderer */
-const formatKey = (s: string) =>
-  s
-    .replace(/[_\-]/g, " ")
-    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
-    .replace(/^./, (c) => c.toUpperCase());
+// List of all condition names
+const headings = giJson.GastrointestinalSystem.map((item) => item.name);
 
-export default function WormInfestationsScreen() {
-  const router = useRouter();
+export default function GastrointestinalSystemScreen() {
   const [selected, setSelected] = useState<string | null>(null);
+  const router = useRouter();
 
-  const allNames = wormJson.WormInfestations.map((w) => w.name);
-
+  // Render each card in the two-column grid
   const renderHeading = ({ item }: { item: string }) => (
     <HeadingCard title={item} onPress={() => setSelected(item)} />
   );
 
   // DETAIL VIEW
   if (selected) {
-    const data = wormJson.WormInfestations.find((w) => w.name === selected);
-    if (!data) {
-      setSelected(null);
-      return null;
-    }
+    const data = giJson.GastrointestinalSystem.find((w) => w.name === selected);
+    if (!data) return null;
 
     return (
       <SafeAreaView style={styles.safeArea}>
@@ -68,12 +61,12 @@ export default function WormInfestationsScreen() {
         <TouchableOpacity onPress={() => router.back()}>
           <Text style={styles.back}>←</Text>
         </TouchableOpacity>
-        <Text style={styles.pageTitle}>Worm Infestations</Text>
+        <Text style={styles.pageTitle}>Gastrointestinal System</Text>
         <View style={{ width: 24 }} />
       </View>
 
       <FlatList
-        data={allNames}
+        data={headings}
         renderItem={renderHeading}
         keyExtractor={(item) => item}
         numColumns={2}
@@ -109,11 +102,11 @@ const styles = StyleSheet.create({
     fontWeight: "700"
   },
 
-  // Grid list
+  // Grid list spacing
   outer: { paddingHorizontal: MARGIN, paddingBottom: MARGIN },
   row: { justifyContent: "space-between", marginBottom: MARGIN * 2 },
 
-  // Detail header (matches Respiratory)
+  // Detail header
   detailHeader: {
     flexDirection: "row",
     alignItems: "center",

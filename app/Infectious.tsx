@@ -5,10 +5,10 @@ import {
   View,
   FlatList,
   StyleSheet,
-  Dimensions,
   ScrollView,
   Text,
-  TouchableOpacity
+  TouchableOpacity,
+  Dimensions
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useRouter } from "expo-router";
@@ -17,34 +17,38 @@ import infectiousJson from "../constants/Infectious.json";
 import HeadingCard from "../components/HeadingCard";
 import JsonRenderer from "../components/JsonRenderer";
 
-// Pull the top‐level "InfectiousDiseases" object
-const headings = Object.keys(infectiousJson.InfectiousDiseases);
 const { width } = Dimensions.get("window");
 const MARGIN = 10;
 
+// Top-level keys under InfectiousDiseases
+const headings = Object.keys(infectiousJson.InfectiousDiseases);
+
+const formatKey = (s: string) =>
+  s
+    .replace(/[_\-]/g, " ")
+    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+    .replace(/^./, (c) => c.toUpperCase());
+
 export default function InfectiousScreen() {
-  const [selected, setSelected] = useState<string | null>(null);
   const router = useRouter();
+  const [selected, setSelected] = useState<string | null>(null);
 
   const renderHeading = ({ item }: { item: string }) => (
-    <HeadingCard
-      title={formatKey(item)}
-      onPress={() => setSelected(item)}
-    />
+    <HeadingCard title={formatKey(item)} onPress={() => setSelected(item)} />
   );
 
+  // DETAIL VIEW
   if (selected) {
-    // Lookup under InfectiousDiseases
     const data = (infectiousJson.InfectiousDiseases as any)[selected];
 
     return (
       <SafeAreaView style={styles.safeArea}>
-        <View style={styles.header}>
+        <View style={styles.detailHeader}>
           <TouchableOpacity onPress={() => setSelected(null)}>
-            <Text style={styles.back}>← Back</Text>
+            <Text style={styles.back}>←</Text>
           </TouchableOpacity>
-          <Text style={styles.headerTitle}>{formatKey(selected)}</Text>
-          <View style={{ width: 48 }} />
+          <Text style={styles.detailTitle}>{formatKey(selected)}</Text>
+          <View style={{ width: 24 }} />
         </View>
 
         <ScrollView contentContainerStyle={styles.content}>
@@ -54,16 +58,17 @@ export default function InfectiousScreen() {
     );
   }
 
+  // GRID VIEW
   return (
     <SafeAreaView style={styles.safeArea}>
-          <View style={[styles.header,{marginBottom: 24}]}>
-          <TouchableOpacity onPress={() => router.back()}>
-            <Text style={styles.back}>← </Text>
-          </TouchableOpacity>
-      <Text style={styles.pageTitle}>Infectious Diseases</Text>
+      <View style={styles.headerRow}>
+        <TouchableOpacity onPress={() => router.back()}>
+          <Text style={styles.back}>←</Text>
+        </TouchableOpacity>
+        <Text style={styles.pageTitle}>Infectious Diseases</Text>
+        <View style={{ width: 24 }} />
+      </View>
 
-          <View style={{ width: 48 }} />
-        </View>
       <FlatList
         data={headings}
         renderItem={renderHeading}
@@ -77,24 +82,36 @@ export default function InfectiousScreen() {
   );
 }
 
-const formatKey = (s: string) =>
-  s
-    .replace(/[_\-]/g, " ")
-    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
-    .replace(/^./, (c) => c.toUpperCase());
-
 const styles = StyleSheet.create({
   safeArea: { flex: 1, backgroundColor: "#f8f9fa" },
-  pageTitle: {
-    fontSize: 24,
-    fontWeight: "700",
-    textAlign: "center",
-    
-   
+
+  // Grid header
+  headerRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 16,
+    marginBottom: 24,
+    paddingHorizontal: 12
   },
+  back: {
+    fontSize: 20,
+    fontWeight: "600",
+    width: 24
+  },
+  pageTitle: {
+    flex: 1,
+    textAlign: "center",
+    fontSize: 22,
+    fontWeight: "700"
+  },
+
+  // Grid list styles
   outer: { paddingHorizontal: MARGIN, paddingBottom: MARGIN },
   row: { justifyContent: "space-between", marginBottom: MARGIN * 2 },
-  header: {
+
+  // Detail header
+  detailHeader: {
     flexDirection: "row",
     alignItems: "center",
     paddingVertical: 12,
@@ -105,12 +122,13 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.05,
     shadowRadius: 4
   },
-  back: { fontSize: 17, fontWeight: "500", width: 48 },
-  headerTitle: {
+  detailTitle: {
     flex: 1,
     textAlign: "center",
     fontSize: 18,
     fontWeight: "700"
   },
+
+  // Detail content
   content: { padding: 16, paddingBottom: 32 }
 });

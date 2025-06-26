@@ -1,0 +1,521 @@
+{
+  "GastrointestinalSystem": [
+    {
+      "name": "Acute Watery Diarrhea (AWD)",
+      "description": "A sudden onset of frequent loose, watery stools without blood or mucus, typically due to infection",
+      "etiopathogenesis": {
+        "pathogens": [
+          "Viruses: Rotavirus (most common), Norovirus, Adenovirus",
+          "Bacteria: E. coli (ETEC), Vibrio cholerae",
+          "Parasites: Giardia lamblia (occasionally)"
+        ],
+        "mechanism": "Toxin-mediated or viral damage → ↑ secretion & ↓ absorption → watery stools; No mucosal invasion"
+      },
+      "mode_of_transmission": [
+        "Feco-oral route (contaminated food/water)",
+        "Poor hygiene, unsafe drinking water, bottle-feeding"
+      ],
+      "incubation_period": "Few hours to 3 days",
+      "clinical_features": [
+        "Frequent watery stools (no blood)",
+        "Vomiting",
+        "Low-grade fever (in viral cases)",
+        "Signs of dehydration: Thirst, sunken eyes, reduced skin turgor, lethargy"
+      ],
+      "diagnosis": [
+        "Clinical diagnosis",
+        "Stool examination only if: diarrhea >7 days, severe dehydration, or suspected bacterial/parasitic cause"
+      ],
+      "treatment": {
+        "rehydration": [
+          "ORS (Oral Rehydration Solution)",
+          "Zinc supplementation: 20 mg/day for 14 days",
+          "Continue breastfeeding/feeding",
+          "IV fluids for severe dehydration"
+        ],
+        "antibiotics": "Not required except for suspected cholera (Azithromycin/Doxycycline)"
+      },
+      "complications": [
+        "Dehydration → shock, renal injury",
+        "Electrolyte imbalance (hypokalemia)",
+        "Malnutrition, persistent diarrhea"
+      ],
+      "prevention": [
+        "Exclusive breastfeeding for 6 months",
+        "Safe drinking water, hygiene, handwashing",
+        "Rotavirus vaccine (oral UIP)",
+        "Avoid bottle feeding"
+      ]
+    },
+    {
+      "name": "Dysentery",
+      "description": "Diarrhea with visible blood and/or mucus in stools due to colonic mucosal invasion by pathogens",
+      "etiopathogenesis": {
+        "pathogens": [
+          "Shigella (most common)",
+          "Entamoeba histolytica",
+          "Campylobacter jejuni, Salmonella, EIEC"
+        ],
+        "mechanism": "Pathogens invade colonic mucosa → ulceration, inflammation → blood + mucus"
+      },
+      "mode_of_transmission": [
+        "Feco-oral route via contaminated food/water/hands",
+        "Poor sanitation and hygiene"
+      ],
+      "incubation_period": "1–7 days",
+      "clinical_features": [
+        "Frequent, small-volume stools with blood and mucus",
+        "Abdominal pain, tenesmus",
+        "Fever, vomiting",
+        "Seizures in Shigella infection"
+      ],
+      "differential_diagnosis": [
+        {"condition": "Acute watery diarrhea", "clue": "No blood, copious watery stools"},
+        {"condition": "Meckel’s diverticulum", "clue": "Painless rectal bleeding"},
+        {"condition": "IBD", "clue": "Chronic, weight loss, growth delay"}
+      ],
+      "diagnosis": [
+        "Clinical diagnosis",
+        "Stool routine & microscopy: RBCs, pus cells",
+        "Stool culture for bacteria",
+        "Amoeba antigen test if suspected"
+      ],
+      "treatment": {
+        "antibiotics": [
+          "Shigella: Cefixime, Azithromycin, or Ciprofloxacin",
+          "E. histolytica: Metronidazole + Diloxanide furoate"
+        ],
+        "supportive": [
+          "Continue feeding/breastfeeding",
+          "ORS if dehydration",
+          "Zinc supplementation"
+        ]
+      },
+      "complications": [
+        "Dehydration, electrolyte imbalance",
+        "Sepsis, toxic megacolon",
+        "Rectal prolapse, HUS in EHEC"
+      ],
+      "prevention": [
+        "Safe drinking water, handwashing",
+        "Proper feces disposal",
+        "Avoid raw/undercooked food"
+      ]
+    },
+    {
+      "name": "Amoebiasis",
+      "description": "Infection caused by Entamoeba histolytica, affecting colon and sometimes liver",
+      "etiopathogenesis": [
+        "Entamoeba histolytica cysts ingested via contaminated food/water",
+        "Trophozoites invade colonic mucosa → ulcers",
+        "Can spread to liver → abscess"
+      ],
+      "mode_of_transmission": "Feco-oral route via contaminated food/water, unwashed vegetables",
+      "incubation_period": "1–4 weeks",
+      "clinical_features": {
+        "intestinal": [
+          "Mild to moderate diarrhea/dysentery",
+          "Bloody, mucus-laden stools",
+          "Crampy abdominal pain, tenesmus"
+        ],
+        "liver_abscess": [
+          "High fever, right upper quadrant pain",
+          "Hepatomegaly, tenderness",
+          "No jaundice (unless complicated)"
+        ]
+      },
+      "differential_diagnosis": [
+        {"condition": "Bacillary dysentery", "differentiating_clue": "High fever, seizures, more acute"},
+        {"condition": "IBD", "differentiating_clue": "Chronic, weight loss, extraintestinal features"}
+      ],
+      "diagnosis": [
+        "Stool microscopy: trophozoites with ingested RBCs",
+        "Stool antigen test",
+        "USG abdomen for liver abscess",
+        "Serology for liver abscess"
+      ],
+      "treatment": {
+        "intestinal": "Metronidazole/Tinidazole × 5–10 days + Diloxanide furoate",
+        "liver_abscess": "Metronidazole high dose × 10–14 days; Drainage if no improvement"
+      },
+      "complications": [
+        "Fulminant colitis, perforation",
+        "Liver abscess rupture",
+        "Chronic carrier state"
+      ],
+      "prevention": [
+        "Safe drinking water (boil/filter)",
+        "Hand hygiene",
+        "Wash raw vegetables/fruits"
+      ]
+    },
+    {
+      "name": "Lactose Intolerance",
+      "description": "Inability to digest lactose due to lactase enzyme deficiency",
+      "etiopathogenesis": {
+        "mechanism": "Lactase deficiency → undigested lactose fermented in colon → gas, acid → symptoms",
+        "types": [
+          "Primary (genetic, after weaning)",
+          "Secondary (mucosal injury)",
+          "Congenital (rare)",
+          "Developmental (preterm)"
+        ]
+      },
+      "mode_of_transmission": "Not infectious; Primary form: autosomal recessive inheritance",
+      "clinical_features": [
+        "After milk ingestion: abdominal pain, bloating",
+        "Frothy, watery, acidic stools",
+        "Perianal excoriation (acidic stools)",
+        "Infants: feeding refusal, irritability"
+      ],
+      "differential_diagnosis": [
+        {"condition": "Cow milk protein allergy", "key_differences": "Blood in stools, eczema"},
+        {"condition": "Giardiasis", "key_differences": "Foul-smelling stools, failure to thrive"}
+      ],
+      "diagnosis": [
+        "Clinical suspicion after milk ingestion",
+        "Stool pH <5, positive reducing substances",
+        "Lactose-free diet trial → symptom improvement"
+      ],
+      "treatment": [
+        "Eliminate lactose from diet",
+        "Lactose-free formulas for infants",
+        "Lactase enzyme drops (optional)",
+        "Ensure calcium/vitamin D intake"
+      ],
+      "complications": [
+        "Nutritional deficiencies",
+        "Failure to thrive",
+        "Reduced bone mineralization"
+      ],
+      "prevention_advice": [
+        "Identify lactose-containing foods",
+        "Use yogurt/cheese (better tolerated)",
+        "Monitor growth in infants"
+      ]
+    },
+    {
+      "name": "Cholera",
+      "description": "Acute diarrheal illness caused by Vibrio cholerae, leading to profuse watery stools and rapid dehydration",
+      "etiopathogenesis": {
+        "pathogen": "Vibrio cholerae (serogroups O1, O139)",
+        "mechanism": "Cholera toxin → ↑ cAMP → massive chloride & water secretion → rice water stools"
+      },
+      "mode_of_transmission": "Feco-oral route via contaminated water/food during outbreaks/poor sanitation",
+      "incubation_period": "Few hours to 5 days (typically 1–2 days)",
+      "clinical_features": [
+        "Sudden onset painless profuse watery diarrhea (rice water stools)",
+        "Vomiting (non-bilious)",
+        "Rapid dehydration signs: thirst, sunken eyes, weak pulse",
+        "No fever"
+      ],
+      "differential_diagnosis": [
+        {"condition": "Rotavirus diarrhea", "clues": "Vomiting, mild fever"},
+        {"condition": "ETEC diarrhea", "clues": "Less severe"}
+      ],
+      "diagnosis": [
+        "Clinical diagnosis in outbreaks",
+        "Stool culture confirmation",
+        "Rapid diagnostic tests (dipstick/PCR)"
+      ],
+      "treatment": {
+        "rehydration": [
+          "ORS mainstay",
+          "IV fluids (Ringer’s Lactate) for severe dehydration"
+        ],
+        "antibiotics": "Azithromycin (children), Doxycycline (older children) for moderate-severe cases",
+        "zinc": "20 mg/day × 14 days"
+      },
+      "complications": [
+        "Hypovolemic shock",
+        "Hypokalemia, metabolic acidosis",
+        "Renal failure"
+      ],
+      "prevention": [
+        "Safe water (boil/filter/chlorinate)",
+        "Sanitation and hygiene",
+        "Oral cholera vaccine (Shanchol, Dukoral)"
+      ]
+    },
+    {
+      "name": "Viral Hepatitis",
+      "description": "Inflammation of the liver caused by hepatotropic viruses",
+      "etiopathogenesis": {
+        "viruses": [
+          "HAV & HEV: Feco-oral transmission, acute",
+          "HBV, HCV, HDV: Bloodborne/perinatal, chronic"
+        ]
+      },
+      "mode_of_transmission": [
+        {"virus": "HAV, HEV", "route": "Feco-oral (contaminated food/water)"},
+        {"virus": "HBV, HCV, HDV", "route": "Blood, sexual, perinatal"}
+      ],
+      "incubation_period": [
+        {"virus": "HAV", "period": "2–6 weeks"},
+        {"virus": "HBV", "period": "1–6 months"},
+        {"virus": "HCV", "period": "2–24 weeks"},
+        {"virus": "HEV", "period": "2–8 weeks"}
+      ],
+      "clinical_features": [
+        "Prodrome: malaise, fever, nausea, RUQ pain",
+        "Icteric phase: jaundice, dark urine, pale stools",
+        "Often asymptomatic in young children"
+      ],
+      "diagnosis": {
+        "lfts": "↑ bilirubin, ↑ ALT/AST",
+        "serology": [
+          "HAV: Anti-HAV IgM",
+          "HBV: HBsAg, Anti-HBc IgM",
+          "HCV: Anti-HCV, HCV RNA",
+          "HEV: Anti-HEV IgM"
+        ]
+      },
+      "treatment": {
+        "acute": "Supportive care: rest, nutrition, avoid hepatotoxins",
+        "chronic": "Antivirals (interferons, lamivudine, sofosbuvir) with specialist referral"
+      },
+      "complications": [
+        "Fulminant hepatic failure",
+        "Chronic hepatitis → cirrhosis",
+        "Hepatocellular carcinoma"
+      ],
+      "prevention": [
+        "Vaccines: HAV (≥12 months), HBV (UIP schedule)",
+        "Safe drinking water for HAV/HEV",
+        "Screened blood, universal precautions",
+        "HBIG for newborns of HBsAg+ mothers"
+      ]
+    },
+    {
+      "name": "Celiac Disease",
+      "description": "Chronic immune-mediated disorder triggered by gluten in genetically susceptible individuals",
+      "etiopathogenesis": [
+        "Trigger: Gluten (wheat, rye, barley)",
+        "Autoimmune destruction → villous atrophy",
+        "Associated genes: HLA-DQ2, HLA-DQ8"
+      ],
+      "clinical_features": {
+        "classic": [
+          "Chronic diarrhea",
+          "Failure to thrive, abdominal distension",
+          "Anemia, vitamin deficiencies"
+        ],
+        "atypical": [
+          "Short stature, delayed puberty",
+          "Refractory anemia, dental enamel defects"
+        ]
+      },
+      "differential_diagnosis": [
+        {"condition": "Cow's milk protein allergy", "distinguishing_features": "Improves with milk avoidance"},
+        {"condition": "Lactose intolerance", "distinguishing_features": "No villous atrophy"}
+      ],
+      "diagnosis": [
+        "Serology: Anti-tTG IgA (screen), check total IgA",
+        "Duodenal biopsy: villous atrophy (gold standard)",
+        "Response to gluten-free diet"
+      ],
+      "treatment": [
+        "Strict lifelong gluten-free diet",
+        "Supplement deficiencies (iron, vitamin D)",
+        "Dietitian counseling, monitor antibody titers"
+      ],
+      "complications": [
+        "Severe malnutrition",
+        "Growth failure",
+        "Osteopenia/osteoporosis",
+        "Intestinal lymphoma (rare)"
+      ],
+      "prevention_advice": [
+        "Early identification in high-risk groups",
+        "Educate about hidden gluten sources",
+        "Encourage label reading"
+      ]
+    },
+    {
+      "name": "GERD – Gastroesophageal Reflux Disease",
+      "description": "Reflux of gastric contents into esophagus causing symptoms/mucosal injury",
+      "etiopathogenesis": [
+        "Lower esophageal sphincter (LES) incompetence",
+        "Contributors: immature LES, liquid feeds, delayed gastric emptying"
+      ],
+      "clinical_features": {
+        "infants": [
+          "Effortless regurgitation",
+          "Irritability, arching back (Sandifer syndrome)",
+          "Poor weight gain"
+        ],
+        "older_children": [
+          "Heartburn, epigastric pain",
+          "Chronic cough, dental erosion"
+        ]
+      },
+      "differential_diagnosis": [
+        {"condition": "Physiologic reflux", "clues": "Normal weight gain, self-limiting"},
+        {"condition": "Pyloric stenosis", "clues": "Forceful vomiting, palpable olive"}
+      ],
+      "diagnosis": [
+        "Clinical diagnosis in most cases",
+        "pH probe study (gold standard)",
+        "Upper GI endoscopy for esophagitis"
+      ],
+      "treatment": {
+        "conservative": [
+          "Thickened feeds in infants",
+          "Upright positioning, small frequent feeds"
+        ],
+        "pharmacological": [
+          "PPIs: Omeprazole, Lansoprazole",
+          "H2 blockers: Ranitidine (less preferred)"
+        ],
+        "surgical": "Nissen fundoplication for severe refractory cases"
+      },
+      "complications": [
+        "Esophagitis, ulcer, stricture",
+        "Aspiration pneumonia",
+        "Failure to thrive"
+      ],
+      "prevention_advice": [
+        "Educate parents about benign nature in infants",
+        "Avoid triggers (spicy food, caffeine)",
+        "Maintain upright posture post-feed"
+      ]
+    },
+    {
+      "name": "Gastritis",
+      "description": "Inflammation of gastric mucosa",
+      "etiopathogenesis": {
+        "acute": [
+          "H. pylori, NSAIDs, steroids",
+          "Stress (Curling’s/Cushing’s ulcers)"
+        ],
+        "chronic": [
+          "H. pylori (type B)",
+          "Autoimmune (type A - rare)"
+        ]
+      },
+      "clinical_features": [
+        "Epigastric pain/burning",
+        "Nausea, vomiting",
+        "Early satiety, bloating",
+        "Hematemesis (if erosive)"
+      ],
+      "differential_diagnosis": [
+        {"condition": "GERD", "differentiating_clue": "Post-meal burning"},
+        {"condition": "Peptic ulcer", "differentiating_clue": "Pain relieved by eating"}
+      ],
+      "diagnosis": [
+        "Clinical in mild cases",
+        "Upper GI endoscopy for persistent/severe symptoms",
+        "H. pylori testing: stool antigen, urea breath test"
+      ],
+      "treatment": {
+        "supportive": "Avoid irritants (NSAIDs, spicy foods)",
+        "medications": [
+          "PPIs: Omeprazole, Lansoprazole",
+          "H. pylori eradication: PPI + Amoxicillin + Clarithromycin × 14 days"
+        ]
+      },
+      "complications": [
+        "Peptic ulcer",
+        "Gastric bleeding",
+        "Iron/B12 deficiency",
+        "Atrophic gastritis"
+      ],
+      "prevention_advice": [
+        "Avoid self-medication with NSAIDs",
+        "Healthy eating habits",
+        "Address stress in adolescents"
+      ]
+    },
+    {
+      "name": "Constipation",
+      "description": "Infrequent, difficult, or painful defecation with hard stools",
+      "etiopathogenesis": {
+        "functional": "Withholding behavior → rectal distension → harder stool",
+        "organic_red_flags": [
+          {"condition": "Hirschsprung disease", "clue": "Delayed meconium, distension"},
+          {"condition": "Hypothyroidism", "clue": "Lethargy, poor growth"}
+        ]
+      },
+      "clinical_features": [
+        "<3 bowel movements/week",
+        "Hard, dry stools",
+        "Straining, stool withholding behavior",
+        "Abdominal bloating, soiling (encopresis)"
+      ],
+      "diagnosis": [
+        "Clinical diagnosis (ROME IV criteria)",
+        "Physical exam for fecal mass, spine anomalies",
+        "Investigations only if organic cause suspected"
+      ],
+      "treatment": {
+        "disimpaction": "Oral PEG or lactulose",
+        "maintenance": [
+          "Osmotic laxatives: PEG 3350 (long-term)",
+          "High fiber diet, adequate fluids"
+        ],
+        "behavioral": [
+          "Scheduled toilet time after meals",
+          "Positive reinforcement, feet support"
+        ]
+      },
+      "complications": [
+        "Fecal impaction",
+        "Anal fissures",
+        "Rectal prolapse",
+        "Psychosocial issues"
+      ],
+      "prevention_advice": [
+        "Avoid forceful toilet training",
+        "Encourage post-meal toilet routine",
+        "Reward-based system"
+      ]
+    },
+    {
+      "name": "Vomiting",
+      "description": "Forceful expulsion of gastric contents",
+      "etiopathogenesis": "Stimuli from GI tract, CNS, vestibular system, or chemoreceptor trigger zone",
+      "causes_by_age": {
+        "neonates_infants": [
+          {"cause": "GER", "clues": "Effortless post-feed regurgitation"},
+          {"cause": "Pyloric stenosis", "clues": "Non-bilious projectile vomiting"}
+        ],
+        "children": [
+          {"cause": "Gastroenteritis", "clues": "Vomiting + diarrhea"},
+          {"cause": "UTI", "clues": "Vomiting + fever, dysuria"}
+        ]
+      },
+      "red_flags": [
+        "Bilious vomiting",
+        "Projectile vomiting",
+        "Lethargy, poor feeding",
+        "Abdominal distension"
+      ],
+      "diagnosis": [
+        "History & physical exam key",
+        "Labs: CBC, electrolytes, urine routine",
+        "Imaging if indicated (USG, CT/MRI)"
+      ],
+      "treatment": {
+        "supportive": [
+          "Hydration: ORS/IV fluids",
+          "Continue breastfeeding"
+        ],
+        "antiemetics": [
+          "Ondansetron (preferred)",
+          "Avoid in infants unless necessary"
+        ]
+      },
+      "complications": [
+        "Dehydration",
+        "Electrolyte imbalance",
+        "Aspiration"
+      ],
+      "prevention_advice": [
+        "Hand hygiene, food safety",
+        "Safe feeding positions in infants",
+        "Avoid force-feeding"
+      ]
+    }
+  ]
+}

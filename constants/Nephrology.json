@@ -1,0 +1,314 @@
+{
+  "nephrology": [
+    {
+      "name": "Urinary Tract Infection (UTI)",
+      "description": "Infection affecting any part of the urinary tract - bladder (cystitis) or kidney (pyelonephritis)",
+      "etiopathogenesis": {
+        "pathogens": [
+          "E. coli (>80%)",
+          "Klebsiella, Proteus, Enterococcus"
+        ],
+        "risk_factors": [
+          "Female gender",
+          "Poor perineal hygiene",
+          "Vesicoureteral reflux (VUR)",
+          "Constipation"
+        ]
+      },
+      "clinical_features": {
+        "infants": [
+          "Fever without focus",
+          "Poor feeding, irritability",
+          "Jaundice (neonates)"
+        ],
+        "older_children": [
+          "Dysuria, frequency, urgency",
+          "Flank pain (if pyelonephritis)"
+        ]
+      },
+      "types": [
+        {"type": "Cystitis", "description": "Bladder infection, no fever"},
+        {"type": "Pyelonephritis", "description": "Fever, flank pain, vomiting"},
+        {"type": "Recurrent UTI", "description": "≥2 febrile UTIs in 6 months"}
+      ],
+      "differential_diagnosis": [
+        {"condition": "Vulvovaginitis", "clue": "External itching, discharge"},
+        {"condition": "Pinworm infestation", "clue": "Perianal itching"}
+      ],
+      "diagnosis": [
+        "Urine routine: pyuria (>5 WBC/HPF)",
+        "Urine culture (gold standard)",
+        "USG KUB after first febrile UTI"
+      ],
+      "treatment": {
+        "antibiotics": {
+          "oral": "Amoxicillin-clavulanate, Cefixime",
+          "iv": "Ceftriaxone for severe cases"
+        },
+        "duration": {
+          "cystitis": "5-7 days",
+          "pyelonephritis": "10-14 days"
+        }
+      },
+      "complications": [
+        "Renal scarring",
+        "Hypertension",
+        "Chronic kidney disease"
+      ],
+      "prevention_advice": [
+        "Adequate hydration",
+        "Front-to-back wiping hygiene",
+        "Treat constipation"
+      ]
+    },
+    {
+      "name": "Cystitis",
+      "description": "Infection of the urinary bladder - a lower urinary tract infection",
+      "etiopathogenesis": {
+        "pathogens": ["E. coli (most common)", "Klebsiella, Proteus"],
+        "predisposing_factors": [
+          "Poor perineal hygiene",
+          "Infrequent voiding",
+          "Structural anomalies"
+        ]
+      },
+      "clinical_features": [
+        "Burning micturition (dysuria)",
+        "Increased frequency, urgency",
+        "Suprapubic pain",
+        "No fever or mild low-grade fever"
+      ],
+      "differential_diagnosis": [
+        {"condition": "Vulvovaginitis", "key_differentiator": "Discharge, external redness"},
+        {"condition": "Functional dysuria", "key_differentiator": "No infection, daytime only"}
+      ],
+      "diagnosis": [
+        "Urine routine: pyuria, bacteriuria",
+        "Urine culture (≥10⁵ CFU/mL)"
+      ],
+      "treatment": {
+        "antibiotics": "Oral: Cefixime, Nitrofurantoin × 5-7 days",
+        "supportive": [
+          "Adequate fluid intake",
+          "Sitz baths for discomfort"
+        ]
+      },
+      "complications": [
+        "Progression to pyelonephritis",
+        "Recurrent UTI"
+      ],
+      "prevention": [
+        "Proper toilet hygiene",
+        "Avoid holding urine",
+        "Manage constipation"
+      ]
+    },
+    {
+      "name": "Nephrotic Syndrome (NS)",
+      "description": "Renal disorder characterized by massive proteinuria, hypoalbuminemia, edema, and hyperlipidemia",
+      "cardinal_signs": [
+        "Proteinuria: >40 mg/m²/hr",
+        "Hypoalbuminemia: <2.5 g/dL",
+        "Edema",
+        "Hyperlipidemia: cholesterol >200 mg/dL"
+      ],
+      "types": [
+        {"type": "Minimal Change Disease (MCD)", "features": "Most common in children (~80%)"},
+        {"type": "Steroid-sensitive NS (SSNS)", "features": "Responds to prednisolone"},
+        {"type": "Steroid-resistant NS (SRNS)", "features": "No remission after 6 weeks steroids"}
+      ],
+      "clinical_features": [
+        "Periorbital edema (worse in morning)",
+        "Frothy urine",
+        "Pedal edema, ascites",
+        "Infections: spontaneous bacterial peritonitis"
+      ],
+      "investigations": [
+        "Urine protein/creatinine ratio >2.0",
+        "Serum albumin <2.5 g/dL",
+        "Lipid profile: ↑ Cholesterol",
+        "C3 complement: Normal in MCD"
+      ],
+      "treatment": {
+        "corticosteroids": "Prednisolone 2 mg/kg/day × 6 weeks then taper",
+        "supportive": [
+          "Salt restriction",
+          "Furosemide for edema",
+          "Pneumococcal vaccine"
+        ]
+      },
+      "complications": [
+        "Infections (SBP, pneumonia)",
+        "Thrombosis (renal vein)",
+        "Acute kidney injury"
+      ],
+      "prognosis": "Excellent in MCD & steroid-sensitive cases (80-90% respond)"
+    },
+    {
+      "name": "Tubercular Interstitial Nephritis (TB-TIN)",
+      "description": "Rare form of renal tuberculosis involving renal interstitium",
+      "etiopathogenesis": [
+        "Mycobacterium tuberculosis via hematogenous spread",
+        "Involves renal cortex and interstitium"
+      ],
+      "clinical_features": [
+        "Low-grade fever, weight loss",
+        "Polyuria, nocturia",
+        "Sterile pyuria",
+        "Gradual rise in creatinine"
+      ],
+      "diagnosis": [
+        "Urine AFB/NAAT (CBNAAT)",
+        "Mantoux test positive",
+        "Renal biopsy: granulomas"
+      ],
+      "treatment": [
+        "ATT for 6-9 months (HRZE regimen)",
+        "Corticosteroids for severe inflammation"
+      ],
+      "complications": [
+        "Chronic interstitial nephritis",
+        "End-stage renal disease (ESRD)"
+      ],
+      "prevention": "Early treatment of primary TB"
+    },
+    {
+      "name": "Renal Calculi (Nephrolithiasis)",
+      "description": "Formation of stones in kidneys or urinary tract",
+      "stone_types": [
+        "Calcium oxalate (most common)",
+        "Struvite (infection-related)",
+        "Cystine (in cystinuria)"
+      ],
+      "risk_factors": [
+        "Low fluid intake",
+        "Hypercalciuria, hyperoxaluria",
+        "Recurrent UTI",
+        "Metabolic disorders"
+      ],
+      "clinical_features": [
+        "Colicky flank/abdominal pain",
+        "Hematuria",
+        "Vomiting (in infants)",
+        "Fever (if infection)"
+      ],
+      "diagnosis": [
+        "Urine routine: hematuria, crystals",
+        "USG KUB (first-line)",
+        "Non-contrast CT KUB (most sensitive)"
+      ],
+      "treatment": {
+        "acute": [
+          "Hydration (IV fluids)",
+          "Pain control",
+          "Antibiotics if UTI"
+        ],
+        "long_term": [
+          "Increase fluid intake (1.5-2 L/day urine)",
+          "Dietary salt/protein reduction",
+          "Potassium citrate for hypocitraturia"
+        ]
+      },
+      "complications": [
+        "Hydronephrosis",
+        "Obstructive nephropathy",
+        "CKD"
+      ]
+    },
+    {
+      "name": "Hematuria",
+      "description": "Presence of red blood cells (RBCs) in urine",
+      "types": [
+        {"type": "Gross Hematuria", "description": "Visible red/brown urine"},
+        {"type": "Microscopic", "description": ">5 RBCs/HPF"}
+      ],
+      "causes": {
+        "glomerular": [
+          "Acute glomerulonephritis (AGN)",
+          "IgA nephropathy",
+          "Alport syndrome"
+        ],
+        "non_glomerular": [
+          "UTI",
+          "Renal stones",
+          "Trauma"
+        ]
+      },
+      "diagnosis": [
+        "Urine microscopy (RBC morphology)",
+        "Urine calcium/creatinine ratio",
+        "ASO titer, C3 complement",
+        "Ultrasound KUB"
+      ],
+      "red_flags": [
+        "Gross hematuria with hypertension",
+        "Decreased urine output",
+        "Family history of kidney disease"
+      ],
+      "treatment": "Depends on underlying cause",
+      "prevention": [
+        "Maintain hydration",
+        "Avoid unnecessary NSAIDs"
+      ]
+    },
+    {
+      "name": "Balanitis",
+      "description": "Inflammation of the glans penis (balanitis) or glans + foreskin (balanoposthitis)",
+      "etiopathogenesis": [
+        "Poor hygiene → smegma accumulation",
+        "Bacterial/fungal infection",
+        "Irritants: soaps, diapers"
+      ],
+      "clinical_features": [
+        "Redness, swelling of glans",
+        "Pain during urination",
+        "Foul-smelling discharge",
+        "Dysuria"
+      ],
+      "diagnosis": [
+        "Clinical examination",
+        "Urinalysis to rule out UTI"
+      ],
+      "treatment": [
+        "Gentle cleansing with warm water",
+        "Topical antibiotics/antifungals",
+        "Oral antibiotics if severe"
+      ],
+      "complications": [
+        "Phimosis",
+        "Paraphimosis (emergency!)",
+        "Meatal stenosis"
+      ],
+      "prevention": [
+        "Maintain good hygiene",
+        "Avoid irritants (bubble baths)"
+      ]
+    },
+    {
+      "name": "Phimosis",
+      "description": "Inability to retract the prepuce (foreskin) over the glans penis",
+      "types": [
+        {"type": "Physiological", "description": "Normal in infants, resolves by age 3-5 yrs"},
+        {"type": "Pathological", "description": "Due to scarring or infection"}
+      ],
+      "clinical_features": [
+        "Inability to retract foreskin",
+        "Ballooning during urination",
+        "Recurrent UTIs or balanitis"
+      ],
+      "red_flags": [
+        "Recurrent UTIs",
+        "Painful voiding",
+        "Obstructive urinary symptoms"
+      ],
+      "treatment": {
+        "conservative": "Topical steroid cream (Betamethasone) + gentle stretching",
+        "surgical": "Circumcision for failed conservative treatment"
+      },
+      "prevention_advice": [
+        "Avoid forceful retraction in infants",
+        "Treat balanitis early"
+      ]
+    }
+  ]
+}
