@@ -1,7 +1,6 @@
 {
-  "birth_injuries": [
-    {
-      "topic": "BIRTH ASPHYXIA",
+  "birth_injuries": {
+    "BIRTH_ASPHYXIA": {
       "definition": "Impairment of gas exchange leading to hypoxemia, hypercapnia, and metabolic acidosis causing multi-organ dysfunction",
       "etiology": {
         "maternal": [
@@ -73,8 +72,7 @@
       ],
       "prognosis": "Depends on HIE severity - Stage III has high mortality"
     },
-    {
-      "topic": "CEPHALOHEMATOMA",
+    "CEPHALOHEMATOMA": {
       "definition": "Subperiosteal hemorrhage confined to one cranial bone (usually parietal)",
       "etiology": [
         "Instrumental delivery",
@@ -106,8 +104,7 @@
       "complications": ["Hyperbilirubinemia", "Calcification"],
       "prognosis": "Excellent - resolves completely"
     },
-    {
-      "topic": "CAPUT SUCCEDANEUM",
+    "CAPUT_SUCCEDANEUM": {
       "definition": "Diffuse edematous scalp swelling above periosteum",
       "etiology": [
         "Pressure during labor",
@@ -124,8 +121,7 @@
       "management": "Reassurance only",
       "prognosis": "Resolves spontaneously"
     },
-    {
-      "topic": "INTRACRANIAL HEMORRHAGE (ICH)",
+    "INTRACRANIAL_HEMORRHAGE_ICH": {
       "types": [
         {
           "type": "Subdural",
@@ -181,8 +177,7 @@
       ],
       "prognosis": "Grade I-II IVH: Good outcome; Severe ICH: High mortality"
     },
-    {
-      "topic": "BRACHIAL PALSY (Erb's Palsy)",
+    "BRACHIAL_PALSY_ERBS_PALSY": {
       "definition": "Upper limb paralysis from brachial plexus injury",
       "types": [
         {
@@ -222,8 +217,7 @@
       ],
       "prognosis": "90% recover by 3-6 months with early intervention"
     },
-    {
-      "topic": "BELL'S PALSY",
+    "BELLS_PALSY": {
       "definition": "Unilateral lower motor neuron facial paralysis",
       "etiology": {
         "neonates": [
@@ -256,8 +250,7 @@
       },
       "prognosis": "Neonates: Complete recovery; Children: 80-90% recovery in 6 weeks"
     },
-    {
-      "topic": "CLAVICLE FRACTURE",
+    "CLAVICLE_FRACTURE": {
       "definition": "Midshaft clavicle fracture from birth trauma",
       "risk_factors": [
         "Macrosomia",
@@ -279,8 +272,7 @@
       "complications": ["Callus formation", "Associated Erb's palsy"],
       "prognosis": "Complete healing in 2-3 weeks"
     },
-    {
-      "topic": "BRUISES OF SKIN",
+    "BRUISES_OF_SKIN": {
       "definition": "Superficial hemorrhages from birth trauma",
       "common_sites": [
         "Presenting head part",
@@ -312,5 +304,5 @@
       "complications": ["Hyperbilirubinemia if extensive"],
       "prognosis": "Resolves spontaneously in 4-7 days"
     }
-  ]
+  }
 }

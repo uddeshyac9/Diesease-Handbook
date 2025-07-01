@@ -79,7 +79,7 @@ const cardTitle = [
       "https://images.unsplash.com/photo-1713085085470-fba013d67e65?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    title: "Genetic Disease",
+    title: "Genetic Diseases",
     image:
       "https://plus.unsplash.com/premium_photo-1676418571698-e473eef0f6dd?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
@@ -146,6 +146,48 @@ export default function HomeScreen() {
           case "Nephrology":
         router.push("/Nephrology");
         break; 
+        case "Hematological Diseases":
+        router.push("/HematologicalDiseases");
+        break; 
+        case "Neurology":
+        router.push("/Neurology");
+        break; 
+        case "Cardiology":
+        router.push("/Cardiology");
+        break; 
+        case "Endocrinology":
+        router.push("/Endocrinology");
+        break; 
+        case "Rheumatology":
+        router.push("/Rheumatology");
+        break; 
+        case "Dermatology":
+        router.push("/Dermatology");
+        break; 
+        case "Genetic Diseases":
+        router.push("/GeneticDiseases");
+        break; 
+        case "Behavioral Diseases":
+        router.push("/BehavioralDiseases");
+        break; 
+        case "Newborn Problems":
+        router.push("/NewbornProblems");
+        break; 
+        case "Nutritional Diseases":
+        router.push("/NutritionalDisorders");
+        break; 
+        case "Birth Injuries":
+        router.push("/BirthInjuries");
+        break; 
+        case "Normal Newborn Features":
+        router.push("/NormalNewbornFeatures");
+        break; 
+        case "Nutrition In Child":
+        router.push("/NutritionInChildren");
+        break;
+        case "Growth & Development in Child":
+        router.push("/GrowthAndDevelopment");
+        break;
       default:
         Alert.alert("Coming soon", `${item.title} section is under construction.`);
     }
