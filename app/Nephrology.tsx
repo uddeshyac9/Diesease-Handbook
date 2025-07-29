@@ -8,7 +8,9 @@ import {
   ScrollView,
   Text,
   TouchableOpacity,
-  Dimensions
+  Dimensions,
+  ListRenderItemInfo,
+  Image
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useRouter } from "expo-router";
@@ -17,25 +19,63 @@ import nephroJson from "../constants/Nephrology.json";
 import HeadingCard from "../components/HeadingCard";
 import JsonRenderer from "../components/JsonRenderer";
 
+// Import all 8 images
+import image1 from "../assets/images/Nephrology/image1.jpg";
+import image2 from "../assets/images/Nephrology/image2.png";
+import image3 from "../assets/images/Nephrology/image3.png";
+import image4 from "../assets/images/Nephrology/image4.jpg";
+import image5 from "../assets/images/Nephrology/image5.jpg";
+import image6 from "../assets/images/Nephrology/image6.png";
+import image7 from "../assets/images/Nephrology/image7.png";
+import image8 from "../assets/images/Nephrology/image8.jpg";
+
+const images = [
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7,
+  image8
+] as const; // Must match nephroJson.nephrology.length
+
 const { width } = Dimensions.get("window");
 const MARGIN = 10;
 
-// Extract all condition names
-const headings = nephroJson.nephrology.map((item) => item.name);
+// pretty‑print JSON keys if needed
+const formatKey = (s: string) =>
+  s
+    .replace(/[_\-]/g, " ")
+    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+    .replace(/^./, (c) => c.toUpperCase());
 
 export default function NephrologyScreen() {
-  const [selected, setSelected] = useState<string | null>(null);
   const router = useRouter();
+  const [selected, setSelected] = useState<string | null>(null);
 
-  // Render a card for each condition
-  const renderHeading = ({ item }: { item: string }) => (
-    <HeadingCard title={item} onPress={() => setSelected(item)} />
+  // Extract all condition names
+  const headings = nephroJson.nephrology.map((item) => item.name);
+
+  /* ----------------------------- RENDER CARD ---------------------------- */
+  const renderHeading = ({
+    item,
+    index
+  }: ListRenderItemInfo<string>) => (
+    <HeadingCard
+      title={formatKey(item)}
+      imageSource={images[index]}
+      onPress={() => setSelected(item)}
+    />
   );
 
-  // Detail view for a selected condition
+  /* -------------------------- DETAIL SCREEN ---------------------------- */
   if (selected) {
     const data = nephroJson.nephrology.find((w) => w.name === selected);
     if (!data) return null;
+
+    const selectedIndex = headings.indexOf(selected);
+    const banner = images[selectedIndex];
 
     return (
       <SafeAreaView style={styles.safeArea}>
@@ -43,18 +83,23 @@ export default function NephrologyScreen() {
           <TouchableOpacity onPress={() => setSelected(null)}>
             <Text style={styles.back}>←</Text>
           </TouchableOpacity>
-          <Text style={styles.detailTitle}>{selected}</Text>
+          <Text style={styles.detailTitle}>{formatKey(selected)}</Text>
           <View style={{ width: 24 }} />
         </View>
 
         <ScrollView contentContainerStyle={styles.content}>
+          <Image
+            source={banner}
+            style={styles.bannerImage}
+            resizeMode="contain"
+          />
           <JsonRenderer data={data} />
         </ScrollView>
       </SafeAreaView>
     );
   }
 
-  // Grid view of all nephrology conditions
+  /* --------------------------- GRID SCREEN ----------------------------- */
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.headerRow}>
@@ -70,8 +115,8 @@ export default function NephrologyScreen() {
         renderItem={renderHeading}
         keyExtractor={(item) => item}
         numColumns={2}
-        contentContainerStyle={styles.outer}
         columnWrapperStyle={styles.row}
+        contentContainerStyle={styles.outer}
         showsVerticalScrollIndicator={false}
       />
     </SafeAreaView>
@@ -79,7 +124,7 @@ export default function NephrologyScreen() {
 }
 
 const styles = StyleSheet.create({
-  safeArea: { flex: 1, backgroundColor: "#f8f9fa" },
+  safeArea: { flex: 1, backgroundColor: "#F8FAFC" },
 
   // Grid header
   headerRow: {
@@ -102,17 +147,17 @@ const styles = StyleSheet.create({
     fontWeight: "700"
   },
 
-  // Grid spacing
+  // Grid list
   outer: { paddingHorizontal: MARGIN, paddingBottom: MARGIN },
   row: { justifyContent: "space-between", marginBottom: MARGIN * 2 },
 
-  // Detail view header
+  // Detail header
   detailHeader: {
     flexDirection: "row",
     alignItems: "center",
     paddingVertical: 12,
     paddingHorizontal: 16,
-    backgroundColor: "#fff",
+    backgroundColor: "#FFF",
     elevation: 3,
     shadowColor: "#000",
     shadowOpacity: 0.05,
@@ -125,6 +170,18 @@ const styles = StyleSheet.create({
     fontWeight: "700"
   },
 
+  // Banner image
+  bannerImage: {
+    width: "95%",
+    height: 200,
+    alignSelf: "center",
+    borderRadius: 10,
+    marginBottom: 16
+  },
+
   // Detail content
-  content: { padding: 16, paddingBottom: 32 }
+  content: {
+    paddingHorizontal: 16,
+    paddingVertical: 16
+  }
 });
