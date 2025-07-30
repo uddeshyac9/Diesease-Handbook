@@ -8,7 +8,9 @@ import {
   ScrollView,
   Text,
   TouchableOpacity,
-  Dimensions
+  Dimensions,
+  ListRenderItemInfo,
+  Image
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useRouter } from "expo-router";
@@ -17,13 +19,35 @@ import behavioralJson from "../constants/BehavioralDiseases.json";
 import HeadingCard from "../components/HeadingCard";
 import JsonRenderer from "../components/JsonRenderer";
 
+// Import all 7 images
+import image1 from "../assets/images/BehavioralDiseases/image1.png";
+import image2 from "../assets/images/BehavioralDiseases/image2.jpg";
+import image3 from "../assets/images/BehavioralDiseases/image3.jpg";
+import image4 from "../assets/images/BehavioralDiseases/image4.jpg";
+import image5 from "../assets/images/BehavioralDiseases/image5.jpg";
+import image6 from "../assets/images/BehavioralDiseases/image6.jpg";
+import image7 from "../assets/images/BehavioralDiseases/image7.jpg";
+
 const { width } = Dimensions.get("window");
 const MARGIN = 10;
 
-// Top-level topics from the JSON
-const headings: string[] = Object.keys(behavioralJson.BEHAVIORAL_DISEASES);
+// Must match Object.keys(behavioralJson.BEHAVIORAL_DISEASES).length
+const images = [
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7
+] as const;
 
-// Convert SCREAMING_SNAKE_CASE or Title Case to Normal Title
+// Top‐level keys from the JSON
+const headings: string[] = Object.keys(
+  behavioralJson.BEHAVIORAL_DISEASES
+);
+
+// Convert keys to Title Case
 const formatKey = (s: string) =>
   s
     .toLowerCase()
@@ -34,9 +58,27 @@ export default function BehavioralDiseases() {
   const [selected, setSelected] = useState<string | null>(null);
   const router = useRouter();
 
-  // Detail view for a selected topic
+  /* ----------------------------- RENDER CARD ---------------------------- */
+  const renderHeading = ({
+    item,
+    index
+  }: ListRenderItemInfo<string>) => (
+    <HeadingCard
+      title={formatKey(item)}
+      imageSource={images[index]}
+      onPress={() => setSelected(item)}
+    />
+  );
+
+  /* -------------------------- DETAIL SCREEN ---------------------------- */
   if (selected) {
-    const data = behavioralJson.BEHAVIORAL_DISEASES[selected as keyof typeof behavioralJson.BEHAVIORAL_DISEASES];
+    const data =
+      behavioralJson.BEHAVIORAL_DISEASES[
+        selected as keyof typeof behavioralJson.BEHAVIORAL_DISEASES
+      ];
+    const selectedIndex = headings.indexOf(selected);
+    const banner = images[selectedIndex];
+
     return (
       <SafeAreaView style={styles.safeArea}>
         <View style={styles.detailHeader}>
@@ -46,14 +88,20 @@ export default function BehavioralDiseases() {
           <Text style={styles.detailTitle}>{formatKey(selected)}</Text>
           <View style={{ width: 24 }} />
         </View>
+
         <ScrollView contentContainerStyle={styles.content}>
+          <Image
+            source={banner}
+            style={styles.bannerImage}
+            resizeMode="contain"
+          />
           <JsonRenderer data={data} />
         </ScrollView>
       </SafeAreaView>
     );
   }
 
-  // Grid view of all behavioral disease topics
+  /* --------------------------- GRID SCREEN ----------------------------- */
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.headerRow}>
@@ -63,28 +111,26 @@ export default function BehavioralDiseases() {
         <Text style={styles.pageTitle}>Behavioral Diseases</Text>
         <View style={{ width: 24 }} />
       </View>
+
       <FlatList
         data={headings}
-        renderItem={({ item }) => (
-          <HeadingCard
-            title={formatKey(item)}
-            onPress={() => setSelected(item)}
-          />
-        )}
+        renderItem={renderHeading}
         keyExtractor={(item) => item}
         numColumns={2}
-        contentContainerStyle={styles.outer}
         columnWrapperStyle={styles.row}
+        contentContainerStyle={styles.outer}
         showsVerticalScrollIndicator={false}
       />
     </SafeAreaView>
   );
 }
 
+/* ------------------------------------------------------------------ */
+/* ---------------------------  STYLES  ----------------------------- */
 const styles = StyleSheet.create({
-  safeArea: { flex: 1, backgroundColor: "#f8f9fa" },
+  safeArea: { flex: 1, backgroundColor: "#F8FAFC" },
 
-  // Main grid header
+  // Grid header
   headerRow: {
     flexDirection: "row",
     alignItems: "center",
@@ -105,17 +151,17 @@ const styles = StyleSheet.create({
     fontWeight: "700"
   },
 
-  // Grid layout
+  // Grid list
   outer: { paddingHorizontal: MARGIN, paddingBottom: MARGIN },
   row: { justifyContent: "space-between", marginBottom: MARGIN * 2 },
 
-  // Detail view header
+  // Detail header
   detailHeader: {
     flexDirection: "row",
     alignItems: "center",
     paddingVertical: 12,
     paddingHorizontal: 16,
-    backgroundColor: "#fff",
+    backgroundColor: "#FFF",
     elevation: 3,
     shadowColor: "#000",
     shadowOpacity: 0.05,
@@ -128,6 +174,18 @@ const styles = StyleSheet.create({
     fontWeight: "700"
   },
 
+  // Banner image
+  bannerImage: {
+    width: "95%",
+    height: 200,
+    alignSelf: "center",
+    borderRadius: 10,
+    marginBottom: 16
+  },
+
   // Detail content
-  content: { padding: 16, paddingBottom: 32 }
+  content: {
+    paddingHorizontal: 16,
+    paddingVertical: 16
+  }
 });

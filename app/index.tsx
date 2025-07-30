@@ -18,6 +18,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import IconImage from "../assets/images/icon.png";
 
 const cardTitle = [
+
+
   {
     title: "Immunology",
     image:
@@ -116,11 +118,17 @@ const cardTitle = [
     title: "Growth & Development in Child",
     image:
       "https://www.family.abbott/content/dam/an/familyabbott/in-en/pediasure/child-nutrition-and-development/blogs/how-to-monitor-your-childs-growth/How%20to%20monitor%20your%20child%20growth%20updated.jpg"
-  }
+  },
+   {
+    title: "Authors",
+    image:
+      "https://img.freepik.com/premium-vector/child-care-logo_20448-66.jpg"
+  },
+  
 ];
 
 const { width } = Dimensions.get("window");
-const MARGIN = 10;
+const MARGIN = 15;
 const CARD_WIDTH = (width - MARGIN * 3) / 2;
 
 export default function HomeScreen() {
@@ -188,6 +196,9 @@ export default function HomeScreen() {
         case "Growth & Development in Child":
         router.push("/GrowthAndDevelopment");
         break;
+        case "Authors":
+        router.push("/Authors");
+        break;
       default:
         Alert.alert("Coming soon", `${item.title} section is under construction.`);
     }
@@ -203,6 +214,7 @@ export default function HomeScreen() {
 
     return (
       <TouchableOpacity style={styles.card} onPress={() => handlePress(item)}>
+     
         <Image source={sourceProp} style={styles.image} />
         <View style={styles.textContainer}>
           <Text style={styles.title}>{item.title}</Text>
@@ -218,7 +230,7 @@ export default function HomeScreen() {
         backgroundColor="#f8f8f8"
         translucent={false}
       />
-
+          <Text style={{textAlign:'center', fontSize:20, paddingVertical:10,fontWeight:'600'}}>Child Care</Text>
       <FlatList
         data={cardTitle}
         keyExtractor={(_, i) => i.toString()}

@@ -8,7 +8,9 @@ import {
   ScrollView,
   Text,
   TouchableOpacity,
-  Dimensions
+  Dimensions,
+  ListRenderItemInfo,
+  Image
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useRouter } from "expo-router";
@@ -17,11 +19,33 @@ import newbornJson from "../constants/NewbornProblems.json";
 import HeadingCard from "../components/HeadingCard";
 import JsonRenderer from "../components/JsonRenderer";
 
+// Import all 7 images
+import image1 from "../assets/images/NewbornProblems/image1.jpg";
+import image2 from "../assets/images/NewbornProblems/image2.jpg";
+import image3 from "../assets/images/NewbornProblems/image3.jpg";
+import image4 from "../assets/images/NewbornProblems/image4.jpg";
+import image5 from "../assets/images/NewbornProblems/image5.jpg";
+import image6 from "../assets/images/NewbornProblems/image6.jpg";
+import image7 from "../assets/images/NewbornProblems/image7.jpg";
+
 const { width } = Dimensions.get("window");
 const MARGIN = 10;
 
+// Must match newbornJson.newborn_problems.length
+const images = [
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7
+] as const;
+
 // Extract the list of topics for the grid
-const headings: string[] = newbornJson.newborn_problems.map((item) => item.topic);
+const headings: string[] = newbornJson.newborn_problems.map(
+  (item) => item.topic
+);
 
 // Simple formatter to title-case the topic string
 const formatKey = (s: string) =>
@@ -34,10 +58,27 @@ export default function NewbornProblems() {
   const [selected, setSelected] = useState<string | null>(null);
   const router = useRouter();
 
-  // Detail view when a topic is selected
+  /* ----------------------------- RENDER CARD ---------------------------- */
+  const renderHeading = ({
+    item,
+    index
+  }: ListRenderItemInfo<string>) => (
+    <HeadingCard
+      title={formatKey(item)}
+      imageSource={images[index]}
+      onPress={() => setSelected(item)}
+    />
+  );
+
+  /* -------------------------- DETAIL SCREEN ---------------------------- */
   if (selected) {
-    const data = newbornJson.newborn_problems.find((item) => item.topic === selected);
+    const data = newbornJson.newborn_problems.find(
+      (item) => item.topic === selected
+    );
     if (!data) return null;
+
+    const selectedIndex = headings.indexOf(selected);
+    const banner = images[selectedIndex];
 
     return (
       <SafeAreaView style={styles.safeArea}>
@@ -49,13 +90,18 @@ export default function NewbornProblems() {
           <View style={{ width: 24 }} />
         </View>
         <ScrollView contentContainerStyle={styles.content}>
+          <Image
+            source={banner}
+            style={styles.bannerImage}
+            resizeMode="cover"
+          />
           <JsonRenderer data={data} />
         </ScrollView>
       </SafeAreaView>
     );
   }
 
-  // Grid view of all newborn problem topics
+  /* --------------------------- GRID SCREEN ----------------------------- */
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.headerRow}>
@@ -67,16 +113,11 @@ export default function NewbornProblems() {
       </View>
       <FlatList
         data={headings}
-        renderItem={({ item }) => (
-          <HeadingCard
-            title={formatKey(item)}
-            onPress={() => setSelected(item)}
-          />
-        )}
+        renderItem={renderHeading}
         keyExtractor={(item) => item}
         numColumns={2}
-        contentContainerStyle={styles.outer}
         columnWrapperStyle={styles.row}
+        contentContainerStyle={styles.outer}
         showsVerticalScrollIndicator={false}
       />
     </SafeAreaView>
@@ -84,7 +125,7 @@ export default function NewbornProblems() {
 }
 
 const styles = StyleSheet.create({
-  safeArea: { flex: 1, backgroundColor: "#f8f9fa" },
+  safeArea: { flex: 1, backgroundColor: "#F8FAFC" },
 
   // Grid header
   headerRow: {
@@ -111,13 +152,13 @@ const styles = StyleSheet.create({
   outer: { paddingHorizontal: MARGIN, paddingBottom: MARGIN },
   row: { justifyContent: "space-between", marginBottom: MARGIN * 2 },
 
-  // Detail view header
+  // Detail header
   detailHeader: {
     flexDirection: "row",
     alignItems: "center",
     paddingVertical: 12,
     paddingHorizontal: 16,
-    backgroundColor: "#fff",
+    backgroundColor: "#FFF",
     elevation: 3,
     shadowColor: "#000",
     shadowOpacity: 0.05,
@@ -130,6 +171,18 @@ const styles = StyleSheet.create({
     fontWeight: "700"
   },
 
+  // Banner image
+  bannerImage: {
+    width: "95%",
+    height: 200,
+    alignSelf: "center",
+    borderRadius: 10,
+    marginBottom: 16
+  },
+
   // Detail content
-  content: { padding: 16, paddingBottom: 32 }
+  content: {
+    paddingHorizontal: 16,
+    paddingVertical: 16
+  }
 });

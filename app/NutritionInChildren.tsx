@@ -8,7 +8,9 @@ import {
   ScrollView,
   Text,
   TouchableOpacity,
-  Dimensions
+  Dimensions,
+  ListRenderItemInfo,
+  Image
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useRouter } from "expo-router";
@@ -17,13 +19,45 @@ import nutritionJson from "../constants/NutritionInChildren.json";
 import HeadingCard from "../components/HeadingCard";
 import JsonRenderer from "../components/JsonRenderer";
 
+// Import all 12 images
+import image1 from "../assets/images/NutritionInChild/image1.jpg";
+import image2 from "../assets/images/NutritionInChild/image2.jpg";
+import image3 from "../assets/images/NutritionInChild/image3.jpeg";
+import image4 from "../assets/images/NutritionInChild/image4.jpeg";
+import image5 from "../assets/images/NutritionInChild/image5.jpeg";
+import image6 from "../assets/images/NutritionInChild/image6.jpeg";
+import image7 from "../assets/images/NutritionInChild/image7.jpeg";
+import image8 from "../assets/images/NutritionInChild/image8.jpeg";
+import image9 from "../assets/images/NutritionInChild/image9.jpeg";
+import image10 from "../assets/images/NutritionInChild/image10.jpeg";
+import image11 from "../assets/images/NutritionInChild/image11.jpeg";
+import image12 from "../assets/images/NutritionInChild/image12.jpeg";
+
 const { width } = Dimensions.get("window");
 const MARGIN = 10;
 
-// Top-level sections of the JSON
-const headings: string[] = Object.keys(nutritionJson.NUTRITION_IN_CHILDREN);
+// Must match Object.keys(nutritionJson.NUTRITION_IN_CHILDREN).length === 12
+const images = [
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7,
+  image8,
+  image9,
+  image10,
+  image11,
+  image12
+] as const;
 
-// Convert keys like "age_wise_requirements" to Title Case
+// Top-level keys of the JSON
+const headings: string[] = Object.keys(
+  nutritionJson.NUTRITION_IN_CHILDREN as Record<string, unknown>
+);
+
+// Convert snake_case to Title Case
 const formatKey = (s: string) =>
   s
     .replace(/_/g, " ")
@@ -33,31 +67,50 @@ export default function NutritionInChildren() {
   const [selected, setSelected] = useState<string | null>(null);
   const router = useRouter();
 
-  // Detail view when a section is selected
+  /* ----------------------------- RENDER CARD ---------------------------- */
+  const renderHeading = ({
+    item,
+    index
+  }: ListRenderItemInfo<string>) => (
+    <HeadingCard
+      title={formatKey(item)}
+      imageSource={images[index]}
+      onPress={() => setSelected(item)}
+    />
+  );
+
+  /* -------------------------- DETAIL SCREEN ---------------------------- */
   if (selected) {
     const data = (nutritionJson.NUTRITION_IN_CHILDREN as any)[selected];
     if (!data) {
       setSelected(null);
       return null;
     }
+    const selectedIndex = headings.indexOf(selected);
+    const banner = images[selectedIndex];
 
     return (
       <SafeAreaView style={styles.safeArea}>
-        <View style={styles.header}>
+        <View style={styles.detailHeader}>
           <TouchableOpacity onPress={() => setSelected(null)}>
             <Text style={styles.back}>←</Text>
           </TouchableOpacity>
-          <Text style={styles.headerTitle}>{formatKey(selected)}</Text>
+          <Text style={styles.detailTitle}>{formatKey(selected)}</Text>
           <View style={{ width: 24 }} />
         </View>
         <ScrollView contentContainerStyle={styles.content}>
+          <Image
+            source={banner}
+            style={styles.bannerImage}
+            resizeMode="cover"
+          />
           <JsonRenderer data={data} />
         </ScrollView>
       </SafeAreaView>
     );
   }
 
-  // Grid of sections
+  /* --------------------------- GRID SCREEN ----------------------------- */
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.headerRow}>
@@ -69,16 +122,11 @@ export default function NutritionInChildren() {
       </View>
       <FlatList
         data={headings}
-        renderItem={({ item }) => (
-          <HeadingCard
-            title={formatKey(item)}
-            onPress={() => setSelected(item)}
-          />
-        )}
+        renderItem={renderHeading}
         keyExtractor={(item) => item}
         numColumns={2}
-        contentContainerStyle={styles.outer}
         columnWrapperStyle={styles.row}
+        contentContainerStyle={styles.outer}
         showsVerticalScrollIndicator={false}
       />
     </SafeAreaView>
@@ -86,8 +134,9 @@ export default function NutritionInChildren() {
 }
 
 const styles = StyleSheet.create({
-  safeArea: { flex: 1, backgroundColor: "#f8f9fa" },
+  safeArea: { flex: 1, backgroundColor: "#F8FAFC" },
 
+  // Grid header
   headerRow: {
     flexDirection: "row",
     alignItems: "center",
@@ -108,26 +157,41 @@ const styles = StyleSheet.create({
     fontWeight: "700"
   },
 
+  // Grid list
   outer: { paddingHorizontal: MARGIN, paddingBottom: MARGIN },
   row: { justifyContent: "space-between", marginBottom: MARGIN * 2 },
 
-  header: {
+  // Detail header
+  detailHeader: {
     flexDirection: "row",
     alignItems: "center",
     paddingVertical: 12,
     paddingHorizontal: 16,
-    backgroundColor: "#fff",
+    backgroundColor: "#FFF",
     elevation: 3,
     shadowColor: "#000",
     shadowOpacity: 0.05,
     shadowRadius: 4
   },
-  headerTitle: {
+  detailTitle: {
     flex: 1,
     textAlign: "center",
     fontSize: 18,
     fontWeight: "700"
   },
 
-  content: { padding: 16, paddingBottom: 32 }
+  // Banner image
+  bannerImage: {
+    width: "95%",
+    height: 200,
+    alignSelf: "center",
+    borderRadius: 10,
+    marginBottom: 16
+  },
+
+  // Detail content
+  content: {
+    paddingHorizontal: 16,
+    paddingVertical: 16
+  }
 });
