@@ -136,6 +136,9 @@ export default function HomeScreen() {
 
   const handlePress = (item: typeof cardTitle[0]) => {
     switch (item.title) {
+       case "Authors":
+        router.push("/Authors");
+        break;
       case "Immunology":
         router.push("/Immunology");
         break;
@@ -196,9 +199,7 @@ export default function HomeScreen() {
         case "Growth & Development in Child":
         router.push("/GrowthAndDevelopment");
         break;
-        case "Authors":
-        router.push("/Authors");
-        break;
+       
       default:
         Alert.alert("Coming soon", `${item.title} section is under construction.`);
     }
