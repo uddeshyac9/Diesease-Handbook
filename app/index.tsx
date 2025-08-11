@@ -18,8 +18,11 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import IconImage from "../assets/images/icon.png";
 
 const cardTitle = [
-
-
+   {
+    title: "Authors",
+    image:
+      "https://img.freepik.com/premium-vector/child-care-logo_20448-66.jpg"
+  },
   {
     title: "Immunology",
     image:
@@ -119,11 +122,7 @@ const cardTitle = [
     image:
       "https://www.family.abbott/content/dam/an/familyabbott/in-en/pediasure/child-nutrition-and-development/blogs/how-to-monitor-your-childs-growth/How%20to%20monitor%20your%20child%20growth%20updated.jpg"
   },
-   {
-    title: "Authors",
-    image:
-      "https://img.freepik.com/premium-vector/child-care-logo_20448-66.jpg"
-  },
+  
   
 ];
 
